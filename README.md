@@ -13,7 +13,7 @@ For each eligible meaning in Smith's data, we hold a **Proto-Kra-Dai (PKD)** for
 3. **PAN validation** — same idea for Proto-Austronesian, using a **phylogenetically stratified** Lexibank Austronesian sample (~80 forms; Formosan / Western MP / SHWNG / Oceanic floors), not all ~978 AN languages.
 4. **Tier A vs unjustified reconstructions** — PKD or PAN `attestation_score = 1` are kept in the report but excluded from the permutation. Tier A = coverage OK (TK and AN) and both scores ≥ 2 when available (`data/eligible_pairs.tsv`).
 
-Smith gloss → Lexibank concept IDs are **explicit** in `src/gloss_concepts.py` (no fuzzy matching; fixes errors like `blow` → `LOW`).
+Smith gloss → Lexibank concept IDs are **explicit** in `src/gloss_concepts.py` (no fuzzy matching).
 
 ## Quick start
 

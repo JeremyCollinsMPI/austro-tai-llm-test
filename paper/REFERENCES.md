@@ -6,6 +6,8 @@ Benedict, Paul K. 1975. *Austro-Thai language and culture, with a glossary of ro
 
 Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The Austronesian Basic Vocabulary Database: From bioinformatics to lexomics. *Evolutionary Bioinformatics* 4. 271–283. (Concepticon list Blust-2008-210.)
 
+Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank. 2024. *Glottolog 5.0*. Leipzig: Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.10804357 (Available online at https://glottolog.org.)
+
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai perspective. *Diachronica* 42(3/4). 382–405. https://doi.org/10.1075/dia.24028.lia
 
 List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public repository of standardized wordlists of about 2000 language varieties. *Scientific Data* 9. 316. (Lexibank analysed release used here: v2.2.)

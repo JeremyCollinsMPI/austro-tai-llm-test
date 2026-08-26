@@ -16,20 +16,20 @@ in which an LLM (`gpt-4.1`, via API) scores segmental form similarity
 without seeing meanings. #strong[Study 1] audits Alexander D. Smith's
 (2025) gloss-aligned Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD)
 reconstructions: after Lexibank (List et al.~2022) attestation filters,
-27 of 79 #strong[Tier A] pairs---those with adequate Lexibank coverage
-and attestation scores of at least 2 for both PAN and PKD---meet a
+27 of 79 #strong[Tier A] pairs, those with adequate Lexibank coverage
+and attestation scores of at least 2 for both PAN and PKD, meet a
 generous hit threshold (generosity score of 4 or higher) against a null
 mean of 5.7 (100 permutations; one-sided #emph[p] ≈ 0.01). #strong[Study
 2] is designed to be more robust to reconstruction cherry-picking. It
 compares phylogenetically sampled modern Lexibank form groups for the
-same Concepticon meaning---restricted to dual-attested concepts on the
+same Concepticon meaning, restricted to dual-attested concepts on the
 Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray
-2008)---and shuffles Austronesian form groups across Tai-Kadai slots.
+2008), and shuffles Austronesian form groups across Tai-Kadai slots.
 Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher
 are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
 permutations; #emph[p] ≈ 0.032 at each of those thresholds). Convergence
 across a reconstruction audit and a reconstruction-free Lexibank screen
-supports excess form resemblance under these controls---not genetic
+supports excess form resemblance under these controls, not genetic
 proof, which requires systematic sound correspondences. I situate the
 results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
 2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
@@ -50,8 +50,8 @@ chance baseline, it is unclear whether the published pairing of forms
 across two proto-languages exceeds what generous form matching would
 produce under random reassignment.
 
-The #strong[Austro-Tai] hypothesis---positing a genetic link between
-Austronesian and Kra-Dai (Tai-Kadai)---is a long-standing case in point.
+The #strong[Austro-Tai] hypothesis, positing a genetic link between
+Austronesian and Kra-Dai (Tai-Kadai), is a long-standing case in point.
 From Benedict's (1942, 1975) early lexical proposals through Ostapirat's
 (2005, 2013) correspondence-based arguments and Sagart's (2004, 2005,
 2019) phylogenetic alternatives, debate has turned on whether shared
@@ -67,8 +67,8 @@ correspondences, or adjudicate sister-family vs Austronesian-internal
 geometries for Kra-Dai. It asks two related questions. #strong[Study 1]
 takes Alexander D. Smith's (2025) open Zenodo package of gloss-aligned
 Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD) reconstructions as the
-object of evaluation: how much form resemblance remains---and how
-surprising is it---after weakly attested reconstructions are set aside?
+object of evaluation: how much form resemblance remains, and how
+surprising is it, after weakly attested reconstructions are set aside?
 #strong[Study 2] asks a stricter follow-up that does not depend on any
 reconstruction package: among well-attested Lexibank concepts (List et
 al.~2022), do #strong[groups of modern Tai-Kadai and Austronesian forms]
@@ -100,7 +100,7 @@ against a null mean of #strong[2.2] (30 permutations; one-sided #emph[p]
 5.7) and even at the liberal cutoff of 2 or higher (121 vs 91.7).
 
 I interpret both results as quantified evidence of #strong[excess form
-resemblance under stated controls]---not as proof of genetic
+resemblance under stated controls], not as proof of genetic
 relationship, which would require systematic sound correspondences.
 Study 2's convergence with Study 1 is especially informative because it
 does not inherit Smith's choice of which proto-forms to align.
@@ -148,7 +148,7 @@ remains a weaker, preliminary kind of evidence.
 <alternative-phylogenetic-architecture>
 A second modern strand, associated especially with Sagart (2004, 2005,
 2019), places Kra-Dai in a more #strong[Austronesian-internal] (or
-AN-adjacent) phylogenetic frame---linking numerals, subgrouping
+AN-adjacent) phylogenetic frame, linking numerals, subgrouping
 arguments, and models of how Kra-Dai tone systems might relate to
 Austronesian coda history (see also recent tonogenesis discussion such
 as Liao & Gehrmann 2025 in #emph[Diachronica]). The empirical overlap
@@ -194,7 +194,7 @@ natural statistical question is comparative: relative to a well-defined
 null, how often would equally “generous” form matches arise if
 proto-shapes were randomly re-paired across meanings? Explicit
 permutation or chance baselines remain uncommon for entire Austro-Tai
-alignment sets---especially after first removing reconstructions that
+alignment sets, especially after first removing reconstructions that
 modern daughters do not support. That is the gap this paper addresses.
 
 #strong[Table 1 (schematic).] Positions in the Austro-Tai debate
@@ -256,8 +256,8 @@ count as evidence. Had I assembled my own cognate list, critics could
 fairly ask whether the list was tuned to survive the permutation test.
 By freezing Smith's alignments as the object of audit, the researcher's
 main choices become the attestation rules, the meaning-blind prompt, and
-the hit threshold---choices I state explicitly and can vary in
-robustness checks---rather than which etymologies enter the denominator.
+the hit threshold (choices I state explicitly and can vary in robustness
+checks), rather than which etymologies enter the denominator.
 
 I do #strong[not] treat Smith (2025) as consensus Proto-Kra-Dai, as a
 definitive PAN lexicon, or as superseding Ostapirat (2005, 2013) or
@@ -265,8 +265,8 @@ Sagart (2004, 2005, 2019). I treat it as a #strong[contemporary evidence
 package]: a transparent inventory of what has been presented for
 Austro-Tai comparison in an openly citable form. My question is not
 whether every Smith reconstruction is correct, but how much residual
-PAN--PKD form similarity remains---and how surprising that residual is
-under a meaning-blind null---after reconstructions unsupported by
+PAN--PKD form similarity remains, and how surprising that residual is
+under a meaning-blind null, after reconstructions unsupported by
 Lexibank daughters are removed.
 
 = 3. Data
@@ -302,9 +302,8 @@ in §2.2.
 Modern forms used to audit reconstructions come from Lexibank 2 (List et
 al.~2022), specifically the `lexibank-analysed` release #strong[v2.2].
 Forms are Concepticon-linked. I map each Smith gloss to a Lexibank
-concept ID with an #strong[explicit] dictionary (no fuzzy string
-matching), to avoid systematic mis-links (e.g.~#emph[blow] → BLOW (OF
-WIND) rather than LOW). Unmapped glosses are coverage gaps.
+concept ID with an explicit dictionary (no fuzzy string matching).
+Unmapped glosses are coverage gaps.
 
 - #strong[Tai-Kadai side.] For PKD attestation I use #strong[all]
   Lexibank forms whose language is classified as Tai-Kadai for the
@@ -313,12 +312,12 @@ WIND) rather than LOW). Unmapped glosses are coverage gaps.
   #strong[978] Austronesian languages. Using every form for every
   concept would be costly and would overweight Oceanic. I therefore
   assign each Lexibank Austronesian language a coarse Glottolog-derived
-  clade (Formosan; Western Malayo-Polynesian; South Halmahera--West New
-  Guinea; Oceanic) and draw a #strong[phylogenetically stratified]
-  sample of up to #strong[80] languages per concept (floors 12 / 20 / 8
-  \/ 20 across those clades where available; at most one form per
-  language; remainder filled by round-robin). Details of sampling and
-  attestation prompts are in §4.
+  clade (Hammarström et al.~2024; Formosan; Western Malayo-Polynesian;
+  South Halmahera--West New Guinea; Oceanic) and draw a
+  #strong[phylogenetically stratified] sample of up to #strong[80]
+  languages per concept (floors 12 / 20 / 8 / 20 across those clades
+  where available; at most one form per language; remainder filled by
+  round-robin). Details of sampling and attestation prompts are in §4.
 
 == 3.3 Analysis inventories
 <analysis-inventories>
@@ -337,7 +336,7 @@ From the 120 Smith pairs I derive:
     [Unjustified PANs], [PAN `attestation_score` = 1 vs the stratified
     Austronesian sample],
     [#strong[Tier A]], [No coverage gap; PKD and PAN scores of at least
-    2 --- input to meaning-blind judging and permutation],
+    2: input to meaning-blind judging and permutation],
   )]
   , kind: table
   )
@@ -399,19 +398,18 @@ for Tier A membership.
 
 Modern forms come from Lexibank 2 (`lexibank-analysed` v2.2; List et
 al.~2022). Each Smith gloss was mapped to a Lexibank concept ID by an
-#strong[explicit] dictionary (no fuzzy string matching), to avoid errors
-such as mapping #emph[blow] to LOW rather than BLOW (OF WIND). For
-Proto-Kra-Dai validation I used all Lexibank forms whose language is
-classified as Tai-Kadai. For Proto-Austronesian validation, Lexibank
-contains on the order of #strong[978] Austronesian languages; sending
-every form is impractical and would overweight Oceanic. I therefore
-built a Glottolog-derived coarse clade label for each Lexibank
-Austronesian language (Formosan; Western Malayo-Polynesian; South
-Halmahera--West New Guinea; Oceanic) and drew a #strong[phylogenetically
-stratified sample] of up to #strong[80] languages per concept, with
-floors of 12 Formosan, 20 Western MP, 8 SHWNG, and 20 Oceanic where
-available (at most one form per language), filling any remainder by
-round-robin across clades.
+explicit dictionary (no fuzzy string matching). For Proto-Kra-Dai
+validation I used all Lexibank forms whose language is classified as
+Tai-Kadai. For Proto-Austronesian validation, Lexibank contains on the
+order of #strong[978] Austronesian languages; sending every form is
+impractical and would overweight Oceanic. I therefore built a
+Glottolog-derived coarse clade label for each Lexibank Austronesian
+language (Hammarström et al.~2024; Formosan; Western Malayo-Polynesian;
+South Halmahera--West New Guinea; Oceanic) and drew a
+#strong[phylogenetically stratified sample] of up to #strong[80]
+languages per concept, with floors of 12 Formosan, 20 Western MP, 8
+SHWNG, and 20 Oceanic where available (at most one form per language),
+filling any remainder by round-robin across clades.
 
 == 4.2 Layer 1: Reconstruction attestation
 <layer-1-reconstruction-attestation>
@@ -443,7 +441,7 @@ meaning-blind “hit” against an unsupported reconstruction would not
 constitute evidence that the #emph[published comparative package] is
 well founded.
 
-#strong[Tier A]---the analysis set for Layer 2---therefore requires: no
+#strong[Tier A], the analysis set for Layer 2, therefore requires: no
 coverage gap, PKD `attestation_score` of at least #strong[2], and PAN
 `attestation_score` of at least #strong[2] (when a score is available).
 
@@ -453,9 +451,9 @@ For each Tier A pair I submitted the PKD form and the PAN form to the
 LLM #strong[without] the gloss, without Smith's notes or loanword flags,
 and without opaque IDs that embed the meaning (batch indices such as
 `001`, `002` were used instead). The system prompt instructed the model
-to score segmental shape similarity only---as if the PAN string were a
+to score segmental shape similarity only, as if the PAN string were a
 candidate Austronesian reconstruction for the same slot as the PKD
-string---and not to infer or mention meaning. The model returned a
+string, and not to infer or mention meaning. The model returned a
 #strong[generosity] score from 1 to 5 together with optional notes on
 plausible segmental correspondences. A score of 5 means the shapes look
 very similar under a generous reading; a score of 1 means little
@@ -492,9 +490,9 @@ large as the observed hit count, and #emph[N] = 100 (add-one smoothing).
 In plain terms: #emph[p] is roughly the share of random reshuffles that
 do as well as or better than the published pairing. This null does
 #strong[not] test genetic relatedness, regularity of sound change, or
-the correctness of every reconstruction---only whether the published
-matching produces unusually many high form-similarity scores relative to
-random rematching of the same forms.
+the correctness of every reconstruction; it only asks whether the
+published matching produces unusually many high form-similarity scores
+relative to random rematching of the same forms.
 
 == 4.5 Scope and non-claims (Study 1)
 <scope-and-non-claims-study-1>
@@ -502,8 +500,8 @@ I do not propose new etymologies, estimate divergence dates, or claim
 that high generosity scores equal demonstrated cognacy in the
 comparative-method sense. The LLM is used as a #strong[reproducible
 generous screen] for segmental resemblance. Systematic sound
-correspondences---central to classical arguments for Austro-Tai
-(e.g.~Ostapirat 2005)---are not enforced here. Study 1's contribution is
+correspondences, central to classical arguments for Austro-Tai
+(e.g.~Ostapirat 2005), are not enforced here. Study 1's contribution is
 a quantified answer to a narrower question: after setting aside
 reconstructions that Lexibank daughters do not support, how surprising
 is the residual form similarity in Smith's published alignments under a
@@ -532,9 +530,10 @@ splits broader Blust glosses (e.g.~FOOT OR LEG vs separate FOOT / LEG).
 <sampling-within-concepts>
 For each concept I built phylogenetically stratified form samples:
 
-- #strong[Tai-Kadai.] Glottolog-derived coarse clades (Tai, Kam--Sui,
-  Kra, Hlai, Lakkia--Biao, Be, other); floors then round-robin fill
-  toward a target of \~40 languages (at most one form per language).
+- #strong[Tai-Kadai.] Glottolog-derived coarse clades (Hammarström et
+  al.~2024; Tai, Kam--Sui, Kra, Hlai, Lakkia--Biao, Be, other); floors
+  then round-robin fill toward a target of \~40 languages (at most one
+  form per language).
 - #strong[Austronesian.] Same clade scheme and floors as Study 1's PAN
   sample (target \~80).
 
@@ -546,7 +545,7 @@ digits and common separators were ignored in normalization.
 === Meaning-blind set scoring
 <meaning-blind-set-scoring>
 The LLM received two #strong[groups] of forms (clade label + form string
-only)---no gloss, no language names beyond clade tags---and scored
+only; no gloss, no language names beyond clade tags) and scored
 hypothetical cognacy from segmental shape alone (generosity 1--5), with
 instructions to prefer #emph[widespread] shared skeletons over isolated
 lookalikes and to ignore recognized word meanings. Scores were cached by
@@ -561,7 +560,7 @@ remains a score of 4 or higher, with 3 or higher as a secondary cut and
 The Study 2 null is the same idea as in Study 1, applied to form groups
 rather than single proto-strings. I keep each Tai-Kadai form group in
 its Concepticon slot, then #strong[randomly reassign Austronesian form
-groups] to those slots (#strong[30] shuffles; fixed seed)---so many
+groups] to those slots (#strong[30] shuffles; fixed seed), so many
 trials pair, for example, the Tai-Kadai forms for ‘eye' with
 Austronesian forms that originally belonged to some other meaning. For
 each shuffle I recount how many slots would still be hits at each
@@ -573,9 +572,8 @@ post hoc. The one-sided #emph[p]-value uses the same
 
 Study 2 therefore tests whether #strong[same-meaning] modern form
 inventories look more alike, under a generous meaning-blind screen, than
-#strong[cross-meaning] inventories drawn from the same concept
-set---without relying on which reconstructions an author chose to
-publish.
+#strong[cross-meaning] inventories drawn from the same concept set,
+without relying on which reconstructions an author chose to publish.
 
 == 4.7 Sinitic loan plausibility screen (post hoc)
 <sinitic-loan-plausibility-screen-post-hoc>
@@ -613,8 +611,8 @@ Among pairs that received attestation scores, PKD scores were
 distributed as 14 / 31 / 11 / 27 / 34 for scores 1 through 5
 respectively (#emph[n] = 117 scored). PAN scores on the stratified
 Austronesian sample were 27 / 27 / 12 / 14 / 31 (#emph[n] = 111 scored).
-Thus a non-trivial fraction of the published package---especially on the
-Austronesian side under my sampling scheme---was judged poorly supported
+Thus a non-trivial fraction of the published package, especially on the
+Austronesian side under my sampling scheme, was judged poorly supported
 by daughters and was withheld from the chance test of form pairing.
 
 Within Tier A, PKD attestation scores were predominantly 2--5 (25, 9,
@@ -696,7 +694,7 @@ of 4 or higher) are: #emph[eye], #emph[nose], #emph[eat], #emph[water],
 score of 3 brings in #emph[fire], #emph[I], #emph[wing], #emph[ten],
 #emph[dust], and #emph[lightning] (#strong[17] total at a score of 3 or
 higher). At the liberal cutoff of a score of 2 or higher, #strong[121]
-concepts qualify---useful for sensitivity, but too inclusive for a
+concepts qualify, useful for sensitivity, but too inclusive for a
 primary claim.
 
 Judge notes for hits with a score of 4 or higher typically cite
@@ -801,15 +799,15 @@ overwhelmingly low (21 scored 1, 14 scored 2; mean ≈ 1.55), with only
 #strong[three] items at 3 or higher and a single score of 4 (#emph[be
 dead or die] in Study 2). That pattern makes a story in which
 #strong[Sinitic is the common donor] for the hit set look unattractive
-under this screen---it does not rule out non-Sinitic contact, older
-areal diffusion, or item-specific loans outside the hit list. Excess
-aggregate hits therefore still motivate further comparative
-work---including correspondence inventories over Study 2's hit
-concepts---they do not finish it.
+under this screen, it does not rule out non-Sinitic contact, older areal
+diffusion, or item-specific loans outside the hit list. Excess aggregate
+hits therefore still motivate further comparative work, including
+correspondence inventories over Study 2's hit concepts, they do not
+finish it.
 
-Relative to the two main modern phylogenetic frames---Ostapirat's (2005,
+Relative to the two main modern phylogenetic frames, Ostapirat's (2005,
 2013) sister-family construal and Sagart's (2004, 2005, 2019)
-Austronesian-linked architecture---the results are #strong[compatible
+Austronesian-linked architecture, the results are #strong[compatible
 with “there is non-chance lexical signal to explain”] and
 #strong[agnostic] on tree geometry.
 
@@ -850,7 +848,7 @@ observed and null worlds to the same scoring function.
 In Study 1, Layer 1 addresses unsupported reconstructions. In Study 2,
 coverage floors, Blust filtering, onomatopoeia/dedupe heuristics, and
 phylogenetic sampling play the analogous role of limiting opportunistic
-form choice---while still leaving room for within-family diversity and
+form choice, while still leaving room for within-family diversity and
 contact-induced lookalikes.
 
 == 6.4 Limits
@@ -921,7 +919,7 @@ reconstructions: hits at a generosity score of 4 or higher / 3 or higher
 check against cherry-picked reconstructions because concept and form
 selection do not inherit an author's comparative spreadsheet. Together,
 the studies strengthen the case that excess form resemblance under these
-screens is not merely an artifact of meaning-matched browsing---while
+screens is not merely an artifact of meaning-matched browsing, while
 leaving genetic proof to systematic sound correspondences and classical
 reconstruction.
 
@@ -943,7 +941,7 @@ You are a comparative linguist scoring how similar proposed proto-language **for
 
 Rules:
 - Compare **phonetic and segmental shape only**. Do NOT use, infer, or mention meaning, semantics, glosses, or cognate labels.
-- Each item gives a Proto-Kra-Dai (PKD) form and a candidate Proto-Austronesian (PAN) form. Score how similar the PAN form would be to the PKD form **if** it were the Austronesian reconstruction paired with that PKD slot—without knowing what concept either form represents.
+- Each item gives a Proto-Kra-Dai (PKD) form and a candidate Proto-Austronesian (PAN) form. Score how similar the PAN form would be to the PKD form **if** it were the Austronesian reconstruction paired with that PKD slot, without knowing what concept either form represents.
 - Do NOT require established regular sound correspondences; be generous on shape but not absurd.
 - Ignore tone marks/superscripts when comparing shapes, but mention them if relevant.
 - If the PAN side lists multiple alternate reconstructions, treat any plausible segmental match as supporting a higher score.
@@ -1261,6 +1259,11 @@ Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The
 Austronesian Basic Vocabulary Database: From bioinformatics to lexomics.
 #emph[Evolutionary Bioinformatics] 4. 271--283. (Concepticon list
 Blust-2008-210.)
+
+Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank.
+\2024. #emph[Glottolog 5.0]. Leipzig: Max Planck Institute for
+Evolutionary Anthropology. https:/\/doi.org/10.5281/zenodo.10804357
+(Available online at https:/\/glottolog.org.)
 
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai
 perspective. #emph[Diachronica] 42(3/4). 382--405.

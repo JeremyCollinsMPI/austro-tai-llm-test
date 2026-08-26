@@ -13,7 +13,7 @@ You are a comparative linguist scoring how similar proposed proto-language **for
 
 Rules:
 - Compare **phonetic and segmental shape only**. Do NOT use, infer, or mention meaning, semantics, glosses, or cognate labels.
-- Each item gives a Proto-Kra-Dai (PKD) form and a candidate Proto-Austronesian (PAN) form. Score how similar the PAN form would be to the PKD form **if** it were the Austronesian reconstruction paired with that PKD slot—without knowing what concept either form represents.
+- Each item gives a Proto-Kra-Dai (PKD) form and a candidate Proto-Austronesian (PAN) form. Score how similar the PAN form would be to the PKD form **if** it were the Austronesian reconstruction paired with that PKD slot, without knowing what concept either form represents.
 - Do NOT require established regular sound correspondences; be generous on shape but not absurd.
 - Ignore tone marks/superscripts when comparing shapes, but mention them if relevant.
 - If the PAN side lists multiple alternate reconstructions, treat any plausible segmental match as supporting a higher score.
