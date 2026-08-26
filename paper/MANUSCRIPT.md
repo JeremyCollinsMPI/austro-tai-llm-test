@@ -58,16 +58,6 @@ Austro-Tai is one among several contested higher-order proposals involving Austr
 
 Methodological critiques of multilateral comparison (notably Ringe 1992 and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Explicit permutation or chance baselines remain uncommon for entire Austro-Tai alignment sets, especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
 
-**Table 1 (schematic).** Positions in the Austro-Tai debate (compact).
-
-| Strand | Exemplars | Core claim (simplified) | Relevance here |
-|--------|-----------|-------------------------|----------------|
-| Early lexical macro-comparison | Benedict (1942, 1975) | Deep AN–KD link via lookalikes | Motivates quantifying list strength |
-| Sisters + correspondences | Ostapirat (2005, 2013) | Relatedness via regular sound change | Stronger standard than my screen |
-| AN-linked phylogeny / tonogenesis | Sagart (2004–2019); cf. Liao & Gehrmann (2025) | KD placed in/near AN diversification | Compatible with non-chance lexical signal; different tree |
-| Contact / loans | Sinitic and mainland SEA contact traditions | Lookalikes need not be genetic | Limits causal interpretation of hits |
-| Chance / method critique | Ringe (1992) and related | Need nulls and tight controls | Motivates permutation design |
-
 ## 2.2 Justification for using Smith (2025)
 
 I take as my object of evaluation Alexander D. Smith’s (2025) *Austro-Tai comparative dataset (Reconstructions)* (Zenodo), rather than compiling a new etymological list. Three properties motivate that choice.

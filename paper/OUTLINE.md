@@ -151,8 +151,7 @@ Additional points to weave in:
 
 ## Suggested figures and tables
 
-1. **Figure 1.** Null histogram of hit counts; vertical line at observed 27.  
-2. **Table 1.** Literature positions on Austro-Tai (Benedict / Ostapirat / Sagart), compact.  
+1. **Figure 1.** Null histogram of hit counts; vertical line at observed 27.
 4. **Table 2.** Attestation score distributions (PKD, PAN).  
 5. **Table 3.** Top observed hits (gloss, PAN, PKD, generosity, attestation scores).
 

@@ -197,33 +197,6 @@ permutation or chance baselines remain uncommon for entire Austro-Tai
 alignment sets, especially after first removing reconstructions that
 modern daughters do not support. That is the gap this paper addresses.
 
-#strong[Table 1 (schematic).] Positions in the Austro-Tai debate
-(compact).
-
-#figure(
-  align(center)[#table(
-    columns: (13.33%, 18.33%, 41.67%, 26.67%),
-    align: (auto,auto,auto,auto,),
-    table.header([Strand], [Exemplars], [Core claim
-      (simplified)], [Relevance here],),
-    table.hline(),
-    [Early lexical macro-comparison], [Benedict (1942, 1975)], [Deep
-    AN--KD link via lookalikes], [Motivates quantifying list strength],
-    [Sisters + correspondences], [Ostapirat (2005, 2013)], [Relatedness
-    via regular sound change], [Stronger standard than my screen],
-    [AN-linked phylogeny / tonogenesis], [Sagart (2004--2019); cf.~Liao
-    & Gehrmann (2025)], [KD placed in/near AN
-    diversification], [Compatible with non-chance lexical signal;
-    different tree],
-    [Contact / loans], [Sinitic and mainland SEA contact
-    traditions], [Lookalikes need not be genetic], [Limits causal
-    interpretation of hits],
-    [Chance / method critique], [Ringe (1992) and related], [Need nulls
-    and tight controls], [Motivates permutation design],
-  )]
-  , kind: table
-  )
-
 == 2.2 Justification for using Smith (2025)
 <justification-for-using-smith-2025>
 I take as my object of evaluation Alexander D. Smith's (2025)
