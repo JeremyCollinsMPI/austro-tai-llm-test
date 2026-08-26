@@ -6,7 +6,7 @@ My comparative object is Alexander D. Smith’s openly released *Austro-Tai comp
 
 Besides the two proto-forms, the sheet records branch-level Kra-Dai material (e.g. Proto-Tai, Proto-Hlai, Proto-Kam-Sui, and related columns), optional Chinese-loan flags, and free-text notes. I compute a simple **branch attestation count** (how many Kra-Dai branch columns are non-empty) as descriptive metadata. That count is **not** used as the primary gate for Tier A membership: Layer 1 filters (Lexibank coverage and attestation scores) are defined independently of Smith’s branch columns, so that my exclusions do not merely rediscover the author’s own internal breadth coding.
 
-I treat the package as a **published evidence inventory**, not as a consensus reconstruction of Proto-Kra-Dai or as a replacement for Ostapirat’s or Sagart’s comparative proposals. Justification for anchoring the study in this release appears in §2.2.
+I treat the package as a **published evidence inventory**, not as a consensus reconstruction of Proto-Kra-Dai or as a replacement for Ostapirat’s (2005, 2013) or Sagart’s (2004, 2005, 2019) comparative proposals. Justification for anchoring the study in this release appears in §2.2.
 
 ## 3.2 Lexibank modern forms
 

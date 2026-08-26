@@ -31,8 +31,9 @@ permutations; #emph[p] ≈ 0.032 at each of those thresholds). Convergence
 across a reconstruction audit and a reconstruction-free Lexibank screen
 supports excess form resemblance under these controls---not genetic
 proof, which requires systematic sound correspondences. I situate the
-results in the Austro-Tai literature (Benedict; Ostapirat; Sagart) and
-discuss limits of LLM-based screening.
+results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
+2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
+screening.
 
 #strong[Keywords:] Austro-Tai; Kra-Dai; Austronesian; lexical
 comparison; chance resemblance; permutation test; Lexibank; large
@@ -51,14 +52,15 @@ produce under random reassignment.
 
 The #strong[Austro-Tai] hypothesis---positing a genetic link between
 Austronesian and Kra-Dai (Tai-Kadai)---is a long-standing case in point.
-From Benedict's early lexical proposals through Ostapirat's
-correspondence-based arguments and Sagart's phylogenetic alternatives,
-debate has turned on whether shared vocabulary reflects inheritance,
-contact, or chance (see §2). What has been rarer is a statistical audit
-under controls that address two confounders at once: (i)
-#strong[semantic priming] in cognate-style judgments, and (ii)
-#strong[selection of favorable forms], whether as weakly attested
-reconstructions or as cherry-picked lookalikes among modern languages.
+From Benedict's (1942, 1975) early lexical proposals through Ostapirat's
+(2005, 2013) correspondence-based arguments and Sagart's (2004, 2005,
+2019) phylogenetic alternatives, debate has turned on whether shared
+vocabulary reflects inheritance, contact, or chance (see §2). What has
+been rarer is a statistical audit under controls that address two
+confounders at once: (i) #strong[semantic priming] in cognate-style
+judgments, and (ii) #strong[selection of favorable forms], whether as
+weakly attested reconstructions or as cherry-picked lookalikes among
+modern languages.
 
 This paper does not assemble a new cognate list, propose regular sound
 correspondences, or adjudicate sister-family vs Austronesian-internal
@@ -184,8 +186,8 @@ merits of every macro-family hypothesis.
 
 === Chance resemblance and the need for null models
 <chance-resemblance-and-the-need-for-null-models>
-Methodological critiques of multilateral comparison (notably Ringe and
-related work) stress that large vocabularies, phonetic latitude, and
+Methodological critiques of multilateral comparison (notably Ringe 1992
+and related work) stress that large vocabularies, phonetic latitude, and
 semantic flexibility make impressive-looking lists easy to assemble.
 When the object of evaluation is itself a #strong[published list], the
 natural statistical question is comparative: relative to a well-defined
@@ -216,8 +218,8 @@ modern daughters do not support. That is the gap this paper addresses.
     [Contact / loans], [Sinitic and mainland SEA contact
     traditions], [Lookalikes need not be genetic], [Limits causal
     interpretation of hits],
-    [Chance / method critique], [Ringe and related], [Need nulls and
-    tight controls], [Motivates permutation design],
+    [Chance / method critique], [Ringe (1992) and related], [Need nulls
+    and tight controls], [Motivates permutation design],
   )]
   , kind: table
   )
@@ -258,13 +260,14 @@ the hit threshold---choices I state explicitly and can vary in
 robustness checks---rather than which etymologies enter the denominator.
 
 I do #strong[not] treat Smith (2025) as consensus Proto-Kra-Dai, as a
-definitive PAN lexicon, or as superseding Ostapirat or Sagart. I treat
-it as a #strong[contemporary evidence package]: a transparent inventory
-of what has been presented for Austro-Tai comparison in an openly
-citable form. My question is not whether every Smith reconstruction is
-correct, but how much residual PAN--PKD form similarity remains---and
-how surprising that residual is under a meaning-blind null---after
-reconstructions unsupported by Lexibank daughters are removed.
+definitive PAN lexicon, or as superseding Ostapirat (2005, 2013) or
+Sagart (2004, 2005, 2019). I treat it as a #strong[contemporary evidence
+package]: a transparent inventory of what has been presented for
+Austro-Tai comparison in an openly citable form. My question is not
+whether every Smith reconstruction is correct, but how much residual
+PAN--PKD form similarity remains---and how surprising that residual is
+under a meaning-blind null---after reconstructions unsupported by
+Lexibank daughters are removed.
 
 = 3. Data
 <data>
@@ -290,8 +293,9 @@ merely rediscover the author's own internal breadth coding.
 
 I treat the package as a #strong[published evidence inventory], not as a
 consensus reconstruction of Proto-Kra-Dai or as a replacement for
-Ostapirat's or Sagart's comparative proposals. Justification for
-anchoring the study in this release appears in §2.2.
+Ostapirat's (2005, 2013) or Sagart's (2004, 2005, 2019) comparative
+proposals. Justification for anchoring the study in this release appears
+in §2.2.
 
 == 3.2 Lexibank modern forms
 <lexibank-modern-forms>
@@ -595,33 +599,15 @@ permutation results. Machine-readable scores:
 == 5.1 From Smith's sheet to Tier A
 <from-smiths-sheet-to-tier-a>
 Starting from #strong[120] gloss-aligned PAN--PKD pairs, Layer 1
-exclusions left #strong[79] Tier A pairs for the permutation test (Table
-1).
-
-#strong[Table 1.] Sample construction.
-
-#figure(
-  align(center)[#table(
-    columns: (58.33%, 41.67%),
-    align: (auto,right,),
-    table.header([Stage], [#emph[n]],),
-    table.hline(),
-    [Smith pairs with both PAN and PKD], [120],
-    [Coverage gaps (unmapped concept, or \< 3 Lexibank Tai-Kadai or
-    Austronesian languages)], [13],
-    [Unjustified PKDs (`attestation_score` = 1)], [14],
-    [Unjustified PANs (`attestation_score` = 1)], [27],
-    [#strong[Tier A] (no coverage gap; PKD and PAN scores of at least
-    2)], [#strong[79]],
-  )]
-  , kind: table
-  )
-
-Categories are not disjoint: some pairs are both coverage-limited and
-score-1 on one side, and #strong[6] pairs are unjustified on both the
-PKD and PAN sides. The important design point is that Tier A retains
-only slots where both reconstructions clear a minimal attestation bar
-against modern Lexibank evidence.
+exclusions left #strong[79] Tier A pairs for the permutation test.
+Coverage gaps accounted for #strong[13] pairs; unjustified PKDs
+(`attestation_score` = 1) for #strong[14]\; unjustified PANs for
+#strong[27]. Categories are not disjoint: some pairs are both
+coverage-limited and score-1 on one side, and #strong[6] pairs are
+unjustified on both the PKD and PAN sides. The important design point is
+that Tier A retains only slots where both reconstructions clear a
+minimal attestation bar against modern Lexibank evidence (no coverage
+gap; PKD and PAN scores of at least 2).
 
 Among pairs that received attestation scores, PKD scores were
 distributed as 14 / 31 / 11 / 27 / 34 for scores 1 through 5
@@ -778,7 +764,7 @@ hypothesis.
   ]
 )
 
-#strong[Figure 2.] Distribution of hit counts (generosity score of 4 or
+#strong[Figure 1.] Distribution of hit counts (generosity score of 4 or
 higher) under 100 random reassignments of Tier A PAN forms to Tier A PKD
 slots. Red line: observed hits (27).
 
@@ -821,11 +807,11 @@ aggregate hits therefore still motivate further comparative
 work---including correspondence inventories over Study 2's hit
 concepts---they do not finish it.
 
-Relative to the two main modern phylogenetic frames---Ostapirat's
-sister-family construal and Sagart's Austronesian-linked
-architecture---the results are #strong[compatible with “there is
-non-chance lexical signal to explain”] and #strong[agnostic] on tree
-geometry.
+Relative to the two main modern phylogenetic frames---Ostapirat's (2005,
+2013) sister-family construal and Sagart's (2004, 2005, 2019)
+Austronesian-linked architecture---the results are #strong[compatible
+with “there is non-chance lexical signal to explain”] and
+#strong[agnostic] on tree geometry.
 
 == 6.2 Why Study 2 is the more robust check
 <why-study-2-is-the-more-robust-check>

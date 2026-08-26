@@ -49,7 +49,7 @@
 
 ## Abstract (draft)
 
-The Austro-Tai hypothesis posits a genetic link between Austronesian and Kra-Dai (Tai-Kadai). Published lexical comparisons are hard to quantify: lists may mix robust etymologies with weakly justified or lookalike-friendly reconstructions, and similarity judgments inflate when meanings are known. I report two meaning-blind permutation screens in which an LLM (`gpt-4.1`, via API) scores segmental form similarity without seeing meanings. **Study 1** audits Alexander D. Smith’s (2025) gloss-aligned Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD) reconstructions: after Lexibank (List et al. 2022) attestation filters, 27 of 79 **Tier A** pairs—those with adequate Lexibank coverage and attestation scores of at least 2 for both PAN and PKD—meet a generous hit threshold (generosity score of 4 or higher) against a null mean of 5.7 (100 permutations; one-sided *p* ≈ 0.01). **Study 2** is designed to be more robust to reconstruction cherry-picking. It compares phylogenetically sampled modern Lexibank form groups for the same Concepticon meaning—restricted to dual-attested concepts on the Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray 2008)—and shuffles Austronesian form groups across Tai-Kadai slots. Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30 permutations; *p* ≈ 0.032 at each of those thresholds). Convergence across a reconstruction audit and a reconstruction-free Lexibank screen supports excess form resemblance under these controls—not genetic proof, which requires systematic sound correspondences. I situate the results in the Austro-Tai literature (Benedict; Ostapirat; Sagart) and discuss limits of LLM-based screening.
+The Austro-Tai hypothesis posits a genetic link between Austronesian and Kra-Dai (Tai-Kadai). Published lexical comparisons are hard to quantify: lists may mix robust etymologies with weakly justified or lookalike-friendly reconstructions, and similarity judgments inflate when meanings are known. I report two meaning-blind permutation screens in which an LLM (`gpt-4.1`, via API) scores segmental form similarity without seeing meanings. **Study 1** audits Alexander D. Smith’s (2025) gloss-aligned Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD) reconstructions: after Lexibank (List et al. 2022) attestation filters, 27 of 79 **Tier A** pairs—those with adequate Lexibank coverage and attestation scores of at least 2 for both PAN and PKD—meet a generous hit threshold (generosity score of 4 or higher) against a null mean of 5.7 (100 permutations; one-sided *p* ≈ 0.01). **Study 2** is designed to be more robust to reconstruction cherry-picking. It compares phylogenetically sampled modern Lexibank form groups for the same Concepticon meaning—restricted to dual-attested concepts on the Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray 2008)—and shuffles Austronesian form groups across Tai-Kadai slots. Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30 permutations; *p* ≈ 0.032 at each of those thresholds). Convergence across a reconstruction audit and a reconstruction-free Lexibank screen supports excess form resemblance under these controls—not genetic proof, which requires systematic sound correspondences. I situate the results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat 2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based screening.
 
 **Keywords:** Austro-Tai; Kra-Dai; Austronesian; lexical comparison; chance resemblance; permutation test; Lexibank; large language models; Blust basic vocabulary
 
@@ -74,7 +74,7 @@ The Austro-Tai hypothesis posits a genetic link between Austronesian and Kra-Dai
 - **Alternative architecture:** Sagart (2004, 2005, 2019)—Kra-Dai in an Austronesian (or AN-related) phylogenetic frame; numerals and higher phylogeny; tonogenesis models linking KD tones to AN codas (cf. Liao & Gehrmann 2025 in *Diachronica*).
 - **Contact and areal alternatives:** Chinese loans into Kra-Dai; mainland SEA contact; why lookalikes need not equal genealogy.
 - **Competing macros (brief contrast only):** Sino-Austronesian / Austric, etc.—enough to show Austro-Tai is one among contested higher groupings.
-- **Methodological literature on chance resemblance:** Ringe and related critiques of multilateral comparison; warnings about semantic latitude; need for **null models** when evaluating published lists.
+- **Methodological literature on chance resemblance:** Ringe (1992) and related critiques of multilateral comparison; warnings about semantic latitude; need for **null models** when evaluating published lists.
 - **Gap:** few studies apply an explicit **permutation / chance baseline** to an *entire published Austro-Tai alignment set* after filtering reconstructions that daughters do not support.
 
 #### 2.2 Justification for using Smith (2025)
@@ -86,7 +86,7 @@ The Austro-Tai hypothesis posits a genetic link between Austronesian and Kra-Dai
 Additional points to weave in:
 - Smith columns for branch attestation (PT/PH/PK/…) as a second, author-internal signal of breadth.
 - Disclaimer culture: preliminary reconstructions invite exactly this kind of stress test.
-- I do **not** treat Smith as consensus Proto-Kra-Dai or as replacing Ostapirat/Sagart; I treat it as a **contemporary evidence package**.
+- I do **not** treat Smith (2025) as consensus Proto-Kra-Dai or as replacing Ostapirat (2005, 2013) / Sagart (2004, 2005, 2019); I treat it as a **contemporary evidence package**.
 
 ### 3. Data
 
@@ -129,7 +129,7 @@ Additional points to weave in:
 ### 6. Discussion
 
 - Result as **quantified strength of evidence** for this package under stated controls.
-- Relation to Ostapirat/Sagart: compatible with “there is non-chance lexical signal to explain,” agnostic on sister vs AN-internal.
+- Relation to Ostapirat (2005, 2013) / Sagart (2004, 2005, 2019): compatible with “there is non-chance lexical signal to explain,” agnostic on sister vs AN-internal.
 - Limits: model choice (`gpt-4.1` via API), prompt generosity, Lexibank coverage bias, AN sampling scheme, Smith’s preliminary character.
 - Why meaning-blindness matters; residual risk that models “know” famous etymologies (acknowledge; permutation still binds form-pair scores).
 - Future: larger *N*; human expert re-rating of Tier A hits; correspondence-constrained scoring.
@@ -151,9 +151,8 @@ Additional points to weave in:
 
 ## Suggested figures and tables
 
-1. **Figure 1.** Exclusion flowchart (120 → Tier A 79).  
-2. **Figure 2.** Null histogram of hit counts; vertical line at observed 27.  
-3. **Table 1.** Literature positions on Austro-Tai (Benedict / Ostapirat / Sagart)—compact.  
+1. **Figure 1.** Null histogram of hit counts; vertical line at observed 27.  
+2. **Table 1.** Literature positions on Austro-Tai (Benedict / Ostapirat / Sagart)—compact.  
 4. **Table 2.** Attestation score distributions (PKD, PAN).  
 5. **Table 3.** Top observed hits (gloss, PAN, PKD, generosity, attestation scores).
 

@@ -24,7 +24,7 @@ Austro-Tai is one among several contested higher-order proposals involving Austr
 
 ### Chance resemblance and the need for null models
 
-Methodological critiques of multilateral comparison (notably Ringe and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Explicit permutation or chance baselines remain uncommon for entire Austro-Tai alignment sets—especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
+Methodological critiques of multilateral comparison (notably Ringe 1992 and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Explicit permutation or chance baselines remain uncommon for entire Austro-Tai alignment sets—especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
 
 **Table 1 (schematic).** Positions in the Austro-Tai debate (compact).
 
@@ -34,7 +34,7 @@ Methodological critiques of multilateral comparison (notably Ringe and related w
 | Sisters + correspondences | Ostapirat (2005, 2013) | Relatedness via regular sound change | Stronger standard than my screen |
 | AN-linked phylogeny / tonogenesis | Sagart (2004–2019); cf. Liao & Gehrmann (2025) | KD placed in/near AN diversification | Compatible with non-chance lexical signal; different tree |
 | Contact / loans | Sinitic and mainland SEA contact traditions | Lookalikes need not be genetic | Limits causal interpretation of hits |
-| Chance / method critique | Ringe and related | Need nulls and tight controls | Motivates permutation design |
+| Chance / method critique | Ringe (1992) and related | Need nulls and tight controls | Motivates permutation design |
 
 ## 2.2 Justification for using Smith (2025)
 
@@ -46,4 +46,4 @@ Second, the release is **open, versioned, and preliminary** by the author’s ow
 
 Third, anchoring the study in an independent published dataset reduces **researcher degrees of freedom** in selecting which comparisons count as evidence. Had I assembled my own cognate list, critics could fairly ask whether the list was tuned to survive the permutation test. By freezing Smith’s alignments as the object of audit, the researcher’s main choices become the attestation rules, the meaning-blind prompt, and the hit threshold—choices I state explicitly and can vary in robustness checks—rather than which etymologies enter the denominator.
 
-I do **not** treat Smith (2025) as consensus Proto-Kra-Dai, as a definitive PAN lexicon, or as superseding Ostapirat or Sagart. I treat it as a **contemporary evidence package**: a transparent inventory of what has been presented for Austro-Tai comparison in an openly citable form. My question is not whether every Smith reconstruction is correct, but how much residual PAN–PKD form similarity remains—and how surprising that residual is under a meaning-blind null—after reconstructions unsupported by Lexibank daughters are removed.
+I do **not** treat Smith (2025) as consensus Proto-Kra-Dai, as a definitive PAN lexicon, or as superseding Ostapirat (2005, 2013) or Sagart (2004, 2005, 2019). I treat it as a **contemporary evidence package**: a transparent inventory of what has been presented for Austro-Tai comparison in an openly citable form. My question is not whether every Smith reconstruction is correct, but how much residual PAN–PKD form similarity remains—and how surprising that residual is under a meaning-blind null—after reconstructions unsupported by Lexibank daughters are removed.
