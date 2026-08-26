@@ -20,7 +20,7 @@ This paper does not assemble a new cognate list, propose regular sound correspon
 
 Study 1 has two layers. **Layer 1** scores each reconstruction against modern Lexibank forms (all Tai-Kadai daughters for PKD; a phylogenetically stratified Austronesian sample for PAN) and excludes coverage gaps and attestation score 1 from the analysis set (Tier A). **Layer 2** compares PAN and PKD **forms only** (meanings withheld) with a fixed LLM screen and tests whether high similarity scores exceed a null in which PAN shapes are randomly reassigned across PKD slots. On **79** Tier A pairs we observe **27** hits against a null mean of **5.7** (100 permutations; one-sided *p* ≈ 0.01).
 
-Study 2 is designed to be more robust to reconstruction cherry-picking. Concept selection follows Lexibank coverage and the Austronesian Basic Vocabulary (Blust/ABVD) Concepticon list rather than an author’s comparative spreadsheet; within each concept we draw phylogenetically stratified modern samples (with onomatopoeia and near-duplicate filters) and score **set-versus-set** shape resemblance without showing the gloss. The null shuffles Austronesian form-bags across Tai-Kadai slots. On **194** dual-attested Blust concepts, observed hits at generosity ≥ 4 are **11** against a null mean of **2.2** (30 permutations; one-sided *p* ≈ 0.032); the same floor *p* holds at ≥ 3 (17 vs 5.7) and even at the liberal ≥ 2 threshold (121 vs 91.7). Because Study 2 never uses Smith’s proto-forms, excess resemblance here cannot be attributed to reconstructing toward lookalikes.
+Study 2 is designed to be more robust to reconstruction cherry-picking. Concept selection follows Lexibank coverage and the Austronesian Basic Vocabulary (Blust/ABVD) Concepticon list rather than an author’s comparative spreadsheet; within each concept we draw phylogenetically stratified modern samples (with onomatopoeia and near-duplicate filters) and score **set-versus-set** shape resemblance without showing the gloss. The null shuffles Austronesian form-bags across Tai-Kadai slots. On **194** dual-attested Blust concepts, observed hits at generosity ≥ 4 are **11** against a null mean of **2.2** (30 permutations; one-sided *p* ≈ 0.032); the same floor *p* holds at ≥ 3 (17 vs 5.7) and even at the liberal ≥ 2 threshold (121 vs 91.7).
 
 We interpret both results as quantified evidence of **excess form resemblance under stated controls**—not as proof of genetic relationship, which would require systematic sound correspondences. Study 2’s convergence with Study 1 is especially informative because it does not inherit Smith’s choice of which proto-forms to align.
 
@@ -56,7 +56,7 @@ Austro-Tai is one among several contested higher-order proposals involving Austr
 
 Methodological critiques of multilateral comparison (notably Ringe and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Explicit permutation or chance baselines remain uncommon for entire Austro-Tai alignment sets—especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
 
-**Table 1.** Positions in the Austro-Tai debate (schematic).
+**Table 1 (schematic).** Positions in the Austro-Tai debate (compact).
 
 | Strand | Exemplars | Core claim (simplified) | Relevance here |
 |--------|-----------|-------------------------|----------------|
@@ -198,9 +198,9 @@ Study 2 therefore tests whether **same-meaning** modern form inventories look mo
 
 ## 5.1 From Smith’s sheet to Tier A
 
-Starting from **120** gloss-aligned PAN–PKD pairs, Layer 1 exclusions left **79** Tier A pairs for the permutation test (Table 2).
+Starting from **120** gloss-aligned PAN–PKD pairs, Layer 1 exclusions left **79** Tier A pairs for the permutation test (Table 1).
 
-**Table 2.** Sample construction (Study 1).
+**Table 1.** Sample construction.
 
 | Stage | *n* |
 |-------|----:|
@@ -275,15 +275,11 @@ Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank atte
 
 
 
-## Figures: Null distributions
+## Figure: Null distribution
 
-![Null histogram of Study 1 hit counts with observed count marked](figures/null_histogram.png)
+![Null histogram of hit counts with observed count marked](figures/null_histogram.png)
 
-**Figure 1.** Study 1: distribution of hit counts under 100 random reassignments of Tier A PAN forms to Tier A PKD slots. Red line: observed hits (27).
-
-![Null histograms of Study 2 hit counts at three thresholds](figures/null_histogram_study2.png)
-
-**Figure 2.** Study 2: null hit-count distributions under 30 Austronesian bag shuffles, at generosity ≥ 4, ≥ 3, and ≥ 2. Vertical lines mark observed counts (11 / 17 / 121). No null draw reaches the observed count at any of these three thresholds.
+**Figure 2.** Distribution of hit counts under 100 random reassignments of Tier A PAN forms to Tier A PKD slots. Red line: observed hits (27).
 
 
 

@@ -4,8 +4,8 @@
 Companion code and data:
 #link("https://github.com/jeremycollinsmpi/austro-tai-llm-test")[github.com/jeremycollinsmpi/austro-tai-llm-test].
 Frozen snapshot: Study 1 --- 79 Tier A pairs, 27 hits, null mean 5.68,
-#emph[p] ≈ 0.01; Study 2 --- 194 Blust/Lexibank concepts, hits
-11/17/121 \@≥4/≥3/≥2, #emph[p] ≈ 0.032 (#emph[N] = 30).
+#emph[p] ≈ 0.01; Study 2 --- 194 Blust/Lexibank concepts, hits 11/17/121
+\@≥4/≥3/≥2, #emph[p] ≈ 0.032 (#emph[N] = 30).
 
 == Abstract
 <abstract>
@@ -1118,7 +1118,7 @@ one-sided #emph[p] = 0.0099.
 - #strong[Blust / ABVD concept list:] Concepticon contribution
   Blust-2008-210 (Greenhill, Blust & Gray 2008).
 - #strong[Analysis code and frozen outputs:]
-  #link("https://github.com/jeremycollinsmpi/austro-tai-llm-test")[https://github.com/jeremycollinsmpi/austro-tai-llm-test]
+  #link("https://github.com/jeremycollinsmpi/austro-tai-llm-test")
   (Study 1: parse → attest / validate-pan → judge → permute → report;
   Study 2: attested-core → attested-judge → attested-permute). Model:
   `gpt-4.1` via project NLP chat endpoint. Frozen summaries:
