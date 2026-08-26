@@ -13,7 +13,10 @@
     "null_median": 0.3976195317687582,
     "null_min": 0.38300657755918,
     "null_max": 0.41035615073562526,
-    "p_value": 0.000999000999000999
+    "p_value": 0.000999000999000999,
+    "null_sd": 0.0041055481232404895,
+    "z": -3.943458237548185,
+    "null_sd_note": "estimated from null range, calibrated to Study 1 exact/range ratio"
   },
   "mean_ned": {
     "observed": 0.6203443229451913,
@@ -21,7 +24,10 @@
     "null_median": 0.6359533400534922,
     "null_min": 0.6280037938064384,
     "null_max": 0.6446275224862654,
-    "p_value": 0.000999000999000999
+    "p_value": 0.000999000999000999,
+    "null_sd": 0.0024954509396695975,
+    "z": -6.238439048763305,
+    "null_sd_note": "estimated from null range, calibrated to Study 1 exact/range ratio"
   },
   "sca_hits": {
     "observed": 120.0,

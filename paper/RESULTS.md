@@ -24,7 +24,7 @@ Within Tier A, PKD attestation scores were predominantly 2–5 (25, 9, 22, and 2
 
 On the **79** Tier A pairs, the meaning-blind judge assigned a generosity score of 4 or higher to **27** pairs (**34.2%**). Of these hits, **18** scored 5 and **9** scored 4.
 
-Hit rates by Layer 1 attestation band are uneven mainly on the PAN side. Grouping Tier A by PAN attestation score, hits (generosity ≥ 4) are **5/24** (21%) at score 2, **2/11** (18%) at 3, **6/13** (46%) at 4, and **14/31** (45%) at 5. By PKD attestation score the rates are flatter (**8/25**, **3/9**, **8/22**, **8/23** at scores 2–5; about 32–36%). Using the minimum of the two scores, mid-strength slots (min = 2 or 3) hit at about **25–30%**, while min = 4 or 5 hits at about **44–50%**. The signal is therefore not confined to the most secure Layer 1 pairs, but it is stronger where PAN attestation is higher.
+Hit rates by Layer 1 attestation band are uneven mainly on the PAN side. Grouping Tier A by PAN attestation score, hits (generosity ≥ 4) are **5/24** (21%) at score 2, **2/11** (18%) at 3, **6/13** (46%) at 4, and **14/31** (45%) at 5. By PKD attestation score the rates are flatter (**8/25**, **3/9**, **8/22**, **8/23** at scores 2–5; about 32–36%). Using the minimum of the two scores, mid-strength slots (min = 2 or 3) hit at about **25–30%**, while min = 4 or 5 hits at about **44–50%**. The signal is therefore not confined to the most secure Layer 1 pairs, but it is stronger where PAN attestation is higher. That gradient has two natural readings: better-supported PAN reconstructions may carry more genuine comparative signal, or they may disproportionately be the famous, phonotactically regular etyma that are easiest for both humans and models to match. Under the SCA ≤ 0.40 diagnostic (§5.7), the PAN-band pattern is weaker and less monotonic (**6/24**, **3/11**, **3/13**, **13/31** at scores 2–5; about 23–27% except 42% at score 5), which argues against treating the LLM gradient as pure Layer 1 circularity while still leaving room for a “canonical etyma” contribution at the top of the attestation scale.
 
 Illustrative high-scoring form pairs (generosity 5) include near-identity or near-identity modulo length/diacritics such as 1sg PAN \**aku* ~ PKD \**aku*; ‘die’ \**(m/p-)aCay* ~ \**p-ataːy*; ‘eat’ \**ka(ʔ)ən* ~ \**(i-)kan*; ‘moon’ \**bulaN* ~ \**buɭaːl*; and ‘nine’ \**siwa* ~ \**(s(i)waː)*. These examples are listed for transparency; the statistical claim below concerns the **aggregate** hit count, not any single etymology.
 
@@ -77,25 +77,25 @@ Study 2’s hit rate at a score of 4 or higher (**11/194 ≈ 5.7%**) is lower th
 
 ## 5.7 Algorithmic sanity check (SCA / NED)
 
-Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA and NED distances instead of the LLM (§4.8; *N* = 1000), mean distances are substantially lower (more similar) in the published pairing than in the null:
+Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA and NED distances instead of the LLM (§4.8; *N* = 1000), mean distances are substantially lower (more similar) in the published pairing than in the null. To show effect size as well as significance, I report *z* = (observed mean − null mean) / null SD (negative *z* means more similar than chance):
 
-| Metric | Observed mean | Null mean (range) | One-sided *p* |
-|--------|-------------:|------------------:|-------------:|
-| SCA | 0.574 | 0.768 (0.712–0.814) | 0.001 |
-| NED | 0.730 | 0.906 (0.865–0.938) | 0.001 |
+| Metric | Observed mean | Null mean (range) | *z* | One-sided *p* |
+|--------|-------------:|------------------:|----:|-------------:|
+| SCA | 0.574 | 0.768 (0.712–0.814) | −13.4 | 0.001 |
+| NED | 0.730 | 0.906 (0.865–0.938) | −15.0 | 0.001 |
 
 Secondary hits at distance ≤ 0.40: SCA **25** vs null mean **2.2** (max 10); NED **13** vs null mean **0.3** (max 3); both *p* = 0.001 (add-one floor 1/1001). No null world matched the observed mean or hit count on either metric.
 
-For Study 2’s Blust form groups (same mean-of-best aggregation and group-shuffle null; *N* = 1000), mean distances are again lower than the null, though the absolute gap is smaller than in Study 1 (as expected when comparing heterogeneous modern samples):
+For Study 2’s Blust form groups (same mean-of-best aggregation and group-shuffle null; *N* = 1000), mean distances are again lower than the null, but the absolute gaps are modest (about 0.016 on each metric). No null draw reached the observed SCA mean (null minimum 0.383 vs observed 0.381), so *p* = 0.001 is legitimate; standardized effects are real but much smaller than in Study 1:
 
-| Metric | Observed mean | Null mean (range) | One-sided *p* |
-|--------|-------------:|------------------:|-------------:|
-| SCA | 0.381 | 0.398 (0.383–0.410) | 0.001 |
-| NED | 0.620 | 0.636 (0.628–0.645) | 0.001 |
+| Metric | Observed mean | Null mean (range) | *z* | One-sided *p* |
+|--------|-------------:|------------------:|----:|-------------:|
+| SCA | 0.381 | 0.398 (0.383–0.410) | ≈ −3.9 | 0.001 |
+| NED | 0.620 | 0.636 (0.628–0.645) | ≈ −6.2 | 0.001 |
 
-Secondary SCA hits at distance ≤ 0.40 are **120** vs null mean **96.4** (max 117; *p* = 0.001). The same NED ≤ 0.40 cutoff yields **0** observed set-level hits (null mean ≈ 0.1), so that particular threshold is too strict for Study 2’s aggregated modern forms; the primary claim for Study 2’s algorithmic screen is the mean-distance test, which both SCA and NED pass.
+Study 2 *z* values use null SDs estimated from the empirical null range and calibrated to Study 1’s exact/range ratio; Study 1 *z* uses the exact null SD. Secondary SCA hits at distance ≤ 0.40 are **120** vs null mean **96.4** (max 117; *p* = 0.001). The same NED ≤ 0.40 cutoff yields **0** observed set-level hits (null mean ≈ 0.1), so that particular threshold is too strict for Study 2’s aggregated modern forms; the primary claim for Study 2’s algorithmic screen is the mean-distance test, which both SCA and NED pass.
 
-Across both studies, then, excess same-slot / same-meaning resemblance is not unique to the LLM judge.
+Across both studies, then, excess same-slot / same-meaning resemblance is not unique to the LLM judge: Study 1’s algorithmic gaps are large in *z* terms, while Study 2’s are significant but modest.
 
 ## 5.8 Summary of findings
 

@@ -27,7 +27,7 @@ logging.getLogger("lingpy").setLevel(logging.WARNING)
 
 ALGO_SEED = 1
 ALGO_N_PERM_DEFAULT = 1000
-# Secondary hit thresholds stated a priori (distance ≤ threshold).
+# Secondary hit thresholds (distance ≤ threshold); mean distance is primary.
 SCA_HIT_THRESHOLD = 0.40
 NED_HIT_THRESHOLD = 0.40
 

@@ -27,14 +27,13 @@ Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray
 2008), and shuffles Austronesian form groups across Tai-Kadai slots.
 Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher
 are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
-permutations; one-sided #emph[p] = 1/31 ≈ 0.032 at each of those
-thresholds, the add-one floor because no null reached the observed
-count). Convergence across a reconstruction audit and a
-reconstruction-free Lexibank screen supports excess form resemblance
-under these controls, not genetic proof, which requires systematic sound
-correspondences. I situate the results in the Austro-Tai literature
-(Benedict 1942, 1975; Ostapirat 2005, 2013; Sagart 2004, 2005, 2019) and
-discuss limits of LLM-based screening.
+permutations; one-sided #emph[p] ≈ 0.032 at each threshold). Convergence
+across a reconstruction audit and a reconstruction-free Lexibank screen
+supports excess form resemblance under these controls, not genetic
+proof, which requires systematic sound correspondences. I situate the
+results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
+2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
+screening.
 
 #strong[Keywords:] Austro-Tai; Kra-Dai; Austronesian; lexical
 comparison; chance resemblance; permutation test; Lexibank; large
@@ -97,9 +96,8 @@ resemblance without showing the gloss. The null shuffles Austronesian
 form groups across Tai-Kadai slots. On #strong[194] dual-attested Blust
 concepts, I find #strong[11] hits at a generosity score of 4 or higher
 against a null mean of #strong[2.2] (30 permutations; one-sided #emph[p]
-\= 1/31 ≈ 0.032, the add-one floor); the same floor #emph[p] holds at a
-score of 3 or higher (17 vs 5.7) and even at the liberal cutoff of 2 or
-higher (121 vs 91.7).
+≈ 0.032); the same floor #emph[p] holds at a score of 3 or higher (17 vs
+5.7) and even at the liberal cutoff of 2 or higher (121 vs 91.7).
 
 I interpret both results as quantified evidence of #strong[excess form
 resemblance under stated controls], not as proof of genetic
@@ -582,24 +580,43 @@ same permutation designs with deterministic string distances from LingPy
 (List & Forkel 2021): #strong[Sound-Class Algorithm (SCA)] distance
 (primary) and #strong[normalized edit distance (NED)] (backup). Forms
 were lightly normalized before scoring (lowercase; strip tone digits,
-common separators, and bracket/asterisk markup), matching the spirit of
-Study 2's form cleanup.
+common separators, and bracket/asterisk characters), matching the spirit
+of Study 2's form cleanup.
+
+Smith's reconstructions are not always plain IPA strings. Cover symbols
+(e.g.~#emph[C], #emph[N]), feature markup (e.g.~`[+H]`), optional or
+alternate segments in parentheses or brackets (e.g.~`(m/p-)aCay`,
+`(i-)kan`, `k[a/ə]…`), and occasional multi-form cells joined by `;`
+remain after stripping punctuation as #strong[literal character
+sequences] for SCA/NED: alternates are #strong[not] expanded and scored
+separately, and cover symbols are #strong[not] treated as wildcards (so
+`C` is the letter #emph[c], not “unspecified consonant”). For example,
+`*(m/p-)aCay` normalizes to `mpacay`, and a `;`-joined cell is scored as
+one concatenated string. The LLM Study 1 judge, by contrast, sees the
+#strong[raw] published PAN and PKD strings (including that markup).
+These choices were fixed in the scoring code for transparency; they can
+inflate or deflate particular pairwise distances, but they apply equally
+to observed and null pairings.
 
 #strong[Study 1.] For each Tier A PAN--PKD pair I recorded SCA and NED
 distances, then shuffled PAN forms across PKD slots (#strong[1000]
 permutations; fixed seed). The primary statistic is the #strong[mean
 distance] across the 79 pairs (lower = more similar); one-sided #emph[p]
 uses add-one smoothing on the share of null means at least as extreme as
-the observed mean. As a secondary, pre-stated hit count I also tally
-pairs with SCA ≤ #strong[0.40] or NED ≤ #strong[0.40].
+the observed mean. As a secondary diagnostic I also tally pairs with SCA
+≤ #strong[0.40] or NED ≤ #strong[0.40].
 
 #strong[Study 2.] For each Blust dual-attested concept I scored the TK
 and AN form groups as the #strong[mean, over TK forms, of the best
 (minimum) distance to any AN form] in that concept's sample (separately
-for SCA and NED). The null reassigns AN groups across TK slots
-(#strong[1000] permutations). Mean distance remains the primary
-statistic; the same 0.40 cutoffs are reported as secondary diagnostics
-(and may be too strict for aggregated modern NED).
+for SCA and NED). That aggregation rewards minima over a large AN
+candidate set (\~80 forms); because AN group sizes are held fixed under
+the group shuffle, the observed-vs-null comparison remains valid, but
+absolute distances are not comparable to Study 1's single-string scores.
+The null reassigns AN groups across TK slots (#strong[1000]
+permutations). Mean distance remains the primary statistic; the 0.40
+cutoffs are secondary diagnostics (and may be too strict for aggregated
+modern NED).
 
 These algorithmic screens do not replace the LLM results and do not
 claim cognacy; they ask whether excess same-slot / same-meaning
@@ -673,7 +690,16 @@ rates are flatter (#strong[8/25], #strong[3/9], #strong[8/22],
 two scores, mid-strength slots (min = 2 or 3) hit at about
 #strong[25--30%], while min = 4 or 5 hits at about #strong[44--50%]. The
 signal is therefore not confined to the most secure Layer 1 pairs, but
-it is stronger where PAN attestation is higher.
+it is stronger where PAN attestation is higher. That gradient has two
+natural readings: better-supported PAN reconstructions may carry more
+genuine comparative signal, or they may disproportionately be the
+famous, phonotactically regular etyma that are easiest for both humans
+and models to match. Under the SCA ≤ 0.40 diagnostic (§5.7), the
+PAN-band pattern is weaker and less monotonic (#strong[6/24],
+#strong[3/11], #strong[3/13], #strong[13/31] at scores 2--5; about
+23--27% except 42% at score 5), which argues against treating the LLM
+gradient as pure Layer 1 circularity while still leaving room for a
+“canonical etyma” contribution at the top of the attestation scale.
 
 Illustrative high-scoring form pairs (generosity 5) include
 near-identity or near-identity modulo length/diacritics such as 1sg PAN
@@ -798,17 +824,19 @@ pairings exceed a form-preserving shuffle. Study 2 does so
 Under the same Tier A slots and PAN-shuffle null as Study 1, but with
 LingPy SCA and NED distances instead of the LLM (§4.8; #emph[N] = 1000),
 mean distances are substantially lower (more similar) in the published
-pairing than in the null:
+pairing than in the null. To show effect size as well as significance, I
+report #emph[z] = (observed mean − null mean) / null SD (negative
+#emph[z] means more similar than chance):
 
 #figure(
   align(center)[#table(
-    columns: 4,
-    align: (auto,right,right,right,),
+    columns: 5,
+    align: (auto,right,right,right,right,),
     table.header([Metric], [Observed mean], [Null mean
-      (range)], [One-sided #emph[p]],),
+      (range)], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [0.574], [0.768 (0.712--0.814)], [0.001],
-    [NED], [0.730], [0.906 (0.865--0.938)], [0.001],
+    [SCA], [0.574], [0.768 (0.712--0.814)], [−13.4], [0.001],
+    [NED], [0.730], [0.906 (0.865--0.938)], [−15.0], [0.001],
   )]
   , kind: table
   )
@@ -820,31 +848,36 @@ the observed mean or hit count on either metric.
 
 For Study 2's Blust form groups (same mean-of-best aggregation and
 group-shuffle null; #emph[N] = 1000), mean distances are again lower
-than the null, though the absolute gap is smaller than in Study 1 (as
-expected when comparing heterogeneous modern samples):
+than the null, but the absolute gaps are modest (about 0.016 on each
+metric). No null draw reached the observed SCA mean (null minimum 0.383
+vs observed 0.381), so #emph[p] = 0.001 is legitimate; standardized
+effects are real but much smaller than in Study 1:
 
 #figure(
   align(center)[#table(
-    columns: 4,
-    align: (auto,right,right,right,),
+    columns: 5,
+    align: (auto,right,right,right,right,),
     table.header([Metric], [Observed mean], [Null mean
-      (range)], [One-sided #emph[p]],),
+      (range)], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [0.381], [0.398 (0.383--0.410)], [0.001],
-    [NED], [0.620], [0.636 (0.628--0.645)], [0.001],
+    [SCA], [0.381], [0.398 (0.383--0.410)], [≈ −3.9], [0.001],
+    [NED], [0.620], [0.636 (0.628--0.645)], [≈ −6.2], [0.001],
   )]
   , kind: table
   )
 
-Secondary SCA hits at distance ≤ 0.40 are #strong[120] vs null mean
-#strong[96.4] (max 117; #emph[p] = 0.001). The same NED ≤ 0.40 cutoff
-yields #strong[0] observed set-level hits (null mean ≈ 0.1), so that
-particular threshold is too strict for Study 2's aggregated modern
-forms; the primary claim for Study 2's algorithmic screen is the
-mean-distance test, which both SCA and NED pass.
+Study 2 #emph[z] values use null SDs estimated from the empirical null
+range and calibrated to Study 1's exact/range ratio; Study 1 #emph[z]
+uses the exact null SD. Secondary SCA hits at distance ≤ 0.40 are
+#strong[120] vs null mean #strong[96.4] (max 117; #emph[p] = 0.001). The
+same NED ≤ 0.40 cutoff yields #strong[0] observed set-level hits (null
+mean ≈ 0.1), so that particular threshold is too strict for Study 2's
+aggregated modern forms; the primary claim for Study 2's algorithmic
+screen is the mean-distance test, which both SCA and NED pass.
 
 Across both studies, then, excess same-slot / same-meaning resemblance
-is not unique to the LLM judge.
+is not unique to the LLM judge: Study 1's algorithmic gaps are large in
+#emph[z] terms, while Study 2's are significant but modest.
 
 == 5.8 Summary of findings
 <summary-of-findings>
