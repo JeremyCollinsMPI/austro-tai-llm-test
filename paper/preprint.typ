@@ -570,15 +570,33 @@ permutation results. Machine-readable scores:
 == 5.1 From Smith's sheet to Tier A
 <from-smiths-sheet-to-tier-a>
 Starting from #strong[120] gloss-aligned PAN--PKD pairs, Layer 1
-exclusions left #strong[79] Tier A pairs for the permutation test.
-Coverage gaps accounted for #strong[13] pairs; unjustified PKDs
-(`attestation_score` = 1) for #strong[14]\; unjustified PANs for
-#strong[27]. Categories are not disjoint: some pairs are both
-coverage-limited and score-1 on one side, and #strong[6] pairs are
-unjustified on both the PKD and PAN sides. The important design point is
-that Tier A retains only slots where both reconstructions clear a
-minimal attestation bar against modern Lexibank evidence (no coverage
-gap; PKD and PAN scores of at least 2).
+exclusions left #strong[79] Tier A pairs for the permutation test (Table
+1).
+
+#strong[Table 1.] Sample construction.
+
+#figure(
+  align(center)[#table(
+    columns: (58.33%, 41.67%),
+    align: (auto,right,),
+    table.header([Stage], [#emph[n]],),
+    table.hline(),
+    [Smith pairs with both PAN and PKD], [120],
+    [Coverage gaps (unmapped concept, or \< 3 Lexibank Tai-Kadai or
+    Austronesian languages)], [13],
+    [Unjustified PKDs (`attestation_score` = 1)], [14],
+    [Unjustified PANs (`attestation_score` = 1)], [27],
+    [#strong[Tier A] (no coverage gap; PKD and PAN scores of at least
+    2)], [#strong[79]],
+  )]
+  , kind: table
+  )
+
+Categories are not disjoint: some pairs are both coverage-limited and
+score-1 on one side, and #strong[6] pairs are unjustified on both the
+PKD and PAN sides. The important design point is that Tier A retains
+only slots where both reconstructions clear a minimal attestation bar
+against modern Lexibank evidence.
 
 Among pairs that received attestation scores, PKD scores were
 distributed as 14 / 31 / 11 / 27 / 34 for scores 1 through 5

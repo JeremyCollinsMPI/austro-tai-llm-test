@@ -2,7 +2,19 @@
 
 ## 5.1 From Smith’s sheet to Tier A
 
-Starting from **120** gloss-aligned PAN–PKD pairs, Layer 1 exclusions left **79** Tier A pairs for the permutation test. Coverage gaps accounted for **13** pairs; unjustified PKDs (`attestation_score` = 1) for **14**; unjustified PANs for **27**. Categories are not disjoint: some pairs are both coverage-limited and score-1 on one side, and **6** pairs are unjustified on both the PKD and PAN sides. The important design point is that Tier A retains only slots where both reconstructions clear a minimal attestation bar against modern Lexibank evidence (no coverage gap; PKD and PAN scores of at least 2).
+Starting from **120** gloss-aligned PAN–PKD pairs, Layer 1 exclusions left **79** Tier A pairs for the permutation test (Table 1).
+
+**Table 1.** Sample construction.
+
+| Stage | *n* |
+|-------|----:|
+| Smith pairs with both PAN and PKD | 120 |
+| Coverage gaps (unmapped concept, or &lt; 3 Lexibank Tai-Kadai or Austronesian languages) | 13 |
+| Unjustified PKDs (`attestation_score` = 1) | 14 |
+| Unjustified PANs (`attestation_score` = 1) | 27 |
+| **Tier A** (no coverage gap; PKD and PAN scores of at least 2) | **79** |
+
+Categories are not disjoint: some pairs are both coverage-limited and score-1 on one side, and **6** pairs are unjustified on both the PKD and PAN sides. The important design point is that Tier A retains only slots where both reconstructions clear a minimal attestation bar against modern Lexibank evidence.
 
 Among pairs that received attestation scores, PKD scores were distributed as 14 / 31 / 11 / 27 / 34 for scores 1 through 5 respectively (*n* = 117 scored). PAN scores on the stratified Austronesian sample were 27 / 27 / 12 / 14 / 31 (*n* = 111 scored). Thus a non-trivial fraction of the published package, especially on the Austronesian side under my sampling scheme, was judged poorly supported by daughters and was withheld from the chance test of form pairing.
 
