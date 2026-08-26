@@ -40,7 +40,7 @@ fig_block = '''
 
 ![Null histogram of hit counts with observed count marked](figures/null_histogram.png)
 
-**Figure 2.** Distribution of hit counts under 100 random reassignments of Tier A PAN forms to Tier A PKD slots. Red line: observed hits (27).
+**Figure 2.** Distribution of hit counts (generosity score of 4 or higher) under 100 random reassignments of Tier A PAN forms to Tier A PKD slots. Red line: observed hits (27).
 '''
 
 order = [

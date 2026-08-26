@@ -107,7 +107,7 @@ Sampling algorithm (`src/an_sampling.sample_austronesian_forms`):
 3. Fill remaining slots up to target **80** by round-robin across clades with leftover forms.
 4. Use fixed seed `AN_SAMPLE_SEED = 1` for reproducibility.
 
-## Appendix C. Tier A hits (generosity ≥ 4)
+## Appendix C. Tier A hits (a generosity score of 4 or higher)
 
 Observed hits: **27** / 79 Tier A pairs (18 with generosity 5; 9 with generosity 4). Null (*N* = 100): mean 5.68, range 1–12; one-sided *p* = 0.0099.
 
@@ -197,17 +197,17 @@ Observed hits: **27** / 79 Tier A pairs (18 with generosity 5; 9 with generosity
 ## Appendix E. Data and software availability
 
 - **Smith (2025) reconstructions:** Zenodo DOI [10.5281/zenodo.15597357](https://doi.org/10.5281/zenodo.15597357), release v1.1 (*Austro-Tai comparative dataset (Reconstructions)*).
-- **Lexibank 2:** `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as described in §3–4).
+- **Lexibank 2:** List et al. (2022); `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as described in §3–4).
 - **Blust / ABVD concept list:** Concepticon contribution Blust-2008-210 (Greenhill, Blust & Gray 2008).
 - **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute). Model: `gpt-4.1` via project NLP chat endpoint. Frozen summaries: `output/permutation_results.json` (Study 1); `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv` (Study 2).
 
 ## Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 
-Observed on **194** concepts; null *N* = 30; one-sided *p* = 1/31 ≈ 0.032 at ≥ 2, ≥ 3, and ≥ 4.
+Observed on **194** concepts; null *N* = 30; one-sided *p* = 1/31 ≈ 0.032 at a generosity score of 2 or higher, 3 or higher, and 4 or higher.
 
-**Generosity ≥ 4 (*n* = 11):** eye; nose; eat; water; bite; shoulder; mother; this; we; blow (of wind); be dead or die.
+**Generosity score of 4 or higher (*n* = 11):** eye; nose; eat; water; bite; shoulder; mother; this; we; blow (of wind); be dead or die.
 
-**Generosity = 3 (*n* = 6; total ≥ 3 = 17):** fire; I; wing; ten; dust; lightning.
+**Generosity score of 3 (*n* = 6; total at 3 or higher = 17):** fire; I; wing; ten; dust; lightning.
 
 Full scores and model notes: `output/attested_judgments_observed_blust194.csv`.
 

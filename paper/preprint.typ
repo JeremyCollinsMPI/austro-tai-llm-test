@@ -11,25 +11,26 @@ The Austro-Tai hypothesis posits a genetic link between Austronesian and
 Kra-Dai (Tai-Kadai). Published lexical comparisons are hard to quantify:
 lists may mix robust etymologies with weakly justified or
 lookalike-friendly reconstructions, and similarity judgments inflate
-when meanings are known. We report two meaning-blind permutation screens
+when meanings are known. I report two meaning-blind permutation screens
 in which an LLM (`gpt-4.1`, via API) scores segmental form similarity
 without seeing meanings. #strong[Study 1] audits Alexander D. Smith's
 (2025) gloss-aligned Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD)
-reconstructions: after Lexibank attestation filters, 27 of 79
-#strong[Tier A] pairs---those with adequate Lexibank coverage and
-attestation scores ≥ 2 for both PAN and PKD---meet a generous hit
-threshold against a null mean of 5.7 (100 permutations; one-sided
-#emph[p] ≈ 0.01). #strong[Study 2] is designed to be more robust to
-reconstruction cherry-picking. It compares phylogenetically sampled
-modern Lexibank form groups for the same Concepticon
-meaning---restricted to dual-attested concepts on the Blust/ABVD
-basic-vocabulary list (194 concepts)---and shuffles Austronesian form
-groups across Tai-Kadai slots. Hits at generosity ≥ 4 / ≥ 3 / ≥ 2 are 11
-\/ 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
+reconstructions: after Lexibank (List et al.~2022) attestation filters,
+27 of 79 #strong[Tier A] pairs---those with adequate Lexibank coverage
+and attestation scores of at least 2 for both PAN and PKD---meet a
+generous hit threshold (generosity score of 4 or higher) against a null
+mean of 5.7 (100 permutations; one-sided #emph[p] ≈ 0.01). #strong[Study
+2] is designed to be more robust to reconstruction cherry-picking. It
+compares phylogenetically sampled modern Lexibank form groups for the
+same Concepticon meaning---restricted to dual-attested concepts on the
+Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray
+2008)---and shuffles Austronesian form groups across Tai-Kadai slots.
+Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher
+are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
 permutations; #emph[p] ≈ 0.032 at each of those thresholds). Convergence
 across a reconstruction audit and a reconstruction-free Lexibank screen
 supports excess form resemblance under these controls---not genetic
-proof, which requires systematic sound correspondences. We situate the
+proof, which requires systematic sound correspondences. I situate the
 results in the Austro-Tai literature (Benedict; Ostapirat; Sagart) and
 discuss limits of LLM-based screening.
 
@@ -67,10 +68,10 @@ Proto-Austronesian (PAN) and Proto-Kra-Dai (PKD) reconstructions as the
 object of evaluation: how much form resemblance remains---and how
 surprising is it---after weakly attested reconstructions are set aside?
 #strong[Study 2] asks a stricter follow-up that does not depend on any
-reconstruction package: among well-attested Lexibank concepts, do
-#strong[groups of modern Tai-Kadai and Austronesian forms] for the
-#emph[same] meaning show more shape resemblance than form groups for
-#emph[mismatched] meanings under a meaning-blind screen?
+reconstruction package: among well-attested Lexibank concepts (List et
+al.~2022), do #strong[groups of modern Tai-Kadai and Austronesian forms]
+for the #emph[same] meaning show more shape resemblance than form groups
+for #emph[mismatched] meanings under a meaning-blind screen?
 
 Study 1 has two layers. #strong[Layer 1] scores each reconstruction
 against modern Lexibank forms (all Tai-Kadai daughters for PKD; a
@@ -79,23 +80,24 @@ coverage gaps and attestation score 1 from the analysis set (Tier A).
 #strong[Layer 2] compares PAN and PKD #strong[forms only] (meanings
 withheld) with a fixed LLM screen and tests whether high similarity
 scores exceed a null in which PAN shapes are randomly reassigned across
-PKD slots. On #strong[79] Tier A pairs we observe #strong[27] hits
-against a null mean of #strong[5.7] (100 permutations; one-sided
-#emph[p] ≈ 0.01).
+PKD slots. On #strong[79] Tier A pairs I observe #strong[27] hits
+(generosity score of 4 or higher) against a null mean of #strong[5.7]
+(100 permutations; one-sided #emph[p] ≈ 0.01).
 
 Study 2 is designed to be more robust to reconstruction cherry-picking.
 Concept selection follows Lexibank coverage and the Austronesian Basic
-Vocabulary (Blust/ABVD) Concepticon list rather than an author's
-comparative spreadsheet; within each concept we draw phylogenetically
-stratified modern samples (with onomatopoeia and near-duplicate filters)
-and score #strong[set-versus-set] shape resemblance without showing the
-gloss. The null shuffles Austronesian form groups across Tai-Kadai
-slots. On #strong[194] dual-attested Blust concepts, observed hits at
-generosity ≥ 4 are #strong[11] against a null mean of #strong[2.2] (30
-permutations; one-sided #emph[p] ≈ 0.032); the same floor #emph[p] holds
-at ≥ 3 (17 vs 5.7) and even at the liberal ≥ 2 threshold (121 vs 91.7).
+Vocabulary (Blust/ABVD) Concepticon list (Greenhill, Blust & Gray 2008)
+rather than an author's comparative spreadsheet; within each concept I
+draw phylogenetically stratified modern samples (with onomatopoeia and
+near-duplicate filters) and score #strong[set-versus-set] shape
+resemblance without showing the gloss. The null shuffles Austronesian
+form groups across Tai-Kadai slots. On #strong[194] dual-attested Blust
+concepts, I find #strong[11] hits at a generosity score of 4 or higher
+against a null mean of #strong[2.2] (30 permutations; one-sided #emph[p]
+≈ 0.032); the same floor #emph[p] holds at a score of 3 or higher (17 vs
+5.7) and even at the liberal cutoff of 2 or higher (121 vs 91.7).
 
-We interpret both results as quantified evidence of #strong[excess form
+I interpret both results as quantified evidence of #strong[excess form
 resemblance under stated controls]---not as proof of genetic
 relationship, which would require systematic sound correspondences.
 Study 2's convergence with Study 1 is especially informative because it
@@ -135,8 +137,8 @@ many forms look alike when meanings are matched, but that segmental (and
 related) correspondences can be stated with comparative-method
 discipline. On this view, Austro-Tai is a classical genetic hypothesis
 to be won or lost on regularity and reconstructibility, not on raw list
-length. Our study does #strong[not] re-implement Ostapirat's
-correspondence system; we return to it in the Discussion as the standard
+length. My study does #strong[not] re-implement Ostapirat's
+correspondence system; I return to it in the Discussion as the standard
 against which “non-chance form resemblance under a generous screen”
 remains a weaker, preliminary kind of evidence.
 
@@ -152,7 +154,7 @@ with Ostapirat's comparisons can be substantial even when the
 #strong[tree geometry] differs: both traditions posit more than
 accidental lexical connection between the families, but they disagree on
 where Kra-Dai sits relative to Formosan and Malayo-Polynesian
-diversification. Our permutation result is intentionally
+diversification. My permutation result is intentionally
 #strong[agnostic] on sister-family vs AN-internal architecture; excess
 form similarity in a published alignment set is compatible with either
 genealogy once chance browsing is set aside.
@@ -164,7 +166,7 @@ mainland Southeast Asian neighbors. Chinese loans, calques, and areal
 diffusion can produce meaning-matched form similarities that are not
 inheritance from a shared Austro-Tai parent. Published reconstruction
 packages may flag some Chinese comparisons (Smith's sheet includes
-Chinese-related columns and notes); our Layer 2 judge never sees those
+Chinese-related columns and notes); my Layer 2 judge never sees those
 flags or the glosses, but Layer 1 attestation against Lexibank daughters
 does not by itself separate inheritance from old loans that have become
 family-internal. Contact therefore remains a live alternative
@@ -175,7 +177,7 @@ aggregate hit counts as phylogenetic proof.
 <competing-higher-groupings-brief>
 Austro-Tai is one among several contested higher-order proposals
 involving Austronesian (e.g.~strands of Austric or Sino-Austronesian
-argumentation). We mention them only to locate Austro-Tai in a crowded
+argumentation). I mention them only to locate Austro-Tai in a crowded
 macro-comparative landscape: the present paper audits #strong[one] open
 Austro-Tai package under explicit statistical controls, not the relative
 merits of every macro-family hypothesis.
@@ -206,7 +208,7 @@ modern daughters do not support. That is the gap this paper addresses.
     [Early lexical macro-comparison], [Benedict (1942, 1975)], [Deep
     AN--KD link via lookalikes], [Motivates quantifying list strength],
     [Sisters + correspondences], [Ostapirat (2005, 2013)], [Relatedness
-    via regular sound change], [Stronger standard than our screen],
+    via regular sound change], [Stronger standard than my screen],
     [AN-linked phylogeny / tonogenesis], [Sagart (2004--2019); cf.~Liao
     & Gehrmann (2025)], [KD placed in/near AN
     diversification], [Compatible with non-chance lexical signal;
@@ -222,7 +224,7 @@ modern daughters do not support. That is the gap this paper addresses.
 
 == 2.2 Justification for using Smith (2025)
 <justification-for-using-smith-2025>
-We take as our object of evaluation Alexander D. Smith's (2025)
+I take as my object of evaluation Alexander D. Smith's (2025)
 #emph[Austro-Tai comparative dataset (Reconstructions)] (Zenodo), rather
 than compiling a new etymological list. Three properties motivate that
 choice.
@@ -237,29 +239,29 @@ the #strong[published pairing] is special.
 
 Second, the release is #strong[open, versioned, and preliminary] by the
 author's own framing. Preliminary reconstruction packages invite exactly
-the stress test we perform: external checks on whether proposed
+the stress test I perform: external checks on whether proposed
 proto-forms are recoverable from modern Lexibank daughters, and a
 quantified assessment of residual form similarity after weak
 reconstructions are set aside. Branch-level Kra-Dai columns in the sheet
 (Proto-Tai, Proto-Hlai, etc.) supply an author-internal signal of
-comparative breadth; we report them descriptively but do not use them as
-our primary eligibility filter, so that Tier A is defined by
+comparative breadth; I report them descriptively but do not use them as
+my primary eligibility filter, so that Tier A is defined by
 Lexibank-facing criteria rather than by reifying Smith's branch coding.
 
 Third, anchoring the study in an independent published dataset reduces
 #strong[researcher degrees of freedom] in selecting which comparisons
-count as evidence. Had we assembled our own cognate list, critics could
+count as evidence. Had I assembled my own cognate list, critics could
 fairly ask whether the list was tuned to survive the permutation test.
 By freezing Smith's alignments as the object of audit, the researcher's
 main choices become the attestation rules, the meaning-blind prompt, and
-the hit threshold---choices we state explicitly and can vary in
+the hit threshold---choices I state explicitly and can vary in
 robustness checks---rather than which etymologies enter the denominator.
 
-We do #strong[not] treat Smith (2025) as consensus Proto-Kra-Dai, as a
-definitive PAN lexicon, or as superseding Ostapirat or Sagart. We treat
+I do #strong[not] treat Smith (2025) as consensus Proto-Kra-Dai, as a
+definitive PAN lexicon, or as superseding Ostapirat or Sagart. I treat
 it as a #strong[contemporary evidence package]: a transparent inventory
 of what has been presented for Austro-Tai comparison in an openly
-citable form. Our question is not whether every Smith reconstruction is
+citable form. My question is not whether every Smith reconstruction is
 correct, but how much residual PAN--PKD form similarity remains---and
 how surprising that residual is under a meaning-blind null---after
 reconstructions unsupported by Lexibank daughters are removed.
@@ -268,44 +270,44 @@ reconstructions unsupported by Lexibank daughters are removed.
 <data>
 == 3.1 Smith's (2025) Austro-Tai reconstruction package
 <smiths-2025-austro-tai-reconstruction-package>
-Our comparative object is Alexander D. Smith's openly released
+My comparative object is Alexander D. Smith's openly released
 #emph[Austro-Tai comparative dataset (Reconstructions)] on Zenodo (DOI
 #link("https://doi.org/10.5281/zenodo.15597357")[10.5281/zenodo.15597357]\;
-we use release #strong[v1.1]). The spreadsheet lists gloss-aligned
-reconstructions aimed at Austro-Tai comparison. We retain a row when
-both a Proto-Austronesian (PAN) string and a Proto-Kra-Dai (PKD) string
-are present, yielding #strong[120] pairs after parsing.
+I use release #strong[v1.1]). The spreadsheet lists gloss-aligned
+reconstructions aimed at Austro-Tai comparison. I retain a row when both
+a Proto-Austronesian (PAN) string and a Proto-Kra-Dai (PKD) string are
+present, yielding #strong[120] pairs after parsing.
 
 Besides the two proto-forms, the sheet records branch-level Kra-Dai
 material (e.g.~Proto-Tai, Proto-Hlai, Proto-Kam-Sui, and related
-columns), optional Chinese-loan flags, and free-text notes. We compute a
+columns), optional Chinese-loan flags, and free-text notes. I compute a
 simple #strong[branch attestation count] (how many Kra-Dai branch
 columns are non-empty) as descriptive metadata. That count is
 #strong[not] used as the primary gate for Tier A membership: Layer 1
 filters (Lexibank coverage and attestation scores) are defined
-independently of Smith's branch columns, so that our exclusions do not
+independently of Smith's branch columns, so that my exclusions do not
 merely rediscover the author's own internal breadth coding.
 
-We treat the package as a #strong[published evidence inventory], not as
-a consensus reconstruction of Proto-Kra-Dai or as a replacement for
+I treat the package as a #strong[published evidence inventory], not as a
+consensus reconstruction of Proto-Kra-Dai or as a replacement for
 Ostapirat's or Sagart's comparative proposals. Justification for
 anchoring the study in this release appears in §2.2.
 
 == 3.2 Lexibank modern forms
 <lexibank-modern-forms>
-Modern forms used to audit reconstructions come from Lexibank 2,
-specifically the `lexibank-analysed` release #strong[v2.2]. Forms are
-Concepticon-linked. We map each Smith gloss to a Lexibank concept ID
-with an #strong[explicit] dictionary (no fuzzy string matching), to
-avoid systematic mis-links (e.g.~#emph[blow] → BLOW (OF WIND) rather
-than LOW). Unmapped glosses are coverage gaps.
+Modern forms used to audit reconstructions come from Lexibank 2 (List et
+al.~2022), specifically the `lexibank-analysed` release #strong[v2.2].
+Forms are Concepticon-linked. I map each Smith gloss to a Lexibank
+concept ID with an #strong[explicit] dictionary (no fuzzy string
+matching), to avoid systematic mis-links (e.g.~#emph[blow] → BLOW (OF
+WIND) rather than LOW). Unmapped glosses are coverage gaps.
 
-- #strong[Tai-Kadai side.] For PKD attestation we use #strong[all]
+- #strong[Tai-Kadai side.] For PKD attestation I use #strong[all]
   Lexibank forms whose language is classified as Tai-Kadai for the
   mapped concept.
 - #strong[Austronesian side.] Lexibank includes on the order of
   #strong[978] Austronesian languages. Using every form for every
-  concept would be costly and would overweight Oceanic. We therefore
+  concept would be costly and would overweight Oceanic. I therefore
   assign each Lexibank Austronesian language a coarse Glottolog-derived
   clade (Formosan; Western Malayo-Polynesian; South Halmahera--West New
   Guinea; Oceanic) and draw a #strong[phylogenetically stratified]
@@ -316,7 +318,7 @@ than LOW). Unmapped glosses are coverage gaps.
 
 == 3.3 Analysis inventories
 <analysis-inventories>
-From the 120 Smith pairs we derive:
+From the 120 Smith pairs I derive:
 
 #figure(
   align(center)[#table(
@@ -330,8 +332,8 @@ From the 120 Smith pairs we derive:
     Tai-Kadai forms],
     [Unjustified PANs], [PAN `attestation_score` = 1 vs the stratified
     Austronesian sample],
-    [#strong[Tier A]], [No coverage gap; PKD and PAN scores ≥ 2 ---
-    input to meaning-blind judging and permutation],
+    [#strong[Tier A]], [No coverage gap; PKD and PAN scores of at least
+    2 --- input to meaning-blind judging and permutation],
   )]
   , kind: table
   )
@@ -343,18 +345,18 @@ inputs.
 
 == 3.4 Study 2: Dual-attested Lexibank concepts (no reconstructions)
 <study-2-dual-attested-lexibank-concepts-no-reconstructions>
-Study 2 uses Lexibank forms directly. We retain Concepticon concepts
-with at least #strong[15] Tai-Kadai and #strong[15] Austronesian
-languages in Lexibank (#strong[373] concepts), then intersect with the
-Blust (2008) / ABVD 210-item Concepticon list (#strong[194] concepts).
-Within each concept we draw stratified Tai-Kadai and Austronesian
-samples (§4.6). Machine-readable inventories:
+Study 2 uses Lexibank forms directly. I retain Concepticon concepts with
+at least #strong[15] Tai-Kadai and #strong[15] Austronesian languages in
+Lexibank (#strong[373] concepts), then intersect with the Blust / ABVD
+210-item Concepticon list (Greenhill, Blust & Gray 2008; #strong[194]
+concepts). Within each concept I draw stratified Tai-Kadai and
+Austronesian samples (§4.6). Machine-readable inventories:
 `data/attested_pilot/core_concepts_blust.tsv`,
 `data/attested_pilot/Blust-2008-210.tsv`.
 
 = 4. Methods
 <methods>
-Our analysis has two studies that share a meaning-blind LLM screen and a
+My analysis has two studies that share a meaning-blind LLM screen and a
 permutation null, but differ in what is being paired.
 
 #strong[Study 1] (Smith reconstructions) has two layers. #strong[Layer
@@ -382,35 +384,36 @@ and null analyses.
 
 == 4.1 Data: Smith alignments and Lexibank
 <data-smith-alignments-and-lexibank>
-We parsed Alexander D. Smith's (2025) Austro-Tai reconstruction
+I parsed Alexander D. Smith's (2025) Austro-Tai reconstruction
 spreadsheet (Zenodo release v1.1) into gloss-aligned pairs in which both
 a Proto-Austronesian (PAN) and a Proto-Kra-Dai (PKD) reconstruction are
 present. After excluding rows without both sides, #strong[120] pairs
 remained. Smith's sheet also records branch-level Kra-Dai reflexes
-(e.g.~Proto-Tai, Proto-Hlai, Proto-Kam-Sui); we retain branch
-attestation counts as descriptive metadata but do not use them as the
-primary filter for Tier A membership.
+(e.g.~Proto-Tai, Proto-Hlai, Proto-Kam-Sui); I retain branch attestation
+counts as descriptive metadata but do not use them as the primary filter
+for Tier A membership.
 
-Modern forms come from Lexibank 2 (`lexibank-analysed` v2.2). Each Smith
-gloss was mapped to a Lexibank concept ID by an #strong[explicit]
-dictionary (no fuzzy string matching), to avoid errors such as mapping
-#emph[blow] to LOW rather than BLOW (OF WIND). For Proto-Kra-Dai
-validation we used all Lexibank forms whose language is classified as
-Tai-Kadai. For Proto-Austronesian validation, Lexibank contains on the
-order of #strong[978] Austronesian languages; sending every form is
-impractical and would overweight Oceanic. We therefore built a
-Glottolog-derived coarse clade label for each Lexibank Austronesian
-language (Formosan; Western Malayo-Polynesian; South Halmahera--West New
-Guinea; Oceanic) and drew a #strong[phylogenetically stratified sample]
-of up to #strong[80] languages per concept, with floors of 12 Formosan,
-20 Western MP, 8 SHWNG, and 20 Oceanic where available (at most one form
-per language), filling any remainder by round-robin across clades.
+Modern forms come from Lexibank 2 (`lexibank-analysed` v2.2; List et
+al.~2022). Each Smith gloss was mapped to a Lexibank concept ID by an
+#strong[explicit] dictionary (no fuzzy string matching), to avoid errors
+such as mapping #emph[blow] to LOW rather than BLOW (OF WIND). For
+Proto-Kra-Dai validation I used all Lexibank forms whose language is
+classified as Tai-Kadai. For Proto-Austronesian validation, Lexibank
+contains on the order of #strong[978] Austronesian languages; sending
+every form is impractical and would overweight Oceanic. I therefore
+built a Glottolog-derived coarse clade label for each Lexibank
+Austronesian language (Formosan; Western Malayo-Polynesian; South
+Halmahera--West New Guinea; Oceanic) and drew a #strong[phylogenetically
+stratified sample] of up to #strong[80] languages per concept, with
+floors of 12 Formosan, 20 Western MP, 8 SHWNG, and 20 Oceanic where
+available (at most one form per language), filling any remainder by
+round-robin across clades.
 
 == 4.2 Layer 1: Reconstruction attestation
 <layer-1-reconstruction-attestation>
 For each aligned pair with at least one Lexibank daughter form on the
-relevant side, we asked the LLM to score how well the proposed
-proto-form is supported by the attested modern forms for that meaning
+relevant side, I asked the LLM to score how well the proposed proto-form
+is supported by the attested modern forms for that meaning
 (`attestation_score` on a 1--5 scale), returning brief notes on
 supporting and problematic reflexes.
 
@@ -420,14 +423,14 @@ supporting and problematic reflexes.
 - #strong[PAN attestation] used the stratified Austronesian sample
   described above.
 
-We defined a #strong[coverage gap] when the gloss could not be mapped to
+I defined a #strong[coverage gap] when the gloss could not be mapped to
 a Lexibank concept, or when fewer than #strong[three] Tai-Kadai
 languages or fewer than #strong[three] Austronesian languages attested
 the concept in Lexibank. Coverage-gap pairs were excluded from the
 permutation test (Tier A) because the reconstruction cannot be checked
 against a minimally diverse modern sample.
 
-Separately, we labeled a reconstruction #strong[unjustified] when its
+Separately, I labeled a reconstruction #strong[unjustified] when its
 attestation score equaled #strong[1] (daughters cluster on shapes
 incompatible with the proposed proto-form under the model's assessment).
 Unjustified PKDs and unjustified PANs remain in the descriptive
@@ -437,12 +440,12 @@ constitute evidence that the #emph[published comparative package] is
 well founded.
 
 #strong[Tier A]---the analysis set for Layer 2---therefore requires: no
-coverage gap, PKD `attestation_score` ≥ 2, and PAN `attestation_score` ≥
-2 (when a score is available).
+coverage gap, PKD `attestation_score` of at least #strong[2], and PAN
+`attestation_score` of at least #strong[2] (when a score is available).
 
 == 4.3 Layer 2: Meaning-blind form similarity
 <layer-2-meaning-blind-form-similarity>
-For each Tier A pair we submitted the PKD form and the PAN form to the
+For each Tier A pair I submitted the PKD form and the PAN form to the
 LLM #strong[without] the gloss, without Smith's notes or loanword flags,
 and without opaque IDs that embed the meaning (batch indices such as
 `001`, `002` were used instead). The system prompt instructed the model
@@ -450,10 +453,12 @@ to score segmental shape similarity only---as if the PAN string were a
 candidate Austronesian reconstruction for the same slot as the PKD
 string---and not to infer or mention meaning. The model returned a
 #strong[generosity] score from 1 to 5 together with optional notes on
-plausible segmental correspondences. We count a #strong[hit] when
-generosity ≥ #strong[4]. (Scores of 3 are treated as non-hits in the
-primary analysis; a lower threshold can be examined as a robustness
-check.)
+plausible segmental correspondences. A score of 5 means the shapes look
+very similar under a generous reading; a score of 1 means little
+resemblance. I count a #strong[hit] when the generosity score is
+#strong[4 or 5] (written below as a generosity score of 4 or higher).
+Scores of 3 are treated as non-hits in the primary analysis; lower
+cutoffs (3 or higher; 2 or higher) can be examined as robustness checks.
 
 Judgments were cached by the pair `(PKD, PAN)` under a fixed prompt
 version. Consequently, the same form combination receives the same score
@@ -461,25 +466,35 @@ in the observed alignment and in every permutation that recreates it.
 
 == 4.4 Permutation null
 <permutation-null>
-Holding Tier A PKD forms and slot structure fixed, we randomly permuted
-the Tier A PAN forms across slots (#emph[N] = #strong[100] permutations;
-fixed random seed). For each permuted world we recomputed the number of
-hits under the same generosity threshold, reusing the cache whenever a
-`(PKD, PAN)` combination had already been scored. The one-sided
-#emph[p]-value is
+The permutation test asks a simple question: #strong[if the published
+PAN--PKD pairings were just one of many ways to match the same set of
+forms, how often would a random matching look as good as Smith's?]
+
+Concretely: I keep every Tier A PKD form in its meaning slot, then
+#strong[shuffle the Tier A PAN forms] among those slots (like
+reshuffling cards into fixed positions). I do this #strong[100] times
+(fixed random seed). For each shuffled world I count how many pairs
+would still be “hits” under the same rule (generosity score of 4 or
+higher), reusing the cache whenever a `(PKD, PAN)` combination had
+already been scored. The real Smith pairing is then compared with that
+distribution of chance hit counts.
+
+The one-sided #emph[p]-value is
 
 \[ p = , \]
 
-where #emph[k] is the number of permutations whose hit count is at least
-as large as the observed hit count (add-one smoothing). This null asks
-how often chance reassignment of PAN shapes among the same PKD slots
-would produce as many high form-similarity scores as the published
-pairing. It does #strong[not] test genetic relatedness, regularity of
-sound change, or the correctness of every reconstruction.
+where #emph[k] is the number of shuffles whose hit count is at least as
+large as the observed hit count, and #emph[N] = 100 (add-one smoothing).
+In plain terms: #emph[p] is roughly the share of random reshuffles that
+do as well as or better than the published pairing. This null does
+#strong[not] test genetic relatedness, regularity of sound change, or
+the correctness of every reconstruction---only whether the published
+matching produces unusually many high form-similarity scores relative to
+random rematching of the same forms.
 
 == 4.5 Scope and non-claims (Study 1)
 <scope-and-non-claims-study-1>
-We do not propose new etymologies, estimate divergence dates, or claim
+I do not propose new etymologies, estimate divergence dates, or claim
 that high generosity scores equal demonstrated cognacy in the
 comparative-method sense. The LLM is used as a #strong[reproducible
 generous screen] for segmental resemblance. Systematic sound
@@ -499,19 +514,19 @@ reconstructions from the design entirely.
 
 === Concept inventory
 <concept-inventory>
-We considered Lexibank Concepticon concepts attested in at least
+I considered Lexibank Concepticon concepts attested in at least
 #strong[15] Tai-Kadai and #strong[15] Austronesian languages
 (#strong[373] concepts). To focus on meanings standardly used in
-Austronesian comparative work, we intersected this pool with the
-#strong[Blust (2008) / ABVD 210]-item Concepticon list, yielding
-#strong[194] dual-attested concepts (exact Concepticon ID match).
-Sixteen Blust items fall outside the dual-attested ≥15 pool, often
-because Lexibank splits broader Blust glosses (e.g.~FOOT OR LEG vs
-separate FOOT / LEG).
+Austronesian comparative work, I intersected this pool with the
+#strong[Blust / ABVD 210]-item Concepticon list (Greenhill, Blust & Gray
+2008), yielding #strong[194] dual-attested concepts (exact Concepticon
+ID match). Sixteen Blust items fall outside the dual-attested pool of
+concepts with at least 15 languages on each side, often because Lexibank
+splits broader Blust glosses (e.g.~FOOT OR LEG vs separate FOOT / LEG).
 
 === Sampling within concepts
 <sampling-within-concepts>
-For each concept we built phylogenetically stratified form samples:
+For each concept I built phylogenetically stratified form samples:
 
 - #strong[Tai-Kadai.] Glottolog-derived coarse clades (Tai, Kam--Sui,
   Kra, Hlai, Lakkia--Biao, Be, other); floors then round-robin fill
@@ -519,7 +534,7 @@ For each concept we built phylogenetically stratified form samples:
 - #strong[Austronesian.] Same clade scheme and floors as Study 1's PAN
   sample (target \~80).
 
-Before sampling we applied light filters: drop likely onomatopoeic /
+Before sampling I applied light filters: drop likely onomatopoeic /
 expressive shapes (very short forms; clear reduplication) and
 deduplicate near-identical normalized spellings within clade. Tone
 digits and common separators were ignored in normalization.
@@ -531,20 +546,26 @@ only)---no gloss, no language names beyond clade tags---and scored
 hypothetical cognacy from segmental shape alone (generosity 1--5), with
 instructions to prefer #emph[widespread] shared skeletons over isolated
 lookalikes and to ignore recognized word meanings. Scores were cached by
-the group contents under a fixed prompt version. We report hits at
-generosity ≥ #strong[2], ≥ #strong[3], and ≥ #strong[4]\; the primary
-interpretive threshold remains ≥ 4, with ≥ 3 as a secondary cut and ≥ 2
-as a liberal sensitivity check.
+the group contents under a fixed prompt version. I report how many
+concepts reach a generosity score of #strong[2 or higher], #strong[3 or
+higher], and #strong[4 or higher]\; the primary interpretive threshold
+remains a score of 4 or higher, with 3 or higher as a secondary cut and
+2 or higher as a liberal sensitivity check.
 
 === Permutation null
 <permutation-null-1>
-Holding Tai-Kadai form groups fixed, we randomly reassigned Austronesian
-form groups across concept slots (#emph[N] = #strong[30]\; fixed seed).
-Incomplete permutations were resumable from disk; every null judgment
-(score, notes, reasoning, and the source concept of the Austronesian
-form group) was stored so thresholds can be recomputed post hoc. The
-one-sided #emph[p]-value uses the same (#emph[k]+1)/(#emph[N]+1)
-estimator as Study 1.
+The Study 2 null is the same idea as in Study 1, applied to form groups
+rather than single proto-strings. I keep each Tai-Kadai form group in
+its Concepticon slot, then #strong[randomly reassign Austronesian form
+groups] to those slots (#strong[30] shuffles; fixed seed)---so many
+trials pair, for example, the Tai-Kadai forms for ‘eye' with
+Austronesian forms that originally belonged to some other meaning. For
+each shuffle I recount how many slots would still be hits at each
+generosity cutoff. Incomplete permutations were resumable from disk;
+every null judgment (score, notes, reasoning, and the source concept of
+the Austronesian form group) was stored so thresholds can be recomputed
+post hoc. The one-sided #emph[p]-value uses the same
+(#emph[k]+1)/(#emph[N]+1) estimator as Study 1.
 
 Study 2 therefore tests whether #strong[same-meaning] modern form
 inventories look more alike, under a generous meaning-blind screen, than
@@ -573,7 +594,7 @@ exclusions left #strong[79] Tier A pairs for the permutation test (Table
     Austronesian languages)], [13],
     [Unjustified PKDs (`attestation_score` = 1)], [14],
     [Unjustified PANs (`attestation_score` = 1)], [27],
-    [#strong[Tier A] (no coverage gap; PKD and PAN scores ≥
+    [#strong[Tier A] (no coverage gap; PKD and PAN scores of at least
     2)], [#strong[79]],
   )]
   , kind: table
@@ -590,9 +611,8 @@ distributed as 14 / 31 / 11 / 27 / 34 for scores 1 through 5
 respectively (#emph[n] = 117 scored). PAN scores on the stratified
 Austronesian sample were 27 / 27 / 12 / 14 / 31 (#emph[n] = 111 scored).
 Thus a non-trivial fraction of the published package---especially on the
-Austronesian side under our sampling scheme---was judged poorly
-supported by daughters and was withheld from the chance test of form
-pairing.
+Austronesian side under my sampling scheme---was judged poorly supported
+by daughters and was withheld from the chance test of form pairing.
 
 Within Tier A, PKD attestation scores were predominantly 2--5 (25, 9,
 22, and 23 pairs at scores 2--5), and PAN scores were likewise 2--5 (24,
@@ -602,9 +622,9 @@ still including many middling scores.
 
 == 5.2 Observed meaning-blind hits
 <observed-meaning-blind-hits>
-On the #strong[79] Tier A pairs, the meaning-blind judge assigned
-generosity ≥ 4 to #strong[27] pairs (#strong[34.2%]). Of these hits,
-#strong[18] scored 5 and #strong[9] scored 4.
+On the #strong[79] Tier A pairs, the meaning-blind judge assigned a
+generosity score of 4 or higher to #strong[27] pairs (#strong[34.2%]).
+Of these hits, #strong[18] scored 5 and #strong[9] scored 4.
 
 Illustrative high-scoring form pairs (generosity 5) include
 near-identity or near-identity modulo length/diacritics such as 1sg PAN
@@ -618,11 +638,11 @@ any single etymology.
 == 5.3 Permutation null
 <permutation-null-2>
 Across #strong[100] random reassignments of Tier A PAN forms to Tier A
-PKD slots, the number of hits had mean #strong[5.68], median #strong[6],
-and range #strong[1--12] (first--third quartiles approximately 4--7).
-The observed count of #strong[27] lies far above every null draw: no
-permutation produced 27 or more hits. The one-sided #emph[p]-value is
-therefore
+PKD slots, the number of hits (pairs with a generosity score of 4 or
+higher) had mean #strong[5.68], median #strong[6], and range
+#strong[1--12] (first--third quartiles approximately 4--7). The observed
+count of #strong[27] lies far above every null draw: no permutation
+produced 27 or more hits. The one-sided #emph[p]-value is therefore
 
 \[ p = . \]
 
@@ -633,7 +653,7 @@ null world in the sample (27 vs 12).
 
 == 5.4 Sensitivity
 <sensitivity>
-Holding the empirical null distribution fixed, we asked how far the
+Holding the empirical null distribution fixed, I asked how far the
 observed hit count would have to fall before #emph[p] exceeded 0.05.
 With this null, an observed count of #strong[10] still yields #emph[p] ≈
 0.030, whereas #strong[9] yields #emph[p] ≈ 0.069. Relative to the
@@ -656,67 +676,71 @@ meaning-blind form similarity well above a shuffled baseline (#emph[p] ≈
 <study-2-lexibank-dual-attested-concepts-blust-filter>
 === Concept set
 <concept-set>
-Intersecting Lexibank concepts with ≥15 Tai-Kadai and ≥15 Austronesian
-languages (#strong[373]) with the Blust/ABVD 210 Concepticon list
-yielded #strong[194] analysis concepts. Coverage is high for core
-vocabulary (many concepts have 60+ Tai-Kadai and 500+ Austronesian
-languages before sampling).
+Intersecting Lexibank concepts with at least 15 Tai-Kadai and at least
+15 Austronesian languages (#strong[373]) with the Blust/ABVD 210
+Concepticon list (Greenhill, Blust & Gray 2008) yielded #strong[194]
+analysis concepts. Coverage is high for core vocabulary (many concepts
+have 60+ Tai-Kadai and 500+ Austronesian languages before sampling).
 
 === Observed set-versus-set scores
 <observed-set-versus-set-scores>
 On the #strong[194] concepts, generosity scores were dominated by 1--2
 (73 and 104 concepts respectively), with #strong[6] scoring 3 and
-#strong[11] scoring 4 (none scoring 5). Primary hits (generosity ≥ 4)
-are: #emph[eye], #emph[nose], #emph[eat], #emph[water], #emph[bite],
-#emph[shoulder], #emph[mother], #emph[this], #emph[we], #emph[blow (of
-wind)], and #emph[be dead or die]. Adding generosity 3 brings in
-#emph[fire], #emph[I], #emph[wing], #emph[ten], #emph[dust], and
-#emph[lightning] (#strong[17] total at ≥ 3). At the liberal ≥ 2 cut,
-#strong[121] concepts qualify---useful for sensitivity, but too
-inclusive for a primary claim.
+#strong[11] scoring 4 (none scoring 5). Primary hits (a generosity score
+of 4 or higher) are: #emph[eye], #emph[nose], #emph[eat], #emph[water],
+#emph[bite], #emph[shoulder], #emph[mother], #emph[this], #emph[we],
+#emph[blow (of wind)], and #emph[be dead or die]. Adding a generosity
+score of 3 brings in #emph[fire], #emph[I], #emph[wing], #emph[ten],
+#emph[dust], and #emph[lightning] (#strong[17] total at a score of 3 or
+higher). At the liberal cutoff of a score of 2 or higher, #strong[121]
+concepts qualify---useful for sensitivity, but too inclusive for a
+primary claim.
 
-Judge notes for ≥ 4 hits typically cite recurring skeletons familiar
-from classical comparisons (e.g.~#emph[mata]-like clusters for ‘eye';
-#emph[nam] / #emph[danum]-like shapes for ‘water'; #emph[kVn] for ‘eat';
-#emph[kat]-like shapes for ‘bite'). We treat these as transparency, not
+Judge notes for hits with a score of 4 or higher typically cite
+recurring skeletons familiar from classical comparisons
+(e.g.~#emph[mata]-like clusters for ‘eye'; #emph[nam] /
+#emph[danum]-like shapes for ‘water'; #emph[kVn] for ‘eat';
+#emph[kat]-like shapes for ‘bite'). I treat these as transparency, not
 as etymological endorsements.
 
 === Permutation null
 <permutation-null-3>
 Across #strong[30] random reassignments of Austronesian form groups to
-Tai-Kadai slots, hit counts were:
+Tai-Kadai slots, hit counts were as follows (each row is a cutoff on the
+1--5 generosity score):
 
 #figure(
   align(center)[#table(
-    columns: 5,
+    columns: (18.97%, 17.24%, 18.97%, 20.69%, 24.14%),
     align: (right,right,right,auto,right,),
-    table.header([Threshold], [Observed], [Null mean], [Null
+    table.header([Generosity cutoff], [Observed], [Null mean], [Null
       range], [One-sided #emph[p]],),
     table.hline(),
-    [≥ 2], [121], [91.7], [80--103], [0.032],
-    [≥ 3], [17], [5.7], [1--15], [0.032],
-    [≥ 4], [11], [2.2], [0--6], [0.032],
-    [≥ 5], [0], [0.2], [0--1], [1.0],
+    [2 or higher], [121], [91.7], [80--103], [0.032],
+    [3 or higher], [17], [5.7], [1--15], [0.032],
+    [4 or higher], [11], [2.2], [0--6], [0.032],
+    [5], [0], [0.2], [0--1], [1.0],
   )]
   , kind: table
   )
 
-No null world reached the observed count at ≥ 2, ≥ 3, or ≥ 4, so each of
-those #emph[p]-values equals the add-one floor #strong[1/31 ≈ 0.032].
-The ≥ 4 gap is especially clear: observed #strong[11] versus null mean
-#strong[2.2] (max #strong[6]). At ≥ 2 the absolute null is high (\~92),
-as expected for a liberal threshold, but the observed count still sits
-above every null draw.
+No null world reached the observed count at a score of 2 or higher, 3 or
+higher, or 4 or higher, so each of those #emph[p]-values equals the
+add-one floor #strong[1/31 ≈ 0.032]. The gap at a score of 4 or higher
+is especially clear: observed #strong[11] versus null mean #strong[2.2]
+(max #strong[6]). At a score of 2 or higher the absolute null is high
+(\~92), as expected for a liberal threshold, but the observed count
+still sits above every null draw.
 
 === Relation to Study 1
 <relation-to-study-1>
-Study 2's ≥ 4 hit rate (#strong[11/194 ≈ 5.7%]) is lower than Study 1's
-Tier A hit rate (#strong[27/79 ≈ 34%]), which is expected: comparing
-diverse modern form groups is a harder screen than comparing two curated
-proto-strings. The important parallel is directional and statistical: in
-both designs, same-slot / same-meaning pairings exceed a form-preserving
-shuffle. Study 2 does so #strong[without] relying on Smith's choice of
-reconstructions.
+Study 2's hit rate at a score of 4 or higher (#strong[11/194 ≈ 5.7%]) is
+lower than Study 1's Tier A hit rate (#strong[27/79 ≈ 34%]), which is
+expected: comparing diverse modern form groups is a harder screen than
+comparing two curated proto-strings. The important parallel is
+directional and statistical: in both designs, same-slot / same-meaning
+pairings exceed a form-preserving shuffle. Study 2 does so
+#strong[without] relying on Smith's choice of reconstructions.
 
 == 5.7 Summary of findings
 <summary-of-findings>
@@ -724,9 +748,10 @@ Study 1 finds that Smith's remaining PAN--PKD alignments, after Lexibank
 attestation filters, show meaning-blind form similarity far above a
 shuffled baseline (#emph[p] ≈ 0.01). Study 2 finds that dual-attested
 Lexibank form inventories on a Blust concept filter likewise exceed a
-group-shuffle null at generosity ≥ 2, ≥ 3, and ≥ 4 (#emph[p] ≈ 0.032,
-#emph[N] = 30). The next section discusses what this does and does not
-imply for the Austro-Tai hypothesis.
+group-shuffle null at a generosity score of 2 or higher, 3 or higher,
+and 4 or higher (#emph[p] ≈ 0.032, #emph[N] = 30). The next section
+discusses what this does and does not imply for the Austro-Tai
+hypothesis.
 
 == Figure: Null distribution
 <figure-null-distribution>
@@ -736,9 +761,9 @@ imply for the Austro-Tai hypothesis.
   ]
 )
 
-#strong[Figure 2.] Distribution of hit counts under 100 random
-reassignments of Tier A PAN forms to Tier A PKD slots. Red line:
-observed hits (27).
+#strong[Figure 2.] Distribution of hit counts (generosity score of 4 or
+higher) under 100 random reassignments of Tier A PAN forms to Tier A PKD
+slots. Red line: observed hits (27).
 
 = 6. Discussion
 <discussion>
@@ -748,25 +773,26 @@ After Lexibank-facing filters, Smith's (2025) remaining PAN--PKD
 alignments show meaning-blind form similarity far above a shuffled
 baseline (#emph[p] ≈ 0.01 under #emph[N] = 100 permutations).
 Independently, dual-attested Lexibank form groups on a Blust/ABVD
-concept filter also exceed a group-shuffle null at primary thresholds
-(#emph[p] ≈ 0.032 under #emph[N] = 30). The natural reading is that
-#strong[excess form resemblance under these screens is not an artifact
-of a single reconstruction spreadsheet]: Study 2 never sees Smith's
-proto-forms, yet still finds same-meaning form groups more similar than
-cross-meaning form groups.
+concept filter also exceed a group-shuffle null at the primary
+generosity cutoffs (a score of 4 or higher, and also 3 or higher and 2
+or higher; #emph[p] ≈ 0.032 under #emph[N] = 30). The natural reading is
+that #strong[excess form resemblance under these screens is not an
+artifact of a single reconstruction spreadsheet]: Study 2 never sees
+Smith's proto-forms, yet still finds same-meaning form groups more
+similar than cross-meaning form groups.
 
 That is a claim about #strong[strength of evidence under stated
 controls], not a demonstration of genetic relatedness. Classical
 arguments for Austro-Tai (especially Ostapirat 2005, 2013) turn on
 #strong[regular phonological correspondences] and reconstructibility.
-Our judges may note plausible segment matches in free text, but they do
-not enforce a correspondence system, reconstruct intermediate stages, or
-distinguish inheritance from old loans that have been internalized in
-daughter vocabularies. Contact with Sinitic and mainland Southeast Asian
-languages remains a live alternative for some lookalikes. Excess
-aggregate hits therefore motivate further comparative work---including
-correspondence inventories over Study 2's hit concepts---they do not
-finish it.
+The scoring model may note plausible segment matches in free text, but
+it does not enforce a correspondence system, reconstruct intermediate
+stages, or distinguish inheritance from old loans that have been
+internalized in daughter vocabularies. Contact with Sinitic and mainland
+Southeast Asian languages remains a live alternative for some
+lookalikes. Excess aggregate hits therefore motivate further comparative
+work---including correspondence inventories over Study 2's hit
+concepts---they do not finish it.
 
 Relative to the two main modern phylogenetic frames---Ostapirat's
 sister-family construal and Sagart's Austronesian-linked
@@ -822,8 +848,9 @@ Several limits bound interpretation.
 and fixed prompts. Other models or stricter prompts would change
 absolute hit rates; the permutation comparison is meaningful only
 relative to the same scoring function. Threshold choice matters
-especially in Study 2: ≥ 2 yields many hits and a high null baseline; ≥
-4 is sparse but cleanly separated from the null.
+especially in Study 2: a cutoff of 2 or higher yields many hits and a
+high null baseline; a cutoff of 4 or higher is sparse but cleanly
+separated from the null.
 
 #strong[Prior knowledge of etymologies.] Large language models may have
 seen published Austro-Tai comparisons in training data.
@@ -841,7 +868,7 @@ splits Blust glosses.
 
 #strong[Smith's preliminary character (Study 1).] The Zenodo package is
 preliminary and versioned. Future releases may revise reconstructions;
-our frozen counts apply to v1.1 as parsed.
+my frozen counts apply to v1.1 as parsed.
 
 #strong[Null design and #emph[N].] Study 1 uses #emph[N] = 100; Study 2
 uses #emph[N] = 30 (costly set-versus-set calls). Study 2's #emph[p] ≈
@@ -858,30 +885,32 @@ body-part and verb hits more heavily pending correspondence work.
 <future-work>
 Useful extensions include larger #emph[N] for Study 2's null tail; human
 expert re-rating of hits; exploratory #strong[regular correspondence]
-inventories over Study 2 hit concepts (at generosity ≥ 4, ≥ 3, and ≥ 2);
-correspondence-constrained scoring (encoding Ostapirat-style systems as
-hard filters); and parallel audits of other published Austro-Tai lists
-under Study 1's two-layer design.
+inventories over Study 2 hit concepts (at a generosity score of 4 or
+higher, 3 or higher, and 2 or higher); correspondence-constrained
+scoring (encoding Ostapirat-style systems as hard filters); and parallel
+audits of other published Austro-Tai lists under Study 1's two-layer
+design.
 
 #divider()
 
 = 7. Conclusion
 <conclusion>
-We reported two meaning-blind permutation screens of Austro-Tai lexical
+I reported two meaning-blind permutation screens of Austro-Tai lexical
 resemblance. #strong[Study 1] audited Alexander D. Smith's (2025)
 gloss-aligned PAN--PKD reconstructions with Lexibank attestation
 filters: on 79 Tier A pairs, 27 high form-similarity hits stand against
 a null mean of about 5.7 (#emph[p] ≈ 0.01, #emph[N] = 100).
 #strong[Study 2] compared dual-attested Lexibank Tai-Kadai and
 Austronesian form groups on 194 Blust/ABVD concepts, without
-reconstructions: hits at generosity ≥ 4 / ≥ 3 / ≥ 2 were 11 / 17 / 121
-against null means of about 2.2 / 5.7 / 91.7 (#emph[p] ≈ 0.032, #emph[N]
-\= 30). Study 2 is the more robust check against cherry-picked
-reconstructions because concept and form selection do not inherit an
-author's comparative spreadsheet. Together, the studies strengthen the
-case that excess form resemblance under these screens is not merely an
-artifact of meaning-matched browsing---while leaving genetic proof to
-systematic sound correspondences and classical reconstruction.
+reconstructions: hits at a generosity score of 4 or higher / 3 or higher
+\/ 2 or higher were 11 / 17 / 121 against null means of about 2.2 / 5.7
+\/ 91.7 (#emph[p] ≈ 0.032, #emph[N] = 30). Study 2 is the more robust
+check against cherry-picked reconstructions because concept and form
+selection do not inherit an author's comparative spreadsheet. Together,
+the studies strengthen the case that excess form resemblance under these
+screens is not merely an artifact of meaning-matched browsing---while
+leaving genetic proof to systematic sound correspondences and classical
+reconstruction.
 
 = Appendix
 <appendix>
@@ -998,8 +1027,8 @@ Sampling algorithm (`src/an_sampling.sample_austronesian_forms`):
   clades with leftover forms.
 + Use fixed seed `AN_SAMPLE_SEED = 1` for reproducibility.
 
-== Appendix C. Tier A hits (generosity ≥ 4)
-<appendix-c.-tier-a-hits-generosity-4>
+== Appendix C. Tier A hits (a generosity score of 4 or higher)
+<appendix-c.-tier-a-hits-a-generosity-score-of-4-or-higher>
 Observed hits: #strong[27] / 79 Tier A pairs (18 with generosity 5; 9
 with generosity 4). Null (#emph[N] = 100): mean 5.68, range 1--12;
 one-sided #emph[p] = 0.0099.
@@ -1115,8 +1144,9 @@ one-sided #emph[p] = 0.0099.
   #link("https://doi.org/10.5281/zenodo.15597357")[10.5281/zenodo.15597357],
   release v1.1 (#emph[Austro-Tai comparative dataset
   (Reconstructions)]).
-- #strong[Lexibank 2:] `lexibank-analysed` v2.2 (Concepticon-linked
-  forms; Tai-Kadai and Austronesian subsets as described in §3--4).
+- #strong[Lexibank 2:] List et al.~(2022); `lexibank-analysed` v2.2
+  (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as
+  described in §3--4).
 - #strong[Blust / ABVD concept list:] Concepticon contribution
   Blust-2008-210 (Greenhill, Blust & Gray 2008).
 - #strong[Analysis code and frozen outputs:]
@@ -1131,13 +1161,15 @@ one-sided #emph[p] = 0.0099.
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>
 Observed on #strong[194] concepts; null #emph[N] = 30; one-sided
-#emph[p] = 1/31 ≈ 0.032 at ≥ 2, ≥ 3, and ≥ 4.
+#emph[p] = 1/31 ≈ 0.032 at a generosity score of 2 or higher, 3 or
+higher, and 4 or higher.
 
-#strong[Generosity ≥ 4 (#emph[n] = 11):] eye; nose; eat; water; bite;
-shoulder; mother; this; we; blow (of wind); be dead or die.
+#strong[Generosity score of 4 or higher (#emph[n] = 11):] eye; nose;
+eat; water; bite; shoulder; mother; this; we; blow (of wind); be dead or
+die.
 
-#strong[Generosity = 3 (#emph[n] = 6; total ≥ 3 = 17):] fire; I; wing;
-ten; dust; lightning.
+#strong[Generosity score of 3 (#emph[n] = 6; total at 3 or higher =
+17):] fire; I; wing; ten; dust; lightning.
 
 Full scores and model notes:
 `output/attested_judgments_observed_blust194.csv`.
