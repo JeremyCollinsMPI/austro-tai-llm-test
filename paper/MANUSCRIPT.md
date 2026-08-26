@@ -198,6 +198,10 @@ The Study 2 null is the same idea as in Study 1, applied to form groups rather t
 
 Study 2 therefore tests whether **same-meaning** modern form inventories look more alike, under a generous meaning-blind screen, than **cross-meaning** inventories drawn from the same concept set—without relying on which reconstructions an author chose to publish.
 
+## 4.7 Sinitic loan plausibility screen (post hoc)
+
+Contact with Sinitic is a standard alternative to inheritance for some Austronesian–Kra-Dai lookalikes. After the meaning-blind tests, I therefore ran a separate, **meaning-aware** screen on the observed hits (Study 1 Tier A pairs and Study 2 Blust concepts with a generosity score of 4 or higher). For each hit the same chat model (`gpt-4.1`) was shown the gloss/concept and the forms (Study 1: PAN and PKD strings; Study 2: concept label plus the model’s earlier shared-shape notes) and asked how plausible it is that the shared resemblance reflects a **Chinese loan into Tai-Kadai and/or Austronesian** (1–5 scale, with a short reason). This is not a classical etymological demonstration; it is a transparent check on whether a common Sinitic-donor story looks attractive for the items that drive the permutation results. Machine-readable scores: `output/sinitic_screen_hits.csv`.
+
 
 
 # 5. Results
@@ -295,7 +299,7 @@ Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank atte
 
 After Lexibank-facing filters, Smith’s (2025) remaining PAN–PKD alignments show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01 under *N* = 100 permutations). Independently, dual-attested Lexibank form groups on a Blust/ABVD concept filter also exceed a group-shuffle null at the primary generosity cutoffs (a score of 4 or higher, and also 3 or higher and 2 or higher; *p* ≈ 0.032 under *N* = 30). The natural reading is that **excess form resemblance under these screens is not an artifact of a single reconstruction spreadsheet**: Study 2 never sees Smith’s proto-forms, yet still finds same-meaning form groups more similar than cross-meaning form groups.
 
-That is a claim about **strength of evidence under stated controls**, not a demonstration of genetic relatedness. Classical arguments for Austro-Tai (especially Ostapirat 2005, 2013) turn on **regular phonological correspondences** and reconstructibility. The scoring model may note plausible segment matches in free text, but it does not enforce a correspondence system, reconstruct intermediate stages, or distinguish inheritance from old loans that have been internalized in daughter vocabularies. Contact with Sinitic and mainland Southeast Asian languages remains a live alternative for some lookalikes. Excess aggregate hits therefore motivate further comparative work—including correspondence inventories over Study 2’s hit concepts—they do not finish it.
+That is a claim about **strength of evidence under stated controls**, not a demonstration of genetic relatedness. Classical arguments for Austro-Tai (especially Ostapirat 2005, 2013) turn on **regular phonological correspondences** and reconstructibility. The scoring model may note plausible segment matches in free text, but it does not enforce a correspondence system, reconstruct intermediate stages, or distinguish inheritance from old loans that have been internalized in daughter vocabularies. Contact with Sinitic and mainland Southeast Asian languages remains a live alternative for some lookalikes in principle. I therefore investigated whether the observed hits themselves look like a **Chinese loan** pathway into Tai-Kadai and/or Austronesian (§4.7; Appendix G): across **38** hits (Study 1 and Study 2 combined), Chinese-loan plausibility scores were overwhelmingly low (21 scored 1, 14 scored 2; mean ≈ 1.55), with only **three** items at 3 or higher and a single score of 4 (*be dead or die* in Study 2). That pattern makes a story in which **Sinitic is the common donor** for the hit set look unattractive under this screen—it does not rule out non-Sinitic contact, older areal diffusion, or item-specific loans outside the hit list. Excess aggregate hits therefore still motivate further comparative work—including correspondence inventories over Study 2’s hit concepts—they do not finish it.
 
 Relative to the two main modern phylogenetic frames—Ostapirat’s sister-family construal and Sagart’s Austronesian-linked architecture—the results are **compatible with “there is non-chance lexical signal to explain”** and **agnostic** on tree geometry.
 
@@ -542,7 +546,7 @@ Observed hits: **27** / 79 Tier A pairs (18 with generosity 5; 9 with generosity
 - **Smith (2025) reconstructions:** Zenodo DOI [10.5281/zenodo.15597357](https://doi.org/10.5281/zenodo.15597357), release v1.1 (*Austro-Tai comparative dataset (Reconstructions)*).
 - **Lexibank 2:** List et al. (2022); `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as described in §3–4).
 - **Blust / ABVD concept list:** Concepticon contribution Blust-2008-210 (Greenhill, Blust & Gray 2008).
-- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute). Model: `gpt-4.1` via project NLP chat endpoint. Frozen summaries: `output/permutation_results.json` (Study 1); `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv` (Study 2).
+- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute; post hoc `sinitic-screen`). Model: `gpt-4.1` via project NLP chat endpoint. Frozen summaries: `output/permutation_results.json` (Study 1); `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv` (Study 2); `output/sinitic_screen_hits.csv` (Chinese-loan plausibility on hits).
 
 ## Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 
@@ -553,6 +557,53 @@ Observed on **194** concepts; null *N* = 30; one-sided *p* = 1/31 ≈ 0.032 at a
 **Generosity score of 3 (*n* = 6; total at 3 or higher = 17):** fire; I; wing; ten; dust; lightning.
 
 Full scores and model notes: `output/attested_judgments_observed_blust194.csv`.
+
+## Appendix G. Sinitic loan plausibility screen
+
+Post hoc meaning-aware screen (§4.7) on observed hits with a generosity score of 4 or higher (*n* = 38). Score 1–5 = how plausible a **Chinese loan into Tai-Kadai and/or Austronesian** is as an explanation of the shared resemblance. Full reasons: `output/sinitic_screen_hits.csv`.
+
+**Summary.** Counts at scores 1–5: **21 / 14 / 2 / 1 / 0** (mean ≈ 1.55). Only three items scored 3 or higher: Study 1 *eat* (3); Study 2 *we* (3); Study 2 *be dead or die* (4).
+
+| Study | Gloss / concept | Hit score | Chinese-loan plausibility | Suggested direction |
+|------:|-----------------|----------:|--------------------------:|---------------------|
+| 1 | 1sg | 5 | 1 | not applicable |
+| 1 | 2sg | 5 | 1 | not applicable |
+| 1 | afraid; fear | 5 | 2 | not applicable |
+| 1 | bird; chicken | 4 | 2 | not applicable |
+| 1 | dark; black | 5 | 2 | not applicable |
+| 1 | deep | 4 | 1 | not applicable |
+| 1 | die | 5 | 2 | not applicable |
+| 1 | drop; fall | 5 | 2 | not applicable |
+| 1 | eat | 5 | 3 | into Kra-Dai |
+| 1 | excrement | 4 | 1 | not applicable |
+| 1 | fart | 5 | 1 | not applicable |
+| 1 | fire | 4 | 2 | not applicable |
+| 1 | five | 5 | 1 | not applicable |
+| 1 | head | 4 | 1 | not applicable |
+| 1 | hold; grab | 5 | 2 | not applicable |
+| 1 | louse | 4 | 1 | not applicable |
+| 1 | moon | 5 | 1 | not applicable |
+| 1 | nine | 5 | 1 | not applicable |
+| 1 | shoulder | 4 | 2 | not applicable |
+| 1 | six | 5 | 1 | not applicable |
+| 1 | sky | 4 | 2 | not applicable |
+| 1 | this | 5 | 1 | not applicable |
+| 1 | tongue2 | 5 | 1 | not applicable |
+| 1 | tooth | 5 | 1 | not applicable |
+| 1 | vomit | 5 | 1 | not applicable |
+| 1 | wash | 4 | 2 | not applicable |
+| 1 | water | 5 | 1 | not applicable |
+| 2 | eye | 4 | 1 | not applicable |
+| 2 | nose | 4 | 1 | not applicable |
+| 2 | eat | 4 | 2 | into Kra-Dai |
+| 2 | water | 4 | 1 | not applicable |
+| 2 | bite | 4 | 2 | not applicable |
+| 2 | shoulder | 4 | 2 | not applicable |
+| 2 | mother | 4 | 1 | not applicable |
+| 2 | this | 4 | 1 | not applicable |
+| 2 | we | 4 | 3 | into Kra-Dai |
+| 2 | blow (of wind) | 4 | 2 | not applicable |
+| 2 | be dead or die | 4 | 4 | into Kra-Dai |
 
 
 

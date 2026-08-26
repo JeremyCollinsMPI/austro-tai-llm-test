@@ -13,6 +13,7 @@ from src.permute import run_permutation_test
 from src.pan_validate import run_pan_reconstruction_validation
 from src.reconstruction_validate import run_reconstruction_validation
 from src.report import build_report
+from src.sinitic_screen import run_sinitic_screen
 
 
 def cmd_parse(_: argparse.Namespace) -> None:
@@ -99,6 +100,16 @@ def cmd_correspondences(args: argparse.Namespace) -> None:
         core_path=Path(args.core) if args.core else None,
         include_nonhit_controls=not args.no_controls,
         label=args.label,
+    )
+
+
+def cmd_sinitic_screen(args: argparse.Namespace) -> None:
+    run_sinitic_screen(
+        min_generosity=args.min_generosity,
+        batch_size=args.batch_size,
+        study1_path=Path(args.study1) if args.study1 else None,
+        study2_path=Path(args.study2) if args.study2 else None,
+        output_path=Path(args.output) if args.output else None,
     )
 
 
@@ -211,6 +222,17 @@ def main() -> None:
     corr.add_argument("--label", default="blust194")
     corr.add_argument("--no-controls", action="store_true", help="Skip non-hit control concepts")
     corr.set_defaults(func=cmd_correspondences)
+
+    sinitic = sub.add_parser(
+        "sinitic-screen",
+        help="Ask NLP whether observed hits could be Chinese loans into TK and/or AN",
+    )
+    sinitic.add_argument("--min-generosity", type=int, default=4)
+    sinitic.add_argument("--batch-size", type=int, default=8)
+    sinitic.add_argument("--study1", help="Study 1 observed judgments CSV")
+    sinitic.add_argument("--study2", help="Study 2 observed judgments CSV")
+    sinitic.add_argument("--output", help="Output CSV path")
+    sinitic.set_defaults(func=cmd_sinitic_screen)
 
     sub.add_parser("report", help="Build markdown report").set_defaults(func=cmd_report)
 

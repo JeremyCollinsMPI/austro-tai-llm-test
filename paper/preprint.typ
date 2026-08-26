@@ -573,6 +573,23 @@ inventories look more alike, under a generous meaning-blind screen, than
 set---without relying on which reconstructions an author chose to
 publish.
 
+== 4.7 Sinitic loan plausibility screen (post hoc)
+<sinitic-loan-plausibility-screen-post-hoc>
+Contact with Sinitic is a standard alternative to inheritance for some
+Austronesian--Kra-Dai lookalikes. After the meaning-blind tests, I
+therefore ran a separate, #strong[meaning-aware] screen on the observed
+hits (Study 1 Tier A pairs and Study 2 Blust concepts with a generosity
+score of 4 or higher). For each hit the same chat model (`gpt-4.1`) was
+shown the gloss/concept and the forms (Study 1: PAN and PKD strings;
+Study 2: concept label plus the model's earlier shared-shape notes) and
+asked how plausible it is that the shared resemblance reflects a
+#strong[Chinese loan into Tai-Kadai and/or Austronesian] (1--5 scale,
+with a short reason). This is not a classical etymological
+demonstration; it is a transparent check on whether a common
+Sinitic-donor story looks attractive for the items that drive the
+permutation results. Machine-readable scores:
+`output/sinitic_screen_hits.csv`.
+
 = 5. Results
 <results>
 == 5.1 From Smith's sheet to Tier A
@@ -789,8 +806,18 @@ The scoring model may note plausible segment matches in free text, but
 it does not enforce a correspondence system, reconstruct intermediate
 stages, or distinguish inheritance from old loans that have been
 internalized in daughter vocabularies. Contact with Sinitic and mainland
-Southeast Asian languages remains a live alternative for some
-lookalikes. Excess aggregate hits therefore motivate further comparative
+Southeast Asian languages remains a live alternative for some lookalikes
+in principle. I therefore investigated whether the observed hits
+themselves look like a #strong[Chinese loan] pathway into Tai-Kadai
+and/or Austronesian (§4.7; Appendix G): across #strong[38] hits (Study 1
+and Study 2 combined), Chinese-loan plausibility scores were
+overwhelmingly low (21 scored 1, 14 scored 2; mean ≈ 1.55), with only
+#strong[three] items at 3 or higher and a single score of 4 (#emph[be
+dead or die] in Study 2). That pattern makes a story in which
+#strong[Sinitic is the common donor] for the hit set look unattractive
+under this screen---it does not rule out non-Sinitic contact, older
+areal diffusion, or item-specific loans outside the hit list. Excess
+aggregate hits therefore still motivate further comparative
 work---including correspondence inventories over Study 2's hit
 concepts---they do not finish it.
 
@@ -1152,11 +1179,12 @@ one-sided #emph[p] = 0.0099.
 - #strong[Analysis code and frozen outputs:]
   #link("https://github.com/jeremycollinsmpi/austro-tai-llm-test")
   (Study 1: parse → attest / validate-pan → judge → permute → report;
-  Study 2: attested-core → attested-judge → attested-permute). Model:
-  `gpt-4.1` via project NLP chat endpoint. Frozen summaries:
-  `output/permutation_results.json` (Study 1);
+  Study 2: attested-core → attested-judge → attested-permute; post hoc
+  `sinitic-screen`). Model: `gpt-4.1` via project NLP chat endpoint.
+  Frozen summaries: `output/permutation_results.json` (Study 1);
   `output/attested_permutation_results_blust194_n30.json` and
-  `output/attested_judgments_null_blust194_n30.csv` (Study 2).
+  `output/attested_judgments_null_blust194_n30.csv` (Study 2);
+  `output/sinitic_screen_hits.csv` (Chinese-loan plausibility on hits).
 
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>
@@ -1173,6 +1201,67 @@ die.
 
 Full scores and model notes:
 `output/attested_judgments_observed_blust194.csv`.
+
+== Appendix G. Sinitic loan plausibility screen
+<appendix-g.-sinitic-loan-plausibility-screen>
+Post hoc meaning-aware screen (§4.7) on observed hits with a generosity
+score of 4 or higher (#emph[n] = 38). Score 1--5 = how plausible a
+#strong[Chinese loan into Tai-Kadai and/or Austronesian] is as an
+explanation of the shared resemblance. Full reasons:
+`output/sinitic_screen_hits.csv`.
+
+#strong[Summary.] Counts at scores 1--5: #strong[21 / 14 / 2 / 1 / 0]
+(mean ≈ 1.55). Only three items scored 3 or higher: Study 1 #emph[eat]
+(3); Study 2 #emph[we] (3); Study 2 #emph[be dead or die] (4).
+
+#figure(
+  align(center)[#table(
+    columns: (8.43%, 20.48%, 13.25%, 32.53%, 25.3%),
+    align: (right,auto,right,right,auto,),
+    table.header([Study], [Gloss / concept], [Hit score], [Chinese-loan
+      plausibility], [Suggested direction],),
+    table.hline(),
+    [1], [1sg], [5], [1], [not applicable],
+    [1], [2sg], [5], [1], [not applicable],
+    [1], [afraid; fear], [5], [2], [not applicable],
+    [1], [bird; chicken], [4], [2], [not applicable],
+    [1], [dark; black], [5], [2], [not applicable],
+    [1], [deep], [4], [1], [not applicable],
+    [1], [die], [5], [2], [not applicable],
+    [1], [drop; fall], [5], [2], [not applicable],
+    [1], [eat], [5], [3], [into Kra-Dai],
+    [1], [excrement], [4], [1], [not applicable],
+    [1], [fart], [5], [1], [not applicable],
+    [1], [fire], [4], [2], [not applicable],
+    [1], [five], [5], [1], [not applicable],
+    [1], [head], [4], [1], [not applicable],
+    [1], [hold; grab], [5], [2], [not applicable],
+    [1], [louse], [4], [1], [not applicable],
+    [1], [moon], [5], [1], [not applicable],
+    [1], [nine], [5], [1], [not applicable],
+    [1], [shoulder], [4], [2], [not applicable],
+    [1], [six], [5], [1], [not applicable],
+    [1], [sky], [4], [2], [not applicable],
+    [1], [this], [5], [1], [not applicable],
+    [1], [tongue2], [5], [1], [not applicable],
+    [1], [tooth], [5], [1], [not applicable],
+    [1], [vomit], [5], [1], [not applicable],
+    [1], [wash], [4], [2], [not applicable],
+    [1], [water], [5], [1], [not applicable],
+    [2], [eye], [4], [1], [not applicable],
+    [2], [nose], [4], [1], [not applicable],
+    [2], [eat], [4], [2], [into Kra-Dai],
+    [2], [water], [4], [1], [not applicable],
+    [2], [bite], [4], [2], [not applicable],
+    [2], [shoulder], [4], [2], [not applicable],
+    [2], [mother], [4], [1], [not applicable],
+    [2], [this], [4], [1], [not applicable],
+    [2], [we], [4], [3], [into Kra-Dai],
+    [2], [blow (of wind)], [4], [2], [not applicable],
+    [2], [be dead or die], [4], [4], [into Kra-Dai],
+  )]
+  , kind: table
+  )
 
 = References
 <references>

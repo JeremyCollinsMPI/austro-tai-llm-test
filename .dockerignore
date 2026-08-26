@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.DS_Store
+cache/
+output/*.log
+.git/
+data/lexibank/forms.csv.zip
+data/lexibank/*_attestation*.json
+data/abvd/forms.csv
