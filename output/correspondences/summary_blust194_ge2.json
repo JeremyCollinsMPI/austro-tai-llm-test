@@ -1,0 +1,8 @@
+{
+  "label": "blust194",
+  "min_generosity": 2,
+  "n_analyses": 124,
+  "n_mappings": 640,
+  "raw_path": "/app/output/correspondences/analyses_blust194_ge2.json",
+  "mappings_path": "/app/output/correspondences/mappings_blust194_ge2.csv"
+}

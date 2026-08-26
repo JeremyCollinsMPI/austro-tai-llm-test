@@ -1,0 +1,616 @@
+{
+  "n_pairs": 79,
+  "generosity_threshold": 4,
+  "observed_hits": 27,
+  "observed_hit_rate": 0.34177215189873417,
+  "n_permutations": 100,
+  "seed": 1,
+  "null_hits_mean": 5.68,
+  "null_hits_min": 1,
+  "null_hits_max": 12,
+  "p_value_one_sided": 0.009900990099009901,
+  "null_hits": [
+    5,
+    6,
+    6,
+    7,
+    6,
+    5,
+    4,
+    3,
+    7,
+    6,
+    5,
+    3,
+    3,
+    8,
+    6,
+    5,
+    4,
+    4,
+    2,
+    4,
+    5,
+    7,
+    4,
+    8,
+    3,
+    3,
+    3,
+    7,
+    4,
+    7,
+    5,
+    7,
+    7,
+    2,
+    6,
+    4,
+    7,
+    6,
+    9,
+    4,
+    7,
+    3,
+    8,
+    7,
+    5,
+    1,
+    5,
+    5,
+    4,
+    7,
+    8,
+    5,
+    5,
+    7,
+    8,
+    7,
+    3,
+    8,
+    5,
+    8,
+    2,
+    8,
+    5,
+    5,
+    7,
+    4,
+    3,
+    4,
+    8,
+    7,
+    9,
+    8,
+    8,
+    7,
+    3,
+    4,
+    3,
+    10,
+    8,
+    7,
+    6,
+    9,
+    6,
+    12,
+    7,
+    2,
+    5,
+    3,
+    6,
+    8,
+    4,
+    7,
+    6,
+    9,
+    7,
+    6,
+    5,
+    7,
+    6,
+    4
+  ],
+  "permutation_summaries": [
+    {
+      "permutation_id": 1,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 2,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 3,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 4,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 5,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 6,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 7,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 8,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 9,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 10,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 11,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 12,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 13,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 14,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 15,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 16,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 17,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 18,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 19,
+      "n_hits": 2,
+      "hit_rate": 0.02531645569620253
+    },
+    {
+      "permutation_id": 20,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 21,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 22,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 23,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 24,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 25,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 26,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 27,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 28,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 29,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 30,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 31,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 32,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 33,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 34,
+      "n_hits": 2,
+      "hit_rate": 0.02531645569620253
+    },
+    {
+      "permutation_id": 35,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 36,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 37,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 38,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 39,
+      "n_hits": 9,
+      "hit_rate": 0.11392405063291139
+    },
+    {
+      "permutation_id": 40,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 41,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 42,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 43,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 44,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 45,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 46,
+      "n_hits": 1,
+      "hit_rate": 0.012658227848101266
+    },
+    {
+      "permutation_id": 47,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 48,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 49,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 50,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 51,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 52,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 53,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 54,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 55,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 56,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 57,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 58,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 59,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 60,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 61,
+      "n_hits": 2,
+      "hit_rate": 0.02531645569620253
+    },
+    {
+      "permutation_id": 62,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 63,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 64,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 65,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 66,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 67,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 68,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 69,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 70,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 71,
+      "n_hits": 9,
+      "hit_rate": 0.11392405063291139
+    },
+    {
+      "permutation_id": 72,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 73,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 74,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 75,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 76,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 77,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 78,
+      "n_hits": 10,
+      "hit_rate": 0.12658227848101267
+    },
+    {
+      "permutation_id": 79,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 80,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 81,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 82,
+      "n_hits": 9,
+      "hit_rate": 0.11392405063291139
+    },
+    {
+      "permutation_id": 83,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 84,
+      "n_hits": 12,
+      "hit_rate": 0.1518987341772152
+    },
+    {
+      "permutation_id": 85,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 86,
+      "n_hits": 2,
+      "hit_rate": 0.02531645569620253
+    },
+    {
+      "permutation_id": 87,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 88,
+      "n_hits": 3,
+      "hit_rate": 0.0379746835443038
+    },
+    {
+      "permutation_id": 89,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 90,
+      "n_hits": 8,
+      "hit_rate": 0.10126582278481013
+    },
+    {
+      "permutation_id": 91,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    },
+    {
+      "permutation_id": 92,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 93,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 94,
+      "n_hits": 9,
+      "hit_rate": 0.11392405063291139
+    },
+    {
+      "permutation_id": 95,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 96,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 97,
+      "n_hits": 5,
+      "hit_rate": 0.06329113924050633
+    },
+    {
+      "permutation_id": 98,
+      "n_hits": 7,
+      "hit_rate": 0.08860759493670886
+    },
+    {
+      "permutation_id": 99,
+      "n_hits": 6,
+      "hit_rate": 0.0759493670886076
+    },
+    {
+      "permutation_id": 100,
+      "n_hits": 4,
+      "hit_rate": 0.05063291139240506
+    }
+  ]
+}

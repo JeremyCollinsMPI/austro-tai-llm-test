@@ -1,0 +1,74 @@
+language_id,name,glottocode,clade,glottolog_path,n_forms
+castrosui-ShuigenCentralSandong,Sandong,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,606
+castrosui-ZhongheCentralSandong,Zhonghe,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,588
+castrosui-TangzhouWesternSandong,Tangzhou,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,586
+castrosui-TingpaiWesternSandong,Tingpai,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,591
+castrosui-AntangWesternSandong,Antang,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,592
+castrosui-DujiangEasternSandong,Dujiang,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,591
+castrosui-SanjiangEasternSandong,Sanjiang,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,592
+castrosui-RenliEasternSandong,Renli,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,590
+castrosui-JiuqianSouthernSandong,Jiuqian,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,604
+castrosui-ShuiyaoSouthernSandong,Shuiyao,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,590
+castrosui-JiarongSouthernSandong,Jiarong,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,583
+castrosui-ShuiweiSouthernSandong,Shuiwei,sand1270,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/sand1270,595
+castrosui-Pandong,Pandong,pand1262,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/pand1262,588
+castrosui-JiaoliPandong,Jiaoli,pand1262,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/pand1262,586
+castrosui-TangnianYangAn,Tangnian,anya1244,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/anya1244,594
+castrosui-BanliangYangAn,Banliang,anya1244,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243/anya1244,583
+castrozhuang-LuzhaiSipai,Luzhai Sipai,liuq1235,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/liuq1235,531
+castrozhuang-LuzhaiLuzhai,Luzhai Luzhai,liuq1235,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/liuq1235,543
+castrozhuang-XiangzhouDale,Xiangzhou Dale,liuq1235,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/liuq1235,522
+castrozhuang-XiangzhouYunjiang,Xiangzhou Yunjiang,liuq1235,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/liuq1235,531
+castrozhuang-WuxuanTongling,Wuxuan Tongling,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,526
+castrozhuang-WuxuanHuangmao,Wuxuan Huangmao,liuq1235,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/liuq1235,533
+castrozhuang-GuipingShilong,Guiping Shilong,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,519
+castrozhuang-GangbeiZhongli,Gangbei Zhongli,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,522
+castrozhuang-XingbinSishan,Xingbin Sishan,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,525
+castrozhuang-XingbinQianjiang,Xingbin Qianjiang,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,519
+castrozhuang-ShanglinTanghong,Shanglin Tanghong,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,538
+castrozhuang-ShanglinMingliang,Shanglin Mingliang,east2363,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/east2363,531
+castrozhuang-MashanYongzhou,Mashan Yongzhou,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,520
+castrozhuang-MashanBaishan,Mashan Baishan,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,522
+castrozhuang-DahuaYantan,Dahua Yantan,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,517
+castrozhuang-DahuaLiushui,Dahua Liushui,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,519
+castrozhuang-DuAnGaoling,Du'an Gaoling,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,524
+castrozhuang-DuAnBaiwang,Du'an Baiwang,cent2009,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/hong1247/west3011/cent2009,522
+idssegmented-centralthai,Central Thai,thai1261,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/thai1261,1756
+idssegmented-southerntaisongkhlavariety,Southern Tai (Songkhla variety),sout2746,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/sout2746,1388
+idssegmented-thaikoratvariety,Thai (Korat variety),sout2746,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/sout2746,1372
+idssegmented-khamuangchiangmaivariety,Khamuang (Chiang Mai variety),nort2740,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/sout2744/yuan1245/nort2740,1318
+idssegmented-dehong,Dehong,tain1252,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/assa1264/nort2739/tain1252,1550
+idssegmented-tailu,Tai Lü,luuu1242,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/assa1264/nort2739/luey1235/luuu1242,1367
+idssegmented-taikhun,Tai Khün,khun1259,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/sout2744/yuan1245/khun1259,1555
+idssegmented-shan,Shan,shan1277,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/sout2744/shan1277,1474
+idssegmented-shannorthernshandialect,Shan (Northern Shan dialect),shan1277,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sout2743/shan1276/sout2744/shan1277,1894
+idssegmented-nungfengshan,Nung-Fengshan,guib1244,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/yeiz1235/guib1244,1448
+idssegmented-nunglazhai,Nung-Lazhai,guib1244,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/nort3189/yeiz1235/guib1244,1668
+idssegmented-nungninbei,Nung-Ninbei,nung1283,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/deba1238/nung1283,1284
+idssegmented-zhuanglongzhou,Zhuang-Longzhou,zuoj1238,tai,taik1256/kamt1241/daic1238/daic1237/nort3326/nort3180/zuoj1238,1690
+idssegmented-sui,Sui,suii1243,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/suii1243,1521
+idssegmented-maonan,Maonan,maon1241,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/maon1240/maon1241,1176
+idssegmented-mulam,Mulam,mula1253,kam_sui,taik1256/kamt1241/kams1241/mula1252/mula1253,1145
+idssegmented-chadong,Chadong,chad1240,kam_sui,taik1256/kamt1241/kams1241/then1235/maon1239/maon1240/chad1240,1259
+idssegmented-southernkam,Southern Kam,sout2741,kam_sui,taik1256/kamt1241/kams1241/mula1252/kami1255/sout2741,1401
+idssegmented-lakkia,Lakkia,lakk1238,lakkia_biao,taik1256/kamt1241/lakk1237/lakk1238,1412
+idssegmented-hlaibaotingvariety,Hlai (Baoting variety),hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,1280
+idssegmented-langjabuyang,Langja Buyang,emab1235,kra,taik1256/kada1291/east2365/buya1244/nort2744/emab1235,1152
+idssegmented-ecunbuyang,Ecun Buyang,lang1316,kra,taik1256/kada1291/east2365/buya1244/nort2744/lang1316,1112
+idssegmented-sanchongkelao,Sanchong Kelao,gree1278,kra,taik1256/kada1291/sout3143/west2798/gaui1234/gela1265/sout2749/gree1278,1022
+idssegmented-qaukelao,Qau Kelao,qaua1234,kra,taik1256/kada1291/sout3143/west2798/gaui1234/gela1265/qaua1234,1121
+johanssonsoundsymbolic-ThaiDialectKorat,Thai (Dialect Korat),thai1261,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/thai1261,334
+wold-Thai,Thai,thai1261,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/thai1261,2107
+chingelong-Xifang,Xifang Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,101
+chingelong-Baisha,Baisha Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,101
+chingelong-Yuanmen,Yuanmen Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,99
+chingelong-Heitu,Heitu Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,98
+chingelong-Baoding,Baoding Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,100
+chingelong-Zhongsha,Zhongsha Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,100
+chingelong-Tongzha,Tongzha Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,100
+chingelong-Qiandui,Quiandui Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,98
+chingelong-Baocheng,Baocheng Hlai,hlai1239,hlai,taik1256/hlai1238/nucl1241/hlai1239,97
+duonglachi-BanPhungLaChi,La Chí Bản Phùng,lach1248,kra,taik1256/kada1291/sout3143/west2798/lach1247/lach1248,104
+duonglachi-BanDiuLaChi,La Chí Bản Díu,lach1248,kra,taik1256/kada1291/sout3143/west2798/lach1247/lach1248,100
+duonglachi-NungDinLaChi,Nùng Dín,nung1283,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/deba1238/nung1283,103
+joophonosemantic-Thai,Thai,thai1261,tai,taik1256/kamt1241/daic1238/daic1237/cent2251/wenm1239/sapa1255/sout3184/sput1235/laot1235/thai1261,97

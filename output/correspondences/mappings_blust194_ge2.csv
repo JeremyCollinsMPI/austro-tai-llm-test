@@ -1,0 +1,641 @@
+concept_id,gloss,generosity,is_nonhit_control,tk_segment,an_segment,context,support,confidence
+bedeadordie,BE DEAD OR DIE,4,0,t,t,onset,"tai: ta:i, tha:i (TK); matay, mati, m.a.t.j (AN)",5
+bedeadordie,BE DEAD OR DIE,4,0,ai,ay,nucleus/rime,"ta:i (TK); matay, matey, mamatay (AN)",4
+bedeadordie,BE DEAD OR DIE,4,0,a,a,vowel nucleus,"plei, ta:i (TK); matay, matey, m.a.t.i (AN)",4
+bedeadordie,BE DEAD OR DIE,4,0,th,t,onset (aspirated/unaspirated),"tha:i (TK); matay, mati (AN)",3
+bedeadordie,BE DEAD OR DIE,4,0,h,,"onset, possibly lost in AN","ha:i (TK); (no h in core AN forms but present in some Formosan: mahāre, mahāre)",2
+bedeadordie,BE DEAD OR DIE,4,0,m-,m-,"prefix, verb marker",hlai: m-atsai (AN); widespread m- in AN verbs,5
+bite,BITE,4,0,k,k/g,onset,"TK ka:p (Tai), kit (Kam-Sui), kat (Lakkia, Tai); AN kat (Formosan), kagat (Western MP), kádat (WMP), kalat (Formosan), kɨǥɨt (WMP)",5
+bite,BITE,4,0,t,t,coda/final,"TK kat, kit, ȶit, kat̪ (Tai, Kam-Sui, Lakkia); AN kat, kagat, kɨǥɨt, kalat",5
+bite,BITE,4,0,a,a,nucleus (vowel),"TK kat, ka:p, hap (Tai); AN kat, kagat, kalat, kádat (WMP, Formosan, SWNG)",4
+bite,BITE,4,0,kh,k,onset (aspiration),"TK khap, khop (Tai); AN kagat, kalat, kɨǥɨt (WMP)",3
+bite,BITE,4,0,p,t,coda (TK) vs. coda (AN),"TK khap, kap, hap, xop (Tai); AN kat, kagat, kɨǥɨt, kalat (WMP, Formosan)",3
+blowofwind,BLOW (OF WIND),4,0,p,p,"onset, coda","TK: 'pau', 'piu', 'paw', 'hip', 'zəp', 'hup'; AN: 'siup', 'miʔiyuf', 'huyup', 'ju(p)', 'huyóp', 'ma-ʔiup', 'sup', 'puyot'",5
+blowofwind,BLOW (OF WIND),4,0,w,u,medial glide vs. high vowel,"TK: 'piu', 'pau', 'paw', 'cwi'; AN: 'siup', 'sup', 'huyup', 'iup', 'ju(p)'",4
+blowofwind,BLOW (OF WIND),4,0,h,h,onset,"TK: 'hip', 'hup'; AN: 'huyup', 'huyóp', 'h.a.v.i'",3
+blowofwind,BLOW (OF WIND),4,0,s/ch/ś/z,s,onset (affricates/fricatives),"TK: 'śui', 'chü', 'chui', 'zəp', 'cwi'; AN: 'siupe', 'siup', 'sibok', 'sap'ʔoy', 'su:pan'",3
+blowofwind,BLOW (OF WIND),4,0,j,j,onset,TK: 'jəp'; AN: 'ju(p)',2
+blowofwind,BLOW (OF WIND),4,0,au/iu/ui,iu/yu/u,vowel nucleus/diphthong,"TK: 'pau', 'piu', 'cwi', 'chui'; AN: 'siup', 'huyup', 'ma-ʔiup', 'iup', 'ju(p)'",3
+eat,EAT,4,0,k,k,onset,"TK: ka:n, kɯn, kin, kɜn; AN: kan, kuman, kaʔen, kaʔun, makan, kɨʔɨn",5
+eat,EAT,4,0,n,n,coda/final or in medial coda,"TK: kan, kin, kɯn, cen; AN: kan, makan, kuman, kanɨ, kaʔen",5
+eat,EAT,4,0,a,a,nucleus (main vowel),"TK: ka:n, ca:n, kan; AN: kan, makan, kaʔen, maán",5
+eat,EAT,4,0,i,i,nucleus (vowel) in some forms,"TK: kin, cin, ȶin; AN: mihomana, minana, miinana",3
+eat,EAT,4,0,ts/c/ȶ/ć,k,"onset, possible affricate-to-stop","TK: tsie, tsia, cen, ćan, ȶia, ȶin; AN: kan, kuman",2
+eat,EAT,4,0,k,ʔ,onset/coda (loss or identification with glottal),"TK: kan, kɯn; AN: kaʔen, kaʔun, kɨʔɨn",2
+eat,EAT,4,0,ou/au,au,diphthongal nucleus (less common),"TK: lau2, lou2; AN: umau, maun",1
+eye,EYE,4,0,t,t,"onset, main syllable","TK: ta, taa, t̪aa / AN: mata, matá, mataʔ, ma:táʔ",5
+eye,EYE,4,0,a,a,"main vowel, core syllable","TK: ta, taa, tha, cha / AN: mata, matá, mataʔ, ma:táʔ",5
+eye,EYE,4,0,th,t,"onset, voicing/aspiration variation","TK: tha, t̪aa / AN: mata, matá",3
+eye,EYE,4,0,nd/ⁿd,d,"onset, nasal/voiced stop correspondence","TK: nda¹, ⁿda¹, luŋ+nda¹ / AN: doriq, doriʡ, ma.d",2
+eye,EYE,4,0,pl/ch,m/b,"onset, potentially non-cognate or assimilative/nursery","TK: pla.¹, cha.¹; AN: mata, bulíga', b.o.t.u.n",1
+eye,EYE,4,0,luŋ/lɤk/lək,lo/ro,"pre-syllable, compounding/expansion","TK: lɤk+ta, luŋ+nda / AN: loziq, roziq",2
+mother,MOTHER,4,0,m,n,onset (root-initial),"TK: me, ma, mɛ, miə (Tai/Hlai); AN: ina, nay, nanay, ninaa (Formosan/WMP)",3
+mother,MOTHER,4,0,n,n,onset (root-initial),"TK: nai, nəi, naːŋ, nie, ne (Kam-Sui/Kra); AN: ina, nay, nanay, ninaa (Formosan/WMP)",4
+mother,MOTHER,4,0,ai/ei/ie/ɛ,a,nucleus/vowel,"TK: nai, nəi, nie, mɛ; AN: ina, nay, ninaa",2
+mother,MOTHER,4,0,ma/mi/me,ina/ene/inaʔ,CVC skeleton (monosyllabic to disyllabic/echoic),"TK: ma, mi, me, mɛ; AN: ina, inene, mini (WMP/Shwng)",2
+nose,NOSE,4,0,n,n,onset,"TK: naŋ, nɐŋ, nəŋ; AN: nuŋ, n'iruŋ, ngulóng, neabɔ",4
+nose,NOSE,4,0,ŋ,ŋ,coda,"TK: naŋ, laŋ, daŋ, nɐŋ; AN: nuŋ, duŋ, ruŋ, sung, izuŋ, ʔiduŋ, suŋətan, taŋoanə",5
+nose,NOSE,4,0,d,d,"onset, intervocalic","TK: daŋ, ʔdaŋ, ʔɗăŋ; AN: duŋ, ʔiduŋ, haʔˈduŋ",3
+nose,NOSE,4,0,a,u/ɨ,nucleus before final ŋ,"TK: naŋ, daŋ, laŋ; AN: nuŋ, duŋ, ruŋ, sung, izuŋ, ʔiduŋ",3
+nose,NOSE,4,0,l,r/l,onset (possible lateral/rhotic match),"TK: laŋ; AN: iróŋ, ngulóng, ilung",2
+nose,NOSE,4,0,kh/h,h,initial obstruent,"TK: khak, khat, khu:; AN: haʔˈduŋ",2
+shoulder,SHOULDER,4,0,ba,ba/baɡa,"CVC/CV skeleton, especially root or second element in compounds","TK: ʔba⁴⁵, ʔba.⁵⁵, ba:.⁵, ba.⁵, bàa, loŋ.²_ba.⁵, ho:.¹_ba:.⁵; AN: abaga, baga, abada, abáha, ʔabaxán, ʔabalaʔ",4
+shoulder,SHOULDER,4,0,ho/lo,ha,"onset, across syllables in compounds or first element","TK: ho:.³_ma:.², ho:.¹_ba:.⁵, loŋ.²_ba.⁵, ho:.³_wa:.³; AN: haŋaliq, haŋaliʔ, hiraŋ, abáha",3
+shoulder,SHOULDER,4,0,ŋ,ŋ,coda or second element,"TK: paŋ³³+ʔba⁴⁵, toŋ.³_ʔba.⁶, tuŋ.¹_ʔba.⁵, ʔoŋ²²+ma⁵⁵; AN: haŋaliq, haŋaliʔ, hiraŋ, bambaŋ",4
+shoulder,SHOULDER,4,0,pa,pa/paga,"onset or root, sometimes reduplicated","TK: pâu.⁵⁵_sa.⁵⁵, paŋ³³+ʔba⁴⁵; AN: pagó, papyal, pagó, abaga, paduka",3
+shoulder,SHOULDER,4,0,ka/qa,ka/ʔa,syllable onset or as initial in compounds,"TK: ki.⁴²_pu.³⁵, qa.⁰_ʔba.¹¹, kan.³_wie.⁵; AN: qavan, ʔavan, afalaʔ, abaga, aɬiasa, abaxán",2
+this,THIS,4,0,n,n,onset,"TK: 'nai', 'nei', 'ni', 'nəi', 'nii', 'nen'; AN: 'ni', 'nii', 'niʔan', 'ini', 'iní', 'nena', 'niŋ'",5
+this,THIS,4,0,i,i,nucleus/vowel,"TK: 'nai', 'nei', 'nii', 'ni'; AN: 'ni', 'nii', 'ini', 'mini', 'iní', 'hiní', 'niʔan'",5
+this,THIS,4,0,na,na,CV skeleton,"TK: 'nai', 'naːi', 'nan'; AN: 'nana', 'niʔan', 'nena', 'ina'",3
+this,THIS,4,0,k,k,onset (rare),"TK: 'kai', 'kɐi'; AN: 'macki', 'tike'",2
+this,THIS,4,0,nɘ/ə,ni,vocalic nucleus after n,"TK: 'nɘi', 'nəi'; AN: 'ni', 'ini', 'hini', 'mini'",3
+water,WATER,4,0,n,n,onset,"TK: nam, na:m, namʔ, n.a.m; AN: nanum, nanom, nanum, a.n.u.m",5
+water,WATER,4,0,a,a,vowel nucleus,"TK: nam, na:m, zam, lam, n.a.m; AN: nanum, danum, nanom, zanum, lanɨm, a.n.u.m",5
+water,WATER,4,0,m,m,coda/onset or coda,"TK: nam, na:m, namʔ; AN: nanum, nanom, danum, zanum, lanɨm, a.n.u.m",5
+water,WATER,4,0,l/z,l/z/d,onset alternant (non-nasal),"TK: lam, zam, lɐm, zam; AN: lanɨm, zanum, danum, dalum",3
+water,WATER,4,0,ɣ/ʝ/j,∅ / y / w,"onset alternant: weak dorsal/palatal in TK, variable in AN","TK: ɣɐm, ʝɐm, jɐm; AN: waya, wai, yeʔel",2
+we,WE,4,0,t,t,onset,"TK: tau, toi, tiaw; AN: ita, ito, tika, kita, tika, atamo, ʔitaʔ",5
+we,WE,4,0,au/aw/ɤw,a,"main vowel, coda loss","TK: tau, lau, raw, haw, hau, lɤw, rou; AN: ita, kita, aita, sika (i.a.), tika, atamo, amo, ami",3
+we,WE,4,0,k,k,onset or medial,"TK: ku, ka (in compounds like ku_ka_mɨŋ); AN: kita, sika, kika, kitá, hikitam",4
+we,WE,4,0,l/r,t/d,"onset/coda alternation, possibly pronoun/root variant","TK: lau, rao, raw, rou, lɤw; AN: ito, atamo, kitá, tika, ita",2
+we,WE,4,0,ŋ,m,syllable-final/coda in plurals or exclusive forms,"TK: mɨŋ (compounds like ku_ka_mɨŋ); AN: ramut, mautolu",2
+we,WE,4,0,h/f,ʔ/h,onset,"TK: hau, haw, hɣau, fau, fou; AN: ʔato, ʔita, hikitam",2
+dust,DUST,3,0,f/p/ph,b/p,"onset, CVC skeleton","TK: fun, fɔn, phun, puŋ — AN: bunuvun, buk, abuk, bo(k), appuk, bunuvun",4
+dust,DUST,3,0,n,n,medial/coda,"TK: fun, mon, ban, phun — AN: bunuvun, abun, vovon",4
+dust,DUST,3,0,u,u/o,vowel nucleus,"TK: fun, puŋ, phun — AN: bunuvun, abuk, vovok, appuk",4
+dust,DUST,3,0,ŋ/k,k,coda/final,"TK: puŋ, moŋ — AN: buk, abuk, bok, appuk, vovok",3
+dust,DUST,3,0,m,b,onset,"TK: mok, mon, muk, moŋ — AN: bunuvun, burabur, buqas, bok",2
+fire,FIRE,3,0,f/p,p,onset,"TK: faj, fai, fei, pai, pui, pei / AN: apuy, apúy, apoi, apui, puniq, putung",4
+fire,FIRE,3,0,aj/ai/ei/ui,uy/ui/oi,nucleus+C2 (rhyme),"TK: faj, fai, fei, pui / AN: apuy, apúy, apui, apoi",4
+fire,FIRE,3,0,f,f,onset,"TK: fei, fəi / AN: foɾ, i.f.i",2
+fire,FIRE,3,0,ph,h,aspirated onset,"TK: phaj / AN: hapuy, haˈpuj, 'hapuy",2
+fire,FIRE,3,0,u,u,nucleus,"TK: pui, pu:i / AN: apuy, puniq, putung",3
+i,I,3,0,k,k,onset,"TK: kau, kuu, kou, ku; AN: aku, ʔaku, ʕku, akó, yakúʔ",5
+i,I,3,0,ʔ,ʔ,onset,"TK: ʔie, ʔje, ʔai, ʔju; AN: ʔako, ʔaku, ʔaˈko",4
+i,I,3,0,j,y/j,onset,"TK: jau, jau, ʔje; AN: yaku, yakúʔ, j.a.k.u, yaken, yau",4
+i,I,3,0,au/au,aku/aku,nucleus (vowel sequence),"TK: kʌu, kau, jau, kɔu; AN: aku, ʔaku, akó, yakúʔ",4
+i,I,3,0,ai,ai/ay,nucleus,"TK: ʔai, ʁai; AN: (fewer but present in) aiku, yaken",2
+i,I,3,0,h,h,"onset (some Tai, western MP & Malagasy AN)","TK: ha:, hou; AN: haʔˈku, hikan, izaho",2
+lightning,LIGHTNING,3,0,l,l,onset,"TK: lap.⁸_liŋ.⁶, laːt⁷ va¹, lap.¹³; AN: lapet-, ilat, kilat, kidlat",5
+lightning,LIGHTNING,3,0,p,t,coda,"TK: lap, lep, lɛp; AN: kilat, ilat, kidlat",4
+lightning,LIGHTNING,3,0,a,a,nucleus,"TK: lap, laːp, fa; AN: lapet-, ilat, kilat",5
+lightning,LIGHTNING,3,0,j,y,medial/onset of 2nd syllable (less robust),"TK: jap, pja; AN: yap in koli'yapyap",2
+lightning,LIGHTNING,3,0,f/ph,k/g,"onset (less frequent, likely convergence or borrowing, but notable)","TK: fa:, pha:, fa:₄_ma:₆_lɛp.₈; AN: kilat, gilat (possible k~f alternation, but not robustly attested)",2
+ten,TEN,3,0,s-,s-,syllable onset,"TK: sip, sup, səp; AN: sepulu(h), sapulu, sampulu",5
+ten,TEN,3,0,s-,p-,syllable onset,"TK: sip, sup, səp; AN: pulu, pulò, polo",3
+ten,TEN,3,0,-p,"-l, -lu, -lo",syllable coda (TK) to AN liquid/vowel coda,"TK: sip, sup, səp; AN: pulo, fulu, polo",3
+ten,TEN,3,0,f-,f-,syllable onset (marginal in both),"TK: fu:t (Hlai; rare); AN: fulu, fòlo, fúlu",2
+ten,TEN,3,0,"θ-, ɕ-, š-","s-, h-","onset, fricatives","TK: θep, ɕip, šip; AN: sepulu(h), huɾa",3
+wing,WING,3,0,p,p,onset,"TK: pik, piik, p.iː.k, pək, pa_həu; AN: paakə, pakô, payad, palit, panid, papa:lít, pikpik, panyid",5
+wing,WING,3,0,V: (long vowel),a,"nucleus, CV(C) skeleton","TK: pi:k, pìik, p.iː.k; AN: paakə, pakô, palit, pana-, payad",3
+wing,WING,3,0,k / k̚,k / ʔ,coda,"TK: pik, pək, pi:k; AN: paakə, pakô, pikpik",4
+wing,WING,3,0,f / phi,p,onset,"TK: fɤːt, fɯət, fuət, fɨ:t, phi:k; AN: paakə, pakô, papa:lít (variation likely from earlier p > phi / f),",2
+wing,WING,3,0,Vŋ,ŋ / ŋu,coda / rhyme,"TK: vɛŋ, δia:ŋ; AN: apoŋṵ, eopúŋu, qaqahiŋ",2
+and,AND,2,0,taŋ,t(o/a)ŋ,CVC skeleton,"TK: taŋ.¹¹, taŋ.², kap.taŋ.²; AN: t.o.ŋ",4
+and,AND,2,0,kap,kap/kag,CVC onset-coda,"TK: kap.⁷, kap.taŋ.²; AN: kag, kap (in forms like kapisa in outside lists), kano",3
+and,AND,2,0,wan,kan,Onset + Nasal coda,"TK: wan.⁴; AN: kan, kano, kan'od",3
+and,AND,2,0,neːm/neɐm,nan/niqan,"N-initial, nasal coda","TK: neɐm³⁵, neːm²⁴; AN: nan, níqan",2
+ash,ASH,2,0,t,ʔ/Ø/q,onset,"TK: taw, tau, tăw || AN: abu, abo, avu, qafu, ʔabu, qaßuliʔ",3
+ash,ASH,2,0,aw/au/əu/ɐu,a(u)/a(o)/a(ʊ),main vowel,"TK: taw, tau, tăw, tɐu || AN: abu, abo, avu, abú",4
+ash,ASH,2,0,v/f/p,b/v/f,onset or medial/2nd C,"TK: vuk, vuək, puk, fuk, piau; AN: abu, avu, qafu, wawu",4
+ash,ASH,2,0,k/ʔ (coda),ʔ (coda)/Ø,coda,"TK: vuʔ, puk, vuk, pʰuk; AN: abo', ʔavuʔ, ʔabu, qaßuliʔ",3
+ash,ASH,2,0,pl-,qbl-/l-,complex onset,"TK: plɛu; AN: qbulic, qbulits, laɡalap",2
+belly,BELLY,2,0,t-,t-,onset of main syllable,"TK: tɔŋ²¹⁴, toŋ²¹⁴, t̪hɔɔŋ; AN: ti'áɬ, tian, tiʔɨn, təˈjan",5
+belly,BELLY,2,0,p-/ph-,p-,onset of main syllable,"TK: phuŋ, phoɁ8, pok7, pɔk7; AN: p.e.r.u.t, po-kon, pusqon",4
+belly,BELLY,2,0,-oŋ/-ɔŋ,-ang/-an/-an,rime (nucleus + nasal coda),"TK: tɔŋ²¹⁴, toŋ²¹⁴, mok7, loŋ²; AN: tian, 'tiang, atian, tiaθ",3
+belly,BELLY,2,0,l-,b-,onset of main syllable,"TK: loŋ²; AN: baráŋ', bodek, berebewang, boko",2
+beloworunder,BELOW OR UNDER,2,0,t,t,"onset (CVC, CVVC templates)","TK: taj, taɨ, tam, te, tok; AN: teku, tadu, to tibawa",4
+beloworunder,BELOW OR UNDER,2,0,kha(ŋ),ka-,"onset, first syllable in disyllabic forms","TK: kha:ŋ_ta:j, kha:ŋ_tam, kha.³; AN: kamasal, kofavau",3
+beloworunder,BELOW OR UNDER,2,0,l,l,"onset, disyllabic forms","TK: lum, la; AN: laʔan, la-pa, libəŋ, laʔnu",3
+beloworunder,BELOW OR UNDER,2,0,m,m,syllable/mid position (nucleus/coda or initial),"TK: maŋ, tam, lum; AN: moco, ambanj, kamasal",2
+beloworunder,BELOW OR UNDER,2,0,b,b(w),onset in forms for 'below',"TK: ba (in ʔba_ha:p); AN: babá, bawah, bawa, ubos",2
+beloworunder,BELOW OR UNDER,2,0,ŋ,ŋ,"coda/final (CVC, nasal coda)","TK: kha:ŋ, wa:ŋ; AN: kamasal, dungan",2
+bird,BIRD,2,0,n(o/u)k,n(u/o)k,"CVC skeleton, full word","TK: nok, nɔk, nuk, n̪ok, ńok, nɔ̆k (Tai, Kam-Sui); AN: manuk, ʔanuk, mamanuk, nanuk, qanok (WMP, SHWNG)",5
+bird,BIRD,2,0,m-,ma-,prefix or initial syllable,"TK: mok (Kam-Sui), ma.lo (Kra), mo.naŋ (Kra), mlok (Lakkia-Biao); AN: manuk, mamanuk, mani, man (WMP, SHWNG)",4
+bird,BIRD,2,0,l-,l-,word-initial (secondarily),"TK: lɔk, lok (Tai); AN: lagum, laciw (WMP)",2
+bird,BIRD,2,0,-k (coda),-k (coda),coda,"TK: nok, nɔk, nuk, mok, lok (multiple clades); AN: manuk, ʔanuk, mamanuk, nanuk, qanok (WMP, SHWNG)",5
+black,BLACK,2,0,d,t,"onset, CVC skeleton","TK: dam, ʔdam, dəm3; AN: itəm, itum, mity, mitom",3
+black,BLACK,2,0,m,m,"coda/nucleus, after main vowel or in nasal-final forms","TK: dam, nam, lam; AN: itəm, itum, didem, mity",4
+black,BLACK,2,0,n,n,"onset, only in some forms","TK: nam, nâm, nɐm; AN: mavaɨng, lumuniʡ",2
+black,BLACK,2,0,a,i,"main vowel, in CVC forms","TK: dam, nam, ʔdam, lam; AN: itəm, mitom, mity",3
+black,BLACK,2,0,l,l,"onset or medial, some minority forms","TK: lam, lo:k, laŋ; AN: lumuniʡ, waliŋ",2
+blunt,BLUNT,2,0,mVt,ma-tVt,CVC skeleton,"TK: mɤt, mɜt, mɪt, mɐt, mot; AN: matales, matarictic",3
+blunt,BLUNT,2,0,mVp,pVp,CVC skeleton,"TK: mɔːp, moːp, mup; AN: ipup, dupol, papu",2
+blunt,BLUNT,2,0,ŋVm,ŋVl,nasal-initial with medial back vowel and nasal/lateral coda,"TK: ŋom, ŋɔm, ŋam; AN: ngaleh, mongalod, mangurol",2
+blunt,BLUNT,2,0,təm/tap,dip/dup,"CVC skeleton, alveolar onset","TK: təm, tap; AN: dip, dupol",2
+bone,BONE,2,0,d/ɗ/ʔd,t,onset,"TK: doːk, ɗuːk, ʔdoːk; AN: tul, tuŋal, tungal, tu'an",4
+bone,BONE,2,0,k/g/kʔ,g/ʔ,coda,"TK: doːk, kut, laːk; AN: tungal, tuŋal, butol, bukal",3
+bone,BONE,2,0,u/ɯ,u,nucleus,"TK: duːk, kuːt, rɯːk; AN: tul, buuc, butol",4
+bone,BONE,2,0,l,l,coda,"TK: laːk, lak; AN: tul, bukal, tungal",2
+bone,BONE,2,0,b,b,"onset, alternative roots","TK: (no clear TK b-forms, but possible linkage to AN buuc, butol, bukal); AN: buuc, butol",1
+branch,BRANCH,2,0,ŋ,ŋ,onset or coda,"TK: 'ŋəi', 'ŋei', '+ŋa'; AN: 'saŋa', 'taŋa', 'sanɡa', 'sanga', 's.a.ŋ.a', 'sáŋa', 'taŋo'",4
+branch,BRANCH,2,0,iŋ,iŋ,rhyme/coda,"TK: 'tiŋ', 'kiŋ', 'tsiŋ'; AN: 'ritsiŋ', 'pising', 'salinsíng', 'lelaŋ'",3
+branch,BRANCH,2,0,ts,s,onset,"TK: 'tsiŋ', 'tsəŋ'; AN: 'sanga', 'saŋa', 's.a.ŋ.a', 'sida', 'sida', 'sangaʔ'",3
+branch,BRANCH,2,0,k/ki,ka/ka,onset and nucleus,"TK: 'kiŋ', 'këi'; AN: 'palaka', 'sapak', 'plaka'",2
+chew,CHEW,2,0,ń/ɲ/ȵ,m,onset,"TK: ńa:i, ȵɐm, ȵaːi; AN: mam, mamam, mama, mama'ʔin",3
+chew,CHEW,2,0,a:i/aːi,aCa/aCaC/aCaʔ,vowel and following segment(s),"TK: ńa:i, ɲaːi; AN: mama, mamam, mapapaq, mama'ʔin",3
+chew,CHEW,2,0,k/kh,k/p,onset or coda,"TK: kiaw, khiau, keu, mha:k; AN: makusaʔəsaʔəmə, m.a.p.a.p.a.k, mapapaq, papaq",2
+chew,CHEW,2,0,ŋ,"ŋ, ng or n",coda or onset,"TK: ŋau, ńa:ŋ, ńa:n; AN: moŋindaan, mamaing, usangon",2
+child,CHILD,2,0,l,l,initial onset,"TK: lɤk, lɯk; AN: laqi, laʡi, laqihán, walak",5
+child,CHILD,2,0,l,w,initial onset alternation,"TK: lɤk; AN: wawaʔ, walaʔo, walak, wata'",2
+child,CHILD,2,0,k (coda),k/q/ʔ (coda),final coda,"TK: lɤk, lɯk; AN: laqi, laqihán, walak, anak, anaʔ",4
+child,CHILD,2,0,ŋj-/ŋV-,ng,syllable/final cluster or reduplicated child forms,"TK: lɤk+ŋje, lɯk+ŋje, lək+ŋje; AN: budang, abeng, ʔungʔungnga",2
+child,CHILD,2,0,lɤ-/lɯ-,"la-, wa-, a-",word onset; CVC/CV structures,"TK: lɤk, lɯk; AN: laqi, walak, anak, awa(w)",3
+choose,CHOOSE,2,0,l,l,onset (medial in AN); onset in TK,"TK: lɨak, lək, la:i; AN: pili, piliʔ, pilin, pilian",5
+choose,CHOOSE,2,0,k,ʔ,coda,"TK: lɨak, lək, lik; AN: piliʔ, pɨliʔ, píliʔ",3
+choose,CHOOSE,2,0,V,i,vowel nucleus,"TK: lək, lek; AN: pili, pilin, pilian",4
+choose,CHOOSE,2,0,n,n,coda,"TK: ceːn, seːn, θɛn; AN: pilin, pilien, pilian",4
+choose,CHOOSE,2,0,s,p,"onset (less consistent, possible AN causative prefix p-)","TK: suən, swe:n, siːn; AN: pili, pamili, puli, pənili",2
+climb,CLIMB,2,0,p/k,k,"onset, CVC root","TK: ka:n, khɨn, pən, peːn; AN: kalat, kudadaʔ, ka'ʔab, kayat",3
+climb,CLIMB,2,0,n,n,coda or syllable-final,"TK: pən, pin, ka:n; AN: manakis, manakiʃ, ponik, pɨmɨnahik",3
+climb,CLIMB,2,0,m/p,m,"prefix or root-initial, frequent nasalization in both families","TK: me:n, pa:i, pwa, mə:; AN: manakis, muiʈas, mo-botulo, mkaro",2
+climb,CLIMB,2,0,a,a,"main vowel, lexical root","TK: ka:n, pa:i, laːn; AN: kalat, saka, manakis",3
+climb,CLIMB,2,0,ch/č,k/s,"root medial, possible palatalization or fortition in TK, velar/sibilant in AN","TK: cha, ćha; AN: saka, sakà, kayat",2
+cloud,CLOUD,2,0,m-/ma-,"mu-/ma-/lu-, ru-","onset, CV- skeleton","TK: 'mêek', 'meek', 'me:k', 'mɔk', 'mok'; AN: 'malukut', 'lu:luŋa', 'LuLem', 'ruluŋ', 'runə́v', 'rum'",3
+cloud,CLOUD,2,0,fa-/pha-,"pa-/fa-, ba-",onset,"TK: 'fa', 'fha', 'pha', 'faʔ', 'pha45'; AN: 'paŋá:nud', 'plabu', 'panganud', 'búnot', 'binaβa'",3
+cloud,CLOUD,2,0,"lu, lun","lu-, ru-",onset (CVC forms),"TK: 'lu.', 'lun.', 'lu.⁴²'; AN: 'lu:luŋa', 'ruluŋ', 'LuLem', 'runə́v', 'yuluŋ'",4
+cloud,CLOUD,2,0,-k (coda),"-m, -ŋ, -n (coda)",final,"TK: 'mɔk', 'la.mok', 'muk', 'de:k', 'meek'; AN: 'rom', 'kuləm', 'LuLem', 'luŋ', 'runə́v', 'kum', 'ruŋ'",2
+cloud,CLOUD,2,0,bun/bən,bun/bon,"CVC, full syllable","TK: 'ʔbun', 'bən'; AN: 'bunot', 'ambun', 'labon'",3
+cloud,CLOUD,2,0,kwa-/hwa-,ku-/hu-,onset,"TK: 'kwa', 'hwa'; AN: 'kuʈem', 'kuləm', 'hamhum', 'hum'",2
+come,COME,2,0,maː,ma-,word onset; whole stem,"TK: ma:.¹, maa, m.aː (Tai); AN: maŋay, mayi, magabót, ma-ŋetjez (W.MP, Formosan)",4
+come,COME,2,0,taŋ/tau,taŋ/tay,CVC/CVVC skeleton; stem,"TK: taŋ¹, tau³⁴³, taŋ.², ta:u.⁵ (Kam-Sui, Tai); AN: datang, mayi, mangay (W.MP)",2
+come,COME,2,0,luŋ,lu-,word onset,"TK: luŋ.³¹ (Kra); AN: luðaʔ (Formosan), alu (Formosan)",2
+come,COME,2,0,mɯn/pɯn,mun/mon,"CVC stem, nucleus & coda","TK: mɯ:n1, pɯ:n1 (Hlai); AN: m.u.n.a.j, m.o.n.d.o.k (Formosan, W.MP)",2
+come,COME,2,0,pɯn,ban-,onset; possible labial mapping,"TK: pɯ:n1, phɯ:n4 (Hlai); AN: bainin (Formosan)",2
+come,COME,2,0,rama,rama,whole word; reduplicated,"TK: (none direct); AN: rama, jaɾama, ɾama (Shwng)",1
+cooksomething,COOK (SOMETHING),2,0,tuŋ / tum / tom / du,lutu / duto / loto / muta(l) / duto / lotoq,root onset and nucleus (CVC structure),"TK: tuŋ¹ (Kam-Sui), tom³ (Tai), tum³ (Tai), ʔdu³¹ (Kra); AN: lutuin, duto, lotoq, lut(u), maluto",4
+cooksomething,COOK (SOMETHING),2,0,luŋ / lu,lu(to/in),onset + nucleus,"TK: luŋ¹ (Tai), ljoŋ¹ (Kam-Sui); AN: lutuin, ilútu, maluto, aglu:to",3
+cooksomething,COOK (SOMETHING),2,0,huŋ / hjuŋ,hu(tu) / ha(nat) / húa(t),onset 'h' in CV(C) syllables,"TK: huŋ³ (Tai), hjuŋ¹ (Kam-Sui); AN: mahúʔil, mahanat, maŋuát",2
+cooksomething,COOK (SOMETHING),2,0,saːu / śau / śuŋ,su(nʔad),sibilant onset in CCV/CSV; rare,"TK: śau³⁵ (Kra), saːu³ (Kam-Sui), śuŋ¹ (Kam-Sui); AN: súnʔad",1
+cooksomething,COOK (SOMETHING),2,0,tam / tham,tama,bilabial/laminal 't-m' root,"TK: tam² (Tai), tham¹ (Tai); AN: fatama",1
+correctright,CORRECT (RIGHT),2,0,t,t,onset initial,"tai to:i, tɔːi; western_mp tapat, tut'tuwa; formosan tama",4
+correctright,CORRECT (RIGHT),2,0,m,m,onset (esp. prefixed),"tai mɛn, mɛ:n, kra məi; formosan ma-tama, western_mp man-jary, minatuód",3
+correctright,CORRECT (RIGHT),2,0,ŋ,ŋ,coda or medial,"tai teːŋ, teaŋ, tɪːŋ; formosan maylaʔoz, western_mp meraŋ, shwng molaŋ",3
+correctright,CORRECT (RIGHT),2,0,th,t,aspirated onset vs. plain; both 'correct' senses,"tai thuk/thùuk/thu:k; an tapat, tut'tuwa",2
+correctright,CORRECT (RIGHT),2,0,d,d,onset/non-initial,"kam_sui ʔda:u, hlai diu, formosan dadu, modudug",2
+cry,CRY,2,0,ŋ,ŋ,"onset, medials (CVC/CVŋ)","TK: hɔ:ŋ, bɔ:ŋ, rɔ:ŋ, ŋai; AN: taŋis, tumaŋi, hömaŋih",5
+cry,CRY,2,0,ai~ai,aŋi~angi~anis,nucleus/vowel sequence,"TK: hai, hɔ:ŋ_haj, tai; AN: maŋi, tumaŋi, tangis",4
+cry,CRY,2,0,h,h~ʔh,onset or prefix,"TK: hai, hɔ:ŋ, h.a.j; AN: hömaŋih, hœmaŋih",3
+cry,CRY,2,0,t,t,"onset, CVC","TK: tɜi, tɛ̈i, tɐi; AN: taŋis, tumaŋi, t.a.ŋ.i",4
+cry,CRY,2,0,pl,bl/mpl,"cluster onset, rare","TK: plĩe; AN: (no direct match, weak support with some AN clusters: mattangi-c)",1
+daynotnight,DAY (NOT NIGHT),2,0,v-/w- (onset),al-/ar-/aw- (onset),"syllable onset, especially in 'wan/van' vs 'alaw/aldaw/araw'","TK: van, wan, wɔn, wɐn (kam_sui, tai); AN: alaw, aldaw, araw, aldao, allo (western_mp)",4
+daynotnight,DAY (NOT NIGHT),2,0,-an/-ən/-on/-ɔn (rime),-aw/-ao/-o (rime),syllable rime; open syllables ending in nasal or open vowel,"TK: van, wan, wɔn, wɐn, ŋon, ŋɔn (tai, kam_sui); AN: aldaw, araw, aldao, allo (western_mp)",4
+daynotnight,DAY (NOT NIGHT),2,0,p-/b- (onset in alternate forms),al-/ar-/aw- (onset),marginal onset alternation,"TK: pan, paːn, pai (kam_sui, tai, hlai); AN: alaw, aldaw, araw, allo",2
+daynotnight,DAY (NOT NIGHT),2,0,kaŋ/toŋ/caŋ (CVŋ backbone),ramuiya/ras/raria/hanian,whole-word structure; forms outside main 'wan/van' cluster,"TK: kaŋ, toŋ, caŋ (tai); AN: ramuiya, ras, raria, hanian (formosan/shwng)",2
+daynotnight,DAY (NOT NIGHT),2,0,h- (onset; kra alternants haŋ),"h- (onset; hanian, hilaLan)",syllable onset in some Formosan,"TK: haŋ (kra); AN: hanian, hilaLan (formosan)",1
+dig,DIG,2,0,w-/ʋ-/v-,k-,initial onset,"TK: wa:t, weːt, wɛ:t, waːt, ʋeːt, va:t; AN: kali, kalín, kutkot, kuli, kerut, komowih, kmbərih",3
+dig,DIG,2,0,-at/-ɛt/-eːt,-al/-ar/-at/-ot (sometimes -in),rhyme/coda,"TK: wa:t, weːt, wɛ:t, waːt; AN: kali, kalot, kalín, kutkot, magkalot",3
+dig,DIG,2,0,ŋw-/ŋu-/ŋwe-,k- (possibly nasal infixation in AN),nasal+onset,"TK: ŋwaːt, ŋweːt, ŋuət; AN: kmari, kmbərih, kméhur (nasal clusters in AN Formosan)",3
+dig,DIG,2,0,p-/b-,b-,initial onset (minor type),"TK: pa:k, ba:k; AN: βai, bijai",2
+dog,DOG,2,0,ma,asu,CVC root (TK onset + AN onset),"TK: mǎa, maa, ma⁵⁴ʔ, ma:; AN: asu, aː.s.u, aso, asʰu",4
+dog,DOG,2,0,m(h/w)a,wa/va,onset (labial: nasal/fricative glide correspondence),"TK: mha, hwa, <p>̃hwa¹, m̥a¹; AN: wazu, wasu, wacu, avʔu, abʔu",3
+dog,DOG,2,0,k(h),k/g,onset,"TK: khuə̃.¹; AN: ka:hu, kapuna, kiruʔ, gayam",2
+dog,DOG,2,0,li; ti,ri; i,onset (alveolar - possibly via lateral or palatalized evolution),"TK: li.⁰_oi.³³, li.⁰_qoi.²⁴, ti21_ma35; AN: kiruʔ, idò, i.d.u.ʔ",2
+dog,DOG,2,0,pha,fa/ʔa,"onset, aspirated/fricative oral","TK: pha4; AN: fiawera, abʔú, ʔah'ɔ",1
+drink,DRINK,2,0,n,n/m,coda (CVC) or medial,"TK: kin, kɨn, ki:n, kən, dɨ:n, dʉ̀ʉm; AN: inum, inom, nim, minom, mim, -inim",4
+drink,DRINK,2,0,k/g/ɣ/h,h/g/k,onset (initial C),"TK: kin, kɨn, kəm, ɣəm, haŋ, hop; AN: haruk, k'inuŋ, k'ɛnuŋ, ginuŋ, hino",3
+drink,DRINK,2,0,d/ɗ/ʔd,d/ʔ/Ø,"onset (initial C, alternates with zero)","TK: dʉ̀ʉm, dɨ:n, ɗɐt, ʔdət, ʔdɔt; AN: dom, inem, -nim",2
+drink,DRINK,2,0,Vn (nasal coda),Vm (nasal coda),coda,"TK: kin, kən, dɨ:n, dʉ̀ʉm, ɣəm; AN: inum, inom, -inim, minom, mim",4
+drink,DRINK,2,0,su/sɜ/śu,inin/min/mim,"CV(CV), initial and medial","TK: su:k, sɜt, śut; AN: minom, mim, inum, minum",2
+earthsoil,EARTH (SOIL),2,0,n-am,tan-/tana-/tane-,CVC root or initial CV (onset + nucleus),"TK: nam, na:m, naːm (various Tai, Kam-Sui); AN: tana, tane, tany (western MP)",3
+earthsoil,EARTH (SOIL),2,0,d-in/din,d-a(g)-/dar-/dara-/daga-,Onset + nucleus (initial CV),"TK: din (Tai, Thai); AN: daraq, darəq̂, daga, dalah, duta",4
+earthsoil,EARTH (SOIL),2,0,kʰɔm/hum,gabun/lupâ,labial coda/nucleus,"TK: khəm, kʰum, hum (Kam-Sui); AN: gabun, lupâ (western MP)",2
+earthsoil,EARTH (SOIL),2,0,v/f/ŋ (onset),"r/g (onset in 'ragaq', 'gabun')","initial C, especially in Hlai and AN","TK: van, fan, ɣaŋ (Hlai); AN: ragaq, gabun, raraq",2
+earthsoil,EARTH (SOIL),2,0,l/n/ŋ (nasal-final or lateral),l/r/n (liquid/nasal root medial and finals),coda/root medial,"TK: lin, li:n, ljuŋ (Tai/Kra); AN: lariŋ, lutá, raraʡ, lusaʔ",2
+eight,EIGHT,2,0,p,w,onset,"TK pa:t, pet, pɛ:t ~ AN walu, wal, waluʔ, walú, walo",2
+eight,EIGHT,2,0,t,t,coda (TK)/coda or penultimate (AN Formosan),"TK pa:t, pet, pɛ:t ~ AN maspat, naspat, msəpac (Formosan only; not in walu-type)",3
+eight,EIGHT,2,0,a/e/ɛ,a,vowel nucleus,"TK pa:t, pɛ:t, pet ~ AN walú, walo, wal, maspat",4
+eight,EIGHT,2,0,pa,wa,CV onset-nucleus,"TK pa:t, pet ~ AN walu, wal, walo",2
+eight,EIGHT,2,0,pet/pɛt,pat/pac,whole CVC skeleton,"TK pet, pɛ:t ~ AN naspat, maspat, msəpac",3
+fall,FALL,2,0,t,t,onset,"TK: tok, tɔk, tuk, thok; AN: maʔtik, matapiway, ma-terak, mutaniʔ",4
+fall,FALL,2,0,k,k/g,coda (final),"TK: tok, tɔk, tuk; AN: mahúlog, mahulog, maghúlog, kaʔuug",3
+fall,FALL,2,0,pl-,bl-/lb-,onset cluster,"TK: pla; AN: milabuʔ, makəLu (for initial liquid alternation)",2
+fall,FALL,2,0,l,l,medial/onset; initial/post-initial,"TK: lon, lən, lian; AN: hulug, mahulog, milabuʔ, makəLu",3
+fall,FALL,2,0,ŋ,ŋ/ny,"coda/final, but also medial","TK: luŋ, taŋ; AN: manegny, mutaniʔ",2
+fall,FALL,2,0,j,c/ci,onset,"TK: tjo; AN: mətúciŋ, ciŋ (both sides show palatal presence)",2
+far,FAR,2,0,k,l/r,onset (before -aj/-ai/-i),"TK: k.l.a.j, klay, klaj; AN: lajo, rayi, rayoʔ, lavitsa, law",3
+far,FAR,2,0,di,dayu/dawi,full form match,"TK: ⁿdi¹, ʔdi¹; AN: ʔadayyu, ʔadawwi, ʔada'yu",4
+far,FAR,2,0,j/ɕ/c,j/y,"onset or internal glide (CjV, -jV-)","TK: cjei, kjɛi, cjɛi, kjɐi³⁵³; AN: lajo, rayi, mlayyu, arayi",2
+far,FAR,2,0,aːi/ai/ei,ayu/awi/ay,nucleus/rime,"TK: kaːi, kei, cei, cɛ̈i; AN: laju, dayu, awi, layu",3
+far,FAR,2,0,l,l,"onset, especially before -aj/-ay","TK: ljaːi, klay; AN: lajo, law, lavitsa",2
+father,FATHER,2,0,p/pʰ,m,onset (TK CVC/VC+CV ~ AN CVCV with nasal),"TK pa, pɔ, phɔ; AN ama, mama, tama",3
+father,FATHER,2,0,a (nucleus),a (nucleus),main vowel in core syllable,"TK pa, pɔ; AN ama, tama, mama",5
+father,FATHER,2,0,ʔ (onset/preposed),ʔ (onset/preposed),optional glottal onset prefix,"TK ʔai+pa, ʔɛi+pa, ʔu:, ʔɜi+pɔ; AN ʔamaʔ, ʔamɨy, ʔabay, ʔama, ʔamoy",4
+father,FATHER,2,0,pa/pɔ,pa,CVC full root-to-root,"TK pa, pa+te, pa+phɔ; AN apáng, abáʔ, tapu",2
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,m,m,initial/new onset in CVC,"man (TK) ↔ sima, ima, mafen (AN); na:m, nam (TK) ↔ sima, simá', ʃima (AN)",4
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,n,n,"C-initial, intervocalic, or coda","nam, na:m, n̪aam (TK) ↔ vondrake (AN), simani, bani (within complex forms)",2
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,k/kh,k/q,initial onset,"khai/khaj/ka:u/khui (TK) ↔ tabaq, tabak, qnuʔ, taba (AN)",3
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,l,l,initial or cluster,"la:u/lau/lei (TK) ↔ ʔaləf, l.e.m.a.k (AN)",2
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,z/j,ʃ,initial,"ziw (TK), ju (TK) ↔ ʃimaa (AN)",1
+fatorganicsubstance,FAT (ORGANIC SUBSTANCE),2,0,w/u:i,v/vo,medial or final/initial,"gu:i/hu:i/xui (TK) ↔ vondrake, avo (AN)",2
+feather,FEATHER,2,0,n,ŋ,coda/final nasal,"TK: 'pun', 'khon', 'xon', 'hun', 'tsən'; AN: 'apúŋu', 'ropŋu' (Formosan); final nasals in both",3
+feather,FEATHER,2,0,k/p/x,b/p,onset,"TK: 'pun', 'khon', 'xon', 'pjən'; AN: 'banus', 'barhibo', 'bagwís', 'bulu', 'bobow'",2
+feather,FEATHER,2,0,u,u,nucleus/vowel,"TK: 'pun', 'hun', 'mui', 'hun'; AN: 'humul', 'gumul', 'bulu', 'kum', 'vuru'",4
+feather,FEATHER,2,0,ts/c/s,b/p,onset,"TK: 'tsən', 'cən', 'sən'; AN: 'banuh', 'bulu', 'paliʔ'",2
+fish,FISH,2,0,p,p/b,"onset, initial position","TK: paa, pa:, pla:, pja; AN: paʔit, paʔillɨng, ba'ət, baute",4
+fish,FISH,2,0,m,b,"onset, initial position (potential nasal-voiced stop)","TK: mam, mom, məm, ma; AN: ba'ət, baute, butiŋ",3
+fish,FISH,2,0,a,a,nucleus vowel,"TK: pa:, pa, pla, mam; AN: ba'ət, baute, paʔit, sira, laoka",5
+fish,FISH,2,0,pl,bl/pis/fl,complex onset,"TK: pla:, phla, plaa; AN: piskaw, fia, fiagne, vily",2
+fish,FISH,2,0,j,y/i,medial or onset glide/vowel,"TK: pja, pia, mjai; AN: ijana, ine, fia, vily",2
+flow,FLOW,2,0,l,l,onset,"TK: lui, loi, liu, lou, laj, lǎy, lɔi, lei; AN: lui, luli, ilig, ilog, lulo, loɖo",5
+flow,FLOW,2,0,ui/iu,ui/uli/uli,nucleus (main vowel/glide),"TK: lui, liu, ɹiu, liuʔ; AN: lui, luli, mthului, qluli, mqluiʔ",4
+flow,FLOW,2,0,lo,lo/lulo/loɖo,"CVC skeleton (onset+lateral, vowel nucleus)","TK: loi, lou, lɔi, lou, ɹou; AN: loɖo, lulo, moloðo, mwaloɖo",4
+flow,FLOW,2,0,ɹ/l,l,onset (liquid),"TK: ɹiu, ɹou, lou, lui, loi, laj; AN: luli, loɖo, lulo, ilig",3
+fog,FOG,2,0,m,m,onset,"TK: mok, mo:k, mon, mun, muŋ | AN: mig, hamog, mig glogampol",4
+fog,FOG,2,0,mo(k),mog,CVC skeleton (bilabial onset + back vowel + velar coda),"TK: mok, mo:k, mɔk | AN: hamog, tun-og, ogaog",3
+fog,FOG,2,0,u/o,o/u,nucleus (medial vowel),"TK: mok, mo:k, mou, muŋ | AN: hamog, tun-og, pukuŋ, ule(p)",3
+fog,FOG,2,0,k,k/g,coda (final consonant),"TK: mok, mo:k, mɔ:k | AN: hamog, harbuk, tun-og",3
+fog,FOG,2,0,l,l,"onset (of the first or second syllable, especially in compounds)","TK: lam.mo:k, lɐp+moːk | AN: lalemdem, alipuop, lalemdem",2
+four,FOUR,2,0,s-/θ-,p-/f-,onset,"TK: si, səi, sei, θɜi, θəi, sɘi | AN: pat, apat, upat, fat, efat, paat, supat",3
+four,FOUR,2,0,-i/-ei,-at/-atə,nucleus + coda,"TK: si, sei, θei, səi | AN: pat, paat, apat, supat, spat, pa:tə",3
+four,FOUR,2,0,p-,p-,onset (Kra TK forms),"TK: pau, pu | AN: pat, upat, apat",2
+four,FOUR,2,0,f-,f-,onset,"TK: fei (Lakkia) | AN: fat, fɔt, efatra",2
+four,FOUR,2,0,au,at,nucleus + coda (Kra TK forms),"TK: pau, chau | AN: pat, fat",2
+four,FOUR,2,0,sh-/ɬ-,s-/sp-,onset (fricatives),"TK: shi, ɬɛi | AN: spat, supat, ŝəpát",2
+fruit,FRUIT,2,0,ma,bu(a),initial syllable,"TK: ma:k, maːk, maj, mai (spread across Tai, Kra); AN: bua, buai, boa (Formosan/MP); also buŋa, bonga, bungo",3
+fruit,FRUIT,2,0,lam,lam,base/root,"TK: lam (Kam-Sui), la:ʔ; AN: lameh, lamɨh",2
+fruit,FRUIT,2,0,som,so/sa,base/root,TK: som (Tai); AN: masoʔo (Formosan),1
+fruit,FRUIT,2,0,k,ʔ,coda position,"TK: ma:k, la:ʔ; AN: buaʔ, boay, see also buak/b.u.a.k",2
+fruit,FRUIT,2,0,n/l,ŋ,coda or second syllable onset,"TK: nam, lam (Kam-Sui/Lakkia); AN: buŋa, bonga, boŋ, bɨŋɨ",2
+good,GOOD,2,0,d/l,p/b,onset of CV(V) syllable,"TK: dai, di, lai, laːi, din (Tai, Kam-Sui, Lakkia); AN: pia, mapia, bye, fia (Western MP, SHWNG)",3
+good,GOOD,2,0,ai/i,ia/ie,nucleus of main syllable,"TK: dai, di, lai; AN: pia, fia, mapia, bye",3
+good,GOOD,2,0,ŋa,ŋa,"full syllable, possible nursery/expressive",TK: ŋai (Kra); AN: ŋaʡay (Formosan),2
+good,GOOD,2,0,n,n,"medial, sometimes full syllable","TK: nən (Kam-Sui), din (Hlai); AN: naŋuwaʔ, mamanə́ŋə, nabalú (Formosan/Western MP)",2
+grass,GRASS,2,0,kaŋ/kan,kam-/kan-,onset + initial syllable,"TK: kan¹ (kam_sui), kaŋ¹, kan.³ (hlai); AN: kaman (formosan), kiʔman (formosan)",4
+grass,GRASS,2,0,ŋ/lom/lum,lum/lon,rhyme/CVC skeleton,"TK: lɜm²⁴, lʊm²⁵, ɹʊm²⁴; AN: lumun (western_mp), vilona (western_mp - potential alignment)",2
+grass,GRASS,2,0,ja-/y-,ʈa-/la-,"onset, open syllable","TK: ja:.³, jaa, jə:, yâa; AN: ʈaɭunan (formosan), laits (formosan)",2
+grass,GRASS,2,0,h/k initial,k/g initial,onset,"TK: hɣɔk.⁸, kja:k.⁷; AN: kaman, kiʔman, gamhon",3
+grass,GRASS,2,0,m coda,m/n coda,coda (nasal),"TK: jəm, ɣəm, ləm, zum; AN: kaman, lumun, gamhon, kiʔman",3
+green,GREEN,2,0,h,m,onset,"TK: heu, heou, hju; AN: miraqat, mɨilɨm, mahintso, malanhi",3
+green,GREEN,2,0,j,h,onset,"TK: jau, jɛɜu, jaːu; AN: hijau",2
+green,GREEN,2,0,khi-/khe-,hi-,onset cluster,"TK: khiu, khiau, khe:u, khi:u; AN: hijau",2
+green,GREEN,2,0,Vru/u,iru/iru,rising diphthong/coda,"TK: jau, heu, hju, jeːu; AN: biru, hijau",2
+green,GREEN,2,0,lVk/lɔk,lVn/lVŋ,syllable skeleton,"TK: lok, lɔk; AN: lanhi, malaŋilo, laluwas",2
+grow,GROW,2,0,t,t,onset (CV skeleton),"TK: to:, too, tom, tə:p; AN: tubu, tupu, tipu, toboʔ",5
+grow,GROW,2,0,o,u,nucleus (CVC and CVV/CVV structures),"TK: to:, too; AN: tubu, tuvu, tupu, tubo",3
+grow,GROW,2,0,"-p, -m","-b, -bu",coda (CVC) or medial (CVVCV / CVCVCV),"TK: tom, tə:p; AN: tubu, toboʔ, túbu",3
+grow,GROW,2,0,"l, loŋ, lu:ŋ","lumu(k), leŋaw",onset and body,"TK: lu:ŋ, loŋ; AN: lumuːk, leŋaw",2
+grow,GROW,2,0,m(a/n)-,"ma-, mar(a)-, man-",prefix (verbal/causative/actor-focus morphology in both),"TK: man.⁵⁵, jaɨ.²_ma:.¹; AN: marakiyas, ma-leŋaw, manúbo",2
+hand,HAND,2,0,m,m,onset,"TK: mje¹ (Kam Sui), mie¹ (Kam Sui), mɨ:¹ (Tai), meɯ1 (Hlai); AN: muca (Formosan), lima (W.MP), imá (Formosan), himaʔ (Formosan)",5
+hand,HAND,2,0,i~ɨ,i,nucleus vowel,"TK: mie¹ (Kam Sui), mɨ:¹ (Tai), mɨɨ (Tai); AN: lima (W.MP), imá (Formosan), nima (W.MP variant)",4
+hand,HAND,2,0,ŋ,n,coda,"TK: muŋ33 (Kra/Tai), mɨŋ.² (Tai), fɯŋ²³¹ (Tai); AN: tanagna (W.MP), dengen (W.MP), lima (no nasal coda but common in numeral uses); note: some AN forms lack nasal coda, others show n in derived forms.",2
+hand,HAND,2,0,f,h~∅,onset,"TK: fɯŋ²³¹, foŋ³¹, fəŋ²¹ (Tai); AN: himaʔ (Formosan), also compare Malay tangan (sometimes “h” in AN reflects TK labial/fricative onset; but weak support)",2
+hand,HAND,2,0,j (or i~j in CjiV),y~j,onset/link,"TK: mje¹ (Kam Sui), mja¹ (Kam Sui); AN: kamay (W.MP), kamáy (W.MP; palatal approximant or glide in both sides)",2
+head,HEAD,2,0,k,k/g,onset,"TK: kau, kaːu, kɐu, klɐu, kɛu; AN: kolo, kuluh, kepala, gulu",4
+head,HEAD,2,0,kj/cj/ç/c,k,onset cluster/affricate to stop,"TK: kjɛu, kjɐu, cɐu, cjɐu, cɕɐu; AN: kolo, kuluh",3
+head,HEAD,2,0,au/ɐu/ɛu,"ulu, ulo, uo",nucleus/diphthong to disyllabic -ulu/-ulo,"TK: kau, klɐu, cjɐu, kjɛu, kɐu; AN: ulu, ulo, u.l.u.n, u.l.o.h, gulu",4
+head,HEAD,2,0,h/hu,h/ho/hu,onset,"TK: hua, ho:, hǔa; AN: oho, kuluh, uhoh, ʔohoʔ",2
+head,HEAD,2,0,ʔ,ʔ,glottal onset,"TK: ʔbau; AN: ʔulu, ʔuyo, ʔohoʔ",2
+head,HEAD,2,0,p/b,p/b,onset,"TK: pəi, păk; AN: paˈjo, b̂úŋuʔ, btunux",2
+head,HEAD,2,0,gw/gu,g,onset,"TK: gwou, gau; AN: gulu, gu- in luŋgoŋo",2
+head,HEAD,2,0,m,b/m,onset,"TK: mpa, mpai; AN: b̂úŋuʔ, btunux",2
+heavy,HEAVY,2,0,n,n,onset,"TK: nak, nàk, naŋ, nɐk; AN: nadammat, na-dagsen, nadag'sɨn, nìwⁿì",5
+heavy,HEAVY,2,0,k,t,coda/final,"TK: nak, lak, nàk; AN: bug'at, mabigɨt, magabat, biyat, nadammat, malbat",3
+heavy,HEAVY,2,0,l,l,onset/medial,"TK: lak, lan; AN: belʔat, malbat, mattao, mjaɾbak, bug'at",3
+heavy,HEAVY,2,0,a,a,"vowel, initial syllable","TK: lak, nàk, han, jan, tan; AN: mattao, malbat, mabigɨt, magabat, nadammat, mahuna, mane",4
+house,HOUSE,2,0,b-/ba-,b-/ba-,"onset, initial syllable","TK: baan̪, ba:n, b.aː.n; AN: balay, bale, baay, baliʔ, baray, binalay",5
+house,HOUSE,2,0,l-/la-,l-/la-,"onset, initial syllable","TK: laːn, la:n; AN: lumaʔ, lumaq, l.a.m.i.n, lagkaw",4
+house,HOUSE,2,0,-an/-aːn/-ən,-ay/-an/-aɲ/-i(n),"nucleus+coda, rhyme","TK: baan̪, ba:n, ɣaːn, laːn, ja:n; AN: balay, baray, beléyén, lumaʔ, bʌ'lɨy, balɨy",3
+house,HOUSE,2,0,ɣ-/h-/ʝ-,h-,"onset, alternate initial","TK: hən, hə:n, ɣaːn, ʝaːn; AN: humáq, house rarely but some Formosan",2
+house,HOUSE,2,0,"j-/ja-, ɹ-","y-/ya-, r-","onset, alternate initial","TK: ja:n, ʝaːn, ɹaːn; AN: yadawan, rumáq̂, ruma",2
+how,HOW,2,0,h-,h-,onset,"TK: hɐu, hu, ha, hat. AN: howa (from ahoa), hola (from laisawa, lewa)",3
+how,HOW,2,0,n-,n-,onset,"TK: nu; AN: nanu, inon, innunar, anona, nak-, nan- from nan- shapes",4
+how,HOW,2,0,k-,k-,onset,"TK: ku, kra initial in kra forms. AN: kura, kasano, kaino, kemudakuda",2
+how,HOW,2,0,ŋ/-ŋ,-n/-ŋ,coda,"TK: jaaŋ, tɐŋ, saŋ; AN: pangan, inon, nanu, sonanu",3
+how,HOW,2,0,-a(ː)-,-a(ː)-,main vowel nucleus,"TK: hat, pan, ja:ŋ, ha; AN: paano, anona, sana, makananu",2
+how,HOW,2,0,j-,y/w-,onset,"TK: jaaŋ, ja:ŋ; AN: paywán, lewa (liaison w), laisawa",2
+how,HOW,2,0,p-,p-,onset,"TK: pin, pan, pe:n; AN: paŋno, paano, papiaini",4
+husband,HUSBAND,2,0,p/b,b,onset,"TK 'pa:n', 'pou', 'po', 'pu'; AN 'bana', 'bawag', 'binə(h)'",3
+husband,HUSBAND,2,0,k/kʷ,k,onset,"TK 'kwaːn', 'kaːn', 'kɣa:u', 'ka.la:u'; AN 'kahakey', 'kaʔamba', 'kataguin', 'kawiŋ'",3
+husband,HUSBAND,2,0,la/u,la/li,onset/root-initial,"TK 'la:k', 'la:u', 'lak.kjei'; AN 'lalake', 'larai', 'laraki', 'lagai'",3
+husband,HUSBAND,2,0,ʔai/ʔɛi/ʔɜi,aCa-/ay,onset/full root,"TK 'ʔai', 'ʔɛi', 'ʔɜi', 'ʔai+kwaːn'; AN 'asáwa', 'asawang', 'asawa ay', 'ayuzi', 'a.j.u.z.i'",2
+husband,HUSBAND,2,0,sa(u),swa/suami,onset,"TK 'sau', 'sǎamii'; AN 'swa', 'suami'",2
+husband,HUSBAND,2,0,ph,fa/v,onset,"TK 'pho', 'phua'; AN 'faʔi(nay)', 'vaɬau', 'vady'",2
+husband,HUSBAND,2,0,n,n,coda/medial,"TK 'nie', 'mbaːn', 'pan', 'maninai'; AN 'bina(h)', 'maninai', 'binə(h)', 'man'",2
+if,IF,2,0,ka/ko/kɔ,ka/ga/ɣa,onset or coda in CVC/CVCV shapes,"TK: la:ŋ.¹, ju.²_ko.³, ʔi³³+ko⁵³, hi³³+kɔ⁴⁵; AN: uka, maga, ɣaʔ, uka",4
+if,IF,2,0,ŋ,ŋ/ng,coda or syllable-final,"TK: la:ŋ.¹, na:ŋ.⁶, ka:ŋ.³_nau.²; AN: maʔeŋ, nung, kuŋ, kong",4
+if,IF,2,0,la/lɐ,"la, lafa, lahai, lɣa",syllable onset,"TK: la:ŋ.¹, laŋ³¹+ko³³, la:i.³; AN: lafa, lahai, lɣaʔ",3
+if,IF,2,0,ja/ji/jɔ,ya/ʔa/ʔa,"onset vocalic segment, sometimes initial glide","TK: jak.⁷, ji.²_ko.³, ji²¹+kɔ⁴², jɔk.⁸_si.⁶; AN: ʔano, hoci, ano si",2
+if,IF,2,0,na/nɐ/nɜi,"na, ano, nasi, paina",initial or medial,"TK: nɐŋ²¹+nɐu³¹, na:ŋ.⁶, nɜi²¹+sɘi³⁴; AN: nasi, ano si, paina",2
+intestines,INTESTINES,2,0,s,t,"onset, CVC/CVVC shape","TK: sai, sa:i, sɐi; AN: tinai, tnaʔi, tinaqi, tináy",3
+intestines,INTESTINES,2,0,ai~a:i,ai~aʔi~ay,"nucleus, diphthong","TK: sai, ha:i, la:i, ra:i; AN: tinai, tnaʔi, tináy",4
+intestines,INTESTINES,2,0,l~r,n,"medial, onset to medial","TK: la:i, ra:i; AN: tinai, tinaqi, tináy",2
+intestines,INTESTINES,2,0,h~kh,s,onset (marginal),"TK: ha:i, khɣəi, sha:i; AN: sine, sne, sii(u), sóeu",2
+knowsomething,KNOW (SOMETHING),2,0,ku/hu/khu,kau/maw/motau,"CVC (onset + nucleus, sometimes nasalized or with additional coda)","TK: 'khuŋ1', 'khoŋ1', 'khu:ŋ.¹', 'khuaŋ1', 'hu:.⁴', 'hu:.⁶'; AN: 'mau', 'motau', 'mammuan', 'mun'",3
+knowsomething,KNOW (SOMETHING),2,0,l-/lu-/lo-/la-,lam/alám/ʔalam,initial onset + low vowel (possibly with nasal coda),"TK: 'lo.⁴', 'lu:.⁷', 'la.'; AN: 'raLam', 'maẓalám', 'ʔalam', 'ki'lala'",4
+knowsomething,KNOW (SOMETHING),2,0,ru-/rou-/rúu,lam/alam,rhotic/lateral onset + low vowel,"TK: 'ru:.⁴', 'rou.⁴', 'rúu'; AN: 'raLam', 'maẓalám', 'ʔalam'",2
+knowsomething,KNOW (SOMETHING),2,0,ʔla-,ʔaˈlam/ʔáðam,glottal initial with lateral cluster,"TK: 'ʔla.³⁵'; AN: 'ʔalam', 'ʔáðam'",2
+knowsomething,KNOW (SOMETHING),2,0,ʔd-,ʔaðam,glottal stop + voiced stop in onset,TK: 'ʔde.⁵⁵'; AN: 'ʔáðam',1
+knowsomething,KNOW (SOMETHING),2,0,tV-,tan/tend-,alveolar stop onset,"TK: 'toŋ.³'; AN: 'tngon', 'tendek', 'amton'",2
+lake,LAKE,2,0,ŋ,naw/naw,coda/final cluster,"TK: laːŋ, waŋ, nɔŋ; AN: danaw, banaw, lanaw",4
+lake,LAKE,2,0,l,l,onset/medial,"TK: laːŋ, le:; AN: lanaw, lawa, lebbeng",3
+lake,LAKE,2,0,tam/ndam,danaw/dánaw,CVC onset + medial nasal,"TK: tam, ndam; AN: danaw, dánaw",4
+lake,LAKE,2,0,w,w,final or medial,"TK: waŋ, le:sap; AN: banaw, lawa, lanaw",3
+lake,LAKE,2,0,hou/hʌu/hɔu,lawa,monosyllabic nucleus/diphthong,"TK: hou²⁴, hʌu²³¹, hɔu²³¹; AN: lawa, láwa",2
+leaf,LEAF,2,0,b,b,onset (initial),"TK: bɤi, bai, baj, beɨ; AN: ba-, biæʔ, boloŋ, buŋ",5
+leaf,LEAF,2,0,ɓ,β / ß / v,"onset (initial, potentially voiced/fricative)","TK: ɓeɯ, ɓɤ̆ŋ; AN: βiraɦ, viraɦ, ʔaßaɣ",3
+leaf,LEAF,2,0,aɨ~ai~ɤi,au~aw~ao,nucleus/diphthong (main vowel(s)),"TK: bai, baj, bɤi, baɨ; AN: daun, daʔun, rau, ba-...au forms",4
+leaf,LEAF,2,0,m,w,"onset (TK variant), or laterals/w in AN","TK: mai, maɨ; AN: waso, rau, rerau, w-internal in daʔun etc.",2
+leaf,LEAF,2,0,l,r,"onset (less common), especially in Kra/Hlai vs Formosan/MP","TK: le, lɤi; AN: rau, rerau, raqon",2
+leaf,LEAF,2,0,ŋ,ŋ,coda/final,"TK: ʔdia:ŋ, ʔdɛŋ, ɓɤ̆ŋ͕; AN: boloŋ, buŋ, spuŋu",3
+left,LEFT,2,0,s,v/w,onset,"TK: sa:i, soːi, suːi; AN: vili, wiri, wigi",4
+left,LEFT,2,0,ai/oi/ɯi/əi,i/iː/iri,nucleus; syllable rhyme,"TK: sa:i, sɯːi, soːi, θuəi; AN: vili, wiri, iíri",3
+left,LEFT,2,0,p/b,b,"syllable onset, especially in disyllabic/compound forms","TK: pa:i, pi_li_fəi; AN: bibang, bibɨŋ, baciki",2
+left,LEFT,2,0,ŋ,ŋ,nasal coda (where present),"TK: ʔbɨ:ŋ, paŋ, maŋ; AN: bibang, gibaŋ, diwaŋ, ʔibɨŋ",3
+mosquito,MOSQUITO,2,0,ɲ/ȵ/ń,n,onset,"TK: ȵɔŋ, ńɔŋ, ɲoŋ, ńuŋ; AN: n.a.m.u.k, nʲ.a.m.u, lamúk ('n' in onset or medial position in several MP forms)",2
+mosquito,MOSQUITO,2,0,Vŋ,aŋ/onɨŋ,rime/coda,"TK: ȵɔŋ, ńɔŋ, ɲoŋ, lja:n; AN: tamonong, tamonɨng, blawang, blabɔng",3
+mosquito,MOSQUITO,2,0,juŋ/yuŋ,yamok/lamúk,CVC shape; medial vowel and nasal,"TK: juŋ, yuŋ; AN: yamok, lamúk – central vowel plus nasal codas",2
+mosquito,MOSQUITO,2,0,mj/lj,lam/mam,onset; possible palatal/nasal cluster or labial onset variation,"TK: mjuŋ, lja:n; AN: lamúk, mumis, mumĕs",2
+mosquito,MOSQUITO,2,0,c/cj,"ci-, ca-, tʃi-",onset; palatal affricate/stop to coronal or palatal,"TK: ci:n, ćam; AN: cikas, caçaRag, cikiči",2
+mosquito,MOSQUITO,2,0,ŋ,ŋ,coda,"TK: ȵoŋ, ńoŋ, juŋ, lja:n; AN: tamonong, blawang, blabɔng, piruŋaŋ",4
+mouth,MOUTH,2,0,p,b,onset,"TK: pak, pa:k, pam, pom | AN: babah, báʔba, baʔba",3
+mouth,MOUTH,2,0,p,ŋ,"onset (alternations, especially non-nursery forms)","TK: pak, pa:k | AN: ŋodoy, ŋapaʔ, ngusò, ŋaŋo",2
+mouth,MOUTH,2,0,m,m,onset/medial,"TK: mom, mup, mɔːm, moɜm | AN: mohoŋ, mohong, munoŋ",4
+mouth,MOUTH,2,0,ŋ,ŋ,onset/medial,"TK: ŋɔŋ | AN: ŋodoy, ŋuso, ŋapaʔ, ŋawang",5
+mouth,MOUTH,2,0,a,a,nucleus,"TK: pa:k, pam, kaːu | AN: babah, tapak, ŋapaʔ, ngangá",4
+mouth,MOUTH,2,0,k (coda),ʔ (coda),coda,"TK: pa:k, pak | AN: baʔba, tapak, ŋapaʔ",3
+narrow,NARROW,2,0,p (coda),"t (coda), pit",coda; 'CVC' or 'pit' roots,"TK: kɛp, hɛːp, ja:p, jeːp, kɑp, njap, he:p / AN: piɨt, simpít, lipit, ʔɨpit, ansuḻpit, nalipit",4
+narrow,NARROW,2,0,"k (onset, rare)",k (onset or medial),initial onset; in certain forms,"TK: kap, kɛp, kɐp, ki:p / AN: kitíd, kɛpaŋ, makule, maku(C)",3
+narrow,NARROW,2,0,h~j (onset),,"onset; matches are less clear, may reflect affixation or variation","TK: he:p, hɛːp, hja:p, jeːp, jɛ:p / AN: (no direct clear onset match, but affixed or derived forms in AN: ma-, maku-, ma-, makə-)",2
+narrow,NARROW,2,0,"ɛ, a (nucleus)","i, e (nucleus)",main vowel,"TK: kɛp, cɛ:p, hɛːp, kap, kɑp / AN: pit, kitíd, simpít, lipit, kɛpaŋ",2
+neck,NECK,2,0,k-/kh-,l-,onset (CV(C) shape),"TK: kan.ɛn, kam.ko, khɔɔ, kʰ.ɔː, khɔ; AN: liqe, leg, leeg, leog, liə́g, liug, liʔɨg",4
+neck,NECK,2,0,-ŋ,-ŋ,coda/final (nasal ending),"TK: zoŋ, ɬoŋ, tsɔŋ, zɔŋ, zuŋ; AN: loŋ (k.a.l.o.ŋ), lohoŋ",4
+neck,NECK,2,0,z-/ʒ-,r- (esp. in rVrV shapes),onset,"TK: ʒau, ʒɔ, zuŋ, zoŋ; AN: ruren, rurən, rə'əʔ, réʔér",3
+neck,NECK,2,0,wan/van,"wa(r)-, w-",full root or initial syllable,"TK: wan, wan; AN: waru, wáru', wao",3
+neck,NECK,2,0,nVn/-nan,nVn/-nan,full form,"TK: ńən, ʔdən; AN: niʔən, mudan",2
+neck,NECK,2,0,ta-/ka-,t-/k-,"onset (less common, scattered)","TK: ta.ćəu, ka_tu; AN: t.u.kʰ.oː, toro, atoka, k.a.k.o.r.o.k",2
+needleforsewing,NEEDLE (FOR SEWING),2,0,m,m,coda,"TK: tɕim, cim, ćəm, cham; AN: dagum, dayum, daum, djaum, soɾem",5
+needleforsewing,NEEDLE (FOR SEWING),2,0,tɕ/c/ć/s/ts/ɕ,d/j/dj,onset,"TK: tɕim, cim, ćəm, śɨm, tsɪm; AN: dagum, dayum, djaum, di'gum (voiced affricate variation)",3
+needleforsewing,NEEDLE (FOR SEWING),2,0,k/kʰ,g,onset,"TK: khjam, khěm, khem, khiam; AN: dagum, di'gum, dagom",2
+needleforsewing,NEEDLE (FOR SEWING),2,0,i/ɪ/ɨ/ɛ/ə,a/u,nucleus (vowel),"TK: tɕim, khjam, ćəm, khěm; AN: dagum, dayum, djaum, daum, rahum",3
+needleforsewing,NEEDLE (FOR SEWING),2,0,n-dental nasal,n/d,onset,"TK: ljin (rare), sum (but n is rare here); AN: nomay, dinum, danda~dadahuŋ",1
+new,NEW,2,0,m,b,onset,"TK mai, man-, măɯ, maɨ; AN bagu, bag-o, bayo, bayu, bovaa",4
+new,NEW,2,0,p,b,onset,"TK pa:n, pa:ŋ; AN ba'go, bag-o, bayu",3
+new,NEW,2,0,a,a,nucleus (vowel),"Widespread in both: TK mai, man, pa:n; AN ba'go, bag-o, baroʔo, vao, bayu",5
+new,NEW,2,0,ai/aj,ay/ayu,rime/nucleus,"TK mai, maj, mày; AN bayo, bayu",3
+new,NEW,2,0,w,v/w,onset,"TK wai; AN vao, vaoʔaə, wawɔɾu",2
+new,NEW,2,0,m̥/h̃,f,onset (possibly devoiced/aspirated > fricative),"TK m̥əi, m̥ai, h̃wai; AN fáev|a, faqlhu, falami",3
+nine,NINE,2,0,k-/c- (palatalized or velar onset),s-,onset,"TK: kiu, kjʌu, kjiu, cjou, cju, ceu; AN: siva, siwa, syam, sia, sio, s.e.w.aː.j",3
+nine,NINE,2,0,au~ou~iu (diphthong),ia~io~iwa (diphthong/vowel sequence),nucleus,"TK: kiu, kaau, kou, ceu, cju, cau; AN: sia, sio, siwa, siyam, siyow, siaw",3
+nine,NINE,2,0,-w / -u (coda or glide),-w / -m / -ʔ / -n,coda/glides,"TK: kiw/kju/cju/kaw; AN: siwa/siyam/sio/siow/siya:m, siyám, siwaʔ",2
+nine,NINE,2,0,s-,s-,onset (isomorphic),"TK: sau, so_laŋ; AN: siva, siwa, sia, siyow, syam",5
+person,PERSON,2,0,k,t,onset,"TK: kɔn, kun, khon, kɨn; AN: tao, taw, tau, táwlay",3
+person,PERSON,2,0,n,w,coda/final,"TK: kon, kun, kɔn, khon; AN: tao, taw, tau, tágu",2
+person,PERSON,2,0,w,w,onset/medial,"TK: wun, wɜn, wən; AN: taw, tau, tawo, tau[mata]",3
+person,PERSON,2,0,ŋ,ng,coda/final,"TK: ŋjũ:n, ma_iŋ; AN: orang",2
+person,PERSON,2,0,m,m,onset,"TK: ma_iŋ, ɱa:u, ma:u; AN: manusia, m.a.n.t.u.a.r.i",2
+person,PERSON,2,0,h,ʔ,onset,"TK: hun, hʊn, hɯn; AN: ʔɨttaw, ʔomás', ʔipo'gaw",2
+person,PERSON,2,0,au/a:u,au/aw,rime/nucleus,"TK: Ɂa:u, ŋa:u, ɱa:u; AN: tau, taw, sau, so'o",3
+plantsomething,PLANT (SOMETHING),2,0,p/pl,p/pa/pe,onset (main root),"TK: plùuk, phuk, puk, plu:k, plo:k; AN: pamula, pɨmula, pamúla, pemula, palumaʔ",4
+plantsomething,PLANT (SOMETHING),2,0,m-,ma-/mu-,prefixal onset,"TK: mje², mja², mbja¹, mia², mie² (mostly Kam-Sui); AN: malhuiza, mamwaʔ, muyaʔ, mamuwaʔ, mabinni",4
+plantsomething,PLANT (SOMETHING),2,0,tam/dam/tjaŋ,tanum/tanom/tanim,"CVC skeleton, 't-n-m' root","TK: tam²⁴, dam¹, ʔdam¹, tjaŋ³⁵; AN: pagtanom, matanom, m.a.g.t.a.n.u.m, nagtaˈnim, ʔitanom",5
+plantsomething,PLANT (SOMETHING),2,0,ja/jö,ya/wa,"palatal or labial medial, or second root syllable","TK: mja², mbja¹, pjö¹; AN: muyaʔ, m.u.j.a, mimuǥaʔ, mamuwaʔ",3
+pound,POUND,2,0,t,t/d,"onset, CVC/CVCC skeleton","tai tup, tap, tam, tɔi; western_mp tut, tĕtuʔ, dak, mdak, m.i.t.o.t.o, ka|tut",4
+pound,POUND,2,0,k,k/g,"onset, often CVC","kra kho, kam_sui wak; western_mp magtoktok, ka|tut, kijuk",2
+pound,POUND,2,0,m,"maN-, mag-, mi-, mo-",prefix/preinitial,"tai maŋ; formosan maʈinapan, maka-runu, magtoktok, maŋsad, magbayu, mo-lobuʔo",3
+pound,POUND,2,0,p,b,"onset, CVC","kam_sui tap; western_mp bayu, bi'yoʔ, balbag, bayhon, bayoen",2
+pound,POUND,2,0,ch/s/ś,sy,onset,"tai chɔk, swa:u; formosan syaiboʔo, syaɭiboo",2
+pound,POUND,2,0,n,n,coda or medial (rare),"kam_sui nâp, formosan insung, maʈinapan",1
+red,RED,2,0,d/ɗ,d/r/l,"onset, initial CVC/CCVC roots","TK: ʔdeŋ, ɗɪŋ, dɛŋ, la:n, lɛŋ; AN: dirərəl, d.a.d.a.r.a.ʔ, puláʔ, marari",3
+red,RED,2,0,ŋ,ŋ/n,coda or post-vocalic nasal,"TK: deŋ, lɛŋ, hoŋ, tɔŋ, xa:ŋ; AN: kahŋaŋ, ŋaŋilæhan, hendɛŋ, makakan",4
+red,RED,2,0,l,l/r,onset/medial (esp. before sonorant/nasal),"TK: la:n, lha:n, lu:n; AN: puláʔ, nalibaga, dirərəl, marari",3
+red,RED,2,0,h,h,"onset, especially in serial or alternate variants","TK: ha:n, hoŋ, haːn; AN: huloʔ, hendɛŋ",2
+red,RED,2,0,p,p/f,"onset (less frequent, alternate roots)","TK: pu53_thjɔ53, pja.⁴²; AN: puya, puláʔ, furo, fulɨʔ",2
+right,RIGHT,2,0,kw-/khw-,w-,syllable onset (CVC skeleton),"TK: kwa²³¹, khwa:, khwaa; AN: wawan, wanan, waɾaku",4
+right,RIGHT,2,0,p-/ph-,t-,syllable onset,"TK: pa.³_xa.¹, phai_ten; AN: tu-o, tóo, toʔo",3
+right,RIGHT,2,0,-ŋ,-n,syllable coda/final nasal,"TK: pa:ŋ, beŋ; AN: wanan, kanan, vanan",3
+right,RIGHT,2,0,fa-/wa-,va-/wa-,syllable onset,"TK: fa.¹, wa.³⁵; AN: vanan, wawan, waɾaku",3
+right,RIGHT,2,0,m-,m-,syllable onset (less common),"TK: maŋ, mjan; AN: moya",2
+root,ROOT,2,0,l,l,"onset (CVC, CV:C)","TK: lak, la:k, l̪aak, laːk; AN: lamit, lamot, la'mut",5
+root,ROOT,2,0,k,k,"coda/medial (CVC, CVCV)","TK: lak, la:k, kɔk; AN: f.a.k.a, p.a.r.a.k.a, faka",3
+root,ROOT,2,0,ŋ,m,coda (CVŋ ~ CVm),"TK: haːŋ, ha:ŋ, saŋ; AN: amut, hamuʔ, gamil",2
+root,ROOT,2,0,h,h,onset,"TK: ha:k, haːŋ; AN: hohás, hamuʔ",3
+root,ROOT,2,0,a,a,vowel nucleus,"TK: la:k, ha:k, kan, saŋ; AN: lamut, gamil, lamit, faka, ramisi",5
+root,ROOT,2,0,s,s,onset/coda,"TK: saŋ, sa:ŋ, ɕi44; AN: bossor, ramísi, rarĕs",2
+root,ROOT,2,0,r,r,onset,"TK: ɹaːk, râak, ri:u1, rip8; AN: ramísi, rarĕs",2
+rope,ROPE,2,0,l,l,onset,"TK: laːm, la:k, laːk; AN: laetse, lúbid, loˈbid, tali",4
+rope,ROPE,2,0,aː,a,nucleus (first syllable),"TK: laːk, laːm, tɕaːk; AN: tali, talísi",3
+rope,ROPE,2,0,k (coda),d/t,syllable coda,"TK: la:k, laːk, ca:k; AN: lúbid, talid, sulók",2
+rope,ROPE,2,0,tɕ/c/s onset,t/s onset,onset (CVC skeleton),"TK: ca:k, cək, tɕaːk, ɕaːk, saːk; AN: tesi, taisi, t(a)lisi, sa'ís",3
+rope,ROPE,2,0,a (nucleus),i (nucleus),second syllable nucleus,"TK: laːk, ca:k, tɕaːk; AN: tesi, tali, t(a)lisi",2
+rotten,ROTTEN,2,0,n/l,l/r,onset,"TK lau, lu, la:n, ran, nau, na:w; AN lubok, lozitra, runot, lubók, ruw, ru...",3
+rotten,ROTTEN,2,0,n,n,onset,"TK nau, na:w, nɐu, nâo, nau³¹; AN namɨuʔ, naboyok, nabwel, nabadyu, nahtaʔ, ndaán",3
+rotten,ROTTEN,2,0,u/o/aʊ,u/o,nucleus (vowel),"TK lau, lu, nau, nɐu; AN lubok, pulu, ru, runot, podoot, bu, tubaŋəʔ",4
+rotten,ROTTEN,2,0,ŋ,ŋ,coda,"TK δuŋ, ɣuŋ, zuŋ, joŋ, jɔŋ; AN kaŋkoŋ, tubaŋəʔ",2
+rotten,ROTTEN,2,0,d/ɗ/δ/ɣ/z,d/ð/l/b,onset stop/fricative/affricate,"TK duk, ɗok, δuŋ, ɣuŋ, zuŋ; AN dunot, du..., də..., deɾɔwu, bu..., βu..., pulu",2
+salt,SALT,2,0,k,k,onset (CVC skeleton),"TK: kə:, kɔʔ, kju, klɨ:a; AN: kasin, kasín, kínu (cikV/cimu in Formosan)",4
+salt,SALT,2,0,c,s,onset (singleton),"TK: cuʔ, cjuʔ, cua; AN: asin, asín, siŋ, simuton, sigɨm",3
+salt,SALT,2,0,kl,k,cluster onset vs. simplex,"TK: klɨ:a, klu, klʉa; AN: kasin, kasín (initial k)",2
+salt,SALT,2,0,du/ⁿdu/dwa,timu/timo,"C-initial, labial vowel/glide","TK: ʔdua, ʔdwa, ⁿdwa, ⁿduə; AN: tímus, timoʔ, simuton",2
+salt,SALT,2,0,ń,n/ni,onset/nasal,"TK: ńəu, ńćau, ńa:u; AN: maaíni, ni in asin, kasin",2
+scratch,SCRATCH,2,0,k,k,"onset (CVC, CVVC, clusters, and full roots)","TK: koi, kwaːi, kao, kɐu; AN: katɨl, kurit-, kamas, k.o.i, kumamot, kɔlus",5
+scratch,SCRATCH,2,0,w,w,"medial/glide (following k, or Cw pattern)","TK: kwaːi, ŋwa, ŋwaːi; AN: kəmáwah, qaʀaw, macagao",3
+scratch,SCRATCH,2,0,ŋ,ŋ/g,onset (nasal or voiced stops),"TK: ŋwa, ŋwaːi; AN: guŋkuíʔ, gumats, gog-oen, gi'tɨl",2
+scratch,SCRATCH,2,0,t,t/-t/-d,coda or root final (often as -t/-d/-l),"TK: juat, tsut, koi, kɐu; AN: katɨl, kurit-, makatɨh, kadkadən, makkukkúd",4
+scratch,SCRATCH,2,0,aːu~au,ao~aw,main vowel nucleus in CVC/CVVC for root,"TK: ŋwa, kao, kɐu; AN: macagao, qaʀaw",2
+sea,SEA,2,0,h,h,onset,"TK: ha:i, hoːi, haːi; AN: hawa, hawaʔ, hawu",4
+sea,SEA,2,0,ha,ba,syllable onset,"TK: ha:i, haːi; AN: bay, baybay, báyu, báybay (b/h alternation noted in some Austronesian)",3
+sea,SEA,2,0,l,l,onset or medial,"TK: la:ŋ, lam, le:, la:i; AN: lau, lavo, lavək, liyar",3
+sea,SEA,2,0,ai~ei,ay,nucleus,"TK: ha:i, hai, la:i; AN: baybay, bay",2
+sea,SEA,2,0,ŋ,n,coda,"TK: mo.⁴²_ŋ.⁴², la:ŋ; AN: masĕn, mɔhin",2
+sea,SEA,2,0,th/t,t/d,onset,"TK: tha.¹-le:, t̪ha_l̪ee; AN: dagat, dáːgat, d.i.l.i.ʔ, taaw, ta:wo",2
+seven,SEVEN,2,0,t͡s/ɕ/s/š/c/tɕ,p/f,onset,"TK: sɐt, ɕɐt, tɕɜt, tsɐt, sɜt; AN: pitu, pittu, fito, fitu",3
+seven,SEVEN,2,0,"VC (mostly -at, -et, -it, -ɛt, -ɐt, -ɜt, -ət)","itu, ito, ituʔ, itoʔ",rime,"TK: cat, cet, ɕit, sɐt; AN: pito, pitu, pitó', ito, itu",3
+seven,SEVEN,2,0,-t (coda),-tu/-to (syllabic ending),coda vs. open CV ending,"TK: cet, sɐt, tɕit; AN: pitu, pito, pitú, pittu",3
+seven,SEVEN,2,0,"h/th (minority, C1)",Ø,initial,"TK: hət, thət, thou; AN: pitu, fitu (no h/th in AN forms)",2
+sew,SEW,2,0,n-/ȵ-/ń-,t-/d- (and ts-/ʈ-/ṭ-),onset,"TK nip/ńip/ȵep (Tai, Kra, Kam-Sui, Hlai) vs. AN tahi, ta(ʔ)is, daʔit, ts-m-aqis, ʈəmaʔi (Western MP, Formosan)",2
+sew,SEW,2,0,-ip/-ep,-it/-is/-is,rime/coda,"TK nip, jep, ńep, ćip (Tai, Kam-Sui, Hlai) vs. AN daʔit, caʔit, tahi, taqis, (Formosan, W.MP)",4
+sew,SEW,2,0,j-/ɲ-/ȵ-,s-/ts-/sh-,onset (possibly palatalization-coronal match),"TK jap/jep/jɛp/ȵep/yep (Tai) vs. AN sh-m-aqish, ts-m-aqis, sais, smais (Formosan)",3
+sew,SEW,2,0,fa(ː)ŋ/foːŋ,bet/get (labial stop + coronal),CVC skeleton,"TK faŋ, foːŋ (Kam-Sui, Tai) vs. AN bet, get, ʔu'gut (W.MP)",2
+sew,SEW,2,0,che/cha,ca- (onset c-),onset,"TK che, cha (Kam-Sui) vs. AN caʔit, cəmaqis (W.MP, Formosan)",2
+short,SHORT,2,0,t,t,"onset, CVC skeleton","TK: tin³⁴, tɜn³³, tan.³, t̪am; AN: tiku, tik, putul, tuŋ, antikey, aptek",4
+short,SHORT,2,0,n,n,"coda/final, medial","TK: tan, tin, ndin, san; AN: nanʉhtʉ, anyid, tanam, aynyed",3
+short,SHORT,2,0,l,l,onset/medial,"TK: lən.⁴, lɔt.⁹; AN: lebu, llebu, liketi, lilinnak",3
+short,SHORT,2,0,p,p,"onset, CVC skeleton","TK: pɔ:t, pɔt.¹; AN: putul, paʔ, aptek, afofa",2
+short,SHORT,2,0,s,k/s/q,"onset, possibly lenited or via affrication","TK: san, sên; AN: sik, ayked, qiqiú, qof",2
+sit,SIT,2,0,n/l/ŋ (onset/root+C),ŋ (coda)/-ng,CVC(C) with final nasal,"TK: naŋ, laŋ, năŋ, lakkia_biao niŋ.⁵, hlai tsɔŋ3, coŋ.³; AN: maiang, guráng, totoláŋ, iŋkod",4
+sit,SIT,2,0,ts/t/s (onset),t/tʔ (onset),initial position,"TK: tsɔŋ3, tsoŋ3, tsuŋ3, sui.⁵³, tui.⁶; AN: tuaparo, tuʔo, tuku-, tluuŋ, t'ɔbɔ",3
+sit,SIT,2,0,ui/oi (nucleus/diphthong),u/o (nucleus),vowel/diphthong,"TK: hui⁶, sui.⁵³, tui.⁶, lui⁵, zu:i.⁶; AN: tuku-, tuluuŋ, to(C)–, tuaparo, toboke",3
+sit,SIT,2,0,ŋ (coda),ŋ (coda),coda,"TK: naŋ, laŋ, tsɔŋ3, tsoŋ3, coŋ.³; AN: maiang, guráng, totoláŋ, tluuŋ",5
+six,SIX,2,0,l-/h-/ɣ-/ʝ-/z-/ð-,ʔ-/ø-,onset,"TK: lɔk, hok, ɣɔk, jɔk, zok, ʝɔk, ðɔk; AN: ʔanum, anəm, unum, unom",4
+six,SIX,2,0,-ok/-ɔk,-om/-um/-əm,nucleus + coda,"TK: lɔk, hok, lok, ɣɔk, jɔk, zok; AN: anum, anəm, unum, enem",4
+six,SIX,2,0,m/n (in KRA),n/m (prefinal/consonantal),CVC structure (Kra forms),"TK: mjaŋ, nam, ńaŋ; AN: anəm, nomu, enim, anum",3
+skin,SKIN,2,0,pa-/pui-/pai-/pei-,pa-/ba-/βa-,"onset, full word","TK: pai², pui.²¹², pei.²; AN: paːnit, balat, bɨlat, βaŋəʃ",4
+skin,SKIN,2,0,naŋ-/nɐŋ-/nuaŋ-/nɔ:ŋ-/năŋ-,lang-/lund-/kul-/kol-,"CVC(C) skeleton, onset+nucleus","TK: n̪aŋ, naŋ⁵⁴ʔ, năŋ323, nɐŋ⁵⁴ʔ, nuaŋ1, nɔ:ŋ4; AN: langgit, lundis, kulit, kolit",3
+skin,SKIN,2,0,-ŋ (coda),-ŋ/-n (coda),word-final coda,"TK: laŋ.¹, n̪aŋ, naŋ²⁴; AN: kulaluŋ, baŋəs, yabun",3
+skin,SKIN,2,0,ka-/qa-,ka-/qa-/ku-,onset,"TK: ka33, ka.⁴², qa.⁰; AN: kahuŋ, kulit, qaɬic, kulaluŋ",3
+sleep,SLEEP,2,0,nVn,nan,whole form,"TK: nan (kam_sui, tai), AN: nan (shwng)",5
+sleep,SLEEP,2,0,nɔn; non; nɯn,menek; mainə́p,"nasal-initial, high central vowel nucleus, nasal coda","TK: non, nɔn, nɯn (tai); AN: menek, mainə́p (shwng, formosan)",3
+sleep,SLEEP,2,0,n- (onset),m- (onset),"onset, especially with nasal codas","TK: nun, nɔn; AN: menek, miip, mara (formosan/shwng)",2
+sleep,SLEEP,2,0,lap (coda),lep; inep; lipe,coda/palatal-labial closure,"TK: lap (tai), AN: inep (formosan), lipezeŋ (wmp)",2
+sleep,SLEEP,2,0,ts-; t- (onset hlai),t- (onset wmp),onset,"TK: tsɔn, tu:n, tson (hlai); AN: tulog, tuyog, tujug, turóg (wmp)",3
+sleep,SLEEP,2,0,"u/o (vowel nucleus, hlai/tai)","u/o (vowel nucleus, wmp)",nucleus of CVC syllable in 'sleep'-type roots,"TK: tu:n, tso:n, nɔn (hlai, tai); AN: tulog, turóg, tuyog (wmp)",3
+small,SMALL,2,0,n,t/d,onset (CVC roots),"TK: nai, niŋ, nɔi, nai, ʔni; AN: tikcaa, təkí'aʔ, dik, itek, deʔisek",2
+small,SMALL,2,0,k,k/q,coda (CVC roots),"TK: nak, l̪ek, lek, tɔk, tik; AN: tik, itek, latíq, bitsiq",3
+small,SMALL,2,0,t,t,onset (CVC roots),"TK: tɛn, tja, tɔk, tik; AN: tikcaa, təkí'aʔ, takiyuc, itek",4
+small,SMALL,2,0,s/θ,s,onset,"TK: sai, sɐi, θai, θɜi; AN: pipis, maisot, bissáng, pusirit",2
+small,SMALL,2,0,ȵ,n,onset (palatal/nasal initial),"TK: ȵɘi, ȵɐi, ȵɛ̈i; AN: maini, ban'ʔit",1
+small,SMALL,2,0,l,l,onset (CVC roots),"TK: lek, lék, łai; AN: bilak, kely, malatiq",2
+small,SMALL,2,0,ai,i,nucleus/vowel,"TK: nai, sai, θai, łai; AN: itek, kely, pipis, maliit",2
+smellperceive,SMELL (PERCEIVE),2,0,m,m,onset,"TK: me.¹³, mau.⁴², mʊp⁴⁴, dom.¹; AN: marisauvu, mokobou, mahamot",5
+smellperceive,SMELL (PERCEIVE),2,0,n,n,onset,"TK: nən.⁴, nom.³, ȵou⁵⁵, ȵɔu³³; AN: nasĕm, sanek, sakanúx",4
+smellperceive,SMELL (PERCEIVE),2,0,l,l,onset or coda,"TK: lom.⁶, lɔm.¹; AN: daʔlun, sakanúx, haŋutɨn",3
+smellperceive,SMELL (PERCEIVE),2,0,ŋ,ŋ,onset,"TK: ŋhjut.⁷; AN: vaŋsís, haŋutɨn, angob, toŋut",4
+smellperceive,SMELL (PERCEIVE),2,0,s,s,onset,"TK: sɨp.⁸, sɛu.¹, śup.⁷; AN: sazəkən, sakanúx, sɨ'ʔɨp, sanek, smkənux",5
+smellperceive,SMELL (PERCEIVE),2,0,au/ɐu/ɔu,au/au/aw,vowel nucleus/mid diphthong,"TK: mau.⁴², ȵou⁵⁵, ɲɐu⁴⁵, ȵɔu³³; AN: sumauk, marisauvu, smkənux, ebáw",3
+smellperceive,SMELL (PERCEIVE),2,0,d,d,onset,"TK: dom.¹, dâayklìn, ʔdum.¹, ʔdʊm⁴²; AN: daêp, daʔlun, ngadog",3
+smokeexhaust,SMOKE (EXHAUST),2,0,wan/van,as-; us-; (h)us-,onset and nucleus (CVC skeleton),"TK: wan.², ʋɐn²³¹, wɐn²³¹, van.²; AN: asu, aso, úsok, husʔul, husok",3
+smokeexhaust,SMOKE (EXHAUST),2,0,kw/kʰw,qu-/ku-,onset cluster,"TK: kwan.¹, kwɐn, kʰuan; AN: qumbu, qucʔul, quluŋún",2
+smokeexhaust,SMOKE (EXHAUST),2,0,hɔn/xɔn,hon/han/hu-,onset and nucleus; CVn/CV,"TK: hɔn²³², xɔn², khwan; AN: hetona, husʔul, hiluq",2
+smokeexhaust,SMOKE (EXHAUST),2,0,zaj/zăj,as-/es-,onset and vowel,"TK: zaj33, zăj31; AN: asu, aso, asû",2
+snake,SNAKE,2,0,ŋ,u(l),word-initial onset or onset+vowel,"TK: ŋuu, ŋou, +ŋu²¹³, ŋɨa; AN: ulay, ʔulud, urog, uláy, ʔuleg",4
+snake,SNAKE,2,0,u,u,nucleus/vowel,"TK: ŋuu, ŋou, +ŋu²¹³; AN: ulay, ʔulud, urog, uláy, ʔuleg, ubíŋan",5
+snake,SNAKE,2,0,s,s/z/l,onset,"TK: sui, hui²; AN: lisu, zisu, soɭao, ʃiβaLiʔ",2
+snake,SNAKE,2,0,t/d,d/l,"onset, onset cluster alternation","TK: tui, taːŋ, ta:ŋ.⁶; AN: ulad, ʔulad, uláy, ʔuleg",2
+snake,SNAKE,2,0,ŋ,n/ŋ,coda/nasal rhyme,"TK: taːŋ, ma.⁴²_ŋkəu.³¹, ŋjĩe.²; AN: uláy(n), uneg, ubíŋan",2
+spider,SPIDER,2,0,ka(u/w),la(w)a,onset + main vowel,"TK: ka:u, ka:w, kwa:u, kjaːu, klaːu / AN: lawaʔ, lalawaq, lawà, laláwa, kalalawaʔ",4
+spider,SPIDER,2,0,ŋ,ŋ,coda/final nasal,"TK: kuŋ, moŋ, ɣoŋ, loɐŋ / AN: kaluaŋkaŋ, falalutuŋ",4
+spider,SPIDER,2,0,k,k,onset/start of CVCV root,"TK: ka:, koŋ, kuŋ / AN: katu, kakatu, kaluaŋkaŋ, k.a.l.a.w̃.a",4
+spider,SPIDER,2,0,c/ɕ/j,k/g,"onset, especially in palatal clusters or with front vowels","TK: cjaːu, cɕaːu, kjaːu / AN: kakatu, kamangkamang, gagamba",2
+spider,SPIDER,2,0,m,m,nasal in CVCV reduplicants,"TK: məm, mum, maeaeŋmum / AN: kamangkamang, kalmamɔq, kahimboboʔ",2
+spider,SPIDER,2,0,pa~ma~ba,ba~pa,"lexical root, possibly nursery/reduplicant roots","TK: pa:ŋ, ma:ŋ / AN: bakaka, bapopaŋ, gagamba",1
+spit,SPIT,2,0,l,l,onset and medial,"TK: la:i, nam_la:i, lam_la:i, hlai łoi; AN: laβay, loˈdaʔ, dula, lurâ, djilai",4
+spit,SPIT,2,0,a:i,ai/ay,nucleus/coda,"TK: la:i, lam_la:i, nom_ło:i; AN: djilai, laβay, puaŋaai",3
+spit,SPIT,2,0,n,n/d,onset (first element and prefix/root),"TK: nam_la:i, na:m_la:i, nan, nom; AN: dula, duplâ, dura, taẓunaʔ",3
+spit,SPIT,2,0,pj/pjɔ,dj,onset cluster/simple onset,"TK: pjo, pjɔ; AN: djilai",2
+spit,SPIT,2,0,m,m,onset,"TK: mja:i, muk, mom; AN: mallusab, momúe, matnipah",2
+split,SPLIT,2,0,ph-,b-,onset,"TK: pha:, pha.⁵, phu.; AN: baká, bakká, bawukɔ, busak, biak, ba(k)-",4
+split,SPLIT,2,0,pa-,ba-/pa-,onset,"TK: pa:k, pha:, pa:k.⁸; AN: baká, bakká, ba-, baka-en, busak, biak, paka-, baká",4
+split,SPLIT,2,0,-k,-k,coda,"TK: pa:k, cak, tɛ:k; AN: baká, bakká, busak, biak, kapau",5
+split,SPLIT,2,0,bu-,bu-,onset,"TK: bu:ŋ; AN: busak, mogbolong",2
+split,SPLIT,2,0,kh/k-,k-,onset,"TK: khwa, khai, cak; AN: kapau, kaba-, kab-",3
+squeeze,SQUEEZE,2,0,nVn / ȵVn,nVn / mVm / manan,CVC skeleton,"TK: nɛn, ȵɛn, nɐn, ȵɐn; AN: banan, manan-daitsy, beniniq",3
+squeeze,SQUEEZE,2,0,b/p- (onset),p/b- (onset),onset-initial,"TK: bip, bit, pan; AN: puga, pitos, banan",3
+squeeze,SQUEEZE,2,0,mV(C),mV(C),initial nasal,"TK: mip, mi:t, mi:p; AN: mamiaky, magpuga, mo-mitodu, mipositra, mam-",4
+squeeze,SQUEEZE,2,0,k- (onset),k- (onset),onset-initial,"TK: kan, khán, kam-; AN: kompəə, kəmɨs, katasín, kanamuʔ",4
+squeeze,SQUEEZE,2,0,-an (coda/nucleus),-an (coda/nucleus),final,"TK: nɛn, nɐn, kan; AN: banan, manan-",2
+steal,STEAL,2,0,l/j,k/g,onset,"TK ljak/kjak/ljak (Kam-Sui, Tai) vs. AN karau, koopa, kɔʔua, g.u.p.eː.t (Shwng, Formosan, W.MP)",3
+steal,STEAL,2,0,k,k,onset,"TK kja(k), cak, tsak, lak (Kam-Sui, Tai) vs. AN kawat, karau, koopa (W.MP, Shwng)",4
+steal,STEAL,2,0,ak,aw/au,coda,"TK tsak, tsak, cak, lak (Tai) vs. AN takaw, nakaw, kawat, takawun (W.MP)",4
+steal,STEAL,2,0,m/l,m/n,"onset, alternate roots","TK mo:i, lu:m (Tai, Kra) vs. AN manako, mnagaw, marmaʔ (W.MP, Formosan)",2
+stick,STICK,2,0,ka/kɐ,ka,onset syllable; root initial,"TK: kɐn⁴⁵, kwɐn⁴⁵; AN: kayu, káyu, kahuy, kahui, ka'yoʔ, kahew, kioʔo, kálu",5
+stick,STICK,2,0,ŋ/-n,-u/-uy,"coda, nucleus in monosyllabic forms","TK: tɐŋ²¹⁴, kɛŋ³¹, klaŋ³²; AN: kayu, kayuy, kapuy, kahuy",3
+stick,STICK,2,0,f,h,"onset, especially before 'a'/'ɐ'/low vowels","TK: fɐi²¹, fɛ̈i³³; AN: kahuy, kahui (possible lenition/spirantization chain)",2
+stick,STICK,2,0,t,d/t,"onset, in secondary/compound forms","TK: tɐt⁵⁵, tɜt⁵⁵, tɤŋ²¹⁴, tɜŋ²¹⁴; AN: tuddúng, tuding-, teken, tokun, tattakor, tuting-",4
+stick,STICK,2,0,ɔ/a,a/á,"nucleus vowel, non-high","TK: mɔk³⁴, mɔk²², klaŋ³², kɛŋ³¹; AN: káyu, kahuy, kálu, tapakazo",3
+suck,SUCK,2,0,t,p,coda/final,"TK: dot, sut, lut, dut, ʒɔt, ru:t́ | AN: sup, sip, sep, sipsip, supsup, səpˈsəp",4
+suck,SUCK,2,0,d,s,onset,"TK: dot, dut, du:t, dùut | AN: sipsip, sisep, sesep, sup'sup, sumisip, sirəpáu",3
+suck,SUCK,2,0,u,u~i,nucleus/vowel,"TK: du:t, dùut, lu:t, ru:t́, lut, tuət | AN: sup, sip, supsup, sipsip, suʔ, sussúp",3
+suck,SUCK,2,0,s/ʃ/ś,s,onset,"TK: śut, sot, sot | AN: sipsip, sisep, sumisip, sussúp, supsup",3
+suck,SUCK,2,0,ʒ,s,onset,"TK: ʒɔt, ʒɔt | AN: sisep, sɨsuʔ, sussúp",2
+swim,SWIM,2,0,w-/j-,l-,onset,"TK wa:j, wai, waːi, wâay, jou//AN langoy, laŋuy, lmaŋuy, láŋoy",3
+swim,SWIM,2,0,-ai/-oi/-ui,-uy/-oy,nucleus+glide,"TK wai, waai, wa:j, lui, lei // AN langoy, laŋuy, lumaŋuy, languy",4
+swim,SWIM,2,0,-m/-n,-ŋ,coda or medial nasal,"TK nam, nham, zam, ʔa:p (as nasal component or suffix) // AN laŋuy, langoy, laŋolo, naglangoy",3
+swim,SWIM,2,0,p-/ph-/f-,h-/k-,onset (less frequent),"TK plei, pei, phu // AN huma'lug, kahoŋ, kalang, káue",2
+that,THAT,2,0,n,n,medial/coda,"TK: nan, cjen, hɐn, kɐn; AN: yan, ʔaˈʔan, sayan, yaqan, a.n.j",5
+that,THAT,2,0,k,ʔ,onset (pre-nasal or pre-vocalic),"TK: kɐn, kjɐn, kjɛn; AN: ʔan, ʔuyito, koani, k-una",3
+that,THAT,2,0,pj-/kj-/cj-,j-/y-,onset,"TK: kjɐn, cjen, cjɜn; AN: yan, yaqan, njany",3
+that,THAT,2,0,a,a,"vowel, nucleus","Both sides: pAj, nAn, hAn / yan, ʔaˈʔan, sayan, k-una",4
+that,THAT,2,0,j,y,medial/onset cluster or glide,"TK: paj33, kjɐn, cjen, mi³²+hən³²³; AN: yan, yaqan, sayan",3
+that,THAT,2,0,tsa/sa,sa/say,"onset and nucleus, possibly deictic marker","TK: tsa⁵ (Kam-Sui), tai cjɜn; AN: sayan, sáya', siitu",2
+that,THAT,2,0,ui/ɯi,wi/way,nucleus,"TK: ʔui⁵, jɯŋ; AN: way, wái, wapa",2
+think,THINK,2,0,ŋ,ŋ,coda or medial,"TK: siːŋ, θiɤŋ, siəŋ, θɯəŋ; AN: aŋər, marəŋaŋər, maŋər, kimianger",4
+think,THINK,2,0,n,n,onset or medial,"TK: nɜm, nɐm, ʔnɐm, ʔnʊm; AN: mandignika, nakem, magənang, remrém, mannono(t)",3
+think,THINK,2,0,s,s,onset,"TK: siːŋ, siəŋ; AN: ʔisip, mag-ísip, maisip",3
+think,THINK,2,0,k,k,onset or medial,"TK: khit̪; AN: pikir, b++pikir, kəmiaŋər",2
+think,THINK,2,0,m,m,"onset or medial, often in affixed forms","TK: nɜm, nɐm, ʔnɐm, ʔnʊm; AN: m.a.ʔ.m.i, mihalatəŋ, maghunahúna, marəŋaŋər, magənang",2
+thou,THOU,2,0,m-,k-,onset,"TK: məŋ, mɤŋ, mɯŋ, mʌŋ, meɯ; AN: kamu, koso, kaw, kau",3
+thou,THOU,2,0,ŋ,u,coda or rhyme,"TK: məŋ, mɯŋ, mʌŋ; AN: kamu, kau, kaw",2
+thou,THOU,2,0,th-,k-/ʔ-,onset (non-nasal series),"TK: thəə, thə; AN: koso, ʔisu, k-isu",2
+thou,THOU,2,0,aɯ~ɯ,aʊ~aw~au,main vowel,"TK: măɯ, meɯ, maɨ, mɯŋ; AN: kau, kaw, ikaw, káwu",4
+thou,THOU,2,0,c-,s-/si-,onset (alternative forms),"TK: caw; AN: siw, sîoʔo'",2
+thou,THOU,2,0,,ʔ-,proclitic onset,"TK: ---; AN: ʔasu, ʔisu, ʔiso",1
+thunder,THUNDER,2,0,pj-/fa-,bi-/bu-/bru-/pyu-,onset,"TK: pja, fa; AN: biiwaʔ, bu(b), bru(w)a, pyuwa, bitvah, bitvaq",4
+thunder,THUNDER,2,0,"-a, -a:",-a/-aʔ,nucleus/coda,"TK: fa:, pja; AN: biiwaʔ, bru(w)a, pyuwa, bitvah, tselalaq",4
+thunder,THUNDER,2,0,lɔŋ/laŋ,loŋ/lul/luləŋ,rhyme or coda,"TK: laŋ, lɔ:ŋ, hɔ:ŋ, rɔ:ŋ; AN: loŋgodu, glugong, lul, kələkələŋan",3
+thunder,THUNDER,2,0,qum/kəm/qam,kum/gum/gund,onset + CVC syllable,"TK: qum, kəm, qam; AN: gundul, gund, kugun, t.ə.g.uː.n",3
+thunder,THUNDER,2,0,mo/wei/ni,"vo-, vu-, wo-",onset,"TK: mo, wei, ni (less frequent); AN: vohotojimā, voo, vu-, wo-",2
+thunder,THUNDER,2,0,pla/pja/pjha,pla/kla,complex onset,"TK: pla, pja, pjha; AN: plakat, kla, tselalaq",2
+tongue,TONGUE,2,0,l,l/d,onset (CV syllable),"TK: lin, len, lən, lɪn (Tai); di:n, ɬin (Hlai) :: AN: lila, dila, di:la, rila, ridam",4
+tongue,TONGUE,2,0,i~ɪ~ɜ,i,vowel of first syllable/nucleus,"TK: lin, lɪn, lɜn :: AN: dila, lila, rila",4
+tongue,TONGUE,2,0,n,l,coda/final (CVC structure),"TK: lin, len :: AN: dila, lila",3
+tongue,TONGUE,2,0,ma/me,ma/me,body-part/semantic root syllable,"TK: ma_lɛn, măk_lin, me (Kra), mji :: AN: hema, hamali, sema, mero",3
+tongue,TONGUE,2,0,pi,ri,"possible initial, limited distribution","TK: pi (Kra) :: AN: rila, ridam (Formosan), riˈraʔ",2
+tongue,TONGUE,2,0,ɬ/ł,l,onset (Hlai-TK ~ Western MP AN),"TK: ɬin, ɬi:n, łin (Hlai) :: AN: lila, lilaʔ, l.e.l.a",3
+twenty,TWENTY,2,0,ni-/ji-,duwa-/dua-/rua-,first element (numeral 'two' as prefix for 'twenty'),"TK: ni.6_sip.8, ji.6_lip.7, ji.6_sip.8; AN: duwa-pulu, dua-pulo, rua_ngapulu'",4
+twenty,TWENTY,2,0,s(i)p/s(i)ʔ/(s)up/(s)ep/(š)ip/(z)əp,pulu/pulo/puluq/puloʔ,second morpheme (core for 'ten' in decimal compounding),"TK: sip, šip, səp, śəp, zəp, sup; AN: pulu, puloq, puluʔ, pulò",4
+twenty,TWENTY,2,0,initial s-/z- (~š-/ś-),p-/pus-/pus- (in 'pusu/pusal/pusau'),onset of the 'ten' morpheme,"TK: sip, səp, śəp, zəp; AN: pusal, pusau, pusál'",2
+two,TWO,2,0,s,d,"onset, CV(C) initial","TK: sɔːŋ (Tai), səu (Kra), soŋ (Tai); AN: dusa (Formosan), duhá (W.MP), duha (W.MP)",3
+two,TWO,2,0,s,s,"onset, CV(C) initial (some Formosan AN)","TK: sɔːŋ (Tai), soŋ (Tai); AN: suua (Formosan), su:a (Formosan)",2
+two,TWO,2,0,θ/ɬ,d,"onset, CV(C) initial, voiceless/voiced alternation","TK: θoŋ (Tai), ɬau (Hlai); AN: dusa (Formosan), duha (W.MP)",2
+two,TWO,2,0,Vŋ,a,coda/final,"TK: sɔːŋ (Tai), θoŋ (Tai); AN: dusa, duha",2
+two,TWO,2,0,ou/au,ua/oa,vowel sequence,"TK: dou (Hlai), łau (Hlai); AN: rua (Formosan), ruaʔ (W.MP), lowa (W.MP)",3
+two,TWO,2,0,h,ʔ/∅,"onset, certain branches","TK: hja (Kam-Sui), hou (Lakkia-Biao); AN: ʔuwa (W.MP); r.o.a (W.MP)",2
+vomit,VOMIT,2,0,k,ʔ,coda,"TK: jouk, juək, uak, ʔuak, ðuək; AN: otaʔ, mutaʔ, motäʔ, ʔotaʔ",3
+vomit,VOMIT,2,0,ʔ,ʔ,onset,"TK: ʔuak, ʔɔk, ʔu:ak; AN: ʔotaʔ, ʔutɔʔ, ʔut'laʔ, ʔota",4
+vomit,VOMIT,2,0,uə/uɔ/uː,u/ut,nucleus (vowels before coda),"TK: juək, uak, ʔu:ak, ðuɔk, ðuək, ɹuɔk; AN: uta, ututa, an-uta, ʔutɔʔ, mutaʔ, motäʔ",3
+vomit,VOMIT,2,0,j,%,onset,"TK: jouk, juək, jok; AN: (mostly vowel-initial: uta, ota, etc.)",2
+vomit,VOMIT,2,0,s/z,s,onset,"TK: zu:k; AN: suka, sukaʔ, soka, mosuka",2
+vomit,VOMIT,2,0,aː,a,vowel nucleus,"TK: taːk, ra:k, ha:k, la:k; AN: ota, suka, uta, tara-, motäʔ",2
+walk,WALK,2,0,p/b,k/g/l/d,onset,"TK pai, pja:i, paːi, fei, Hlai pei ~ AN lakaw, lakad, dalan, makar, kay, akar",2
+walk,WALK,2,0,ai/a:ŋ/a:m,"a(o), aw, ay",nucleus/final,"TK pai, pja:i, paːi, ja:ŋ ~ AN lakaw, makar, kay, akar, panaw",3
+walk,WALK,2,0,d/t,d/l/r,onset,"TK dən, dəən, də:n, teu, ta:ŋ ~ AN dalan, lakad, lakaw, akar, panaw",2
+walk,WALK,2,0,s/ch/ćh,k/g,onset (secondary/compounds),"TK saːm, cham, ćham ~ AN lakad, makar, akar",1
+what,WHAT,2,0,ma,ma,"syllable, 2nd element or prefix","ni-maŋ (TK kam_sui), ka-ma (TK tai), tu-ma (TK tai) :: ma'ad, maanu, umaqan (AN formosan)",4
+what,WHAT,2,0,ka,ka,"onset syllable, 1st element/prefix","ka-ma (TK tai), ka.⁴_lɛ.⁶ (TK lakkia_biao), kai-ma (TK tai) :: kaanani (AN formosan), kanoʔ (AN formosan)",3
+what,WHAT,2,0,ni,ni,"syllable, initial element","ni-maŋ, ni-nam (TK kam_sui) :: inona, ina, fiani (AN western_mp/shwng)",2
+what,WHAT,2,0,ŋ,ŋ,"coda, nasal ending","maŋ (TK kam_sui), laŋ (TK tai), plang (TK hlai) :: umaqan, maanu, ngadan (AN formosan/western_mp)",3
+what,WHAT,2,0,tu-/ti-,cu-/tu-,"1st syllable, root onset","tu-ma (TK tai), ti-jɘi (TK tai) :: cúma (AN formosan)",2
+what,WHAT,2,0,a,a,"syllable, initial position or full root","at-maŋ (TK kam_sui), a.r.a.j (TK tai), ʔa-ńaŋ (TK tai) :: acni, ano, ane, apa, a- (AN forms)",3
+when,WHEN,2,0,na(n),na(n),coda or final sequence,"TK: na.³⁵_ći.³¹_na.⁴², ca:n.⁵⁵_na.³³_ve.²⁴, ja:m.²_dai.¹ ; AN: kanuwan, knuan, kinan, kasayan",4
+when,WHEN,2,0,ka,ka,word initial/onset,"TK: kam_sui forms (implied by overall CV shapes); AN: kasayan, ka-ano, kaʔno, kapirá",3
+when,WHEN,2,0,ja/jɜ/jɘ,ya(i)/ia,medial vowel/glide clusters,"TK: ja:m.²_dai.¹, ja:m.²_laɨ.⁶, θɜi²³+ja²⁴ ; AN: viena, oviena, ginaín",2
+when,WHEN,2,0,mɨa/mɨɨa,ma(ka),"syllable initial, especially in composite/derivational items","TK: mɨa.³-raj.¹, mɨ:a.⁴_dai.², mɨ:a.⁴_lai.², mɨɨa_l̪ai ; AN: makano, ma- in some forms",2
+when,WHEN,2,0,si/śi/sɘi,si,word initial,"TK: śi.²¹²_nu.³⁵, si.²_zə.², sɘi³³+hɛ²̘+³¹ ; AN: si mango",1
+where,WHERE,2,0,t-/ts-/ti-,di-/ti-/ʔi-,onset,"TK: ti:.⁴_nai.¹, tei.⁶_rɔi.², tsjau² ~ AN: diin, diʔin, t.i.ŋ.k.i, i-cua, ʔin'to",4
+where,WHERE,2,0,nau/nai/laɨ,nu/ni/na,"rime, 2nd syllable","TK: ti:.⁴_nai.¹, tsəm² nau¹, caɨ.² ~ AN: nénu, dino, ʔattuʔ, andi-doni",3
+where,WHERE,2,0,ka-/kja-/kjaɨ,ka-/ʔika-,"onset, non-initial","TK: ka_n̪ai, kjɛk⁵⁵+ɹəɯ³¹ ~ AN: ikaɖa, ʔikayɖa, ka|anu|ko",2
+where,WHERE,2,0,ja-/jaːk,ya-/yan,onset/rime,"TK: jaːk²²+lɤi²¹ ~ AN: iiyan, ʔiʔí'an",2
+where,WHERE,2,0,tsj-/tjoŋ-/ȶum-,t-/tu-,onset,"TK: tsjau², tjoŋ³ n̥u¹, ȶum² nau¹ ~ AN: tute, t.i.ŋ.k.i, i-ntua",2
+white,WHITE,2,0,kh/h,p/b,onset,"TK: kha:u, ha:u, khaw; AN: puti, putih, busa, bida",2
+white,WHITE,2,0,a:u/aw/au,u/i,main vowel,"TK: kha:u, ha:u, khaw; AN: puti, putih, pusi, busa",2
+white,WHITE,2,0,p/ph,p/b,onset (CVC roots),"TK: pak, phək, plie:k, poʔ; AN: puti, putih, busa, bida",3
+white,WHITE,2,0,k (coda),t/ʔ/k (coda),coda,"TK: pak, phək, poʔ, plie:k; AN: puti(h), putiʔ, hilak, apu-ui",2
+wide,WIDE,2,0,kw,l(w),onset,"TK: kwa:ŋ, khwa:ŋ, kwhaŋ / AN: lawaŋ, lawag, labaŋ, malúang",4
+wide,WIDE,2,0,a,a,nucleus/vowel,"TK: kwa:ŋ, ka:ŋ / AN: labaŋ, lawag, lawaŋ",5
+wide,WIDE,2,0,ŋ,ŋ,coda,"TK: kwa:ŋ, khwa:ŋ, ka:ŋ / AN: labaŋ, lawaŋ, malúang, wayang",5
+wide,WIDE,2,0,kh,l,onset (aspirate vs. lateral),"TK: khwa:ŋ / AN: labaŋ, lawag",2
+wide,WIDE,2,0,fa,fa,onset+nucleus,TK: fa:ŋ / AN: fafʔohə,2
+wife,WIFE,2,0,ma/i/mi,"ma, mi, bin, min",syllable onset + nucleus,"TK: mai, ma:i, mi:a, mia, mɜi; AN: minai, binanauʔaz, binaj, mahari",3
+wife,WIFE,2,0,wa,wa,onset + rime (CVCV),"TK: waːi, wa; AN: asawa, sawa, asawá'",4
+wife,WIFE,2,0,ni,"bin-, min-",onset,"TK: ni, nia (Kam-Sui); AN: binanauʔaz, binaj, minai",2
+wife,WIFE,2,0,ʔbjak/bjaːk/mjak,bab-,labial cluster (complex onset),"TK: ʔbjak, mbjaːk (Kam-Sui); AN: babae (Tagalog, etc), babáy",2
+wife,WIFE,2,0,l/j,y/j,"onset, especially in bisyllabic forms","TK: lja, lia, lak-; AN: yaʔɔn, hiyalo, yɨhɨn",1
+wife,WIFE,2,0,fa-/va-,fa-/va-,onset (Formosan),"TK: (absent); AN: fafahi, vaɬau; potential for matching if additional data found",1
+yellow,YELLOW,2,0,n,n,onset or coda,"TK: han, nan, man, hen, hin; AN: ning, nin, kuning, kunig",4
+yellow,YELLOW,2,0,ŋ,ng,coda/final or onset,"TK: ŋan, lɨaŋ, ziaŋ; AN: ngila, ngilá, kuning",3
+yellow,YELLOW,2,0,l,l,onset or medial (esp. CV-lV),"TK: lɨaŋ, ləŋ, lʉ̌aŋ; AN: law, lalaw, malulaw, dulaw",4
+yellow,YELLOW,2,0,h,k,"onset, especially before -an/-aw","TK: han, hen, hwan, hɛːn; AN: kuning, kunig, kɛɾawiŋ, kurilaw",2
+yellow,YELLOW,2,0,a,a,main vowel,"TK: han, man, nan, hwan; AN: law, malulaw, lalaw, kuning",4
+yellow,YELLOW,2,0,i/e,i/e,medial or pre-coda vowel,"TK: hen, jeɛn, hɪːn, hɛːn; AN: ngila, ngilá, abiyal, melel",2
+yellow,YELLOW,2,0,w,w,medial or pre-coda,"TK: hwan; AN: law, lalaw, dulaw",3
+you,YOU,2,0,s,k,"onset, initial syllable","TK: saːu, sou, su:. AN: kamu, kau, kayu, kamuʔ",3
+you,YOU,2,0,au~ou~u,amu~au~ayu~amuʔ,nucleus/rhyme,"TK: saːu, θou, sou, cau; AN: kamu, kau, kayu, kamuʔ, imu",4
+you,YOU,2,0,c/ts/ʨ/ʃ/ɕ,s,"onset, palatal-alveolar variants","TK: cau, çau, śau; AN: simu, sih'kayo",2
+you,YOU,2,0,m,m,onset; pronoun allomorphs,"TK: mu:, mɨŋ, meɨ; AN: moʔo, moyo, imu, kamu",3
+you,YOU,2,0,θ,k,"onset, sometimes pronominal","TK: θou, θɔu; AN: kamu, kau, kayu",2
+blood,BLOOD,1,1,l-,l-/r-,onset,"TK: lɯt, lɨ:t, lun, lət, lut; AN: lomos, lamɔs, rəməs, ramuʔ, rika",4
+blood,BLOOD,1,1,t (coda),"s, ʔ, k (coda)",coda,"TK: lɯt, lət, lut; AN: rəməs, lomos, ramuʔ, damuʔ, dayaq",3
+blood,BLOOD,1,1,ɬ-,r-/l-,"onset, Hlai vs. AN Formosan/SHWNG","TK: ɬuaȶ, ɬa:ȶ; AN: rəməs, ruga', luga', lamɔs",2
+blood,BLOOD,1,1,p(h)-,d-/t-,"onset, especially Kam-Sui vs. Malayo-Polynesian","TK: pʰaːt, phat, phɔt; AN: daga, tagók, dugúʔ, daha",2
+ear,EAR,1,1,h,t,onset,"TK: hu, huu, h.uː (Tai); AN: taliŋa, tayŋa, talenga (Formosan/WMP)",2
+ear,EAR,1,1,k/kʰ/qʰ,t,onset,"TK: kha, kʰa, qha (Kam-Sui); AN: taliŋa, tayŋa, talenga (Formosan/WMP)",2
+ear,EAR,1,1,ɓ/p/b,b,onset,"TK: ɓɤ+jɤ, bin, bə, ʔba (Tai, Kra, Kam-Sui); AN: balugbúg, buloŋa, buŋolan (WMP)",3
+ear,EAR,1,1,u/ɯ/ɤ,a,vowel nucleus,"TK: hu, huu, ɣɯ, jɤ (Tai, Tai-Kadai); AN: taliŋa, talenga, tayŋa (AN, generally a but with nasal)",2
+ear,EAR,1,1,j,ŋ,coda/nucleus,"TK: jɤ, jɯ, ʝɯ (Tai); AN: taliŋa, saliŋa, baluŋa (much nasal –ŋ replacing /j/ in structure)",2
+ear,EAR,1,1,t/ts,t/d,onset,"TK: ta., tsai (Kra, Hlai); AN: taliŋa, tadinya, dalúnggan (Formosan/WMP)",3
+ear,EAR,1,1,ai/aɯ,a,nucleus,"TK: zai, lai, ai, aɯ (Hlai, Tai, Kam-Sui); AN: taliŋa, talenga, tayŋa (a/a-)",2
+ear,EAR,1,1,w/l,l,medial/onset,"TK: lɨa, wa, lu, la (Tai); AN: taliŋa, talenga, dalúnggan (Formosan/WMP)",2
+star,STAR,1,1,d/l,b/v,onset,"TK: da:u, la:u, la:w, ɗaw | AN: bituín, biŋah, vituŋ, buʡis",3
+star,STAR,1,1,a:u/aw,itu/ituŋ,vowel + coda,"TK: da:u, la:u, ɗaw | AN: bituin, vituŋ, bituon",2
+star,STAR,1,1,ŋ,ŋ/n,coda,"TK: la:ŋ, səŋ, doŋ | AN: biŋah, vituŋ, bitoin",2

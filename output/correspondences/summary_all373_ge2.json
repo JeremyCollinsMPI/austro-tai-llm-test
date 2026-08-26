@@ -1,0 +1,8 @@
+{
+  "label": "all373",
+  "min_generosity": 2,
+  "n_analyses": 194,
+  "n_mappings": 988,
+  "raw_path": "/app/output/correspondences/analyses_all373_ge2.json",
+  "mappings_path": "/app/output/correspondences/mappings_all373_ge2.csv"
+}

@@ -1,0 +1,22 @@
+# Local env / tooling
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.DS_Store
+
+# LLM / download caches (regenerable; not needed for frozen paper tables)
+cache/
+
+# Regenerable Lexibank / ABVD bulk dumps (downloaded by ./run.sh attest)
+data/lexibank/forms.csv.zip
+data/lexibank/austronesian_attestation.json
+data/lexibank/tai_kadai_attestation.json
+data/lexibank/tai_kadai_attestation_rich.json
+data/abvd/forms.csv
+
+# Run logs and ad-hoc permutation CSVs (frozen summaries are tracked under output/)
+output/*.log
+output/judgments_perm_*.csv
+output/attested_forms_all373/

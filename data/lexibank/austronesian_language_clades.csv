@@ -1,0 +1,979 @@
+language_id,name,glottocode,clade,glottolog_path,n_forms
+abvdoceanic-Banoni_4,Banoni,bann1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/piva1237/bann1247,233
+abvdoceanic-Gedaged_7,Gedaged,geda1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/geda1237,254
+abvdoceanic-Giman_10,Gimán,gane1237,shwng,aust1307/mala1545/east2712/sout3229/raja1255/sout3231/east2439/gane1237,221
+abvdoceanic-Canala_19,Canala,xara1244,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/xara1244,205
+abvdoceanic-KilokakaYsabel_21,Kilokaka (Ysabel),zaza1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/zaza1247/zaza1245,179
+abvdoceanic-Kis_23,Kis,kiss1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/kair1261/mana1294/kisw1234/kiss1246,114
+abvdoceanic-Mor_24,Mor,morm1235,shwng,aust1307/mala1545/east2712/sout3229/morm1235,175
+abvdoceanic-Mota_25,Mota,mota1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/mota1237,238
+abvdoceanic-Motu_26,Motu,motu1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/motu1246,199
+abvdoceanic-Kairiru_30,Kairiru,kair1263,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/kair1261/kair1262/kair1263,236
+abvdoceanic-Bughotu_37,Bughotu,bugh1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/ngge1240/bugh1239,248
+abvdoceanic-Marquesan_38,Marquesan,nort2845,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/marq1246/nort2845,348
+abvdoceanic-Ali_39,Ali,kapp1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/siau1243/siss1244/alit1234/kapp1237,164
+abvdoceanic-AmbaiYapen_40,Ambai (Yapen),amba1265,shwng,aust1307/mala1545/east2712/sout3229/cend1238/yape1249/cent2277/ansu1238/amba1265,184
+abvdoceanic-BigaMisool_46,Biga (Misool),matb1237,shwng,aust1307/mala1545/east2712/sout3229/raja1255/maya1288/matb1237,176
+abvdoceanic-Buli_49,Buli,buli1255,shwng,aust1307/mala1545/east2712/sout3229/raja1255/sout3231/gebe1238/cent2270/buli1255,206
+abvdoceanic-Hawaiian_52,Hawaiian,hawa1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/hawa1245,217
+abvdoceanic-Hoava_54,Hoava,hoav1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/hoav1239/hoav1238,176
+abvdoceanic-KaulongAuVillage_56,Kaulong (Au Village),kaul1240,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/pasi1254/kaul1240,206
+abvdoceanic-KayupulauKajupulau_57,Kayupulau [Kajupulau],kayu1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/sarm1241/jaya1243/east2911/kayu1243,190
+abvdoceanic-Rarotongan_58,Rarotongan,raro1241,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/raro1241,309
+abvdoceanic-Nukuoro_64,Nukuoro,nuku1260,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/nort3235/nuku1260,199
+abvdoceanic-Kusaie_65,Kusaie,kosr1238,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/kosr1239/kosr1238,372
+abvdoceanic-Kwaio_66,Kwaio,kwai1243,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/kwai1243,192
+abvdoceanic-LamogaiMulakaino_67,Lamogai (Mulakaino),lamo1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/bibl1237/lamo1244,209
+abvdoceanic-Lau_68,Lau,lauu1247,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/lauu1247,249
+abvdoceanic-Leipon_69,Leipon,leip1237,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/leip1237,170
+abvdoceanic-Levei_71,Levei,kheh1237,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2849/liku1245/kheh1237,188
+abvdoceanic-Likum_72,Likum,liku1243,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2849/liku1245/liku1243,178
+abvdoceanic-Loniu_73,Loniu,loni1238,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/moko1244/loni1238,193
+abvdoceanic-Lou_74,Lou,louu1245,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/sout2879/loup1244/louu1245,183
+abvdoceanic-Nelemwa_76,Nêlêmwa,kuma1276,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/extr1244/kumn1236/kumn1237/kuma1276,214
+abvdoceanic-Yapese_77,Yapese,yape1248,oceanic,aust1307/mala1545/east2712/ocea1241/yape1250/yape1248,237
+abvdoceanic-Maleu_82,Maleu,male1289,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/male1289,190
+abvdoceanic-Maori_85,Maori,maor1246,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/maor1247/maor1246,204
+abvdoceanic-Marovo_87,Marovo,maro1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/maro1247/maro1244,199
+abvdoceanic-Mekeo_89,Mekeo,meke1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/meke1246/meke1247/meke1248/meke1243,197
+abvdoceanic-Mengen_91,Mengen,meng1267,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/meng1266/mamu1256/meng1267,202
+abvdoceanic-MinyaifuinGebe_93,Minyaifuin (Gebe),gebe1237,shwng,aust1307/mala1545/east2712/sout3229/raja1255/sout3231/gebe1238/gebe1237,176
+abvdoceanic-Misima_94,Misima,misi1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/kili1270/misi1243,173
+abvdoceanic-Nauna_96,Nauna,naun1237,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/sout2879/naun1237,185
+abvdoceanic-Nauru_97,Nauru,naur1243,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/kosr1239/naur1243,213
+abvdoceanic-NehanHape_98,Nehan Hape,neha1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/nucl1750/neha1247,190
+abvdoceanic-Nengone_99,Nengone,neng1238,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/loya1239/neng1238,252
+abvdoceanic-Nggela_102,Nggela,gela1263,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/ngge1240/gela1263,232
+abvdoceanic-Numfor_106,Numfor,biak1248,shwng,aust1307/mala1545/east2712/sout3229/cend1238/biak1249/biak1250/biak1248,205
+abvdoceanic-Raga_113,Raga,hano1246,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/hano1246,226
+abvdoceanic-Rotuman_116,Rotuman,rotu1241,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/rotu1241,206
+abvdoceanic-Roviana_117,Roviana,rovi1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/rovi1238,216
+abvdoceanic-Samoan_118,Samoan,samo1305,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/puka1245/samo1310/samo1305,277
+abvdoceanic-AmbrymSouthEast_120,"Ambrym, South-East",sout2859,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/sout2859,201
+abvdoceanic-Seimat_121,Seimat,seim1238,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/west2532/seim1238,185
+abvdoceanic-Sengseng_123,Sengseng,seng1281,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/pasi1254/seng1281,296
+abvdoceanic-Sobei_126,Sobei,sobe1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/sarm1241/sarm1242/sobe1239/sobe1240/sobe1238,200
+abvdoceanic-Tangga_131,Tangga,tang1348,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/tang1348,195
+abvdoceanic-Tarpia_132,Tarpia,tarp1240,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/sarm1241/sarm1242/kapt1236/tarp1240,191
+abvdoceanic-Tigak_135,Tigak,tiga1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/tung1294/tiga1245,177
+abvdoceanic-Tongan_136,Tongan,tong1325,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/tong1324/tong1325,204
+abvdoceanic-Vaghua_139,Vaghua,vagh1249,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/west2856/vagh1249,262
+abvdoceanic-Vitu_140,Vitu,mudu1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/bali1280/mudu1242,199
+abvdoceanic-Wampar_141,Wampar,wamp1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/huon1245/mark1257/lowe1411/wamp1247,254
+abvdoceanic-Waropen_142,Waropen,waro1242,shwng,aust1307/mala1545/east2712/sout3229/waro1242,252
+abvdoceanic-WindesiWandamen_145,Windesi Wandamen,wand1267,shwng,aust1307/mala1545/east2712/sout3229/cend1238/yape1249/cent2277/ansu1238/wand1267,236
+abvdoceanic-Wogeo_146,Wogeo,woge1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/kair1261/mana1294/kisw1234/woge1237,177
+abvdoceanic-AnejomAneityum_149,Anejom (Aneityum),anei1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/anei1239,194
+abvdoceanic-Pukapuka_152,Pukapuka,puka1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/puka1245/puka1242,335
+abvdoceanic-Tikopia_155,Tikopia,tiko1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/tiko1237,248
+abvdoceanic-FutunaAniwa_156,Futuna-Aniwa,futu1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/mele1252/futu1245,290
+abvdoceanic-Kilivila_159,Kilivila,kili1267,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/kili1270/kili1266/kili1271/kili1267,219
+abvdoceanic-Lenakel_162,Lenakel,lena1238,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/tann1242/nort3218/lena1238,191
+abvdoceanic-MagoriSouthEastPapua_164,Magori (South East Papua),mago1248,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/oumi1237/mago1247/mago1248,180
+abvdoceanic-Maisin_165,Maisin,mais1250,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/mais1250,196
+abvdoceanic-Manam_168,Manam,mana1295,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/kair1261/mana1294/bamm1241/mana1301/mana1295,194
+abvdoceanic-Patpatar_178,Patpatar,patp1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/patp1244/patp1243,215
+abvdoceanic-Ponapean_179,Ponapean,pohn1238,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/pona1248/pohn1238,227
+abvdoceanic-Ririo_182,Ririo,riri1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/riri1237,211
+abvdoceanic-Teop_187,Teop,teop1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/nucl1750/buka1262/sapo1252/tinp1238/teop1238,254
+abvdoceanic-Varisi_191,Varisi,vari1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/west2856/vari1239,230
+abvdoceanic-Dehu_196,Dehu,dehu1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/loya1239/dehu1237,249
+abvdoceanic-As_207,As,asss1237,shwng,aust1307/mala1545/east2712/sout3229/raja1255/asss1237,155
+abvdoceanic-FutunaEast_210,"Futuna, East",east2447,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/east2447,300
+abvdoceanic-Jawe_212,Jawe,jawe1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/jawe1237,204
+abvdoceanic-KwaraaeSolomonIslands_213,Kwara'ae (Solomon Islands'),kwar1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/kwar1239,215
+abvdoceanic-Kapingamarangi_217,Kapingamarangi,kapi1249,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/nort3235/kapi1249,254
+abvdoceanic-Molima_219,Molima,moli1248,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/bwai1241/moli1248,218
+abvdoceanic-Roro_220,Roro,waim1251,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/meke1246/meke1247/waim1251,172
+abvdoceanic-Ubir_222,Ubir,ubir1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/arei1235/ubir1237,186
+abvdoceanic-Toambaita_223,To'ambaita,toab1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/toab1237,353
+abvdoceanic-Taiof_225,Taiof,sapo1253,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/nucl1750/buka1262/sapo1252/sapo1253,175
+abvdoceanic-Suau_227,Suau,suau1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/suau1245/nucl1852/suau1242,182
+abvdoceanic-TannaSouthwest_228,"Tanna, Southwest",sout2869,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/tann1242/sout3195/sout2869,187
+abvdoceanic-Emae_229,Emae,emae1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/emae1237,181
+abvdoceanic-SakaoPortOlry_230,Sakao (Port-Olry),saka1289,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/saka1289,259
+abvdoceanic-NumbamiSiboma_231,Numbami (Siboma),numb1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/huon1245/numb1247,219
+abvdoceanic-ZabanaKia_234,Zabana (Kia),zaba1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/west2523/zaba1237,182
+abvdoceanic-Penrhyn_235,Penrhyn,penr1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/penr1237,199
+abvdoceanic-Luangiua_238,Luangiua,onto1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/onto1237,208
+abvdoceanic-Mangareva_239,Mangareva,mang1401,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/fare1245/mang1401,308
+abvdoceanic-IfiraMeleMeleFila_242,Ifira-Mele (Mele-Fila),mele1250,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/mele1252/mele1250,155
+abvdoceanic-Sikaiana_243,Sikaiana,sika1261,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/sika1261,214
+abvdoceanic-Takuu_244,Takuu,taku1257,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/taku1258/taku1257,179
+abvdoceanic-Tokelau_245,Tokelau,toke1240,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/puka1245/samo1310/toke1240,171
+abvdoceanic-Tuamotu_246,Tuamotu,tuam1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tuam1242,267
+abvdoceanic-Niue_247,Niue,niue1239,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/tong1324/niue1239,245
+abvdoceanic-Anuta_253,Anuta,anut1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/anut1237,227
+abvdoceanic-UveaEast_258,"Uvea, East",wall1257,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/east2758/wall1257,269
+abvdoceanic-UveaWest_259,"Uvea, West",west2516,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/west2516,204
+abvdoceanic-RapanuiEasterIsland_264,Rapanui (Easter Island),rapa1244,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/fare1245/rapa1244,386
+abvdoceanic-Lakalai_281,Lakalai,naka1262,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/will1243/naka1266/naka1262,240
+abvdoceanic-Kove_282,Kove,kove1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/nger1240/east2772/kali1298/kove1237,217
+abvdoceanic-Amara_285,Amara,amar1272,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/amar1272,217
+abvdoceanic-Aria_287,Aria,mouk1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/bibl1237/mouk1239,222
+abvdoceanic-SouthEfate_322,South Efate,sout2856,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/efat1236/sout3196/sout2856,192
+abvdoceanic-Yabem_334,Yabem,yabe1254,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/huon1245/nort2858/yabe1254,208
+abvdoceanic-Puluwatese_336,Puluwatese,pulu1242,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/cent2290/east2764/pulu1244/pulu1242,310
+abvdoceanic-SaipanCarolinian_338,Saipan Carolinian,caro1242,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/cent2290/sata1238/macr1274/caro1242,294
+abvdoceanic-Mokilese_342,Mokilese,moki1238,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/pona1248/moki1238,163
+abvdoceanic-Satawalese_343,Satawalese,sata1237,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/cent2290/sata1238/sata1237,162
+abvdoceanic-Marshallese_344,Marshallese,mars1254,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/mars1254,208
+abvdoceanic-Kiribati_346,Kiribati,gilb1244,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/gilb1244,306
+abvdoceanic-Woleaian_347,Woleaian,wole1240,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/wole1240,298
+abvdoceanic-Chuukese_349,Chuukese,chuu1238,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/cent2290/east2764/mort1238/chuu1238,401
+abvdoceanic-Nembao_352,Nembao,amba1266,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/amba1266,175
+abvdoceanic-Asumboa_353,Asumboa,asum1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/asum1237,172
+abvdoceanic-Tanimbili_354,Tanimbili,tani1255,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/tani1255,170
+abvdoceanic-Buma_355,Buma,tean1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/tean1237,191
+abvdoceanic-Vano_356,Vano,vano1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/vano1237,213
+abvdoceanic-Tanema_357,Tanema,tane1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/tane1237,183
+abvdoceanic-TungagTungakLavongai_359,Tungag / Tungak / Lavongai,tung1290,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/tung1294/tung1290,254
+abvdoceanic-Sisingga_363,Sisingga,sisi1250,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/sout3208/sisi1250,183
+abvdoceanic-Siar_364,Siar,siar1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/siar1238,178
+abvdoceanic-Kokota_365,Kokota,koko1269,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/koko1269,170
+abvdoceanic-Takia_366,Takia,taki1248,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/taki1248,215
+abvdoceanic-Sudest_367,Sudest,sude1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nimo1245/sude1239,209
+abvdoceanic-Nalik_368,Nalik,nali1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/tung1294/nali1244,178
+abvdoceanic-Diodio_374,Diodio,diod1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/bwai1241/bwai1245/diod1237,171
+abvdoceanic-VaeakauTaumako_375,Vaeakau-Taumako,pile1238,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/pile1238,233
+abvdoceanic-Mwotlap_376,Mwotlap,motl1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/motl1237,207
+abvdoceanic-Haku_377,Haku,hako1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/nucl1750/buka1262/hali1243/hako1237,180
+abvdoceanic-Tolai_382,Tolai,kuan1248,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/patp1244/mini1257/kuan1248,206
+abvdoceanic-Madak_383,Madak,mada1285,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/mada1284/mada1285,178
+abvdoceanic-LihirSunglik_385,Lihir (Sunglik),lihi1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/taba1270/lihi1237,206
+abvdoceanic-LungaLungaMinigir_386,Lunga Lunga  (Minigir),mini1251,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/patp1244/mini1257/mini1251,211
+abvdoceanic-Barok_387,Barok,baro1253,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/mada1284/baro1253,144
+abvdoceanic-Kandas_388,Kandas,kand1301,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/kand1307/kand1301,170
+abvdoceanic-Torau_390,Torau,tora1259,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/mono1280/tora1259,184
+abvdoceanic-Tiang_391,Tiang,tian1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/tung1294/tian1237,177
+abvdoceanic-Bilur_392,Bilur,bilu1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/labe1241/bilu1244,170
+abvdoceanic-Kuni_393,Kuni,kuni1263,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/meke1246/meke1247/meke1248/kuni1263,230
+abvdoceanic-Doura_396,Doura,tour1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/meke1246/lala1272/tour1243,137
+abvdoceanic-Gabadi_397,Gabadi,abad1241,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/abad1241,186
+abvdoceanic-Solos_398,Solos,solo1257,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/solo1257,180
+abvdoceanic-Matukar_400,Matukar,matu1261,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/matu1261,177
+abvdoceanic-Riwo_401,Riwo,geda1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/geda1237,111
+abvdoceanic-Bilibil_402,Bilibil,bilb1241,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/bilb1241,148
+abvdoceanic-Saliba_404,Saliba,sali1295,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/suau1245/nucl1852/sali1295,234
+abvdoceanic-Nahavaq_453,Nahavaq,sout2857,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/sout2857,190
+abvdoceanic-Avava_456,Avava,katb1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/katb1237,241
+abvdoceanic-Naman_457,Naman,litz1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/litz1237,216
+abvdoceanic-Nese_459,Nese,nese1235,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/nese1235,173
+abvdoceanic-Tape_460,Tape,mara1399,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/mara1399,217
+abvdoceanic-SyeErromangan_463,Sye (Erromangan),siee1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/erro1239/siee1239,203
+abvdoceanic-Ura_464,Ura,urav1235,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/erro1239/urav1235,189
+abvdoceanic-ArakiSouthwestSanto_465,Araki (Southwest Santo),arak1252,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/arak1257/arak1252,169
+abvdoceanic-Merei_470,Merei,mere1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/mere1242,185
+abvdoceanic-Iaai_471,Iaai,iaai1238,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/loya1239/iaai1238,214
+abvdoceanic-Simbo_473,Simbo,simb1256,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/simb1260/simb1256,219
+abvdoceanic-Uruava_474,Uruava,urua1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/mono1280/urua1242,234
+abvdoceanic-Namakir_475,Namakir,nama1268,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/nama1268,207
+abvdoceanic-Orkon_476,Orkon,orko1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/port1292/orko1234,176
+abvdoceanic-Kwamera_477,Kwamera,kwam1252,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/tann1242/sout3195/kwam1252,203
+abvdoceanic-Neveei_484,Neve'ei,vinm1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/vinm1237,224
+abvdoceanic-Aiwoo_501,Äiwoo,ayiw1239,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/ayiw1239,300
+abvdoceanic-Nanggu_502,Nanggu,nang1262,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/nang1262,184
+abvdoceanic-Luqa_509,Luqa,lung1249,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/simb1260/ghan1246/lung1249,226
+abvdoceanic-SivisaTitan_510,Sivisa Titan,tita1241,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/koro1314/tita1241,185
+abvdoceanic-Gumawana_511,Gumawana,guma1254,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/guma1254,212
+abvdoceanic-WesternFijianNavosa_512,Western Fijian (Navosa),west2519,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/west2518/west2519,194
+abvdoceanic-Tawaroga_516,Tawaroga,kahu1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/kahu1241,178
+abvdoceanic-Ughele_518,Ughele,ughe1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/ughe1237,187
+abvdoceanic-Nduke_521,Nduke,duke1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/duke1237,228
+abvdoceanic-Kusaghe_528,Kusaghe,kusa1251,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/hoav1239/kusa1251,173
+abvdoceanic-Dorio_532,Dori'o,dori1246,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/dori1246,181
+abvdoceanic-Vangunu_535,Vangunu,vang1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/maro1247/vang1243,181
+abvdoceanic-Malango_542,Malango,mala1484,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/nort2832/mala1484,198
+abvdoceanic-Mbirao_548,Mbirao,bira1254,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/sout2854/bira1254,191
+abvdoceanic-Langalanga_549,Langalanga,wala1266,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/wala1266,176
+abvdoceanic-Kwai_550,Kwai,gula1270,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/gula1270,171
+abvdoceanic-LaghuSamasodu_553,Laghu (Samasodu),lagh1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/west2523/lagh1246,198
+abvdoceanic-NggaoPoro_555,Nggao (Poro),gaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/east2452/gaoo1237,181
+abvdoceanic-Oroha_557,Oroha,oroh1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/oroh1237,175
+abvdoceanic-Longgu_561,Longgu,long1395,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/long1395,213
+abvdoceanic-Lengo_563,Lengo,leng1259,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/nort2832/leng1259,224
+abvdoceanic-Mbaelelea_564,Mbaelelea,bael1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/bael1237,179
+abvdoceanic-Mbaengguu_565,Mbaengguu,baeg1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/baeg1237,190
+abvdoceanic-Fataleka_566,Fataleka,fata1245,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/fata1245,174
+abvdoceanic-SaaAuluVillage_576,Sa'a (A'ulu Village),saaa1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/saaa1240,208
+abvdoceanic-Blablanga_580,Blablanga,blab1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/zaza1247/blab1237,171
+abvdoceanic-ArosiTawatanaVillage_584,Arosi (Tawatana Village),aros1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/aros1241,187
+abvdoceanic-AreareMaasupaVillage_585,'Are'are (Ma'asupa Village),area1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/area1240,180
+abvdoceanic-Manihiki_589,Manihiki,raka1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/raka1237,277
+abvdoceanic-Hiw_639,Hiw,hiww1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/hiwl1234/hiww1237,197
+abvdoceanic-ApmaSuruMwerani_641,Apma (Suru Mwerani),apma1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/apma1240,255
+abvdoceanic-Sasoutheasterndialect_643,Sa (south-eastern dialect),saaa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/saaa1241,220
+abvdoceanic-Sowa_644,Sowa,sowa1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/seke1242/sowa1244,240
+abvdoceanic-SkeSeke_645,Ske (Seke),seke1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/seke1242/seke1241,214
+abvdoceanic-Muyuw_646,Muyuw,muyu1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/kili1270/kili1266/kili1271/muyu1244,314
+abvdoceanic-HaliaSelau_647,Halia (Selau),hali1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/neha1246/nucl1750/buka1262/hali1243/hali1244,141
+abvdoceanic-Tawala_651,Tawala,tawa1275,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/taup1241/nucl1794/tawa1275,184
+abvdoceanic-Niuafoou_659,Niuafo'ou,niua1240,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/east2758/niua1240,93
+abvdoceanic-Nimoa_669,Nimoa,nimo1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nimo1245/nimo1246,80
+abvdoceanic-Lemerig_696,Lemerig,leme1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/leme1240/leme1238,169
+abvdoceanic-Pingilapese_794,Pingilapese,ping1243,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/pona1248/ping1243,122
+abvdoceanic-DaakakaWestAmbrymVanuatu_798,"Daa kaka (West Ambrym, Vanuatu)",daka1243,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/port1292/port1293/sout3403/daka1243,220
+abvdoceanic-Piva_858,Piva,lawu1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/piva1237/lawu1237,183
+abvdoceanic-MortlockeseLukunosh_923,Mortlockese (Lukunosh),mort1237,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/nucl1749/cent2290/east2764/mort1238/mort1237,191
+abvdoceanic-Papitalai_995,Papitalai,papi1254,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/koro1314/bowa1234/papi1254,179
+abvdoceanic-Lelepa_1000,Lelepa,lele1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/efat1236/nort3222/lele1267,174
+abvdoceanic-Roria_1006,Roria,rori1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/rori1237,150
+abvdoceanic-BiereboYevali_1007,Bierebo (Yevali),bier1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/baki1243/bier1244,162
+abvdoceanic-Mpotovoro_1009,Mpotovoro,mpot1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/mpot1241,161
+abvdoceanic-AkeiPenantsiro_1010,Akei (Penantsiro),akei1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/west2845/akei1237,153
+abvdoceanic-Tutuba_1011,Tutuba,tutu1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/mafe1238/tutu1241,143
+abvdoceanic-Vunapu_1015,Vunapu,vuna1239,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/vuna1239,104
+abvdoceanic-Lakona_1019,Lakona,lako1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/koto1266/lako1245,159
+abvdoceanic-Lonwolwol_1026,Lonwolwol,lonw1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/lonw1238,155
+abvdoceanic-Tangoa_1027,Tangoa,tang1347,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/arak1257/tang1347,146
+abvdoceanic-BieriaVowa_1031,Bieria (Vowa),bier1246,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/bier1246,169
+abvdoceanic-Koro_1032,Koro,koro1308,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/koto1266/koro1308,159
+abvdoceanic-Baki_1033,Baki,baki1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/baki1243/baki1244,163
+abvdoceanic-Larevat_1034,Larevat,lare1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/lare1249,153
+abvdoceanic-Piamatsina_1036,Piamatsina,piam1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/piam1242,104
+abvdoceanic-Amblong_1042,Amblong,ambl1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/sout3194/ambl1237,101
+abvdoceanic-MaloNorth_1048,Malo (North),malo1243,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/malo1243,164
+abvdoceanic-Lorediakarkar_1049,Lorediakarkar,lore1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/shar1251/lore1244,145
+abvdoceanic-NarangoNambel_1056,Narango (Nambel),nara1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/sout3194/nara1263,151
+abvdoceanic-VuresMosina_1065,Vurës (Mosina),vure1239,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/vure1239,166
+abvdoceanic-Aore_1068,Aore,aore1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/aore1237,143
+abvdoceanic-WusiValui_1072,Wusi (Valui),wusi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/wusi1237,153
+abvdoceanic-Maii_1075,Maii,maii1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/maii1238,167
+abvdoceanic-VeraaVatrata_1077,Vera'a (Vatrata),vera1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/leme1240/vera1241,161
+abvdoceanic-MaewoCentralPeterara_1080,"Maewo, Central (Peterara)",cent2058,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/cent2058,167
+abvdoceanic-TannaNorth_1083,"Tanna, North",nort2847,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/tann1242/nort3218/whit1270/nort2847,155
+abvdoceanic-Tambotalo_1084,Tambotalo,tamb1253,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/sout3220/tamb1253,157
+abvdoceanic-Marino_1086,Marino,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,105
+abvdoceanic-Eton_1088,Eton,eton1255,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/efat1236/sout3196/eton1255,161
+abvdoceanic-ButmasTurButmas_1100,Butmas-Tur (Butmas),butm1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/sout3220/butm1237,103
+abvdoceanic-Morouas_1101,Morouas,moro1286,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/sout3194/moro1286,150
+abvdoceanic-LamenuNul_1103,Lamenu (Nul),lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,162
+abvdoceanic-Lamenu_1107,Lamenu,lame1260,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lame1260,162
+abvdoceanic-Tasmate_1108,Tasmate,tasm1246,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/tasm1246,93
+abvdoceanic-MwerlapMerlav_1111,Mwerlap (Merlav),merl1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/merl1237,168
+abvdoceanic-NavutMatae_1113,Navut (Matae),navu1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/navu1237,153
+abvdoceanic-Wailapa_1114,Wailapa,wail1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/west2845/wail1242,106
+abvdoceanic-AmbaeEastWailengi_1116,"Ambae, East (Wailengi)",east2443,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/east2443,162
+abvdoceanic-Tiale_1117,Tiale,tial1239,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/tial1239,144
+abvdoceanic-Loyop_1123,Löyöp,leha1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/leha1244,161
+abvdoceanic-Mafea_1125,Mafea,mafe1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/mafe1238/mafe1237,148
+abvdoceanic-PortVato_1128,Port Vato,port1286,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/port1292/port1293/sout3403/port1286,151
+abvdoceanic-AmbrymNorthFonah_1131,"Ambrym, North (Fonah)",nort2839,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/ambr1240/nort2839,161
+abvdoceanic-Wetamut_1134,Wetamut,weta1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/weta1242,154
+abvdoceanic-Valpei_1138,Valpei,valp1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/valp1237,163
+abvdoceanic-WhitesandsIarkei_1139,Whitesands (Iarkei),whit1269,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/sout2868/tann1242/nort3218/whit1270/whit1269,156
+abvdoceanic-AmbaeWestNgwatua_1144,"Ambae, West (Ngwatua)",west2513,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/west2513,163
+abvdoceanic-BaetoraNavenevene_1145,Baetora (Navenevene),baet1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237,165
+abvdoceanic-Polonombauk_1151,Polonombauk,polo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/sout3220/polo1242,101
+abvdoceanic-Tolomako_1152,Tolomako,tolo1255,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tolo1255,136
+abvdoceanic-Toga_1153,Toga,loto1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/hiwl1234/loto1240,155
+abvdoceanic-Nokuku_1166,Nokuku,noku1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/noku1237,101
+abvdoceanic-Fortsenal_1167,Fortsenal,fort1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/fort1240,148
+abvdoceanic-Lehali_1168,Lehali,leha1243,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/leha1243,165
+abvdoceanic-VenenTautLeviamp_1169,V'ënen Taut (Leviamp),bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,160
+abvdoceanic-Nume_1172,Nume,nume1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/torr1262/nume1241,160
+abvdoceanic-SharkBay_1174,Shark Bay,shar1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/shar1251/shar1244,155
+abvdoceanic-Ulithian_1180,Ulithian,ulit1238,oceanic,aust1307/mala1545/east2712/ocea1241/micr1243/cent2276/west2844/pona1247/truk1243/west2855/ulit1238,133
+abvdoceanic-Bola_1202,Bola,bola1250,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/will1243/bola1253/bola1250,193
+abvdoceanic-Bulu_1203,Bulu,bulu1253,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/will1243/bola1253/bulu1253,161
+abvdoceanic-Meramera_1205,Meramera,mera1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/will1243/naka1266/mera1242,154
+abvdoceanic-Nukeria_1212,Nukeria,nuku1259,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/taku1258/nuku1259,258
+abvdoceanic-NindeLawa_1217,Ninde (Lawa),labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,170
+abvdoceanic-NatiWindua_1229,Na:ti (Windua),nati1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/nati1244,192
+abvdoceanic-NombotkoteUsusMelkin_1230,Nombotkote (Usus - Melkin),lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,196
+abvdoceanic-NasarianWileventu_1237,Nasarian (Wileven tu),nasa1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/nasa1240,159
+abvdoceanic-AngavaeDixonReef_1238,Angavae (Dixon Reef),dixo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/dixo1238,173
+abvdoceanic-NeververLingarakSakan_1244,Neverver (Lingarak - Sakan),ling1265,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/ling1265,176
+abvdoceanic-PangkumuDatisman_1246,Pangkumu (Datisman),rere1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/rere1240,166
+abvdoceanic-UnuaNoferai_1247,Unua (Noferai),unua1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/unua1237,174
+abvdoceanic-TesmbolUsus_1251,Tesmbol (Usus),aulu1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238,183
+abvdoceanic-NititaKhatbol_1254,Nitita (Khatbol),niti1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/uncl1500/niti1250/niti1249,169
+abvdoceanic-VaoTorono_1285,Vao (Torono),vaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/vaoo1237,158
+abvdoceanic-SivitiBeterbuJericho_1286,"Siviti (Beterbu, Jericho)",malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,162
+abvdoceanic-AuluaNetimb_1288,Aulua (Netimb),aulu1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238,170
+abvdoceanic-BurmbarFartavo_1292,Burmbar (Fartavo),burm1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/burm1263,167
+abvdoceanic-NisvaiBlacksands_1293,Nisvai (Blacksands),nisv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nisv1234,162
+abvdoceanic-atarxobuGunwar_1309,ßatarxobu (Gunwar),malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,160
+abvdoceanic-Najit_1313,Najit,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,156
+abvdoceanic-AlavasWowoWowo1_1314,Alavas-Wowo (Wowo 1),mpot1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/mpot1241,164
+abvdoceanic-MbwenelangXoli_1316,Mbwenelang (Xoli),bwen1239,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/bwen1239,166
+abvdoceanic-MaluaBayMarasup_1318,Malua Bay (Marasup),malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,165
+abvdoceanic-TiraxMaeB_1319,Tirax (Mae B),maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,171
+abvdoceanic-PortSandwichLamap1_1321,Port Sandwich (Lamap 1),port1285,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/port1285,160
+abvdoceanic-MangapMbula_1330,Mangap-Mbula,mbul1263,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/mbul1263,191
+abvdoceanic-Tami_1333,Tami,tami1290,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/tami1290,186
+abvdoceanic-MumengPatepdialect_1334,Mumeng (Patep dialect),pate1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/huon1245/sout2878/buan1245/mume1239/zena1251/pate1247,161
+abvdoceanic-Mangseng_1335,Mangseng,mang1403,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/bebe1254/mang1403,187
+abvdoceanic-Bariai_1336,Bariai,bari1286,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/nger1240/east2772/bari1286,197
+abvdoceanic-Label_1340,Label,labe1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/labe1241/labe1239,155
+abvdoceanic-Ramoaaina_1341,Ramoaaina,ramo1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/kand1307/ramo1244,188
+abvdoceanic-Sursurunga_1342,Sursurunga,surs1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/surs1246,189
+abvdoceanic-Malalamai_1343,Malalamai,mala1489,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/nger1240/west2862/mala1489,172
+abvdoceanic-Wab_1346,Wab,wabb1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/astr1247/wabb1237,160
+abvdoceanic-Biliau_1347,Biliau,awad1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/astr1247/awad1244,178
+abvdoceanic-Roinji_1348,Roinji,ronj1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/ronj1237,182
+abvdoceanic-BaliVitu_1349,Bali-Vitu,unea1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/bali1280/unea1237,159
+abvdoceanic-Mindiri_1353,Mindiri,mind1255,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/astr1247/mind1255,183
+abvdoceanic-Sio_1355,Sio,sioo1240,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sioo1240,236
+abvdoceanic-Malasanga_1356,Malasanga,mala1487,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/kora1297/mala1487,171
+abvdoceanic-Mutu_1358,Mutu,mutu1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/nger1240/west2862/tuam1243/mutu1242,187
+abvdoceanic-Gitua_1359,Gitua,gitu1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/nger1240/west2862/tuam1243/gitu1237,185
+abvdoceanic-Arop_1360,Arop,arop1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/siau1243/siss1244/sera1271/siss1245/arop1242,165
+abvdoceanic-Bebeli_1361,Bebeli,bebe1252,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/bebe1254/bebe1252,210
+abvdoceanic-Irarutu_1364,Irarutu,irar1238,western_mp,aust1307/mala1545/tani1260/gese1239/koiw1244/nabi1238/irar1238,193
+abvdoceanic-Drubea_1369,Drubea,dumb1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/extr1245/dumb1241,195
+abvdoceanic-Sori_1374,Sori,sori1242,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2848/sori1242,90
+abvdoceanic-Lup_1375,Lup,herm1237,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2848/herm1237,84
+abvdoceanic-Ponam_1377,Ponam,pona1250,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/pona1250,88
+abvdoceanic-Andra_1378,Andra,andr1248,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/andr1248,87
+abvdoceanic-Jiriw_1380,Jiriw,nali1245,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/koro1314/nali1245,87
+abvdoceanic-Bujan_1382,Bujan,kele1258,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/east2460/kurt1251/kele1258,97
+abvdoceanic-Mokaren_1383,Mokaren,moke1240,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/moko1244/moke1240,92
+abvdoceanic-Bipi_1384,Bipi,bipi1237,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2848/bipi1237,91
+abvdoceanic-Tulu_1386,Tulu,tulu1259,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2849/tulu1259,91
+abvdoceanic-Pak_1387,Pak,pakt1239,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/pakt1239,90
+abvdoceanic-Baluan_1389,Baluan,balu1257,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/sout2879/loup1244/balu1257,92
+abvdoceanic-Avau_1391,Avau,avau1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/araw1283/east2763/avau1237,162
+abvdoceanic-HoteMisimdialect_1392,Hote (Misim dialect),hote1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/huon1245/sout2878/hote1244/hote1245,175
+abvdoceanic-Nyindrou_1393,Nyindrou,nyin1250,oceanic,aust1307/mala1545/east2712/ocea1241/admi1239/east2459/manu1262/west2533/west2848/nyin1250,219
+abvdoceanic-SissanoAropdialect_1394,Sissano (Arop dialect),siss1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/scho1242/siau1243/siss1244/sera1271/siss1245/siss1243,189
+abvdoceanic-Akolet_1395,Akolet,akol1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/sout2874/araw1269/araw1283/east2763/akol1237,204
+abvdoceanic-NaahaiMbatvanui16285_1396,Na'ahai (Mbatvanui) 162-85,malf1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/malf1237,168
+abvdoceanic-AxambSmallIslandBrisbane16289_1398,Axamb (Small Island-Brisbane) 162-89,axam1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/axam1237,168
+abvdoceanic-MandriFarun16291_1401,Mandri (Farun) 162-91,nasv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nasv1234,162
+abvdoceanic-NasvangFarun16293_1404,Nasvang (Farun) 162-93,nasv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nasv1234,161
+abvdoceanic-Navwien16287_1411,Navwien 162-87,navw1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/navw1234,165
+abvdoceanic-UliveoLurtes162107_1412,Uliveo (Lurtes) 162-107,mask1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/mask1242,191
+abvdoceanic-AvokAvok16299_1421,Avok (Avok) 162-99,avok1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/avok1244,166
+abvdoceanic-Anuki_1423,Anuki,anuk1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/anuk1239,160
+abvdoceanic-Buhutu_1425,Buhutu,buhu1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/suau1245/nucl1852/buhu1237,163
+abvdoceanic-Bunama_1426,Bunama,buna1276,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/dobu1240/buna1279/buna1276,197
+abvdoceanic-Dawawa_1428,Dawawa,dawa1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/kaka1266/dawa1242,183
+abvdoceanic-Dobu_1429,Dobu,dobu1241,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/dobu1240/dobu1241,247
+abvdoceanic-Gapapaiwa_1431,Gapapaiwa,gapa1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/arei1235/boan1246/gapa1238,208
+abvdoceanic-Ghayavi_1432,Ghayavi,ghay1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/arei1235/boan1246/ghay1237,153
+abvdoceanic-Hula_1434,Hula,hula1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/sina1272/hula1245/hula1239,191
+abvdoceanic-Iamalele_1435,Iamalele,iama1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/bwai1241/iama1238/iama1237,236
+abvdoceanic-Iduna_1436,Iduna,idun1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/bwai1241/bwai1245/bwai1244/idun1242,230
+abvdoceanic-Koluwawa_1438,Koluwawa,kolu1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/bwai1241/kolu1245,221
+abvdoceanic-Lala_1439,Lala,lala1268,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/meke1246/lala1272/lala1268,189
+abvdoceanic-Minaveha_1441,Minaveha,mina1269,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/taup1241/mina1269,213
+abvdoceanic-Sewa_1454,Sewa,sewa1251,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/dobu1240/sewa1251,190
+abvdoceanic-Tubetube_1458,Tubetube,bwan1241,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/kura1252/bwan1241,191
+abvdoceanic-Wedau_1459,Wedau,weda1241,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/nort2848/aret1241/taup1241/nucl1794/weda1242/weda1241,246
+abvdoceanic-Auhelawa_1460,'Auhelawa,auhe1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/kura1252/auhe1237,187
+abvdoceanic-Oyaoya_1461,'Oyaoya,oyao1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/suau1243/oyao1237,158
+abvdoceanic-Paici_1479,Paicî,paic1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/cemp1235/paic1239,210
+abvdoceanic-NyelayuBelepDialect_1480,Nyelâyu (Belep Dialect),nyal1254,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/extr1244/nyal1256/nyal1254,275
+abvdoceanic-Aro_1484,Aro,arho1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/houa1234/arho1237,128
+abvdoceanic-Ara_1485,Arʃa,arha1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/houa1234/arha1237,130
+abvdoceanic-Kapone_1489,Kapone,nume1242,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/extr1245/nume1242,129
+abvdoceanic-Moenebe_1491,Moeneᵐbeŋ,caac1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/extr1244/kumn1236/caac1237,125
+abvdoceanic-Neku_1492,Neku,neku1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/neku1237,130
+abvdoceanic-Nmi_1495,Nɛmi,nemi1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/nmip1235/nmif1235/hyen1234/nemi1240,135
+abvdoceanic-Pinje_1497,Pinje,pije1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/nmip1235/nmif1235/pije1237,127
+abvdoceanic-Poai_1498,Poai,fwai1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/nmip1235/nmif1235/hyen1234/fwai1237,132
+abvdoceanic-Poamei_1499,Poamei,pwaa1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/nmip1235/pwaa1237,139
+abvdoceanic-Poapoa_1500,Poapoã,pwap1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/nmip1235/pwap1237,136
+abvdoceanic-Sirehe_1501,Sirehë,zire1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/zire1240,131
+abvdoceanic-Wamoa_1502,Wamoaŋ,waam1236,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/vohk1234/waam1236,134
+abvdoceanic-camuki_1503,camuki,cemu1238,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/cemp1235/cemu1238,142
+abvdoceanic-Ciri_1504,Ciri,tiri1258,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/tiri1258,145
+abvdoceanic-ua_1505,ɲua,yuag1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/extr1244/kumn1236/kumn1237/yuag1237,136
+abvdoceanic-Moaek_1507,ʰMoaekɛ,vama1243,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/vohk1234/vama1243,134
+abvdoceanic-Moavek_1508,ʰMoavekɛ,hmwa1243,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/vohk1234/hmwa1243,135
+abvdoceanic-Boewe_1511,ᵐBoewe,orow1242,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/orow1242,132
+abvdoceanic-Aragur_1512,‘Aragùrɛ,xara1243,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/sout3313/mids1246/xara1243,129
+abvdoceanic-Aek_1513,’Aekɛ,haek1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/vohk1234/bwat1242/haek1241/haek1239,134
+abvdoceanic-Avek_1514,’Avekɛ,have1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout3173/newc1243/main1286/nort3325/nort3211/vohk1236/vohk1234/bwat1242/have1241,131
+abvdoceanic-Tahitian_1636,Tahitian,tahi1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tahi1244/tahi1242,233
+abvdoceanic-Nukumanu_1654,Nukumanu,nuku1258,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/taku1258/nuku1258,144
+abvdphilippines-5,Bantik,bant1286,western_mp,aust1307/mala1545/sang1348/sang1335/sout3155/bant1286,233
+abvdphilippines-12,Gorontalo (Hulondalo),goro1259,western_mp,aust1307/mala1545/grea1284/goro1257/goro1273/goro1259,215
+abvdphilippines-13,Hanunóo,hanu1241,western_mp,aust1307/mala1545/grea1284/sout2915/hanu1241,249
+abvdphilippines-29,Kaidipang,kaid1239,western_mp,aust1307/mala1545/grea1284/goro1257/goro1273/kaid1239,203
+abvdphilippines-31,Kakiduge:n Ilongot,ilon1239,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/ilon1239,206
+abvdphilippines-33,Kapampangan,pamp1243,western_mp,aust1307/mala1545/cent2080/pamp1243,230
+abvdphilippines-43,Aklanon - Bisayan,akla1241,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/west2820/akla1240/akla1241,236
+abvdphilippines-47,Bikol (Naga City),cent2087,western_mp,aust1307/mala1545/grea1284/cent2246/biko1240/coas1315/cent2087,222
+abvdphilippines-86,Maranao,mara1404,western_mp,aust1307/mala1545/grea1284/dana1253/mara1404,223
+abvdphilippines-133,Tboli (Tagabili),tbol1240,western_mp,aust1307/mala1545/bili1253/tbol1241/tbol1240,212
+abvdphilippines-137,Tontemboan,tont1239,western_mp,aust1307/mala1545/sang1348/mina1272/nort2886/tont1239,211
+abvdphilippines-138,Tsou T63,tsou1248,formosan,aust1307/tsou1250/tsou1248,230
+abvdphilippines-144,Western Bukidnon Manobo,west2555,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/west2829/west2554/west2555,213
+abvdphilippines-153,Cebuano,cebu1242,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cebu1242,257
+abvdphilippines-157,Itbayaten,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,215
+abvdphilippines-177,Paiwan (Kulalao F82),paiw1248,formosan,aust1307/paiw1248,222
+abvdphilippines-183,Sangir,sang1336,western_mp,aust1307/mala1545/sang1348/sang1335/nort3174/nort2871/sang1336,216
+abvdphilippines-193,Hiligaynon,hili1240,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/peri1261/capi1240/hili1240,114
+abvdphilippines-202,"Bunun F69, Southern",bunu1267,formosan,aust1307/bunu1267,245
+abvdphilippines-203,Kanakanabu F69,kana1286,formosan,aust1307/tsou1250/kana1292/kana1286,148
+abvdphilippines-240,Bolaang Mongondow,mong1342,western_mp,aust1307/mala1545/grea1284/goro1257/mong1346/mong1342,228
+abvdphilippines-241,Thao B96,thao1240,formosan,aust1307/west2572/thao1240,217
+abvdphilippines-248,Iraralay,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,328
+abvdphilippines-249,Itbayat,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,389
+abvdphilippines-250,Imorod,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,328
+abvdphilippines-251,Ivasay,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,312
+abvdphilippines-252,Isamorong,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,315
+abvdphilippines-254,Yami,yami1254,western_mp,aust1307/mala1545/bata1315/yami1257/yami1254,238
+abvdphilippines-255,Atayal - Squliq F69,atay1247,formosan,aust1307/atay1246/atay1247,312
+abvdphilippines-256,Atayal - C'uli' F69 (Bandai),atay1247,formosan,aust1307/atay1246/atay1247,199
+abvdphilippines-260,Kavalan F69,kava1241,formosan,aust1307/east2493/nort2900/kava1241,455
+abvdphilippines-265,Palawan Batak,bata1301,western_mp,aust1307/mala1545/grea1284/pala1357/pala1354/nort3185/abor1241/bata1301,360
+abvdphilippines-266,Pazih F69,kulo1237,formosan,aust1307/nort2899/kulo1237,441
+abvdphilippines-271,Puyuma (Chihpen F69),puyu1239,formosan,aust1307/puyu1239,317
+abvdphilippines-272,Rukai (Budai F69),ruka1240,formosan,aust1307/ruka1240,246
+abvdphilippines-273,Saaroa F69,saar1237,formosan,aust1307/tsou1250/kana1292/saar1237,281
+abvdphilippines-274,Saisiyat F69,sais1237,formosan,aust1307/nort2899/sais1237,191
+abvdphilippines-275,Seediq F69 (Sakura),taro1264,formosan,aust1307/atay1246/taro1264,277
+abvdphilippines-277,Tagalog,taga1270,western_mp,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269/taga1270,229
+abvdphilippines-279,Ibanag,iban1267,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/iban1267,213
+abvdphilippines-288,Ilokano,ilok1237,western_mp,aust1307/mala1545/nort3238/ilok1237,222
+abvdphilippines-289,Babuyan,babu1242,western_mp,aust1307/mala1545/bata1315/ibat1238/babu1242,317
+abvdphilippines-291,Koronadal Blaan,koro1310,western_mp,aust1307/mala1545/bili1253/tbol1241/blaa1241/koro1310,173
+abvdphilippines-293,Sarangani Blaan,sara1326,western_mp,aust1307/mala1545/bili1253/tbol1241/blaa1241/sara1326,163
+abvdphilippines-335,Yami,yami1254,western_mp,aust1307/mala1545/bata1315/yami1257/yami1254,188
+abvdphilippines-350,Amis (Central),amis1246,formosan,aust1307/east2493/cent2103/amis1246,338
+abvdphilippines-369,Basay TsYM91,basa1287,formosan,aust1307/east2493/nort2900/basa1287,170
+abvdphilippines-389,Tagalog,taga1270,western_mp,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269/taga1270,225
+abvdphilippines-405,Pangasinan,pang1290,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/pang1290,299
+abvdphilippines-408,Tagalog (Anthony dela Paz),taga1270,western_mp,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269/taga1270,234
+abvdphilippines-409,Agta,cent2084,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/cent2084,179
+abvdphilippines-410,"Atta, Pamplona",pamp1244,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/atta1244/pamp1244,201
+abvdphilippines-411,Balangaw,bala1310,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/bala1310,182
+abvdphilippines-412,"Batak, Palawan",bata1301,western_mp,aust1307/mala1545/grea1284/pala1357/pala1354/nort3185/abor1241/bata1301,182
+abvdphilippines-413,"Bilaan, Koronadal",koro1310,western_mp,aust1307/mala1545/bili1253/tbol1241/blaa1241/koro1310,180
+abvdphilippines-414,"Bilaan, Sarangani",sara1326,western_mp,aust1307/mala1545/bili1253/tbol1241/blaa1241/sara1326,182
+abvdphilippines-415,Binukid,binu1244,western_mp,aust1307/mala1545/grea1284/mano1276/nort2884/kina1254/buki1251/binu1244,214
+abvdphilippines-417,"Dumagat, Casiguran",casi1235,western_mp,aust1307/mala1545/nort3238/nort3187/nucl1755/casi1235,177
+abvdphilippines-418,Gaddang,gadd1244,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/caga1242/gadd1244,181
+abvdphilippines-419,"Ifugao, Amganad",amga1235,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/ifug1247/amga1235,178
+abvdphilippines-420,"Ifugao, Batad",bata1298,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/ifug1247/bata1319/bata1298,172
+abvdphilippines-421,"Ifugao, Bayninan",kele1259,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/nucl1542/kall1244/kele1259,180
+abvdphilippines-422,"Ilongot, Kakiduge:n",ilon1239,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/ilon1239,179
+abvdphilippines-423,Inibaloi,ibal1244,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/nucl1542/ibal1244,181
+abvdphilippines-424,"Isneg, Dibagat-Kabugao-Isneg",isna1241,western_mp,aust1307/mala1545/nort3238/caga1241/isna1241,184
+abvdphilippines-425,Itbayaten,ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,180
+abvdphilippines-426,"Itneg, Binongan",bino1237,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/kali1310/itne1252/bino1237,180
+abvdphilippines-427,"Ivatan, Basco Dialect",ivat1242,western_mp,aust1307/mala1545/bata1315/yami1257/ivat1242,183
+abvdphilippines-428,Kalagan,kala1388,western_mp,aust1307/mala1545/grea1284/cent2246/mans1261/west2552/kaga1259/kala1388,182
+abvdphilippines-429,"Kalinga, Guinaang, Lubuagan Dialect",lubu1243,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/kali1310/kali1311/cent2282/lubu1243,217
+abvdphilippines-430,"Kallahan, Kayapa Proper",kaya1320,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/nucl1542/kall1244/ahin1234/kaya1320,183
+abvdphilippines-431,"Kallahan, Keleyqiq",kele1259,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/nucl1542/kall1244/kele1259,182
+abvdphilippines-432,"Kankanay, Northern",nort2877,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/bont1246/kank1245/maen1236/nort2877,180
+abvdphilippines-433,Mamanwa,mama1275,western_mp,aust1307/mala1545/grea1284/cent2246/mama1275,186
+abvdphilippines-434,"Manobo, Ata (up-river)",atam1240,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/east2742/cent2088/atam1240,212
+abvdphilippines-435,"Manobo, Ata (down-river)",atam1240,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/east2742/cent2088/atam1240,182
+abvdphilippines-436,"Manobo, Dibabawon",diba1242,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/east2742/east2478/diba1242,182
+abvdphilippines-437,"Manobo, Ilianen (Kibudtungan Dialect)",ilia1236,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/west2829/west2554/ilia1236,185
+abvdphilippines-438,"Manobo, Kalamansig Cotabato (Paril Dialect)",cota1241,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/sout2913/sara1347/cota1241,193
+abvdphilippines-439,"Manobo, Sarangani, Kayaponga Dialect",sara1327,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/sout2913/sara1347/sara1327,182
+abvdphilippines-440,"Manobo, Tigwa, Iglogsad Dialect",mati1250,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/east2742/cent2088/mati1250,181
+abvdphilippines-441,"Manobo, Western Bukidnon",west2555,western_mp,aust1307/mala1545/grea1284/mano1276/cent2255/east2778/west2829/west2554/west2555,181
+abvdphilippines-442,Mansaka,mans1262,western_mp,aust1307/mala1545/grea1284/cent2246/mans1261/east2477/mans1262,229
+abvdphilippines-444,"Sambal, Botolan",boto1242,western_mp,aust1307/mala1545/cent2080/samb1319/abel1234/boto1242,241
+abvdphilippines-445,"Sangil, Saragani Islands",sang1337,western_mp,aust1307/mala1545/sang1348/sang1335/nort3174/nort2871/sang1337,182
+abvdphilippines-446,"Sangir, Tabukang Dialect",sang1336,western_mp,aust1307/mala1545/sang1348/sang1335/nort3174/nort2871/sang1336,194
+abvdphilippines-447,"Subanun, Sindangan",cent2089,western_mp,aust1307/mala1545/grea1284/suba1253/nucl1726/east2769/cent2089,183
+abvdphilippines-448,"Subanon, Siocon",west2557,western_mp,aust1307/mala1545/grea1284/suba1253/west2811/west2557,190
+abvdphilippines-449,Tagabili,tbol1240,western_mp,aust1307/mala1545/bili1253/tbol1241/tbol1240,182
+abvdphilippines-450,"Tagbanwa, Aborlan Dialect",cent2090,western_mp,aust1307/mala1545/grea1284/pala1357/pala1354/nort3185/cent2090,182
+abvdphilippines-451,"Tagbanwa, Kalamian, Coron Island Dialect",cala1258,western_mp,aust1307/mala1545/grea1284/pala1357/kala1389/cala1258,182
+abvdphilippines-452,"Tausug, Jolo Dialect",taus1251,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/sout3175/butu1243/taus1251,218
+abvdphilippines-458,Iranun,iran1262,western_mp,aust1307/mala1545/grea1284/dana1253/iran1262,215
+abvdphilippines-466,Surigaonon,suri1273,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/sout3175/suri1274/suri1273,275
+abvdphilippines-467,Ilonggo,hili1240,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/peri1261/capi1240/hili1240,301
+abvdphilippines-483,Butuanon,butu1244,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/sout3175/butu1243/butu1244,275
+abvdphilippines-494,S.W. Palawano,sout2916,western_mp,aust1307/mala1545/grea1284/pala1357/pala1354/sout3165/molb1238/nucl1738/broo1240/sout2916,338
+abvdphilippines-496,Tonsea,tons1240,western_mp,aust1307/mala1545/sang1348/mina1272/nort2886/nort2887/tons1240,274
+abvdphilippines-513,Waray-Waray,wara1300,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/wara1304/sama1315/wara1300,287
+abvdphilippines-618,Buol,buol1237,western_mp,aust1307/mala1545/grea1284/goro1257/goro1273/buol1237,209
+abvdphilippines-635,Babuza Ts82,babu1240,formosan,aust1307/west2572/cent2106/babu1240,444
+abvdphilippines-636,Hoanya Ts82,papo1239,formosan,aust1307/west2572/cent2106/papo1239,528
+abvdphilippines-637,Papora Ts82,papo1239,formosan,aust1307/west2572/cent2106/papo1239,412
+abvdphilippines-638,Taokas Ts82,babu1240,formosan,aust1307/west2572/cent2106/babu1240,809
+abvdphilippines-657,Kinaray-a,kina1250,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/west2820/kina1255/kina1250,228
+abvdphilippines-660,Capisano,capi1239,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/peri1261/capi1240/capi1239,154
+abvdphilippines-671,"Kalinga, Southern",sout2908,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/kali1310/kali1311/cent2282/sout3203/sout2908,172
+abvdphilippines-672,"Kalinga, Limos",limo1248,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/kali1310/kali1311/nort3226/limo1248,230
+abvdphilippines-673,"Bontok, Eastern",cent2292,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/bont1246/bont1247/cent2292,195
+abvdphilippines-678,Itawis,itaw1240,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/itaw1240,225
+abvdphilippines-679,Ibaloi,ibal1244,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/sout2907/west2550/nucl1542/ibal1244,258
+abvdphilippines-681,Kankanaey,kank1243,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/bont1246/kank1245/kank1243,229
+abvdphilippines-685,Maguindanaon,magu1243,western_mp,aust1307/mala1545/grea1284/dana1253/magu1243,299
+abvdphilippines-686,Sinauna,remo1247,western_mp,aust1307/mala1545/cent2080/remo1247,181
+abvdphilippines-687,Romblon,romb1245,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/romb1245,211
+abvdphilippines-688,Cuyonon,cuyo1237,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/west2820/kuya1251/cuyo1237,195
+abvdphilippines-707,Tiruray,tiru1241,western_mp,aust1307/mala1545/bili1253/tiru1241,247
+abvdphilippines-708,Bantoanon (Banton),bant1288,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/bant1288,130
+abvdphilippines-710,Bikol (Buhinon),buhi1243,western_mp,aust1307/mala1545/grea1284/cent2246/biko1240/inla1266/alba1269/buhi1243,175
+abvdphilippines-711,Kalinga (Minangali),lowe1412,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/kali1310/kali1311/cent2282/sout3203/sout3207/lowe1412,182
+abvdphilippines-713,Yogad,yoga1237,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/yoga1237,254
+abvdphilippines-720,Kavalan LTs,kava1241,formosan,aust1307/east2493/nort2900/kava1241,319
+abvdphilippines-722,Bikol (Rinconada),irig1242,western_mp,aust1307/mala1545/grea1284/cent2246/biko1240/inla1266/irig1242,235
+abvdphilippines-726,Bunun (Takituduh L88),bunu1267,formosan,aust1307/bunu1267,105
+abvdphilippines-730,Dupaningan Agta,dupa1235,western_mp,aust1307/mala1545/nort3238/nort3187/dupa1235,237
+abvdphilippines-742,Atayal - C'uli' L04 (Mayrinax),atay1247,formosan,aust1307/atay1246/atay1247,224
+abvdphilippines-755,Masbatenyo,masb1238,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/peri1261/masb1239/masb1238,261
+abvdphilippines-759,Puyuma (Nanwang Cq),puyu1239,formosan,aust1307/puyu1239,201
+abvdphilippines-760,Pazih LTs (Auran),kulo1237,formosan,aust1307/nort2899/kulo1237,282
+abvdphilippines-783,Samar-Leyte,wara1300,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/cent2263/wara1304/sama1315/wara1300,114
+abvdphilippines-788,Marinduque Tagalog,taga1270,western_mp,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269/taga1270,138
+abvdphilippines-799,Amis (Fata'an),amis1246,formosan,aust1307/east2493/cent2103/amis1246,195
+abvdphilippines-800,Amis (Farang),amis1246,formosan,aust1307/east2493/cent2103/amis1246,201
+abvdphilippines-801,Sakizaya,nata1254,formosan,aust1307/east2493/cent2103/amis1246/nata1254,193
+abvdphilippines-802,Atayal - C'uli' L04 (Skikun),atay1247,formosan,aust1307/atay1246/atay1247,200
+abvdphilippines-803,Bunun (Takituduh L04),bunu1267,formosan,aust1307/bunu1267,213
+abvdphilippines-804,Bunun (Takbanuaz),bunu1267,formosan,aust1307/bunu1267,211
+abvdphilippines-805,Bunun (Iskubun),bunu1267,formosan,aust1307/bunu1267,209
+abvdphilippines-806,Paiwan (Butanglu L04),paiw1248,formosan,aust1307/paiw1248,200
+abvdphilippines-807,Paiwan (Stimul L04),paiw1248,formosan,aust1307/paiw1248,201
+abvdphilippines-808,Paiwan (Tjubar L04),paiw1248,formosan,aust1307/paiw1248,202
+abvdphilippines-809,Puyuma (Pilam L04),puyu1239,formosan,aust1307/puyu1239,208
+abvdphilippines-810,Puyuma (Lower Pinlang L04),puyu1239,formosan,aust1307/puyu1239,205
+abvdphilippines-811,Puyuma (Katipul L04),puyu1239,formosan,aust1307/puyu1239,205
+abvdphilippines-812,Rukai (Tanan L04),ruka1240,formosan,aust1307/ruka1240,205
+abvdphilippines-813,Rukai (Budai L04),ruka1240,formosan,aust1307/ruka1240,202
+abvdphilippines-814,Rukai (Maga L04),ruka1240,formosan,aust1307/ruka1240,212
+abvdphilippines-815,Rukai (Tona),ruka1240,formosan,aust1307/ruka1240,206
+abvdphilippines-816,Rukai (Mantauran L04),ruka1240,formosan,aust1307/ruka1240,200
+abvdphilippines-817,Saisiyat L04 (Tungho),sais1237,formosan,aust1307/nort2899/sais1237,205
+abvdphilippines-818,Saisiyat L04 (Ta'ai),sais1237,formosan,aust1307/nort2899/sais1237,200
+abvdphilippines-819,Atayal - Squliq L04,atay1247,formosan,aust1307/atay1246/atay1247,214
+abvdphilippines-820,Seediq L04 (Paran),taro1264,formosan,aust1307/atay1246/taro1264,208
+abvdphilippines-821,Seediq L04 (Toda),taro1264,formosan,aust1307/atay1246/taro1264,210
+abvdphilippines-822,Seediq L04 (Hecuo),taro1264,formosan,aust1307/atay1246/taro1264,206
+abvdphilippines-823,Seediq L04 (Truku),taro1264,formosan,aust1307/atay1246/taro1264,199
+abvdphilippines-824,Tsou (Duhtu L04),tsou1248,formosan,aust1307/tsou1250/tsou1248,206
+abvdphilippines-825,Kanakanabu L04,kana1286,formosan,aust1307/tsou1250/kana1292/kana1286,214
+abvdphilippines-826,Saaroa L04,saar1237,formosan,aust1307/tsou1250/kana1292/saar1237,209
+abvdphilippines-832,Basay L04,basa1287,formosan,aust1307/east2493/nort2900/basa1287,129
+abvdphilippines-859,Bikol (Bisakol),cent2087,western_mp,aust1307/mala1545/grea1284/cent2246/biko1240/coas1315/cent2087,215
+abvdphilippines-860,Kagayanen,kaga1256,western_mp,aust1307/mala1545/grea1284/mano1276/nort2884/kaga1256,233
+abvdphilippines-978,Itawis,itaw1240,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/itaw1240,191
+abvdphilippines-1200,Kapampangan,pamp1243,western_mp,aust1307/mala1545/cent2080/pamp1243,231
+abvdphilippines-1208,Naga Bikol,cent2087,western_mp,aust1307/mala1545/grea1284/cent2246/biko1240/coas1315/cent2087,158
+abvdphilippines-1211,Arta,arta1239,western_mp,aust1307/mala1545/nort3238/arta1239,214
+abvdphilippines-1257,Ayta Mag-antsi,maga1263,western_mp,aust1307/mala1545/cent2080/samb1319/maga1270/maga1263,253
+abvdphilippines-1260,Inati (Nagpana),atii1237,western_mp,aust1307/mala1545/atii1237,166
+abvdphilippines-1262,Ayta Abellen,aben1249,western_mp,aust1307/mala1545/cent2080/samb1319/abel1234/aben1249,140
+abvdphilippines-1263,Ayta Ambala,amba1267,western_mp,aust1307/mala1545/cent2080/samb1319/amba1267,127
+abvdphilippines-1264,Ayta Mag-anchi,maga1263,western_mp,aust1307/mala1545/cent2080/samb1319/maga1270/maga1263,140
+abvdphilippines-1265,Bolinao,boli1256,western_mp,aust1307/mala1545/cent2080/samb1319/tina1255/boli1256,141
+abvdphilippines-1266,Botolan Sambal,boto1242,western_mp,aust1307/mala1545/cent2080/samb1319/abel1234/boto1242,141
+abvdphilippines-1267,Ayta Mag-indi,magi1241,western_mp,aust1307/mala1545/cent2080/samb1319/maga1270/magi1241,141
+abvdphilippines-1268,Sambal,tina1248,western_mp,aust1307/mala1545/cent2080/samb1319/tina1255/tina1248,141
+abvdphilippines-1269,Iraya,iray1237,western_mp,aust1307/mala1545/nort2873/iray1237,205
+abvdphilippines-1270,Alangan,alan1249,western_mp,aust1307/mala1545/nort2873/alan1249,246
+abvdphilippines-1271,Tadyawan,tady1237,western_mp,aust1307/mala1545/nort2873/tady1237,246
+abvdphilippines-1272,Batangan,buhi1245,western_mp,aust1307/mala1545/grea1284/sout2915/buhi1244/buhi1245,252
+abvdphilippines-1273,Buhid,buhi1245,western_mp,aust1307/mala1545/grea1284/sout2915/buhi1244/buhi1245,229
+abvdphilippines-1274,Hanunoo,hanu1241,western_mp,aust1307/mala1545/grea1284/sout2915/hanu1241,227
+abvdphilippines-1275,Ratagnon,rata1245,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/west2820/kuya1251/data1234/rata1245,197
+abvdphilippines-1278,Malaweg,itaw1240,western_mp,aust1307/mala1545/nort3238/caga1241/iban1268/gadd1245/itaw1240,183
+abvdphilippines-1328,Paiwan (Tjatjigel Egli),paiw1248,formosan,aust1307/paiw1248,214
+abvdphilippines-1463,Isinay (Dupax),isin1239,western_mp,aust1307/mala1545/nort3238/meso1254/sout3211/cent2296/nucl1754/isin1239,248
+abvdphilippines-1467,Mindoro Tagalog,taga1270,western_mp,aust1307/mala1545/grea1284/cent2246/taga1280/taga1269/taga1270,238
+abvdphilippines-1549,Kamayo,kama1363,western_mp,aust1307/mala1545/grea1284/cent2246/mans1261/kama1363,224
+abvdphilippines-1551,Guiangan (Sirib),gian1241,western_mp,aust1307/mala1545/bili1253/gian1241,181
+abvdphilippines-1552,Guiangan (Baguio),gian1241,western_mp,aust1307/mala1545/bili1253/gian1241,140
+abvdphilippines-1553,Inati (Hamtic),atii1237,western_mp,aust1307/mala1545/atii1237,215
+abvdphilippines-1554,"Inati (Jordan, Guimaras)",atii1237,western_mp,aust1307/mala1545/atii1237,206
+abvdphilippines-1569,Agutyanen,agut1237,western_mp,aust1307/mala1545/grea1284/pala1357/kala1389/agut1237,244
+abvdphilippines-1635,Inagta Alabat,alab1246,western_mp,aust1307/mala1545/grea1284/cent2246/alab1255/alab1246,228
+abvdphilippines-1637,Surigaonon,suri1273,western_mp,aust1307/mala1545/grea1284/cent2246/bisa1268/sout3175/suri1274/suri1273,207
+abvdphilippines-1638,Western Subanon,west2557,western_mp,aust1307/mala1545/grea1284/suba1253/west2811/west2557,226
+abvdphilippines-1641,Manide (Labo),cama1250,western_mp,aust1307/mala1545/grea1284/cent2246/alab1255/cama1250,207
+baf2-Ampari,Ampari,ampa1240,western_mp,aust1307/mala1545/cele1242/kail1255/nort2898/pamo1251/pamo1252/ampa1240,98
+barlowlote-lote1237-1,Lote,lote1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/meng1266/lote1237,591
+barlowkilliantomoip-tomo1244-1,Tomoip (Milim village),tomo1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/tomo1244,1111
+berrywestpapuan-As,As,asss1237,shwng,aust1307/mala1545/east2712/sout3229/raja1255/asss1237,192
+blustaustronesian-maloh,Maloh,emba1238,western_mp,aust1307/mala1545/sout2923/sout3413/bugi1243/tama1334/emba1238,194
+blustaustronesian-iban,Iban,iban1264,western_mp,aust1307/mala1545/mala1554/mala1538/iban1263/iban1269/iban1270/nort3387/iban1264,265
+blustaustronesian-wuna,Wuna,muna1247,western_mp,aust1307/mala1545/cele1242/grea1299/east2488/sout2928/muna1246/nucl1573/muni1256/muni1259/west2847/muna1247,180
+blustaustronesian-baree,Bare'e,pamo1252,western_mp,aust1307/mala1545/cele1242/kail1255/nort2898/pamo1251/pamo1252,213
+blustaustronesian-tetum,Tetum,tetu1246,western_mp,aust1307/mala1545/timo1265/east2894/tetu1244/tetu1246,223
+blustaustronesian-merinamalagasy,Merina_Malagasy,plat1254,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254,207
+blustaustronesian-moken,Moken,moke1242,western_mp,aust1307/mala1545/moke1241/moke1242,214
+blustaustronesian-thao,Thao,thao1240,formosan,aust1307/west2572/thao1240,196
+blustaustronesian-nias,Nias,nias1242,western_mp,aust1307/mala1545/suma1277/nias1241/nias1242,216
+blustaustronesian-hanunoo,Hanunoo,hanu1241,western_mp,aust1307/mala1545/grea1284/sout2915/hanu1241,245
+blustaustronesian-singhi,Singhi,baub1235,western_mp,aust1307/mala1545/land1261/bida1239/bida1240/cent2415/baub1235,230
+blustaustronesian-palauan,Palauan,pala1344,western_mp,aust1307/mala1545/pala1344,217
+blustaustronesian-tunjung,Tunjung,tunj1244,western_mp,aust1307/mala1545/basa1291/grea1283/bari1287/tunj1244,180
+blustaustronesian-berawanlongterawan,Berawan_Long_Terawan,west2564,western_mp,aust1307/mala1545/nort3253/nort3171/bera1263/bera1264/west2564,210
+blustaustronesian-centralamis,Central Amis,amis1246,formosan,aust1307/east2493/cent2103/amis1246,339
+blustaustronesian-tsou,Tsou,tsou1248,formosan,aust1307/tsou1250/tsou1248,229
+blustaustronesian-banoni,Banoni,bann1247,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/piva1237/bann1247,237
+blustaustronesian-chamorro,Chamorro,cham1312,western_mp,aust1307/mala1545/cham1312,168
+blustaustronesian-banggi,Banggi,bong1289,western_mp,aust1307/mala1545/nort3253/saba1285/nort3172/bong1289,152
+idssegmented-hawaiian,Hawaiian,hawa1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/hawa1245,2586
+idssegmented-maori,Maori,maor1246,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/maor1247/maor1246,2174
+idssegmented-marquesan,Marquesan,sout2866,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/marq1246/sout2866,1248
+idssegmented-rapanui,Rapa Nui,rapa1244,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/fare1245/rapa1244,1319
+idssegmented-rotuman,Rotuman,rotu1241,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/rotu1241,1352
+idssegmented-tongan,Tongan,tong1325,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/tong1324/tong1325,1742
+idssegmented-tuamotuan,Tuamotuan,tuam1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tuam1242,1373
+johanssonsoundsymbolic-Seediq,Seediq,taro1264,formosan,aust1307/atay1246/taro1264,340
+johanssonsoundsymbolic-Warembori,Warembori,ware1253,shwng,aust1307/mala1545/east2712/sout3229/lowe1409/ware1253,219
+kesslersignificance-Hawaiian,Hawaiian,hawa1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/hawa1245,200
+papuanvoices-Ambel,Ambel,waig1244,shwng,aust1307/mala1545/east2712/sout3229/raja1255/waig1244,214
+papuanvoices-Ansus,Ansus,ansu1237,shwng,aust1307/mala1545/east2712/sout3229/cend1238/yape1249/cent2277/ansu1238/ansu1237,213
+papuanvoices-Biak,Biak,biak1248,shwng,aust1307/mala1545/east2712/sout3229/cend1238/biak1249/biak1250/biak1248,211
+papuanvoices-Waropen,Waropen,waro1242,shwng,aust1307/mala1545/east2712/sout3229/waro1242,210
+papuanvoices-Yapenpoom,Yapen: Poom,pomm1237,shwng,aust1307/mala1545/east2712/sout3229/cend1238/yape1249/cent2277/cent2308/pomm1237,215
+papuanvoices-Yapenwooi,Yapen: Wooi,woii1237,shwng,aust1307/mala1545/east2712/sout3229/cend1238/yape1249/cent2277/ansu1238/woii1237,213
+servamalagasy-SakalavaAmbanja,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-SihanakaAmbatondrazaka,Sihanaka,siha1244,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/siha1244,207
+servamalagasy-AntankaranaAmbilobe,Antankarana,anta1255,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/anta1255,207
+servamalagasy-MahafalyAmpanihy,Mahafaly,maha1309,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/maha1309,207
+servamalagasy-MikeaAmpoakafo,Mikea,mike1243,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/masi1268/mike1243,207
+servamalagasy-BetsimisarakaAntalaha,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-MerinaAntananarivo,Merina,meri1243,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/meri1243,207
+servamalagasy-BaraBetroka,Bara,bara1369,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/bara1407/bara1369,207
+servamalagasy-ZafisoroFarafangana,Zafisoro,zafi1234,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/tesa1236/zafi1234,207
+servamalagasy-BetsileoFianarantsoa,Betsileo,bets1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/bets1235,207
+servamalagasy-BetsimisarakaMahanoro,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-SakalavaMaintirano,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-SakalavaMahajanga,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-AntaimoroManakara,Antaimoro,anta1259,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/anta1259,207
+servamalagasy-AntambohoakaMananjary,Antambohoaka,anta1260,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/anta1260,207
+servamalagasy-TsimihetyMandritsara,Tsimihety,tsim1257,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/tsim1257,207
+servamalagasy-MasikoroMiary,Masikoro,masi1268,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/masi1268,207
+servamalagasy-SakalavaMorondava,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-AntanosyTolagnaro,Antanosy,tano1246,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/bara1407/tano1246,207
+servamalagasy-VezoToliara,Vezo,vezo1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/masi1268/vezo1235,207
+servamalagasy-AntaisakaVangaindrano,Antaisaka,anta1261,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/tesa1236/anta1261,207
+servamalagasy-AntankaranaVohemar,Antankarana,anta1255,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/anta1255,207
+servamalagasy-BetsileoAmbositra,Betsileo,bets1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/bets1235,207
+servamalagasy-BetsileoAmbalavao,Betsileo,bets1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/bets1235,207
+servamalagasy-AntanalanaItampolo,Antanalana,anta1262,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/maha1309/anta1262,207
+servamalagasy-VezoMorombe,Vezo,vezo1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/masi1268/vezo1235,207
+servamalagasy-AntanosyBezaha,Antanosy,tano1246,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/bara1407/tano1246,207
+servamalagasy-TanalaIfanadiana,Tanala,tana1285,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/tana1285,207
+servamalagasy-BaraRanohira,Bara,bara1369,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/bara1407/bara1369,207
+servamalagasy-AntanalanaManorofify,Antanalana,anta1262,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/maha1309/anta1262,207
+servamalagasy-AntandroyToliara,Antandroy,tand1256,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/tand1256,207
+servamalagasy-AntanalanaAnakao,Antanalana,anta1262,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/maha1309/anta1262,207
+servamalagasy-BetsimisarakaMarolambo,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-BetsimisarakaAntsiranana,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-BetsimisarakaBrickaville,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-BetsimisarakaToamasina,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-BetsimisarakaMananara,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-TsimihetyMampikony,Tsimihety,tsim1257,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/tsim1257,207
+servamalagasy-TsimihetyAndapa,Tsimihety,tsim1257,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/tsim1257,207
+servamalagasy-NosyBorahaAmbodifotatra,Nosy Boraha,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-SakalavaMiandrivazo,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-VezoMorondava,Vezo,vezo1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/masi1268/vezo1235,207
+servamalagasy-TsimihetyAntsohihy,Tsimihety,tsim1257,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/tsim1257,207
+servamalagasy-MerinaMaevatanana,Merina,meri1243,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/meri1243,207
+servamalagasy-SakalavaBesalampy,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+servamalagasy-BetsimisarakaTanambaoManampotsy,Betsimisaraka,sout2920,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/sout2920,207
+servamalagasy-SihanakaMoraranoChrome,Sihanaka,siha1244,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/siha1244,207
+servamalagasy-BetsileoAmbohimahasoa,Betsileo,bets1235,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/bets1235,207
+servamalagasy-BetsimisarakaMaroantsetra,Betsimisaraka,nort2890,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/nort3207/tsim1259/nort2890,207
+servamalagasy-MerinaAnalavory,Merina,meri1243,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/meri1243,207
+servamalagasy-BetsimisarakaSahavato,Betsimisaraka,sout2920,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/sout2920,207
+servamalagasy-MahafalyEjeda,Mahafaly,maha1309,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/maha1309,207
+servamalagasy-AntanosyBelamoty,Antanosy,tano1246,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/bara1407/tano1246,207
+servamalagasy-SihanakaAndilamena,Sihanaka,siha1244,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254/siha1244,207
+servamalagasy-AntandroyTsihombe,Antandroy,tand1256,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/tand1256,207
+servamalagasy-SakalavaBeloniTsiribihina,Sakalava,saka1291,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/sout3174/sout3346/nucl1799/inla1273/saka1299/saka1291,207
+transnewguineaorg-alor-baranusa-kabir,Alor (Baranusa Kabir Dialect),alor1247,western_mp,aust1307/mala1545/bima1248/flor1244/flor1239/lama1293/alor1247,119
+transnewguineaorg-alor-kalabahi,Alor (Kalabahi Dialect),alor1247,western_mp,aust1307/mala1545/bima1248/flor1244/flor1239/lama1293/alor1247,117
+transnewguineaorg-bahasa-indonesia,Bahasa Indonesia,indo1316,western_mp,aust1307/mala1545/mala1554/mala1538/nucl1806/stan1327/indo1316,122
+transnewguineaorg-hula,Hula,hula1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/sina1272/hula1245/hula1239,280
+transnewguineaorg-indonesian,Indonesian,indo1316,western_mp,aust1307/mala1545/mala1554/mala1538/nucl1806/stan1327/indo1316,232
+transnewguineaorg-motu,Motu,motu1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/west2850/motu1249/motu1246,280
+transnewguineaorg-sinaugoro,Sinaugoro,sina1266,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/papu1253/cent2070/sina1272/sina1266,269
+tryonsolomon-areare1,'Are'are (1),area1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/area1240,333
+tryonsolomon-areare2,'Are'are (2),area1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/area1240,333
+tryonsolomon-anuta,Anuta,anut1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/anut1237,331
+tryonsolomon-arosi1,Arosi (1),aros1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/aros1241,335
+tryonsolomon-arosi2,Arosi (2),aros1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/aros1241,344
+tryonsolomon-asumboa,Asumboa,asum1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/asum1237,303
+tryonsolomon-bauro1,Bauro (1),baur1252,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/baur1252,337
+tryonsolomon-bauro2,Bauro (2),baur1252,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/baur1252,333
+tryonsolomon-bellona,Bellona,renn1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/renn1242,338
+tryonsolomon-blablanga,Blablanga,blab1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/zaza1247/blab1237,319
+tryonsolomon-buma,Buma,tean1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/tean1237,354
+tryonsolomon-dhadhaje,Dhadhaje,bugh1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/ngge1240/bugh1239,349
+tryonsolomon-dorio,Dori'o,dori1246,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/dori1246,340
+tryonsolomon-faghani,Faghani,faga1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/faga1239,332
+tryonsolomon-fataleka,Fataleka,fata1245,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/fata1245,340
+tryonsolomon-ghanongga,Ghanongga,ghan1242,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/simb1260/ghan1246/ghan1242,342
+tryonsolomon-ghari,Ghari,ghar1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/nort2832/ghar1239,344
+tryonsolomon-ghove,Ghove,blab1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/zaza1247/blab1237,287
+tryonsolomon-hoava,Hoava,hoav1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/hoav1239/hoav1238,341
+tryonsolomon-kahua,Kahua,kahu1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/kahu1241,325
+tryonsolomon-kazukuru,Kazukuru,kazu1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/kazu1245,129
+tryonsolomon-kia,Kia,zaba1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/west2523/zaba1237,357
+tryonsolomon-kilokaka,Kilokaka,zaza1245,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/zaza1247/zaza1245,342
+tryonsolomon-kokota,Kokota,koko1269,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/cent2063/koko1269,323
+tryonsolomon-kusaghe,Kusaghe,kusa1251,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/hoav1239/kusa1251,323
+tryonsolomon-kwai,Kwai,gula1270,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/gula1270,318
+tryonsolomon-kwaio,Kwaio,kwai1243,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/kwai1243,392
+tryonsolomon-kwaraae,Kwara'ae,kwar1239,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/kwar1239,335
+tryonsolomon-langalanga,Langalanga,wala1266,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/wala1266,346
+tryonsolomon-launorth,Lau North,lauu1247,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/lauu1247,362
+tryonsolomon-leleghia,Leleghia,chek1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/east2452/chek1238,352
+tryonsolomon-lengo,Lengo,leng1259,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/nort2832/leng1259,323
+tryonsolomon-longgu,Longgu,long1395,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/long1395,334
+tryonsolomon-lungga,Lungga,lung1249,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/simb1260/ghan1246/lung1249,335
+tryonsolomon-lwepe,Lwepe,natu1246,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/natu1250/natu1246,264
+tryonsolomon-malango,Malango,mala1484,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/nort2832/mala1484,353
+tryonsolomon-malo,Malo,natu1246,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/natu1250/natu1246,352
+tryonsolomon-mami,Mami,kahu1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/kahu1241,319
+tryonsolomon-marovo,Marovo,maro1244,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/maro1247/maro1244,335
+tryonsolomon-mbaelelea,Mbaelelea,bael1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/bael1237,336
+tryonsolomon-mbaengguu,Mbaengguu,baeg1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/baeg1237,349
+tryonsolomon-mbambatana,Mbambatana,baba1268,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/sout3208/baba1268,360
+tryonsolomon-mbirao,Mbirao,bira1254,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/sout2854/bira1254,364
+tryonsolomon-mono,Mono,mono1273,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/mono1280/mono1273,347
+tryonsolomon-nanggu,Nanggu,nang1262,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/nang1262,275
+tryonsolomon-nduke,Nduke,duke1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/duke1237,360
+tryonsolomon-nembao,Nembao,amba1266,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/amba1266,323
+tryonsolomon-nggela,Nggela,gela1263,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/nucl1470/ngge1240/gela1263,365
+tryonsolomon-ontongjava,Ontong Java,onto1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/onto1237,366
+tryonsolomon-oroha,Oroha,oroh1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/sout3198/oroh1237,327
+tryonsolomon-pileni,Pileni,pile1238,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/pile1238,313
+tryonsolomon-poro,Poro,gaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/east2452/gaoo1237,331
+tryonsolomon-reefs,Reefs,natu1246,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/reef1242/natu1250/natu1246,336
+tryonsolomon-rennell,Rennell,renn1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/renn1242,349
+tryonsolomon-ririo,Ririo,riri1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/riri1237,354
+tryonsolomon-roviana,Roviana,rovi1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/rovi1239/rovi1238,336
+tryonsolomon-saa1,Sa'a (1),saaa1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/saaa1240,329
+tryonsolomon-saa2,Sa'a (2),saaa1240,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/saaa1240,350
+tryonsolomon-samasodu,Samasodu,lagh1246,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/west2523/lagh1246,371
+tryonsolomon-sengga,Sengga,sisi1250,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/sout3208/sisi1250,351
+tryonsolomon-sikaiana,Sikaiana,sika1261,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/sika1261,354
+tryonsolomon-simbo,Simbo,simb1256,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/west2857/simb1260/simb1256,332
+tryonsolomon-talise,Talise,tali1259,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/guad1241/sout2854/tali1259,342
+tryonsolomon-tanema,Tanema,tane1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/tane1237,226
+tryonsolomon-tanimbili,Tanimbili,tani1255,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/utup1238/tani1255,306
+tryonsolomon-tataba,Tataba,chek1238,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/sant1458/east2452/chek1238,333
+tryonsolomon-tawaroga,Tawaroga,kahu1241,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/sanc1243/kahu1241,330
+tryonsolomon-tikopia,Tikopia,tiko1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/tiko1237,350
+tryonsolomon-toambaita,To'ambaita,toab1237,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/toab1237,353
+tryonsolomon-tunoe,Tunöe,baba1268,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/east2760/sout3208/baba1268,345
+tryonsolomon-ughele,Ughele,ughe1237,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/ughe1237,347
+tryonsolomon-vaghua,Vaghua,vagh1249,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/west2856/vagh1249,359
+tryonsolomon-vangunu,Vangunu,vang1243,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/newg1239/east2761/maro1247/vang1243,340
+tryonsolomon-vano,Vano,vano1237,oceanic,aust1307/mala1545/east2712/ocea1241/temo1244/utup1237/vano1237,330
+tryonsolomon-varisi,Varisi,vari1239,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/meso1253/newi1242/stge1234/nort3225/choi1242/west2856/vari1239,339
+tryonsolomon-waladelaus,Walade (LauS),lauu1247,oceanic,aust1307/mala1545/east2712/ocea1241/sout2853/mala1485/mala1540/mala1542/nort2833/nort3284/lauu1247,314
+vanuatuvoices-Alavasalavas,Alavas: Alavas,vovo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/bier1246/vovo1238,172
+vanuatuvoices-Alavaswowo,Alavas: Wowo,vovo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/bier1246/vovo1238,174
+vanuatuvoices-Atchinorap,Atchin: Orap,atch1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/atch1238,181
+vanuatuvoices-Atchinsmallisland,Atchin: Small Island,atch1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/atch1238,176
+vanuatuvoices-Aulualoxseasolokh,Aulua: Loxse-Asolokh,aulu1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238,185
+vanuatuvoices-Aulualoxselanfitfit,Aulua: Loxse-Lanfitfit,aulu1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238,172
+vanuatuvoices-Avavakhatbol,Avava: Khatbol,katb1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/katb1237,180
+vanuatuvoices-Avavatisvel,Avava: Tisvel,katb1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/katb1237,190
+vanuatuvoices-Avokhokai,Avok: Hokai,avok1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/avok1244,174
+vanuatuvoices-Avokhokai2,Avok: Hokai 2,avok1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/avok1244,176
+vanuatuvoices-Avoksmallisland,Avok: Small Island,avok1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/avok1244,178
+vanuatuvoices-Axambsmallisland,Axamb: Small Island,axam1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/axam1237,175
+vanuatuvoices-Axambsmallislandmaliambor,Axamb: Small Island-Maliambor,axam1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/axam1237,178
+vanuatuvoices-Bangaasaktaremb,Bangaasak: Taremb,katb1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/katb1237,181
+vanuatuvoices-Burmbarburmbar,Burmbar: Burmbar,burm1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/burm1263,175
+vanuatuvoices-Burmbarfartavo,Burmbar: Fartavo,burm1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/burm1263,180
+vanuatuvoices-Burmbartengan,Burmbar: Tengan,burm1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/burm1263,185
+vanuatuvoices-Ctletawetnaviso,Ctl-E: Tawet: Naviso,tali1260,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/tali1260,190
+vanuatuvoices-Ctlnalembanarovorovo,Ctl: Nalemba: Narovorovo,naro1250,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/naro1250,208
+vanuatuvoices-Ctlnalembanasawa,Ctl: Nalemba: Nasawa,nasa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/nasa1241,205
+vanuatuvoices-Ctlsungwadagalalaundi,Ctl: Sungwadaga: Lalaundi,cent2058,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/cent2058,206
+vanuatuvoices-Ctlsungwadagarongnawo,Ctl: Sungwadaga: Rongnawo,cent2058,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/cent2058,207
+vanuatuvoices-Ctlsungwadangota,Ctl: Sungwada: Ngota,cent2058,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/cent2058,196
+vanuatuvoices-Ctlsungwadogarata,Ctl: Sungwadoga: Rata,tali1260,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/tali1260,208
+vanuatuvoices-Ctlsungwadolagwaranuta,Ctl: Sungwadola: Gwaran Uta,tali1260,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/tali1260,209
+vanuatuvoices-Ctltawetnarovorovo,Ctl: Tawet: Narovorovo,naro1250,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/baet1237/naro1250,180
+vanuatuvoices-Elolovoli,E: Lolovoli,east2443,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/east2443,195
+vanuatuvoices-Esanasolokave,E: Sana: Solokave,east2443,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/east2443,191
+vanuatuvoices-Espiegelsbaylitebral,Espiegel’s Bay: Litebral,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,171
+vanuatuvoices-Espiegelsbaysolwota,Espiegel’s Bay: Solwota,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,172
+vanuatuvoices-Espiegelsbayunspecified,Espiegel’s Bay: Unspecified,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,165
+vanuatuvoices-Evuindondo,E: Vuindondo,east2443,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/east2443,202
+vanuatuvoices-Fiftikhatbol,Fifti: Khatbol,vivt1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/uncl1500/niti1250/vivt1234,177
+vanuatuvoices-Fiftimalmbor,Fifti: Malmbor,vivt1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/uncl1500/niti1250/vivt1234,160
+vanuatuvoices-Kerepua,Kerepua,wusi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/wusi1237,275
+vanuatuvoices-Lamanbay,Laman Bay,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,213
+vanuatuvoices-Larevatfwishile,Larevat: Fwishile,lare1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/lare1249,179
+vanuatuvoices-Larevatlarevat,Larevat: Larevat,lare1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/lare1249,87
+vanuatuvoices-Larevatmosox,Larevat: Mosox,lare1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/lare1249,182
+vanuatuvoices-Letemboiaingelemolesa,Letemboi: Aingelemolesa,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,182
+vanuatuvoices-Letemboinatingatlang,Letemboi: Natingatlang,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,180
+vanuatuvoices-Letemboinevatanyene,Letemboi: Nevatanyene,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,153
+vanuatuvoices-Letemboinewotenyene,Letemboi: Newotenyene,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,166
+vanuatuvoices-Linduri,Linduri,navu1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/navu1237,287
+vanuatuvoices-Maluabaycoast,Malua Bay: Coast,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,293
+vanuatuvoices-Maluabaymarasup,Malua Bay: Marasup,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,181
+vanuatuvoices-Maluabaypetarmul,Malua Bay: Petarmul,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,177
+vanuatuvoices-Maluabaytiptir,Malua Bay: Tiptir,malu1245,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/malu1245,175
+vanuatuvoices-Mandrifaru,Mandri: Faru,nisv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nisv1234,160
+vanuatuvoices-Mandrifarun,Mandri: Farun,nisv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nisv1234,175
+vanuatuvoices-Mangalava,Silucian Onak: Mangalava,paam1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/paam1238,212
+vanuatuvoices-Marapahu,Marapahu,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,207
+vanuatuvoices-Moriu,Moriu,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,215
+vanuatuvoices-Moso,Buninga: Moso,buni1246,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/efat1236/nort3222/nort2836/buni1246,196
+vanuatuvoices-Naahaimbatvanui,Na’ahai: Mbatvanui,malf1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/malf1237,185
+vanuatuvoices-Naahaitoman,Na’ahai: Toman,malf1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/malf1237,180
+vanuatuvoices-Naatiwindua,Naati: Windua,nati1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/nati1244,186
+vanuatuvoices-Nahaaimalfaxal,Naha’ai: Malfaxal,malf1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/malf1237,172
+vanuatuvoices-Nahaaimbatmbang,Naha’ai: Mbatmbang,malf1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/malf1237,188
+vanuatuvoices-Nahavaqbanour,Nahavaq: Banour,sout2857,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/sout2857,185
+vanuatuvoices-Nahavaqcarolinebay,Nahavaq: Caroline Bay,sout2857,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/sout2857,187
+vanuatuvoices-Nahavaqlembinwin,Nahavaq: Lembinwin,sout2857,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/sout2857,171
+vanuatuvoices-Nahavaqloorndavo,Nahavaq: Loorndavo,sout2857,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/sout3197/sout2857,176
+vanuatuvoices-Nakanamangasesake,Nakanamanga: Sesake,sesa1243,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/efat1236/nort3222/nort2836/sesa1243,235
+vanuatuvoices-Namakirsangava,Namakir: Sangava,nama1268,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/efat1241/nama1268,264
+vanuatuvoices-Namanlitzlitz,Naman (Litzlitz),litz1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/litz1237,169
+vanuatuvoices-Narango,Narango,nara1263,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/sout3194/nara1263,290
+vanuatuvoices-Nasarianngava,Nasarian: Ngava,nasa1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/nasa1240,162
+vanuatuvoices-Nasarianwileven,Nasarian: Wileven,nasa1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/nasa1240,182
+vanuatuvoices-Nasvangbigisland,Nasvang: Big Island,navw1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/navw1234,182
+vanuatuvoices-Nasvangfarun,Nasvang: Farun,nasv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nasv1234,175
+vanuatuvoices-Navwienmbonvor,Navwien: Mbonvor,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,179
+vanuatuvoices-Nese,Nese,nese1235,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/nese1235,196
+vanuatuvoices-Nesesanboise,Nese: Sanboise,nese1235,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/nese1235,128
+vanuatuvoices-Nesetanmial,Nese: Tanmial,nese1235,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/nese1235,184
+vanuatuvoices-Netimbbangir,Netimb: Bangir,aulu1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238,184
+vanuatuvoices-Neveeicoast,Neve’ei: Coast,vinm1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/vinm1237,172
+vanuatuvoices-Neveeivinmavis1,Neve’ei: Vinmavis 1,vinm1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/vinm1237,190
+vanuatuvoices-Neveeivinmavis2,Neve’ei: Vinmavis 2,vinm1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/vinm1237,178
+vanuatuvoices-Neververlimap,Neverver: Limap,ling1265,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/ling1265,169
+vanuatuvoices-Neververmindu,Neverver: Mindu,ling1265,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/ling1265,115
+vanuatuvoices-Neverversakan,Neverver: Sakan,ling1265,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/cent2316/ling1265,144
+vanuatuvoices-Nhavailombaha,N: Havai: Lombaha,lomb1262,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/east2443/lomb1262,205
+vanuatuvoices-Niku,Niku,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,212
+vanuatuvoices-Nindelabo,Ninde: Labo,labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,162
+vanuatuvoices-Nindelawa,Ninde: Lawa,labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,187
+vanuatuvoices-Nindeopmobamba,Ninde: Opmobamba,labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,169
+vanuatuvoices-Nindesouthwestbay,Ninde: Southwest Bay,labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,171
+vanuatuvoices-Nindewindua,Ninde: Windua,labo1244,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nind1243/labo1244,158
+vanuatuvoices-Nisvaiblacksands,Nisvai: Blacksands,nisv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nisv1234,188
+vanuatuvoices-Nisvaironevie,Nisvai: Ronevie,nisv1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/nasv1235/nisv1234,181
+vanuatuvoices-Nititakhatbol,Nitita: Khatbol,niti1249,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/uncl1500/niti1250/niti1249,179
+vanuatuvoices-Nivenuhe,Nivenuhe,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,208
+vanuatuvoices-Nkep,Nkep,hogh1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/saka1289/hogh1234,289
+vanuatuvoices-Nleonda,N: Leonda,amba1270,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270,207
+vanuatuvoices-Nleovandue,N: Leõ: Vandue,amba1270,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270,198
+vanuatuvoices-Nmwerlap,N: Mwerlap,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,195
+vanuatuvoices-Nokuku,Nokuku,noku1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/noku1237,289
+vanuatuvoices-Nombotkoteblacksands,Nombotkote: Blacksands,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,173
+vanuatuvoices-Nombotkotemelkin,Nombotkote: Melkin,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,182
+vanuatuvoices-Nombotkoteneioleian,Nombotkote: Neioleian,lete1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/lete1241,165
+vanuatuvoices-Nouvi,Nouvi,lewo1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242,213
+vanuatuvoices-Novolbangir,Novol: Bangir,dixo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/dixo1238,180
+vanuatuvoices-Novoldixonreef,Novol: Dixon Reef,dixo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/dixo1238,183
+vanuatuvoices-Novoltavendrua,Novol: Tavendrua,dixo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/dixo1238,187
+vanuatuvoices-Nsungwadianaone,N: Sungwadia: Naone,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,206
+vanuatuvoices-Nsungwadianaumumu,N: Sungwadia: Naumumu,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,210
+vanuatuvoices-Nsungwadiatasmaor,N: Sungwadia: Tasmaor,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,201
+vanuatuvoices-Nsungwadiauta,N: Sungwadia: Uta,mari1426,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234/mari1426,192
+vanuatuvoices-Nulnesa,Nulnesa,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,212
+vanuatuvoices-Oreao,Oreao,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,214
+vanuatuvoices-Pangkumudatisman,Pangkumu: Datisman,rere1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/rere1240,174
+vanuatuvoices-Pangkumundarmif,Pangkumu: Ndarmif,rere1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/rere1240,178
+vanuatuvoices-Piamatsina,Piamatsina,piam1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/piam1242,290
+vanuatuvoices-Portsandwichlamap,Port Sandwich: Lamap,port1285,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/port1285,172
+vanuatuvoices-Portsandwichmerivar,Port Sandwich: Merivar,port1285,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/port1295/port1285,177
+vanuatuvoices-Ranochinambong,Rano: Chinambong,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,175
+vanuatuvoices-Ranopotora,Rano: Potora,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,176
+vanuatuvoices-Ranotwalung,Rano: Twalung,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,172
+vanuatuvoices-Redstone,Red Stone,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,214
+vanuatuvoices-Sabunlap,Sa: Bunlap,saaa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/saaa1241,206
+vanuatuvoices-Safrangusuksu,Sa F.: Rangusuksu,saaa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/saaa1241,123
+vanuatuvoices-Sakao,Sakao,port1296,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/sout3339/saka1289/port1296,284
+vanuatuvoices-Salangdixonreef,Salang: DixonReef,katb1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/sout3240/katb1237,176
+vanuatuvoices-Sapaangi,Sa: Paangi,saaa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/saaa1241,224
+vanuatuvoices-Saranwas,Sa: Ranwas,saaa1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/sout3188/saaa1241,208
+vanuatuvoices-Sbiribiri,S: Biribiri,amba1270,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270,186
+vanuatuvoices-Sivitinjavjericho,Siviti (Njav): Jericho,nort3230,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230,331
+vanuatuvoices-Sivitinjavtanmililib2,Siviti (Njav): Tanmililib 2,nort3230,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230,351
+vanuatuvoices-Slolovele,S: Lolovele,amba1270,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270,197
+vanuatuvoices-Sragaavavanvae,S: Raga: Avavanvae,maew1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234,208
+vanuatuvoices-Ssakao,S: Sakao,amba1270,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270,199
+vanuatuvoices-Ssungagageasanvari,S: Sungagage: Asanvari,maew1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234,201
+vanuatuvoices-Ssungagageavanbatai,S: Sungagage: Avanbatai,maew1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234,199
+vanuatuvoices-Ssungagageavavanvae,S: Sungagage: Avavanvae,maew1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234,198
+vanuatuvoices-Sxalangibaetora,S: Xalangi: Baetora,maew1234,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/maew1234,198
+vanuatuvoices-Taolia,Taolia,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,212
+vanuatuvoices-Tapemaraxusmae,Tape (Maraxus): Mae,mara1399,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/mara1399,156
+vanuatuvoices-Tapetautu1,Tape: Tautu 1,mara1399,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/mara1399,149
+vanuatuvoices-Tasikojowomiapika,Tasiko: Jowo Miapika,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,213
+vanuatuvoices-Tasmate,Tasmate,tasm1246,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/nort3217/tasm1246,290
+vanuatuvoices-Tekelele,Tekelele,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,209
+vanuatuvoices-TialeSauriki,Tiale: Sauriki,tial1239,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/tial1239,266
+vanuatuvoices-Tiraxbakru,Tirax: Bakru,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,309
+vanuatuvoices-Tiraxbethel,Tirax: Bethel,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,252
+vanuatuvoices-Tiraxbotmelesnial,Tirax: Botmelesnial,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,174
+vanuatuvoices-Tiraxmae,Tirax: Mae,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,347
+vanuatuvoices-Tiraxolamb,Tirax: Olamb,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,318
+vanuatuvoices-Tiraxorap,Tirax: Orap,maee1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/maee1241,306
+vanuatuvoices-TolomakoPortOlry,Tolomako: Port Olry,tolo1255,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tolo1255,280
+vanuatuvoices-Tutuba,Tutuba,tutu1241,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/nucl1793/east2754/mafe1238/tutu1241,289
+vanuatuvoices-Uliveolurtes,Uliveo: Lurtes,mask1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/mask1242,189
+vanuatuvoices-Uliveopelongk,Uliveo: Pelongk,mask1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/mask1242,179
+vanuatuvoices-Uliveopeskaros,Uliveo: Peskaros,mask1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/mask1242,174
+vanuatuvoices-Uliveopeskaros2,Uliveo: Peskaros 2,mask1242,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/sout3239/mask1242,174
+vanuatuvoices-Unuabenuamor,Unua: Benuamor,unua1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/unua1237,170
+vanuatuvoices-Unuambatumbo,Unua: Mbatumbo,unua1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/unua1237,171
+vanuatuvoices-Unuanoferai,Unua: Noferai,unua1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/unua1238/unua1237,174
+vanuatuvoices-Uripivdurpif,Uripiv: Durpif,urip1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/urip1240,171
+vanuatuvoices-Uripivpotnambe,Uripiv: Potnambe,urip1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/urip1240,167
+vanuatuvoices-Uripivtautu,Uripiv: Tautu,urip1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/urip1240,326
+vanuatuvoices-Uripivtautuvillage,Uripiv: Tautu Village,urip1240,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/urip1240,169
+vanuatuvoices-Vaobeetehul,Vao: Beetehul,vaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/vaoo1237,109
+vanuatuvoices-Vaocanada,Vao: Canada,vaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/vaoo1237,173
+vanuatuvoices-Vaopeteri,Vao: Peteri,vaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/vaoo1237,161
+vanuatuvoices-Vaotorono,Vao: Torono,vaoo1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/nort3223/nort3230/boto1250/vaoo1237,171
+vanuatuvoices-Venentautealpalak,V’ënen Taute: Alpalak,bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,171
+vanuatuvoices-Venentautebenenavet,V’ënen Taute: Benenavet,bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,118
+vanuatuvoices-Venentautebenmara,V’ënen Taute: Benmara,bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,173
+vanuatuvoices-Venentautehamax,V’ënen Taute: Hamax,bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,120
+vanuatuvoices-Venentauteunmet,V’ënen Taute: Unmet,bign1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/west2871/peri1262/nort3261/bign1238,170
+vanuatuvoices-Vilakara,Vilakara,tasi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/lame1259/lewo1242/tasi1237,214
+vanuatuvoices-Walabotku,Wala: Botku,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,169
+vanuatuvoices-Walapetreros,Wala: Petreros,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,171
+vanuatuvoices-Walapreng,Wala: Preng,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,178
+vanuatuvoices-Walaworprev,Wala: Worprev,wala1267,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/urip1239/wala1267,191
+vanuatuvoices-Winsao,Winsao,navu1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/tial1241/navu1237,282
+vanuatuvoices-Wowolesarmalas,Wowo: Lesarmalas,vovo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/bier1246/vovo1238,166
+vanuatuvoices-Wowowowo,Wowo: Wowo,vovo1238,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/epie1239/epii1237/bier1245/bier1246/vovo1238,178
+vanuatuvoices-Wusi,Wusi,wusi1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/espi1234/west2956/wusi1237,282
+vanuatuvoices-Wwalaha,W: Walaha,wala1268,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/nort3205/amba1270/west2513/wala1268,195
+vanuatuvoices-Xolimbwenelang,Xoli (Mbwenelang),boin1237,oceanic,aust1307/mala1545/east2712/ocea1241/nort3195/cent2269/mala1539/east2753/cent2315/aulu1238/boin1237,177
+walworthpolynesian-Anuta,Tarangapaka-Anuta,anut1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/anut1237,222
+walworthpolynesian-Raivavae,Reo Ra'ivavae,raiv1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tahi1244/aust1304/raiv1237,200
+walworthpolynesian-EastFutuna,Fakafutuna,east2447,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/east2447,280
+walworthpolynesian-Emae,Fakamae,emae1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/emae1237,189
+walworthpolynesian-FutunaAniwa,Fesau Futuna,futu1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/mele1252/futu1245,240
+walworthpolynesian-Hawaiian,'ōlelo Hawai'i,hawa1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/hawa1245,235
+walworthpolynesian-Kapingamarangi,Kapingamarangi,kapi1249,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/nort3235/kapi1249,213
+walworthpolynesian-Luangiua,Luangiua,onto1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/onto1237,217
+walworthpolynesian-Mangareva,Reo Magareva,mang1401,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/fare1245/mang1401,252
+walworthpolynesian-Maori,Reo Māori,maor1246,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/maor1247/maor1246,227
+walworthpolynesian-MeleFila,Mele-Fila,mele1250,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/vanu1245/mele1252/mele1250,189
+walworthpolynesian-Niuean,Vagahau Niue,niue1239,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/tong1324/niue1239,239
+walworthpolynesian-NorthMarquesan,'eo 'enana,nort2845,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/marq1246/nort2845,287
+walworthpolynesian-Nukeria,Nukeria,nuku1259,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/cent2299/taku1258/nuku1259,258
+walworthpolynesian-Penrhyn,Penrhyn,penr1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/penr1237,203
+walworthpolynesian-Pukapuka,Leo Pukapuka,puka1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/puka1245/puka1242,311
+walworthpolynesian-RakahangaManihiki,Manihiki,raka1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/raka1237,267
+walworthpolynesian-Rapanui,Rapanui,rapa1244,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2895/fare1245/rapa1244,252
+walworthpolynesian-Rarotongan,Reo Rarotongan,raro1241,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/raro1241,298
+walworthpolynesian-RennellBellona,Rennell-Bellona,renn1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/renn1242,250
+walworthpolynesian-Samoan,Gagana Sāmoa,samo1305,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/puka1245/samo1310/samo1305,292
+walworthpolynesian-Sikaiana,Sikaiana,sika1261,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/sika1261,216
+walworthpolynesian-Tahitian,Reo Tahiti,tahi1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tahi1244/tahi1242,237
+walworthpolynesian-Tikopia,Fakatikopia,tiko1237,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/tiko1237,243
+walworthpolynesian-Tongan,Lea Fakatonga,tong1325,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/tong1324/tong1325,222
+walworthpolynesian-Tuamotuan,Reo o te Tuamotu,tuam1242,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/sout3383/tuam1242,257
+walworthpolynesian-Tuvalu,Leo Tuvalu,tuva1244,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/elli1239/tuva1244,255
+walworthpolynesian-VaeakauTaumako,Vaeakau-Taumako,pile1238,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/pile1238,243
+walworthpolynesian-EastUvea,Faka'uvea,wall1257,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/east2758/wall1257,256
+wold-Malagasy,Malagasy,plat1254,western_mp,aust1307/mala1545/basa1291/grea1283/sout2919/mala1537/nort3196/cent2382/plat1254,1680
+wold-Takia,Takia,taki1248,oceanic,aust1307/mala1545/east2712/ocea1241/west2818/nort3206/nger1241/viti1243/belr1234/bell1262/nucl1510/taki1248,1329
+wold-Hawaiian,Hawaiian,hawa1245,oceanic,aust1307/mala1545/east2712/ocea1241/cent2060/east2445/poly1242/nucl1485/nort3246/solo1260/cent2298/east2449/east2896/hawa1245,1544
+joophonosemantic-Javanese,Javanese,java1254,western_mp,aust1307/mala1545/java1253/mode1251/glob1245/java1254,96
