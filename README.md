@@ -26,6 +26,8 @@ chmod +x run.sh
 ./run.sh matrix         # optional: precompute PKD x PAN scores (~14k API batches; run once)
 ./run.sh permute        # permutation null (uses pair cache; fast after matrix)
 ./run.sh report         # output/report.md
+./run.sh algo-study1    # LingPy SCA/NED sanity check on Tier A (no NLP API)
+./run.sh algo-study2    # LingPy SCA/NED set-vs-set sanity check (Blust 194; no NLP API)
 
 # or end-to-end (without full matrix warm-up)
 ./run.sh all --permutations 100
@@ -76,6 +78,8 @@ Judgments are cached in `cache/judgments.sqlite3` keyed by prompt + pair batch. 
 | `output/judgments_observed.csv` | Per-pair generosity, reasoning, sound-correspondence notes |
 | `output/judgments_perm_XXXX.csv` | Null-world judgments |
 | `output/permutation_results.json` | Observed hits vs null distribution, p-value |
+| `output/algo_permutation_study1.json` | SCA/NED mean distances + hit counts vs null (Study 1) |
+| `output/algo_permutation_study2_blust194.json` | SCA/NED set scores vs null (Study 2 Blust) |
 | `output/lexibank_attestation_audit.csv` | Branch + Lexibank counts, coverage gaps, attestation scores |
 | `output/reconstruction_validation.csv` | PKD vs attested-forms LLM scores (from `attest` or `validate`) |
 | `output/report.md` | Human-readable summary |
@@ -87,6 +91,7 @@ Three separate LLM/deterministic checks:
 | Check | Method | Score |
 |-------|--------|-------|
 | PAN↔PKD shape similarity (Austro-Tai test) | LLM in `judge.py` — **meaning-blind** | **generosity** 1–5 |
+| Algorithmic sanity (Study 1/2) | LingPy SCA + NED in `algo_score.py` | distance (lower = closer) |
 | Meaning attestation in wordlists | Lexibank form counting | language count |
 | PKD vs daughter forms | LLM in `reconstruction_validate.py` | **attestation_score** 1–5 |
 

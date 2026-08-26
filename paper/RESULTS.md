@@ -75,6 +75,28 @@ No null world reached the observed count at a score of 2 or higher, 3 or higher,
 
 Study 2’s hit rate at a score of 4 or higher (**11/194 ≈ 5.7%**) is lower than Study 1’s Tier A hit rate (**27/79 ≈ 34%**), which is expected: comparing diverse modern form groups is a harder screen than comparing two curated proto-strings. The important parallel is directional and statistical: in both designs, same-slot / same-meaning pairings exceed a form-preserving shuffle. Study 2 does so **without** relying on Smith’s choice of reconstructions.
 
-## 5.7 Summary of findings
+## 5.7 Algorithmic sanity check (SCA / NED)
 
-Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
+Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA and NED distances instead of the LLM (§4.8; *N* = 1000), mean distances are substantially lower (more similar) in the published pairing than in the null:
+
+| Metric | Observed mean | Null mean (range) | One-sided *p* |
+|--------|-------------:|------------------:|-------------:|
+| SCA | 0.574 | 0.768 (0.712–0.814) | 0.001 |
+| NED | 0.730 | 0.906 (0.865–0.938) | 0.001 |
+
+Secondary hits at distance ≤ 0.40: SCA **25** vs null mean **2.2** (max 10); NED **13** vs null mean **0.3** (max 3); both *p* = 0.001 (add-one floor 1/1001). No null world matched the observed mean or hit count on either metric.
+
+For Study 2’s Blust form groups (same mean-of-best aggregation and group-shuffle null; *N* = 1000), mean distances are again lower than the null, though the absolute gap is smaller than in Study 1 (as expected when comparing heterogeneous modern samples):
+
+| Metric | Observed mean | Null mean (range) | One-sided *p* |
+|--------|-------------:|------------------:|-------------:|
+| SCA | 0.381 | 0.398 (0.383–0.410) | 0.001 |
+| NED | 0.620 | 0.636 (0.628–0.645) | 0.001 |
+
+Secondary SCA hits at distance ≤ 0.40 are **120** vs null mean **96.4** (max 117; *p* = 0.001). The same NED ≤ 0.40 cutoff yields **0** observed set-level hits (null mean ≈ 0.1), so that particular threshold is too strict for Study 2’s aggregated modern forms; the primary claim for Study 2’s algorithmic screen is the mean-distance test, which both SCA and NED pass.
+
+Across both studies, then, excess same-slot / same-meaning resemblance is not unique to the LLM judge.
+
+## 5.8 Summary of findings
+
+Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* = 0.001, *N* = 1000; §5.7), a parallel check that does not rely on LLM prior knowledge. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.

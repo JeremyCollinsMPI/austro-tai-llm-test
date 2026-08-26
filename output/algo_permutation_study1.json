@@ -1,0 +1,41 @@
+{
+  "study": 1,
+  "n_pairs": 79,
+  "n_permutations": 1000,
+  "seed": 1,
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.5736219855462708,
+    "null_mean": 0.7677937622988855,
+    "null_median": 0.7679166992104343,
+    "null_min": 0.7122658759722544,
+    "null_max": 0.8140827831113627,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.7302824929407208,
+    "null_mean": 0.9055029501235988,
+    "null_median": 0.9055848057825906,
+    "null_min": 0.8645092425155716,
+    "null_max": 0.9382233273056058,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 25.0,
+    "null_mean": 2.191,
+    "null_median": 2.0,
+    "null_min": 0.0,
+    "null_max": 10.0,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 13.0,
+    "null_mean": 0.286,
+    "null_median": 0.0,
+    "null_min": 0.0,
+    "null_max": 3.0,
+    "p_value": 0.000999000999000999
+  },
+  "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1.csv"
+}

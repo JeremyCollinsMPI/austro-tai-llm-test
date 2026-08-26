@@ -574,6 +574,38 @@ Sinitic-donor story looks attractive for the items that drive the
 permutation results. Machine-readable scores:
 `output/sinitic_screen_hits.csv`.
 
+== 4.8 Algorithmic form-similarity sanity check
+<algorithmic-form-similarity-sanity-check>
+The LLM screen is the primary analysis. As a #strong[non-memorizing]
+parallel check against training-data contamination, I recomputed the
+same permutation designs with deterministic string distances from LingPy
+(List & Forkel 2021): #strong[Sound-Class Algorithm (SCA)] distance
+(primary) and #strong[normalized edit distance (NED)] (backup). Forms
+were lightly normalized before scoring (lowercase; strip tone digits,
+common separators, and bracket/asterisk markup), matching the spirit of
+Study 2's form cleanup.
+
+#strong[Study 1.] For each Tier A PAN--PKD pair I recorded SCA and NED
+distances, then shuffled PAN forms across PKD slots (#strong[1000]
+permutations; fixed seed). The primary statistic is the #strong[mean
+distance] across the 79 pairs (lower = more similar); one-sided #emph[p]
+uses add-one smoothing on the share of null means at least as extreme as
+the observed mean. As a secondary, pre-stated hit count I also tally
+pairs with SCA ≤ #strong[0.40] or NED ≤ #strong[0.40].
+
+#strong[Study 2.] For each Blust dual-attested concept I scored the TK
+and AN form groups as the #strong[mean, over TK forms, of the best
+(minimum) distance to any AN form] in that concept's sample (separately
+for SCA and NED). The null reassigns AN groups across TK slots
+(#strong[1000] permutations). Mean distance remains the primary
+statistic; the same 0.40 cutoffs are reported as secondary diagnostics
+(and may be too strict for aggregated modern NED).
+
+These algorithmic screens do not replace the LLM results and do not
+claim cognacy; they ask whether excess same-slot / same-meaning
+resemblance survives under judges that cannot have memorized published
+Austro-Tai etymologies.
+
 = 5. Results
 <results>
 == 5.1 From Smith's sheet to Tier A
@@ -761,16 +793,71 @@ directional and statistical: in both designs, same-slot / same-meaning
 pairings exceed a form-preserving shuffle. Study 2 does so
 #strong[without] relying on Smith's choice of reconstructions.
 
-== 5.7 Summary of findings
+== 5.7 Algorithmic sanity check (SCA / NED)
+<algorithmic-sanity-check-sca-ned>
+Under the same Tier A slots and PAN-shuffle null as Study 1, but with
+LingPy SCA and NED distances instead of the LLM (§4.8; #emph[N] = 1000),
+mean distances are substantially lower (more similar) in the published
+pairing than in the null:
+
+#figure(
+  align(center)[#table(
+    columns: 4,
+    align: (auto,right,right,right,),
+    table.header([Metric], [Observed mean], [Null mean
+      (range)], [One-sided #emph[p]],),
+    table.hline(),
+    [SCA], [0.574], [0.768 (0.712--0.814)], [0.001],
+    [NED], [0.730], [0.906 (0.865--0.938)], [0.001],
+  )]
+  , kind: table
+  )
+
+Secondary hits at distance ≤ 0.40: SCA #strong[25] vs null mean
+#strong[2.2] (max 10); NED #strong[13] vs null mean #strong[0.3] (max
+3); both #emph[p] = 0.001 (add-one floor 1/1001). No null world matched
+the observed mean or hit count on either metric.
+
+For Study 2's Blust form groups (same mean-of-best aggregation and
+group-shuffle null; #emph[N] = 1000), mean distances are again lower
+than the null, though the absolute gap is smaller than in Study 1 (as
+expected when comparing heterogeneous modern samples):
+
+#figure(
+  align(center)[#table(
+    columns: 4,
+    align: (auto,right,right,right,),
+    table.header([Metric], [Observed mean], [Null mean
+      (range)], [One-sided #emph[p]],),
+    table.hline(),
+    [SCA], [0.381], [0.398 (0.383--0.410)], [0.001],
+    [NED], [0.620], [0.636 (0.628--0.645)], [0.001],
+  )]
+  , kind: table
+  )
+
+Secondary SCA hits at distance ≤ 0.40 are #strong[120] vs null mean
+#strong[96.4] (max 117; #emph[p] = 0.001). The same NED ≤ 0.40 cutoff
+yields #strong[0] observed set-level hits (null mean ≈ 0.1), so that
+particular threshold is too strict for Study 2's aggregated modern
+forms; the primary claim for Study 2's algorithmic screen is the
+mean-distance test, which both SCA and NED pass.
+
+Across both studies, then, excess same-slot / same-meaning resemblance
+is not unique to the LLM judge.
+
+== 5.8 Summary of findings
 <summary-of-findings>
 Study 1 finds that Smith's remaining PAN--PKD alignments, after Lexibank
 attestation filters, show meaning-blind form similarity far above a
 shuffled baseline (#emph[p] ≈ 0.01). Study 2 finds that dual-attested
 Lexibank form inventories on a Blust concept filter likewise exceed a
 group-shuffle null at a generosity score of 2 or higher, 3 or higher,
-and 4 or higher (#emph[p] ≈ 0.032, #emph[N] = 30). The next section
-discusses what this does and does not imply for the Austro-Tai
-hypothesis.
+and 4 or higher (#emph[p] ≈ 0.032, #emph[N] = 30). Algorithmic SCA/NED
+screens under the same null designs also beat chance on mean distance
+(#emph[p] = 0.001, #emph[N] = 1000; §5.7), a parallel check that does
+not rely on LLM prior knowledge. The next section discusses what this
+does and does not imply for the Austro-Tai hypothesis.
 
 == Figure: Null distribution
 <figure-null-distribution>
@@ -891,9 +978,12 @@ classical comparisons when they are correctly paired, observed hit
 counts can be inflated relative to a purely form-based judge. The
 permutation null still constrains the argument, because memorization
 would have to favor #strong[matched] pairings over shuffled ones, but it
-does not eliminate the risk. Residual contamination should be checked
-with expert human re-rating of hits and, in future work, with
-algorithmic similarity baselines that do not share LLM training history.
+does not eliminate the risk. The algorithmic SCA/NED screens (§4.8,
+§5.7) address this directly: they cannot share LLM training history, yet
+under the same null designs they also find excess same-slot /
+same-meaning resemblance. Residual risk remains for the LLM primary
+analysis and should still be checked with expert human re-rating of
+hits.
 
 #strong[Lexibank and sampling.] Coverage is uneven across concepts and
 subgroups. Stratified samples avoid Oceanic overweighting but can miss
@@ -924,13 +1014,13 @@ access to the same API snapshot.
 
 == 6.5 Future work
 <future-work>
-Useful extensions include larger #emph[N] for Study 2's null tail; human
-expert re-rating of hits; exploratory #strong[regular correspondence]
-inventories over Study 2 hit concepts (at a generosity score of 4 or
-higher, 3 or higher, and 2 or higher); correspondence-constrained
-scoring (encoding Ostapirat-style systems as hard filters); and parallel
-audits of other published Austro-Tai lists under Study 1's two-layer
-design.
+Useful extensions include larger #emph[N] for Study 2's LLM null tail;
+human expert re-rating of hits; exploratory #strong[regular
+correspondence] inventories over Study 2 hit concepts (at a generosity
+score of 4 or higher, 3 or higher, and 2 or higher);
+correspondence-constrained scoring (encoding Ostapirat-style systems as
+hard filters); and parallel audits of other published Austro-Tai lists
+under Study 1's two-layer design.
 
 #divider()
 
@@ -945,13 +1035,15 @@ a null mean of about 5.7 (#emph[p] ≈ 0.01, #emph[N] = 100).
 Austronesian form groups on 194 Blust/ABVD concepts, without
 reconstructions: hits at a generosity score of 4 or higher / 3 or higher
 \/ 2 or higher were 11 / 17 / 121 against null means of about 2.2 / 5.7
-\/ 91.7 (#emph[p] ≈ 0.032, #emph[N] = 30). Study 2 is the more robust
+\/ 91.7 (#emph[p] ≈ 0.032, #emph[N] = 30). Parallel LingPy SCA/NED
+screens under the same null designs also show lower mean distances than
+chance (#emph[p] = 0.001, #emph[N] = 1000). Study 2 is the more robust
 check against cherry-picked reconstructions because concept and form
 selection do not inherit an author's comparative spreadsheet. Together,
 the studies strengthen the case that excess form resemblance under these
-screens is not merely an artifact of meaning-matched browsing, while
-leaving genetic proof to systematic sound correspondences and classical
-reconstruction.
+screens is not merely an artifact of meaning-matched browsing or of LLM
+memorization alone, while leaving genetic proof to systematic sound
+correspondences and classical reconstruction.
 
 = Appendix
 <appendix>
@@ -1194,14 +1286,18 @@ one-sided #emph[p] = 0.0099.
   #link("https://github.com/jeremycollinsmpi/austro-tai-llm-test")
   (Study 1: parse → attest / validate-pan → judge → permute → report;
   Study 2: attested-core → attested-judge → attested-permute; post hoc
-  `sinitic-screen`). Model: `gpt-4.1` via project NLP chat endpoint.
-  Reported tables are reproducible from the released judgment caches and
-  frozen summaries (`output/permutation_results.json`\;
+  `sinitic-screen`\; algorithmic sanity `algo-study1` / `algo-study2`).
+  Model: `gpt-4.1` via project NLP chat endpoint. Reported LLM tables
+  are reproducible from the released judgment caches and frozen
+  summaries (`output/permutation_results.json`\;
   `output/attested_permutation_results_blust194_n30.json` and
   `output/attested_judgments_null_blust194_n30.csv`\;
-  `output/sinitic_screen_hits.csv`). Live re-queries against a changed
-  or discontinued `gpt-4.1` endpoint are not guaranteed to match those
-  caches bit-for-bit.
+  `output/sinitic_screen_hits.csv`). Algorithmic SCA/NED results:
+  `output/algo_permutation_study1.json`,
+  `output/algo_permutation_study2_blust194.json`. Live re-queries
+  against a changed or discontinued `gpt-4.1` endpoint are not
+  guaranteed to match LLM caches bit-for-bit; algorithmic scores are
+  deterministic given LingPy and the frozen inputs.
 
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>
@@ -1310,6 +1406,11 @@ CSLI Publications.
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai
 perspective. #emph[Diachronica] 42(3/4). 382--405.
 https:/\/doi.org/10.1075/dia.24028.lia
+
+List, Johann-Mattis & Robert Forkel. 2021. #emph[LingPy. A Python
+library for quantitative tasks in historical linguistics] (Version 2.6).
+Max Planck Institute for Evolutionary Anthropology.
+https:/\/doi.org/10.5281/zenodo.597082
 
 List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph
 Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public

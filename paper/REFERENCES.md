@@ -14,6 +14,8 @@ Kessler, Brett. 2001. *The significance of word lists*. Stanford: CSLI Publicati
 
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai perspective. *Diachronica* 42(3/4). 382–405. https://doi.org/10.1075/dia.24028.lia
 
+List, Johann-Mattis & Robert Forkel. 2021. *LingPy. A Python library for quantitative tasks in historical linguistics* (Version 2.6). Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.597082
+
 List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public repository of standardized wordlists of about 2000 language varieties. *Scientific Data* 9. 316. (Lexibank analysed release used here: v2.2.)
 
 Ostapirat, Weera. 2005. Kra–Dai and Austronesian: Notes on phonological correspondences and vocabulary distribution. In Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas (eds.), *The peopling of East Asia*, 107–131. London: RoutledgeCurzon.

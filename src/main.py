@@ -4,6 +4,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
+from src.algo_score import run_algo_study1, run_algo_study2
 from src.attested_pilot import build_core_concepts, run_attested_permutation, run_observed_attested
 from src.correspondences import run_correspondence_analysis
 from src.judge import build_judgment_matrix, run_observed_judgment
@@ -110,6 +111,25 @@ def cmd_sinitic_screen(args: argparse.Namespace) -> None:
         study1_path=Path(args.study1) if args.study1 else None,
         study2_path=Path(args.study2) if args.study2 else None,
         output_path=Path(args.output) if args.output else None,
+    )
+
+
+def cmd_algo_study1(args: argparse.Namespace) -> None:
+    run_algo_study1(
+        n_permutations=args.permutations,
+        seed=args.seed,
+        pairs_path=Path(args.pairs) if args.pairs else None,
+        output_path=Path(args.output) if args.output else None,
+    )
+
+
+def cmd_algo_study2(args: argparse.Namespace) -> None:
+    run_algo_study2(
+        n_permutations=args.permutations,
+        seed=args.seed,
+        core_path=Path(args.core) if args.core else None,
+        output_path=Path(args.output) if args.output else None,
+        workers=args.workers,
     )
 
 
@@ -233,6 +253,27 @@ def main() -> None:
     sinitic.add_argument("--study2", help="Study 2 observed judgments CSV")
     sinitic.add_argument("--output", help="Output CSV path")
     sinitic.set_defaults(func=cmd_sinitic_screen)
+
+    algo1 = sub.add_parser(
+        "algo-study1",
+        help="LingPy SCA/NED permutation sanity check on Tier A Smith pairs",
+    )
+    algo1.add_argument("--pairs", help="Eligible pairs TSV (default: data/eligible_pairs.tsv)")
+    algo1.add_argument("--permutations", type=int, default=1000)
+    algo1.add_argument("--seed", type=int, default=1)
+    algo1.add_argument("--output", help="Results JSON path")
+    algo1.set_defaults(func=cmd_algo_study1)
+
+    algo2 = sub.add_parser(
+        "algo-study2",
+        help="LingPy SCA/NED set-vs-set permutation sanity check (Blust dual-attested)",
+    )
+    algo2.add_argument("--core", help="Core concepts TSV (default: blust194)")
+    algo2.add_argument("--permutations", type=int, default=1000)
+    algo2.add_argument("--seed", type=int, default=1)
+    algo2.add_argument("--workers", type=int, default=8, help="Process pool size for set-score matrix")
+    algo2.add_argument("--output", help="Results JSON path")
+    algo2.set_defaults(func=cmd_algo_study2)
 
     sub.add_parser("report", help="Build markdown report").set_defaults(func=cmd_report)
 

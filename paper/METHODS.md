@@ -81,3 +81,13 @@ Study 2 therefore tests whether **same-meaning** modern form inventories look mo
 ## 4.7 Sinitic loan plausibility screen (post hoc)
 
 Contact with Sinitic is one standard alternative to inheritance for some Austronesian–Kra-Dai lookalikes. After the meaning-blind tests, I therefore ran a separate, **meaning-aware** exploratory screen on the observed hits (Study 1 Tier A pairs and Study 2 Blust concepts with a generosity score of 4 or higher). For each hit the same chat model (`gpt-4.1`) was shown the gloss/concept and the forms (Study 1: PAN and PKD strings; Study 2: concept label plus the model’s earlier shared-shape notes) and asked how plausible it is that the shared resemblance reflects a **Chinese loan into Tai-Kadai and/or Austronesian** (1–5 scale, with a short reason). This is **not** a classical etymological demonstration and does not adjudicate non-Sinitic contact; it is only a transparent check on whether a common Sinitic-donor story looks attractive for the items that drive the permutation results. Machine-readable scores: `output/sinitic_screen_hits.csv`.
+
+## 4.8 Algorithmic form-similarity sanity check
+
+The LLM screen is the primary analysis. As a **non-memorizing** parallel check against training-data contamination, I recomputed the same permutation designs with deterministic string distances from LingPy (List & Forkel 2021): **Sound-Class Algorithm (SCA)** distance (primary) and **normalized edit distance (NED)** (backup). Forms were lightly normalized before scoring (lowercase; strip tone digits, common separators, and bracket/asterisk markup), matching the spirit of Study 2’s form cleanup.
+
+**Study 1.** For each Tier A PAN–PKD pair I recorded SCA and NED distances, then shuffled PAN forms across PKD slots (**1000** permutations; fixed seed). The primary statistic is the **mean distance** across the 79 pairs (lower = more similar); one-sided *p* uses add-one smoothing on the share of null means at least as extreme as the observed mean. As a secondary, pre-stated hit count I also tally pairs with SCA ≤ **0.40** or NED ≤ **0.40**.
+
+**Study 2.** For each Blust dual-attested concept I scored the TK and AN form groups as the **mean, over TK forms, of the best (minimum) distance to any AN form** in that concept’s sample (separately for SCA and NED). The null reassigns AN groups across TK slots (**1000** permutations). Mean distance remains the primary statistic; the same 0.40 cutoffs are reported as secondary diagnostics (and may be too strict for aggregated modern NED).
+
+These algorithmic screens do not replace the LLM results and do not claim cognacy; they ask whether excess same-slot / same-meaning resemblance survives under judges that cannot have memorized published Austro-Tai etymologies.
