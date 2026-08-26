@@ -24,7 +24,9 @@ keywords = m.group(2).strip()
 
 header = f'''# How surprising are Austro-Tai lookalikes? Meaning-blind permutation tests of Smith’s (2025) reconstructions and of dual-attested Lexibank form inventories
 
-**Working preprint** (target journal: *Diachronica*). Companion code and data: [github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test). Frozen snapshot: Study 1 — 79 Tier A pairs, 27 hits, null mean 5.68, *p* ≈ 0.01; Study 2 — 194 Blust/Lexibank concepts, hits 11/17/121 @≥4/≥3/≥2, *p* ≈ 0.032 (*N* = 30).
+Jeremy Collins
+
+Companion code and data: [github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test).
 
 ## Abstract
 

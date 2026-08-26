@@ -58,7 +58,7 @@ Judge notes for ≥ 4 hits typically cite recurring skeletons familiar from clas
 
 ### Permutation null
 
-Across **30** random reassignments of Austronesian form-bags to Tai-Kadai slots, hit counts were:
+Across **30** random reassignments of Austronesian form groups to Tai-Kadai slots, hit counts were:
 
 | Threshold | Observed | Null mean | Null range | One-sided *p* |
 |----------:|---------:|----------:|------------|-------------:|
@@ -71,8 +71,8 @@ No null world reached the observed count at ≥ 2, ≥ 3, or ≥ 4, so each of t
 
 ### Relation to Study 1
 
-Study 2’s ≥ 4 hit rate (**11/194 ≈ 5.7%**) is lower than Study 1’s Tier A hit rate (**27/79 ≈ 34%**), which is expected: comparing diverse modern bags is a harder screen than comparing two curated proto-strings. The important parallel is directional and statistical: in both designs, same-slot / same-meaning pairings exceed a form-preserving shuffle. Study 2 does so **without** relying on Smith’s choice of reconstructions.
+Study 2’s ≥ 4 hit rate (**11/194 ≈ 5.7%**) is lower than Study 1’s Tier A hit rate (**27/79 ≈ 34%**), which is expected: comparing diverse modern form groups is a harder screen than comparing two curated proto-strings. The important parallel is directional and statistical: in both designs, same-slot / same-meaning pairings exceed a form-preserving shuffle. Study 2 does so **without** relying on Smith’s choice of reconstructions.
 
 ## 5.7 Summary of findings
 
-Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a bag-shuffle null at generosity ≥ 2, ≥ 3, and ≥ 4 (*p* ≈ 0.032, *N* = 30). The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
+Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at generosity ≥ 2, ≥ 3, and ≥ 4 (*p* ≈ 0.032, *N* = 30). The next section discusses what this does and does not imply for the Austro-Tai hypothesis.

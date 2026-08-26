@@ -4,7 +4,7 @@ Our analysis has two studies that share a meaning-blind LLM screen and a permuta
 
 **Study 1** (Smith reconstructions) has two layers. **Layer 1** asks whether each published proto-form is supported by modern Lexibank daughters for the same Concepticon meaning. **Layer 2** asks whether, among reconstructions that pass Layer 1, the published PAN–PKD pairings show more **segmental form similarity** than expected if PAN shapes were randomly reassigned across PKD slots.
 
-**Study 2** (Lexibank attested forms) drops reconstructions. For dual-attested Concepticon concepts on a Blust/ABVD basic-vocabulary filter, it compares **bags of modern Tai-Kadai and Austronesian forms** for the same meaning against a null that shuffles Austronesian bags across Tai-Kadai slots. The motivation is robustness: Study 2 cannot inherit cherry-picking of lookalike-friendly proto-forms from a reconstruction spreadsheet.
+**Study 2** (Lexibank attested forms) drops reconstructions. For dual-attested Concepticon concepts on a Blust/ABVD basic-vocabulary filter, it compares **groups of modern Tai-Kadai and Austronesian forms** for the same meaning against a null that shuffles Austronesian form groups across Tai-Kadai slots. The motivation is robustness: Study 2 cannot inherit cherry-picking of lookalike-friendly proto-forms from a reconstruction spreadsheet.
 
 Both studies withhold meanings from the similarity judge. All LLM calls used the chat endpoint configured for this project with model `gpt-4.1`. Prompts and scoring rules are fixed in the accompanying software release; responses were parsed as JSON, with light sanitization and up to three retries on malformed output. Scores were cached so that identical inputs were never re-queried inconsistently between observed and null analyses.
 
@@ -66,10 +66,10 @@ Before sampling we applied light filters: drop likely onomatopoeic / expressive 
 
 ### Meaning-blind set scoring
 
-The LLM received two **bags** of forms (clade label + form string only)—no gloss, no language names beyond clade tags—and scored hypothetical cognacy from segmental shape alone (generosity 1–5), with instructions to prefer *widespread* shared skeletons over isolated lookalikes and to ignore recognized word meanings. Scores were cached by the bag contents under a fixed prompt version. We report hits at generosity ≥ **2**, ≥ **3**, and ≥ **4**; the primary interpretive threshold remains ≥ 4, with ≥ 3 as a secondary cut and ≥ 2 as a liberal sensitivity check.
+The LLM received two **groups** of forms (clade label + form string only)—no gloss, no language names beyond clade tags—and scored hypothetical cognacy from segmental shape alone (generosity 1–5), with instructions to prefer *widespread* shared skeletons over isolated lookalikes and to ignore recognized word meanings. Scores were cached by the group contents under a fixed prompt version. We report hits at generosity ≥ **2**, ≥ **3**, and ≥ **4**; the primary interpretive threshold remains ≥ 4, with ≥ 3 as a secondary cut and ≥ 2 as a liberal sensitivity check.
 
 ### Permutation null
 
-Holding Tai-Kadai bags fixed, we randomly reassigned Austronesian bags across concept slots (*N* = **30**; fixed seed). Incomplete permutations were resumable from disk; every null judgment (score, notes, reasoning, and the source concept of the Austronesian bag) was stored so thresholds can be recomputed post hoc. The one-sided *p*-value uses the same (*k*+1)/(*N*+1) estimator as Study 1.
+Holding Tai-Kadai form groups fixed, we randomly reassigned Austronesian form groups across concept slots (*N* = **30**; fixed seed). Incomplete permutations were resumable from disk; every null judgment (score, notes, reasoning, and the source concept of the Austronesian form group) was stored so thresholds can be recomputed post hoc. The one-sided *p*-value uses the same (*k*+1)/(*N*+1) estimator as Study 1.
 
 Study 2 therefore tests whether **same-meaning** modern form inventories look more alike, under a generous meaning-blind screen, than **cross-meaning** inventories drawn from the same concept set—without relying on which reconstructions an author chose to publish.
