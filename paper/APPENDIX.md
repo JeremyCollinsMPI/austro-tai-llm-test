@@ -199,7 +199,7 @@ Observed hits: **27** / 79 Tier A pairs (18 with generosity 5; 9 with generosity
 - **Smith (2025) reconstructions:** Zenodo DOI [10.5281/zenodo.15597357](https://doi.org/10.5281/zenodo.15597357), release v1.1 (*Austro-Tai comparative dataset (Reconstructions)*).
 - **Lexibank 2:** List et al. (2022); `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as described in §3–4).
 - **Blust / ABVD concept list:** Concepticon contribution Blust-2008-210 (Greenhill, Blust & Gray 2008).
-- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute; post hoc `sinitic-screen`). Model: `gpt-4.1` via project NLP chat endpoint. Frozen summaries: `output/permutation_results.json` (Study 1); `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv` (Study 2); `output/sinitic_screen_hits.csv` (Chinese-loan plausibility on hits).
+- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute; post hoc `sinitic-screen`). Model: `gpt-4.1` via project NLP chat endpoint. Reported tables are reproducible from the released judgment caches and frozen summaries (`output/permutation_results.json`; `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv`; `output/sinitic_screen_hits.csv`). Live re-queries against a changed or discontinued `gpt-4.1` endpoint are not guaranteed to match those caches bit-for-bit.
 
 ## Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 
@@ -213,7 +213,7 @@ Full scores and model notes: `output/attested_judgments_observed_blust194.csv`.
 
 ## Appendix G. Sinitic loan plausibility screen
 
-Post hoc meaning-aware screen (§4.7) on observed hits with a generosity score of 4 or higher (*n* = 38). Score 1–5 = how plausible a **Chinese loan into Tai-Kadai and/or Austronesian** is as an explanation of the shared resemblance. Full reasons: `output/sinitic_screen_hits.csv`.
+Post hoc exploratory meaning-aware screen (§4.7) on observed hits with a generosity score of 4 or higher (*n* = 38). Score 1–5 = how plausible a **Chinese loan into Tai-Kadai and/or Austronesian** is as an explanation of the shared resemblance. This is not a classical etymology; full reasons: `output/sinitic_screen_hits.csv`.
 
 **Summary.** Counts at scores 1–5: **21 / 14 / 2 / 1 / 0** (mean ≈ 1.55). Only three items scored 3 or higher: Study 1 *eat* (3); Study 2 *we* (3); Study 2 *be dead or die* (4).
 

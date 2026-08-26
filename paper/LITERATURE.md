@@ -24,7 +24,7 @@ Austro-Tai is one among several contested higher-order proposals involving Austr
 
 ### Chance resemblance and the need for null models
 
-Methodological critiques of multilateral comparison (notably Ringe 1992 and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Explicit permutation or chance baselines remain uncommon for entire Austro-Tai alignment sets, especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
+Methodological critiques of multilateral comparison (notably Ringe 1992 and related work) stress that large vocabularies, phonetic latitude, and semantic flexibility make impressive-looking lists easy to assemble. When the object of evaluation is itself a **published list**, the natural statistical question is comparative: relative to a well-defined null, how often would equally “generous” form matches arise if proto-shapes were randomly re-paired across meanings? Meaning-preserving permutation / reshuffling tests of word-list similarity have a long methodological lineage (Oswalt 1970; Baxter & Manaster Ramer 2000; Kessler 2001); explicit applications to entire Austro-Tai alignment sets remain uncommon, especially after first removing reconstructions that modern daughters do not support. That is the gap this paper addresses.
 
 ## 2.2 Justification for using Smith (2025)
 
