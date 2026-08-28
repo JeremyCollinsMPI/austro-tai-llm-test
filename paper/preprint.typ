@@ -29,15 +29,14 @@ Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher
 are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
 permutations; one-sided #emph[p] ≈ 0.032 at each threshold).
 Deterministic LingPy SCA and normalized-edit distances, substituted for
-the LLM under the same two designs, reproduce the effect at 1000
-permutations in both studies (#emph[p] ≤ 0.002), including against
-length-stratified nulls that hold word-length profiles fixed.
-Convergence across a reconstruction audit and a reconstruction-free
-Lexibank screen supports excess form resemblance under these controls,
-not genetic proof, which requires systematic sound correspondences. I
-situate the results in the Austro-Tai literature (Benedict 1942, 1975;
-Ostapirat 2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of
-LLM-based screening.
+the LLM, reproduce the effect in both studies under unrestricted and
+length-stratified nulls (#emph[N] = 1000, #emph[p] ≤ 0.002). Convergence
+across a reconstruction audit and a reconstruction-free Lexibank screen
+supports excess form resemblance under these controls, not genetic
+proof, which requires systematic sound correspondences. I situate the
+results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
+2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
+screening.
 
 #strong[Keywords:] Austro-Tai; Kra-Dai; Austronesian; lexical
 comparison; chance resemblance; permutation test; Lexibank; large
