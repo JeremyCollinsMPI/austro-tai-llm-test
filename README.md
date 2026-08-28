@@ -28,6 +28,8 @@ chmod +x run.sh
 ./run.sh report         # output/report.md
 ./run.sh algo-study1    # LingPy SCA/NED sanity check on Tier A (no NLP API)
 ./run.sh algo-study2    # LingPy SCA/NED set-vs-set sanity check (Blust 194; no NLP API)
+# add --length-controlled to either for the length-stratified null (permute within length bands)
+# algo-study2 caches its distance matrix; re-runs from cache take seconds (use --workers 1 on small machines)
 
 # or end-to-end (without full matrix warm-up)
 ./run.sh all --permutations 100

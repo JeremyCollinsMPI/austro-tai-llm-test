@@ -1,5 +1,16 @@
 {
   "study": 1,
+  "length_controlled": false,
+  "length_band_definition": "PAN coarse bands le3/4/5/6/7to9/10to19/ge20",
+  "pan_length_band_counts": {
+    "10to19": 9,
+    "4": 19,
+    "5": 29,
+    "6": 7,
+    "7to9": 5,
+    "ge20": 5,
+    "le3": 5
+  },
   "n_pairs": 79,
   "n_permutations": 1000,
   "seed": 1,
@@ -11,9 +22,9 @@
     "null_median": 0.7679166992104343,
     "null_min": 0.7122658759722544,
     "null_max": 0.8140827831113627,
-    "p_value": 0.000999000999000999,
     "null_sd": 0.014457726829047618,
-    "z": -13.430311628415623
+    "z": -13.430311628415623,
+    "p_value": 0.000999000999000999
   },
   "mean_ned": {
     "observed": 0.7302824929407208,
@@ -21,9 +32,9 @@
     "null_median": 0.9055848057825906,
     "null_min": 0.8645092425155716,
     "null_max": 0.9382233273056058,
-    "p_value": 0.000999000999000999,
     "null_sd": 0.011663799818897971,
-    "z": -15.02258782759471
+    "z": -15.02258782759471,
+    "p_value": 0.000999000999000999
   },
   "sca_hits": {
     "observed": 25.0,
@@ -31,6 +42,8 @@
     "null_median": 2.0,
     "null_min": 0.0,
     "null_max": 10.0,
+    "null_sd": 1.447245314381774,
+    "z": 15.760285953831827,
     "p_value": 0.000999000999000999
   },
   "ned_hits": {
@@ -39,7 +52,21 @@
     "null_median": 0.0,
     "null_min": 0.0,
     "null_max": 3.0,
+    "null_sd": 0.5255511392814214,
+    "z": 24.191746625045226,
     "p_value": 0.000999000999000999
   },
+  "mean_abs_delta_len": {
+    "observed": 3.6835443037974684,
+    "null_mean": 3.7068101265822784,
+    "null_median": 3.7088607594936707,
+    "null_min": 3.329113924050633,
+    "null_max": 3.962025316455696,
+    "null_sd": 0.09926646198936112,
+    "z": -0.23437747572088793,
+    "p_value": 0.46553446553446554
+  },
+  "observed_corr_sca_vs_abs_delta_len": 0.4847903210861467,
+  "observed_corr_ned_vs_abs_delta_len": 0.32747364582413757,
   "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1.csv"
 }

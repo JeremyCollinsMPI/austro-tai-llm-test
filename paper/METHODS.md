@@ -92,4 +92,15 @@ Smith’s reconstructions are not always plain IPA strings. Cover symbols (e.g. 
 
 **Study 2.** For each Blust dual-attested concept I scored the TK and AN form groups as the **mean, over TK forms, of the best (minimum) distance to any AN form** in that concept’s sample (separately for SCA and NED). That aggregation rewards minima over a large AN candidate set (~80 forms); because AN group sizes are held fixed under the group shuffle, the observed-vs-null comparison remains valid, but absolute distances are not comparable to Study 1’s single-string scores. The null reassigns AN groups across TK slots (**1000** permutations). Mean distance remains the primary statistic; the 0.40 cutoffs are secondary diagnostics (and may be too strict for aggregated modern NED).
 
-These algorithmic screens do not replace the LLM results and do not claim cognacy; they ask whether excess same-slot / same-meaning resemblance survives under judges that cannot have memorized published Austro-Tai etymologies.
+### Length-controlled null
+
+An unrestricted shuffle destroys meaning-matching, but it also destroys any incidental agreement in **word-shape statistics** across slots. If matched slots happen to pair like-length forms more often than shuffled slots (short pronouns and deictics on both sides, longer content words on both sides), that alone can raise similarity without any historical connection, and it inflates SCA and NED as readily as it inflates the LLM, since all three are length-sensitive. This is one of Kessler’s (2001) standing warnings, and the algorithmic replication does not address it: memorization and length are different threats.
+
+I therefore repeated both algorithmic tests under a **length-stratified shuffle**, in which forms are permuted only among slots in the same length band, so the null preserves the observed length profile rather than randomizing it.
+
+- **Study 1.** PAN forms are permuted only within coarse PAN length bands (≤ 3, 4, 5, 6, 7–9, 10–19, ≥ 20 characters after normalization; band sizes 5 / 19 / 29 / 7 / 5 / 9 / 5). Bands are coarse because many exact Tier A lengths are singletons, which would leave nothing to shuffle.
+- **Study 2.** AN form groups are permuted only within bands defined by the group’s **mean** form length (≤ 4, 5, 6, 7, ≥ 8; band sizes 7 / 60 / 104 / 19 / 4).
+
+As diagnostics I report the correlation between distance and the absolute length difference of a slot, and the mean absolute length difference in observed versus null pairings; the latter shows how completely each banding scheme neutralizes the confound. Length control necessarily reduces the number of admissible permutations, so it is a conservative test rather than a strictly better one.
+
+These algorithmic screens do not replace the LLM results and do not claim cognacy; they ask whether excess same-slot / same-meaning resemblance survives under judges that cannot have memorized published Austro-Tai etymologies, and whether it survives when chance is allowed to match word shapes as well as the published alignment does.

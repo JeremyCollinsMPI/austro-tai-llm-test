@@ -77,26 +77,34 @@ Study 2’s hit rate at a score of 4 or higher (**11/194 ≈ 5.7%**) is lower th
 
 ## 5.7 Algorithmic sanity check (SCA / NED)
 
-Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA and NED distances instead of the LLM (§4.8; *N* = 1000), mean distances are substantially lower (more similar) in the published pairing than in the null. To show effect size as well as significance, I report *z* = (observed mean − null mean) / null SD (negative *z* means more similar than chance):
+Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA and NED distances instead of the LLM (§4.8; *N* = 1000), mean distances are substantially lower (more similar) in the published pairing than in the null. To show effect size as well as significance, I report *z* = (observed mean − null mean) / null SD (negative *z* means more similar than chance). Each test is run twice: against the unrestricted shuffle and against the length-stratified shuffle described in §4.8.
 
-| Metric | Observed mean | Null mean (range) | *z* | One-sided *p* |
-|--------|-------------:|------------------:|----:|-------------:|
-| SCA | 0.574 | 0.768 (0.712–0.814) | −13.4 | 0.001 |
-| NED | 0.730 | 0.906 (0.865–0.938) | −15.0 | 0.001 |
+**Study 1** (79 Tier A pairs; observed SCA mean **0.574**, NED mean **0.730**):
 
-Secondary hits at distance ≤ 0.40: SCA **25** vs null mean **2.2** (max 10); NED **13** vs null mean **0.3** (max 3); both *p* = 0.001 (add-one floor 1/1001). No null world matched the observed mean or hit count on either metric.
+| Metric | Null | Null mean (range) | *z* | One-sided *p* |
+|--------|------|------------------:|----:|-------------:|
+| SCA | unrestricted | 0.768 (0.712–0.814) | −13.4 | 0.001 |
+| SCA | length-banded | 0.752 (0.703–0.800) | −11.4 | 0.001 |
+| NED | unrestricted | 0.906 (0.865–0.938) | −15.0 | 0.001 |
+| NED | length-banded | 0.891 (0.847–0.930) | −11.8 | 0.001 |
 
-For Study 2’s Blust form groups (same mean-of-best aggregation and group-shuffle null; *N* = 1000), mean distances are again lower than the null, but the absolute gaps are modest (about 0.016 on each metric). No null draw reached the observed SCA mean (null minimum 0.383 vs observed 0.381), so *p* = 0.001 is legitimate; standardized effects are real but much smaller than in Study 1:
+Secondary hits at distance ≤ 0.40 behave the same way: SCA **25** observed vs null mean **2.2** unrestricted and **4.4** length-banded (null max 12); NED **13** observed vs **0.3** and **1.2** (null max 5). All four *p* values sit at the add-one floor 1/1001; no null world of either kind matched the observed mean or hit count.
 
-| Metric | Observed mean | Null mean (range) | *z* | One-sided *p* |
-|--------|-------------:|------------------:|----:|-------------:|
-| SCA | 0.381 | 0.398 (0.383–0.410) | ≈ −3.9 | 0.001 |
-| NED | 0.620 | 0.636 (0.628–0.645) | ≈ −6.2 | 0.001 |
+**Study 2** (194 Blust concepts, mean-of-best aggregation; observed SCA mean **0.381**, NED mean **0.620**):
 
-Study 2 *z* values use null SDs estimated from the empirical null range and calibrated to Study 1’s exact/range ratio; Study 1 *z* uses the exact null SD. Secondary SCA hits at distance ≤ 0.40 are **120** vs null mean **96.4** (max 117; *p* = 0.001). The same NED ≤ 0.40 cutoff yields **0** observed set-level hits (null mean ≈ 0.1), so that particular threshold is too strict for Study 2’s aggregated modern forms; the primary claim for Study 2’s algorithmic screen is the mean-distance test, which both SCA and NED pass.
+| Metric | Null | Null mean (range) | *z* | One-sided *p* |
+|--------|------|------------------:|----:|-------------:|
+| SCA | unrestricted | 0.398 (0.383–0.410) | −4.1 | 0.001 |
+| SCA | length-banded | 0.394 (0.381–0.407) | −3.3 | 0.002 |
+| NED | unrestricted | 0.636 (0.628–0.645) | −6.2 | 0.001 |
+| NED | length-banded | 0.634 (0.626–0.644) | −5.3 | 0.001 |
 
-Across both studies, then, excess same-slot / same-meaning resemblance is not unique to the LLM judge: Study 1’s algorithmic gaps are large in *z* terms, while Study 2’s are significant but modest.
+Absolute gaps in Study 2 are small (about 0.016 unrestricted, 0.013–0.014 length-banded), and under the length-banded SCA null one draw of 1000 did edge below the observed mean (null minimum 0.3811 vs observed 0.3814), giving *p* = 2/1001. Secondary SCA hits at ≤ 0.40 are **120** observed vs null means **96.4** (unrestricted) and **99.7** (length-banded), *p* = 0.001 in both cases. The NED ≤ 0.40 cutoff yields **0** observed set-level hits against null means near zero, so that threshold is simply too strict for Study 2’s aggregated modern forms and is uninformative in either direction; the primary claim for Study 2 remains the mean-distance test, which both metrics pass under both nulls.
+
+**Length diagnostics.** Length difference does predict distance, as expected: across the 79 Tier A pairs, |length(PAN) − length(PKD)| correlates *r* = 0.485 with SCA distance and *r* = 0.327 with NED, and in Study 2 the corresponding correlations with |Δ mean length| are *r* = 0.119 and *r* = 0.116. The two studies then differ in whether the published/attested pairing exploits that. In Study 1 it does not: observed mean |Δlength| is **3.68** characters against an unrestricted null mean of **3.71** (*p* = 0.47), i.e. Smith’s alignments are no better length-matched than chance, so the confound had little room to operate; the banded shuffle holds mean |Δlength| exactly at 3.68 in every draw, and the effect duly persists at *z* ≈ −11 to −12. In Study 2 it does: observed mean |Δ mean length| is **1.50** against an unrestricted null mean of **1.58** (*z* = −3.1, *p* = 0.001), so same-meaning concepts genuinely are better length-matched than random ones. Mean-length banding shrinks that imbalance to 1.50 vs **1.53** but does not erase it (*z* = −2.2, *p* = 0.015), so Study 2’s length control is partial rather than complete. Consistent with a real but non-trivial length contribution, controlling length attenuates Study 2’s standardized effects by roughly 15–20% (SCA *z* from −4.1 to −3.3; NED from −6.2 to −5.3) while leaving them significant.
+
+Across both studies, then, excess same-slot / same-meaning resemblance is neither unique to the LLM judge nor reducible to word length: Study 1’s algorithmic gaps stay large in *z* terms under a null that reproduces its length profile exactly, while Study 2’s are modest, attenuate somewhat under length control, and survive it.
 
 ## 5.8 Summary of findings
 
-Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* = 0.001, *N* = 1000; §5.7), a parallel check that does not rely on LLM prior knowledge. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
+Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* ≤ 0.002, *N* = 1000; §5.7), both against an unrestricted shuffle and against a length-stratified one — a parallel check that relies neither on LLM prior knowledge nor on incidental word-length matching. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.

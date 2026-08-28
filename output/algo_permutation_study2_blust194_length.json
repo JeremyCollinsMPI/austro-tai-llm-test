@@ -1,0 +1,73 @@
+{
+  "study": 2,
+  "length_controlled": true,
+  "length_band_definition": "AN group mean-length bands le4/5/6/7/ge8",
+  "an_length_band_counts": {
+    "5": 60,
+    "6": 104,
+    "7": 19,
+    "ge8": 4,
+    "le4": 7
+  },
+  "n_concepts": 194,
+  "n_permutations": 1000,
+  "seed": 1,
+  "core_path": "data/attested_pilot/core_concepts_blust.tsv",
+  "aggregation": "mean_of_per_tk_best_an_match",
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.38142195656587663,
+    "null_mean": 0.3943650948326553,
+    "null_median": 0.39436548067542176,
+    "null_min": 0.38111995310085794,
+    "null_max": 0.40657886756733935,
+    "null_sd": 0.0038714629348749834,
+    "z": -3.343216371822667,
+    "p_value": 0.001998001998001998
+  },
+  "mean_ned": {
+    "observed": 0.6203443229451913,
+    "null_mean": 0.6343272727657274,
+    "null_median": 0.6342910733423375,
+    "null_min": 0.6264688011654576,
+    "null_max": 0.6436026008389398,
+    "null_sd": 0.002624847060135785,
+    "z": -5.327148401481653,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 120.0,
+    "null_mean": 99.651,
+    "null_median": 100.0,
+    "null_min": 81.0,
+    "null_max": 117.0,
+    "null_sd": 5.742925996388949,
+    "z": 3.5433157266513793,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 0.0,
+    "null_mean": 0.228,
+    "null_median": 0.0,
+    "null_min": 0.0,
+    "null_max": 3.0,
+    "null_sd": 0.4494619004988076,
+    "z": -0.5072732521865997,
+    "p_value": 1.0
+  },
+  "mean_abs_delta_mean_len": {
+    "observed": 1.5005322353917336,
+    "null_mean": 1.5250767393124536,
+    "null_median": 1.5253036695846696,
+    "null_min": 1.4898704266441631,
+    "null_max": 1.5582940963307195,
+    "null_sd": 0.011329876468095999,
+    "z": -2.166352297823833,
+    "p_value": 0.014985014985014986
+  },
+  "observed_corr_sca_vs_abs_delta_mean_len": 0.11876749608714694,
+  "observed_corr_ned_vs_abs_delta_mean_len": 0.11604938980236473,
+  "matrix_cache_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_study2_blust194_mats.npz",
+  "observed_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study2_blust194_length.csv"
+}

@@ -1,0 +1,72 @@
+{
+  "study": 1,
+  "length_controlled": true,
+  "length_band_definition": "PAN coarse bands le3/4/5/6/7to9/10to19/ge20",
+  "pan_length_band_counts": {
+    "10to19": 9,
+    "4": 19,
+    "5": 29,
+    "6": 7,
+    "7to9": 5,
+    "ge20": 5,
+    "le3": 5
+  },
+  "n_pairs": 79,
+  "n_permutations": 1000,
+  "seed": 1,
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.5736219855462708,
+    "null_mean": 0.7520586332558544,
+    "null_median": 0.7523974312045053,
+    "null_min": 0.7025066973455395,
+    "null_max": 0.8003533888102169,
+    "null_sd": 0.0156293800107095,
+    "z": -11.416745103600785,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.7302824929407208,
+    "null_mean": 0.8912056091792643,
+    "null_median": 0.891851372666246,
+    "null_min": 0.8474012772272266,
+    "null_max": 0.9299225680554795,
+    "null_sd": 0.013593612974271096,
+    "z": -11.838141673087641,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 25.0,
+    "null_mean": 4.447,
+    "null_median": 4.0,
+    "null_min": 0.0,
+    "null_max": 12.0,
+    "null_sd": 1.928520417314787,
+    "z": 10.657393002153107,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 13.0,
+    "null_mean": 1.193,
+    "null_median": 1.0,
+    "null_min": 0.0,
+    "null_max": 5.0,
+    "null_sd": 0.9988748670379088,
+    "z": 11.820299408486274,
+    "p_value": 0.000999000999000999
+  },
+  "mean_abs_delta_len": {
+    "observed": 3.6835443037974684,
+    "null_mean": 3.6835443037974684,
+    "null_median": 3.6835443037974684,
+    "null_min": 3.6835443037974684,
+    "null_max": 3.6835443037974684,
+    "null_sd": 0.0,
+    "z": NaN,
+    "p_value": 1.0
+  },
+  "observed_corr_sca_vs_abs_delta_len": 0.4847903210861467,
+  "observed_corr_ned_vs_abs_delta_len": 0.32747364582413757,
+  "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1_length.csv"
+}

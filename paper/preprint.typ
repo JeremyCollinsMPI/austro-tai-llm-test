@@ -27,13 +27,17 @@ Blust/ABVD basic-vocabulary list (194 concepts; Greenhill, Blust & Gray
 2008), and shuffles Austronesian form groups across Tai-Kadai slots.
 Hits at a generosity score of 4 or higher / 3 or higher / 2 or higher
 are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
-permutations; one-sided #emph[p] ≈ 0.032 at each threshold). Convergence
-across a reconstruction audit and a reconstruction-free Lexibank screen
-supports excess form resemblance under these controls, not genetic
-proof, which requires systematic sound correspondences. I situate the
-results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
-2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
-screening.
+permutations; one-sided #emph[p] ≈ 0.032 at each threshold).
+Deterministic LingPy SCA and normalized-edit distances, substituted for
+the LLM under the same two designs, reproduce the effect at 1000
+permutations in both studies (#emph[p] ≤ 0.002), including against
+length-stratified nulls that hold word-length profiles fixed.
+Convergence across a reconstruction audit and a reconstruction-free
+Lexibank screen supports excess form resemblance under these controls,
+not genetic proof, which requires systematic sound correspondences. I
+situate the results in the Austro-Tai literature (Benedict 1942, 1975;
+Ostapirat 2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of
+LLM-based screening.
 
 #strong[Keywords:] Austro-Tai; Kra-Dai; Austronesian; lexical
 comparison; chance resemblance; permutation test; Lexibank; large
@@ -618,10 +622,44 @@ permutations). Mean distance remains the primary statistic; the 0.40
 cutoffs are secondary diagnostics (and may be too strict for aggregated
 modern NED).
 
+=== Length-controlled null
+<length-controlled-null>
+An unrestricted shuffle destroys meaning-matching, but it also destroys
+any incidental agreement in #strong[word-shape statistics] across slots.
+If matched slots happen to pair like-length forms more often than
+shuffled slots (short pronouns and deictics on both sides, longer
+content words on both sides), that alone can raise similarity without
+any historical connection, and it inflates SCA and NED as readily as it
+inflates the LLM, since all three are length-sensitive. This is one of
+Kessler's (2001) standing warnings, and the algorithmic replication does
+not address it: memorization and length are different threats.
+
+I therefore repeated both algorithmic tests under a
+#strong[length-stratified shuffle], in which forms are permuted only
+among slots in the same length band, so the null preserves the observed
+length profile rather than randomizing it.
+
+- #strong[Study 1.] PAN forms are permuted only within coarse PAN length
+  bands (≤ 3, 4, 5, 6, 7--9, 10--19, ≥ 20 characters after
+  normalization; band sizes 5 / 19 / 29 / 7 / 5 / 9 / 5). Bands are
+  coarse because many exact Tier A lengths are singletons, which would
+  leave nothing to shuffle.
+- #strong[Study 2.] AN form groups are permuted only within bands
+  defined by the group's #strong[mean] form length (≤ 4, 5, 6, 7, ≥ 8;
+  band sizes 7 / 60 / 104 / 19 / 4).
+
+As diagnostics I report the correlation between distance and the
+absolute length difference of a slot, and the mean absolute length
+difference in observed versus null pairings; the latter shows how
+completely each banding scheme neutralizes the confound. Length control
+necessarily reduces the number of admissible permutations, so it is a
+conservative test rather than a strictly better one.
+
 These algorithmic screens do not replace the LLM results and do not
 claim cognacy; they ask whether excess same-slot / same-meaning
 resemblance survives under judges that cannot have memorized published
-Austro-Tai etymologies.
+Austro-Tai etymologies, and whether it survives when chance is allowed
+to match word shapes as well as the published alignment does.
 
 = 5. Results
 <results>
@@ -826,58 +864,92 @@ LingPy SCA and NED distances instead of the LLM (§4.8; #emph[N] = 1000),
 mean distances are substantially lower (more similar) in the published
 pairing than in the null. To show effect size as well as significance, I
 report #emph[z] = (observed mean − null mean) / null SD (negative
-#emph[z] means more similar than chance):
+#emph[z] means more similar than chance). Each test is run twice:
+against the unrestricted shuffle and against the length-stratified
+shuffle described in §4.8.
+
+#strong[Study 1] (79 Tier A pairs; observed SCA mean #strong[0.574], NED
+mean #strong[0.730]):
 
 #figure(
   align(center)[#table(
     columns: 5,
-    align: (auto,right,right,right,right,),
-    table.header([Metric], [Observed mean], [Null mean
+    align: (auto,auto,right,right,right,),
+    table.header([Metric], [Null], [Null mean
       (range)], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [0.574], [0.768 (0.712--0.814)], [−13.4], [0.001],
-    [NED], [0.730], [0.906 (0.865--0.938)], [−15.0], [0.001],
+    [SCA], [unrestricted], [0.768 (0.712--0.814)], [−13.4], [0.001],
+    [SCA], [length-banded], [0.752 (0.703--0.800)], [−11.4], [0.001],
+    [NED], [unrestricted], [0.906 (0.865--0.938)], [−15.0], [0.001],
+    [NED], [length-banded], [0.891 (0.847--0.930)], [−11.8], [0.001],
   )]
   , kind: table
   )
 
-Secondary hits at distance ≤ 0.40: SCA #strong[25] vs null mean
-#strong[2.2] (max 10); NED #strong[13] vs null mean #strong[0.3] (max
-3); both #emph[p] = 0.001 (add-one floor 1/1001). No null world matched
-the observed mean or hit count on either metric.
+Secondary hits at distance ≤ 0.40 behave the same way: SCA #strong[25]
+observed vs null mean #strong[2.2] unrestricted and #strong[4.4]
+length-banded (null max 12); NED #strong[13] observed vs #strong[0.3]
+and #strong[1.2] (null max 5). All four #emph[p] values sit at the
+add-one floor 1/1001; no null world of either kind matched the observed
+mean or hit count.
 
-For Study 2's Blust form groups (same mean-of-best aggregation and
-group-shuffle null; #emph[N] = 1000), mean distances are again lower
-than the null, but the absolute gaps are modest (about 0.016 on each
-metric). No null draw reached the observed SCA mean (null minimum 0.383
-vs observed 0.381), so #emph[p] = 0.001 is legitimate; standardized
-effects are real but much smaller than in Study 1:
+#strong[Study 2] (194 Blust concepts, mean-of-best aggregation; observed
+SCA mean #strong[0.381], NED mean #strong[0.620]):
 
 #figure(
   align(center)[#table(
     columns: 5,
-    align: (auto,right,right,right,right,),
-    table.header([Metric], [Observed mean], [Null mean
+    align: (auto,auto,right,right,right,),
+    table.header([Metric], [Null], [Null mean
       (range)], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [0.381], [0.398 (0.383--0.410)], [≈ −3.9], [0.001],
-    [NED], [0.620], [0.636 (0.628--0.645)], [≈ −6.2], [0.001],
+    [SCA], [unrestricted], [0.398 (0.383--0.410)], [−4.1], [0.001],
+    [SCA], [length-banded], [0.394 (0.381--0.407)], [−3.3], [0.002],
+    [NED], [unrestricted], [0.636 (0.628--0.645)], [−6.2], [0.001],
+    [NED], [length-banded], [0.634 (0.626--0.644)], [−5.3], [0.001],
   )]
   , kind: table
   )
 
-Study 2 #emph[z] values use null SDs estimated from the empirical null
-range and calibrated to Study 1's exact/range ratio; Study 1 #emph[z]
-uses the exact null SD. Secondary SCA hits at distance ≤ 0.40 are
-#strong[120] vs null mean #strong[96.4] (max 117; #emph[p] = 0.001). The
-same NED ≤ 0.40 cutoff yields #strong[0] observed set-level hits (null
-mean ≈ 0.1), so that particular threshold is too strict for Study 2's
-aggregated modern forms; the primary claim for Study 2's algorithmic
-screen is the mean-distance test, which both SCA and NED pass.
+Absolute gaps in Study 2 are small (about 0.016 unrestricted,
+0.013--0.014 length-banded), and under the length-banded SCA null one
+draw of 1000 did edge below the observed mean (null minimum 0.3811 vs
+observed 0.3814), giving #emph[p] = 2/1001. Secondary SCA hits at ≤ 0.40
+are #strong[120] observed vs null means #strong[96.4] (unrestricted) and
+#strong[99.7] (length-banded), #emph[p] = 0.001 in both cases. The NED ≤
+0.40 cutoff yields #strong[0] observed set-level hits against null means
+near zero, so that threshold is simply too strict for Study 2's
+aggregated modern forms and is uninformative in either direction; the
+primary claim for Study 2 remains the mean-distance test, which both
+metrics pass under both nulls.
+
+#strong[Length diagnostics.] Length difference does predict distance, as
+expected: across the 79 Tier A pairs, |length(PAN) − length(PKD)|
+correlates #emph[r] = 0.485 with SCA distance and #emph[r] = 0.327 with
+NED, and in Study 2 the corresponding correlations with |Δ mean length|
+are #emph[r] = 0.119 and #emph[r] = 0.116. The two studies then differ
+in whether the published/attested pairing exploits that. In Study 1 it
+does not: observed mean |Δlength| is #strong[3.68] characters against an
+unrestricted null mean of #strong[3.71] (#emph[p] = 0.47), i.e.~Smith's
+alignments are no better length-matched than chance, so the confound had
+little room to operate; the banded shuffle holds mean |Δlength| exactly
+at 3.68 in every draw, and the effect duly persists at #emph[z] ≈ −11 to
+−12. In Study 2 it does: observed mean |Δ mean length| is #strong[1.50]
+against an unrestricted null mean of #strong[1.58] (#emph[z] = −3.1,
+#emph[p] = 0.001), so same-meaning concepts genuinely are better
+length-matched than random ones. Mean-length banding shrinks that
+imbalance to 1.50 vs #strong[1.53] but does not erase it (#emph[z] =
+−2.2, #emph[p] = 0.015), so Study 2's length control is partial rather
+than complete. Consistent with a real but non-trivial length
+contribution, controlling length attenuates Study 2's standardized
+effects by roughly 15--20% (SCA #emph[z] from −4.1 to −3.3; NED from
+−6.2 to −5.3) while leaving them significant.
 
 Across both studies, then, excess same-slot / same-meaning resemblance
-is not unique to the LLM judge: Study 1's algorithmic gaps are large in
-#emph[z] terms, while Study 2's are significant but modest.
+is neither unique to the LLM judge nor reducible to word length: Study
+1's algorithmic gaps stay large in #emph[z] terms under a null that
+reproduces its length profile exactly, while Study 2's are modest,
+attenuate somewhat under length control, and survive it.
 
 == 5.8 Summary of findings
 <summary-of-findings>
@@ -888,9 +960,11 @@ Lexibank form inventories on a Blust concept filter likewise exceed a
 group-shuffle null at a generosity score of 2 or higher, 3 or higher,
 and 4 or higher (#emph[p] ≈ 0.032, #emph[N] = 30). Algorithmic SCA/NED
 screens under the same null designs also beat chance on mean distance
-(#emph[p] = 0.001, #emph[N] = 1000; §5.7), a parallel check that does
-not rely on LLM prior knowledge. The next section discusses what this
-does and does not imply for the Austro-Tai hypothesis.
+(#emph[p] ≤ 0.002, #emph[N] = 1000; §5.7), both against an unrestricted
+shuffle and against a length-stratified one --- a parallel check that
+relies neither on LLM prior knowledge nor on incidental word-length
+matching. The next section discusses what this does and does not imply
+for the Austro-Tai hypothesis.
 
 == Figure: Null distribution
 <figure-null-distribution>
@@ -1013,10 +1087,22 @@ permutation null still constrains the argument, because memorization
 would have to favor #strong[matched] pairings over shuffled ones, but it
 does not eliminate the risk. The algorithmic SCA/NED screens (§4.8,
 §5.7) address this directly: they cannot share LLM training history, yet
-under the same null designs they also find excess same-slot /
-same-meaning resemblance. Residual risk remains for the LLM primary
-analysis and should still be checked with expert human re-rating of
-hits.
+under the same null designs --- and under length-stratified versions of
+them --- they also find excess same-slot / same-meaning resemblance.
+Residual risk remains for the LLM primary analysis and should still be
+checked with expert human re-rating of hits.
+
+#strong[Word length and phonotactics.] Length-sensitivity is a known
+hazard for any resemblance metric (Kessler 2001). The length-stratified
+nulls (§4.8, §5.7) address the length component directly, and the
+effects survive in both studies, but two caveats stand. Study 2's
+mean-length banding is coarse enough that observed pairings remain
+slightly better length-matched than the banded null (#emph[p] = 0.015),
+so a residual sliver of its already modest effect may still be
+length-driven. And length is only the most tractable word-shape
+variable: canonical syllable structure, consonant inventory frequencies,
+and phonotactic templates are not controlled here, and a shuffle that
+preserved those too would be a stricter test than any run in this paper.
 
 #strong[Lexibank and sampling.] Coverage is uneven across concepts and
 subgroups. Stratified samples avoid Oceanic overweighting but can miss
@@ -1052,8 +1138,9 @@ human expert re-rating of hits; exploratory #strong[regular
 correspondence] inventories over Study 2 hit concepts (at a generosity
 score of 4 or higher, 3 or higher, and 2 or higher);
 correspondence-constrained scoring (encoding Ostapirat-style systems as
-hard filters); and parallel audits of other published Austro-Tai lists
-under Study 1's two-layer design.
+hard filters); nulls that preserve canonical syllable shape and
+segment-frequency profiles as well as length; and parallel audits of
+other published Austro-Tai lists under Study 1's two-layer design.
 
 #divider()
 
@@ -1070,13 +1157,15 @@ reconstructions: hits at a generosity score of 4 or higher / 3 or higher
 \/ 2 or higher were 11 / 17 / 121 against null means of about 2.2 / 5.7
 \/ 91.7 (#emph[p] ≈ 0.032, #emph[N] = 30). Parallel LingPy SCA/NED
 screens under the same null designs also show lower mean distances than
-chance (#emph[p] = 0.001, #emph[N] = 1000). Study 2 is the more robust
-check against cherry-picked reconstructions because concept and form
-selection do not inherit an author's comparative spreadsheet. Together,
-the studies strengthen the case that excess form resemblance under these
-screens is not merely an artifact of meaning-matched browsing or of LLM
-memorization alone, while leaving genetic proof to systematic sound
-correspondences and classical reconstruction.
+chance (#emph[p] ≤ 0.002, #emph[N] = 1000), and continue to do so when
+the null is length-stratified so that chance may match word shapes as
+well as the observed pairing does. Study 2 is the more robust check
+against cherry-picked reconstructions because concept and form selection
+do not inherit an author's comparative spreadsheet. Together, the
+studies strengthen the case that excess form resemblance under these
+screens is not merely an artifact of meaning-matched browsing, of LLM
+memorization, or of word length, while leaving genetic proof to
+systematic sound correspondences and classical reconstruction.
 
 = Appendix
 <appendix>
@@ -1327,10 +1416,15 @@ one-sided #emph[p] = 0.0099.
   `output/attested_judgments_null_blust194_n30.csv`\;
   `output/sinitic_screen_hits.csv`). Algorithmic SCA/NED results:
   `output/algo_permutation_study1.json`,
-  `output/algo_permutation_study2_blust194.json`. Live re-queries
-  against a changed or discontinued `gpt-4.1` endpoint are not
-  guaranteed to match LLM caches bit-for-bit; algorithmic scores are
-  deterministic given LingPy and the frozen inputs.
+  `output/algo_permutation_study2_blust194.json`, and their
+  length-stratified counterparts
+  `output/algo_permutation_study1_length.json`,
+  `output/algo_permutation_study2_blust194_length.json` (produced with
+  `--length-controlled`\; per-slot distances in the matching
+  `algo_judgments_*.csv`). Live re-queries against a changed or
+  discontinued `gpt-4.1` endpoint are not guaranteed to match LLM caches
+  bit-for-bit; algorithmic scores are deterministic given LingPy and the
+  frozen inputs.
 
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>

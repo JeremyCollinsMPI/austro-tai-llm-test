@@ -120,6 +120,7 @@ def cmd_algo_study1(args: argparse.Namespace) -> None:
         seed=args.seed,
         pairs_path=Path(args.pairs) if args.pairs else None,
         output_path=Path(args.output) if args.output else None,
+        length_controlled=args.length_controlled,
     )
 
 
@@ -130,6 +131,7 @@ def cmd_algo_study2(args: argparse.Namespace) -> None:
         core_path=Path(args.core) if args.core else None,
         output_path=Path(args.output) if args.output else None,
         workers=args.workers,
+        length_controlled=args.length_controlled,
     )
 
 
@@ -262,6 +264,11 @@ def main() -> None:
     algo1.add_argument("--permutations", type=int, default=1000)
     algo1.add_argument("--seed", type=int, default=1)
     algo1.add_argument("--output", help="Results JSON path")
+    algo1.add_argument(
+        "--length-controlled",
+        action="store_true",
+        help="Shuffle PAN only within coarse PAN length bands",
+    )
     algo1.set_defaults(func=cmd_algo_study1)
 
     algo2 = sub.add_parser(
@@ -273,6 +280,11 @@ def main() -> None:
     algo2.add_argument("--seed", type=int, default=1)
     algo2.add_argument("--workers", type=int, default=8, help="Process pool size for set-score matrix")
     algo2.add_argument("--output", help="Results JSON path")
+    algo2.add_argument(
+        "--length-controlled",
+        action="store_true",
+        help="Shuffle AN groups only within AN mean-length bands",
+    )
     algo2.set_defaults(func=cmd_algo_study2)
 
     sub.add_parser("report", help="Build markdown report").set_defaults(func=cmd_report)
