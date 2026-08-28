@@ -4,7 +4,7 @@ from __future__ import annotations
 import argparse
 from pathlib import Path
 
-from src.algo_score import run_algo_study1, run_algo_study2
+from src.algo_score import BAND_SCHEMES, run_algo_study1, run_algo_study2
 from src.attested_pilot import build_core_concepts, run_attested_permutation, run_observed_attested
 from src.correspondences import run_correspondence_analysis
 from src.judge import build_judgment_matrix, run_observed_judgment
@@ -121,6 +121,7 @@ def cmd_algo_study1(args: argparse.Namespace) -> None:
         pairs_path=Path(args.pairs) if args.pairs else None,
         output_path=Path(args.output) if args.output else None,
         length_controlled=args.length_controlled,
+        band_scheme=args.band_scheme,
     )
 
 
@@ -132,6 +133,7 @@ def cmd_algo_study2(args: argparse.Namespace) -> None:
         output_path=Path(args.output) if args.output else None,
         workers=args.workers,
         length_controlled=args.length_controlled,
+        band_scheme=args.band_scheme,
     )
 
 
@@ -269,6 +271,12 @@ def main() -> None:
         action="store_true",
         help="Shuffle PAN only within coarse PAN length bands",
     )
+    algo1.add_argument(
+        "--band-scheme",
+        choices=BAND_SCHEMES,
+        default="default",
+        help="Length banding used with --length-controlled (sensitivity check)",
+    )
     algo1.set_defaults(func=cmd_algo_study1)
 
     algo2 = sub.add_parser(
@@ -284,6 +292,12 @@ def main() -> None:
         "--length-controlled",
         action="store_true",
         help="Shuffle AN groups only within AN mean-length bands",
+    )
+    algo2.add_argument(
+        "--band-scheme",
+        choices=BAND_SCHEMES,
+        default="default",
+        help="Length banding used with --length-controlled (sensitivity check)",
     )
     algo2.set_defaults(func=cmd_algo_study2)
 

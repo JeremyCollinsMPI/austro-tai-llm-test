@@ -81,27 +81,40 @@ Under the same Tier A slots and PAN-shuffle null as Study 1, but with LingPy SCA
 
 **Study 1** (79 Tier A pairs; observed SCA mean **0.574**, NED mean **0.730**):
 
-| Metric | Null | Null mean (range) | *z* | One-sided *p* |
-|--------|------|------------------:|----:|-------------:|
-| SCA | unrestricted | 0.768 (0.712–0.814) | −13.4 | 0.001 |
-| SCA | length-banded | 0.752 (0.703–0.800) | −11.4 | 0.001 |
-| NED | unrestricted | 0.906 (0.865–0.938) | −15.0 | 0.001 |
-| NED | length-banded | 0.891 (0.847–0.930) | −11.8 | 0.001 |
+| Metric | Null | Null mean ± SD | Null range | *z* | One-sided *p* |
+|--------|------|---------------:|-----------:|----:|-------------:|
+| SCA | unrestricted | 0.768 ± 0.015 | 0.712–0.814 | −13.4 | 0.001 (1/1001) |
+| SCA | length-banded | 0.752 ± 0.016 | 0.703–0.800 | −11.4 | 0.001 (1/1001) |
+| NED | unrestricted | 0.906 ± 0.012 | 0.865–0.938 | −15.0 | 0.001 (1/1001) |
+| NED | length-banded | 0.891 ± 0.014 | 0.847–0.930 | −11.8 | 0.001 (1/1001) |
 
 Secondary hits at distance ≤ 0.40 behave the same way: SCA **25** observed vs null mean **2.2** unrestricted and **4.4** length-banded (null max 12); NED **13** observed vs **0.3** and **1.2** (null max 5). All four *p* values sit at the add-one floor 1/1001; no null world of either kind matched the observed mean or hit count.
 
 **Study 2** (194 Blust concepts, mean-of-best aggregation; observed SCA mean **0.381**, NED mean **0.620**):
 
-| Metric | Null | Null mean (range) | *z* | One-sided *p* |
-|--------|------|------------------:|----:|-------------:|
-| SCA | unrestricted | 0.398 (0.383–0.410) | −4.1 | 0.001 |
-| SCA | length-banded | 0.394 (0.381–0.407) | −3.3 | 0.002 |
-| NED | unrestricted | 0.636 (0.628–0.645) | −6.2 | 0.001 |
-| NED | length-banded | 0.634 (0.626–0.644) | −5.3 | 0.001 |
+| Metric | Null | Null mean ± SD | Null range | *z* | One-sided *p* |
+|--------|------|---------------:|-----------:|----:|-------------:|
+| SCA | unrestricted | 0.3976 ± 0.0039 | 0.3830–0.4104 | −4.1 | 0.001 (1/1001) |
+| SCA | length-banded | 0.3944 ± 0.0039 | 0.3811–0.4066 | −3.3 | 0.002 (2/1001) |
+| NED | unrestricted | 0.6359 ± 0.0025 | 0.6280–0.6446 | −6.2 | 0.001 (1/1001) |
+| NED | length-banded | 0.6343 ± 0.0026 | 0.6265–0.6436 | −5.3 | 0.001 (1/1001) |
 
 Absolute gaps in Study 2 are small (about 0.016 unrestricted, 0.013–0.014 length-banded), and under the length-banded SCA null one draw of 1000 did edge below the observed mean (null minimum 0.3811 vs observed 0.3814), giving *p* = 2/1001. Secondary SCA hits at ≤ 0.40 are **120** observed vs null means **96.4** (unrestricted) and **99.7** (length-banded), *p* = 0.001 in both cases. The NED ≤ 0.40 cutoff yields **0** observed set-level hits against null means near zero, so that threshold is simply too strict for Study 2’s aggregated modern forms and is uninformative in either direction; the primary claim for Study 2 remains the mean-distance test, which both metrics pass under both nulls.
 
-**Length diagnostics.** Length difference does predict distance, as expected: across the 79 Tier A pairs, |length(PAN) − length(PKD)| correlates *r* = 0.485 with SCA distance and *r* = 0.327 with NED, and in Study 2 the corresponding correlations with |Δ mean length| are *r* = 0.119 and *r* = 0.116. The two studies then differ in whether the published/attested pairing exploits that. In Study 1 it does not: observed mean |Δlength| is **3.68** characters against an unrestricted null mean of **3.71** (*p* = 0.47), i.e. Smith’s alignments are no better length-matched than chance, so the confound had little room to operate; the banded shuffle holds mean |Δlength| exactly at 3.68 in every draw, and the effect duly persists at *z* ≈ −11 to −12. In Study 2 it does: observed mean |Δ mean length| is **1.50** against an unrestricted null mean of **1.58** (*z* = −3.1, *p* = 0.001), so same-meaning concepts genuinely are better length-matched than random ones. Mean-length banding shrinks that imbalance to 1.50 vs **1.53** but does not erase it (*z* = −2.2, *p* = 0.015), so Study 2’s length control is partial rather than complete. Consistent with a real but non-trivial length contribution, controlling length attenuates Study 2’s standardized effects by roughly 15–20% (SCA *z* from −4.1 to −3.3; NED from −6.2 to −5.3) while leaving them significant.
+**Length diagnostics.** Length difference does predict distance, as expected: across the 79 Tier A pairs, |length(PAN) − length(PKD)| correlates *r* = 0.485 with SCA distance and *r* = 0.327 with NED, and in Study 2 the corresponding correlations with |Δ mean length| are *r* = 0.119 and *r* = 0.116. The two studies then differ in whether the published/attested pairing exploits that. In Study 1 it does not: observed mean |Δlength| is **3.68** characters against an unrestricted null mean of **3.71** (*p* = 0.47), i.e. Smith’s alignments are no better length-matched than chance, so the confound had little room to operate; the banded shuffle holds mean |Δlength| at exactly 3.68 in all 1000 draws, and the effect duly persists at *z* ≈ −11 to −12.
+
+That exact invariance is a property of these particular bands rather than a rounding artifact, and it is worth spelling out because coarse bands would not generally produce it. The three largest Tier A bands (lengths 4, 5, 6; 55 of 79 pairs) are **single-length** strata, so permuting within them cannot change any per-slot |Δlength|. In each remaining band the PAN forms are uniformly longer than every PKD form at those slots (bands 7–9, 10–19, ≥ 20) or uniformly no longer (band ≤ 3), so within a band the absolute value never changes sign and |Δlength| sums to a quantity depending only on the two multisets of lengths, both of which the shuffle holds fixed. Numerically, 3000 banded draws yield exactly one distinct value of the mean (3.683544…). Under the quartile scheme below, which deliberately mixes lengths within a stratum, invariance does not hold and mean |Δlength| varies as expected (3.74 ± 0.04). In Study 2 it does: observed mean |Δ mean length| is **1.50** against an unrestricted null mean of **1.58** (*z* = −3.1, *p* = 0.001), so same-meaning concepts genuinely are better length-matched than random ones. Mean-length banding shrinks that imbalance to 1.50 vs **1.53** but does not erase it (*z* = −2.2, *p* = 0.015), so Study 2’s length control is partial rather than complete. Consistent with a real but non-trivial length contribution, controlling length attenuates Study 2’s standardized effects by roughly 15–20% (SCA *z* from −4.1 to −3.3; NED from −6.2 to −5.3) while leaving them significant.
+
+**Band sensitivity.** Because the banding was designed after the unrestricted results were known (§4.8), the boundaries need to be shown not to matter. Re-running both length-controlled tests under a coarse scheme (tail bands merged) and a boundary-free quartile scheme gives:
+
+| Test | Default bands | Coarse bands | Quartile bands |
+|------|--------------:|-------------:|---------------:|
+| Study 1 SCA *z* | −11.4 | −10.8 | −12.2 |
+| Study 1 NED *z* | −11.8 | −11.3 | −12.9 |
+| Study 2 SCA *z* | −3.3 | −3.6 | −3.6 |
+| Study 2 NED *z* | −5.3 | −5.6 | −6.0 |
+
+All eight tests keep *p* at 0.001 except Study 2’s SCA under the two hand-set schemes (0.002). The spread across schemes is small relative to the effects themselves, and the reported default banding is the **most conservative** of the three for Study 2 and intermediate for Study 1 — that is, the boundary choice is not what produces the result, and the version in the tables above is not the flattering one.
 
 Across both studies, then, excess same-slot / same-meaning resemblance is neither unique to the LLM judge nor reducible to word length: Study 1’s algorithmic gaps stay large in *z* terms under a null that reproduces its length profile exactly, while Study 2’s are modest, attenuate somewhat under length control, and survive it.
 

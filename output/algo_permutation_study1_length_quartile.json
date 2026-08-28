@@ -1,0 +1,70 @@
+{
+  "study": 1,
+  "length_controlled": true,
+  "band_scheme": "quartile",
+  "length_band_definition": "PAN length quartiles (data-driven cut points)",
+  "pan_length_band_counts": {
+    "q0": 20,
+    "q1": 20,
+    "q2": 20,
+    "q3": 19
+  },
+  "n_pairs": 79,
+  "n_permutations": 1000,
+  "seed": 1,
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.5736219855462708,
+    "null_mean": 0.7590249612312628,
+    "null_median": 0.7598620662721155,
+    "null_min": 0.7157031026607735,
+    "null_max": 0.8081846770345644,
+    "null_sd": 0.015235313258454583,
+    "z": -12.169291995496437,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.7302824929407208,
+    "null_mean": 0.8970991147448426,
+    "null_median": 0.8972675501947653,
+    "null_min": 0.8579402108674261,
+    "null_max": 0.9365296389030566,
+    "null_sd": 0.012971994795293974,
+    "z": -12.859750904667349,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 25.0,
+    "null_mean": 3.24,
+    "null_median": 3.0,
+    "null_min": 0.0,
+    "null_max": 9.0,
+    "null_sd": 1.6859418732566078,
+    "z": 12.906732044069724,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 13.0,
+    "null_mean": 0.804,
+    "null_median": 1.0,
+    "null_min": 0.0,
+    "null_max": 4.0,
+    "null_sd": 0.8411801233980746,
+    "z": 14.49867829821324,
+    "p_value": 0.000999000999000999
+  },
+  "mean_abs_delta_len": {
+    "observed": 3.6835443037974684,
+    "null_mean": 3.7432151898734176,
+    "null_median": 3.7341772151898733,
+    "null_min": 3.632911392405063,
+    "null_max": 3.8607594936708862,
+    "null_sd": 0.03805519734786657,
+    "z": -1.5680088459531905,
+    "p_value": 0.1088911088911089
+  },
+  "observed_corr_sca_vs_abs_delta_len": 0.4847903210861467,
+  "observed_corr_ned_vs_abs_delta_len": 0.32747364582413757,
+  "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1_length_quartile.csv"
+}

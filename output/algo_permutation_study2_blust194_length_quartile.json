@@ -1,0 +1,73 @@
+{
+  "study": 2,
+  "length_controlled": true,
+  "band_scheme": "quartile",
+  "length_band_definition": "AN group mean-length quartiles (data-driven cut points)",
+  "an_length_band_counts": {
+    "q0": 49,
+    "q1": 48,
+    "q2": 49,
+    "q3": 48
+  },
+  "n_concepts": 194,
+  "n_permutations": 1000,
+  "seed": 1,
+  "core_path": "data/attested_pilot/core_concepts_blust.tsv",
+  "aggregation": "mean_of_per_tk_best_an_match",
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.38142195656587663,
+    "null_mean": 0.39495914408397315,
+    "null_median": 0.3949937803629639,
+    "null_min": 0.3817722035239722,
+    "null_max": 0.4057628731988534,
+    "null_sd": 0.003816249989134609,
+    "z": -3.5472486227680995,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.6203443229451913,
+    "null_mean": 0.6350142469835806,
+    "null_median": 0.6350474265933086,
+    "null_min": 0.627166845856405,
+    "null_max": 0.642328564100889,
+    "null_sd": 0.0024642780791917416,
+    "z": -5.95303109752974,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 120.0,
+    "null_mean": 97.81,
+    "null_median": 98.0,
+    "null_min": 81.0,
+    "null_max": 117.0,
+    "null_sd": 5.307720791450884,
+    "z": 4.18070220192089,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 0.0,
+    "null_mean": 0.151,
+    "null_median": 0.0,
+    "null_min": 0.0,
+    "null_max": 2.0,
+    "null_sd": 0.3849662322853785,
+    "z": -0.3922421951233959,
+    "p_value": 1.0
+  },
+  "mean_abs_delta_mean_len": {
+    "observed": 1.5005322353917336,
+    "null_mean": 1.533836521619001,
+    "null_median": 1.533304916076446,
+    "null_min": 1.5012599491576524,
+    "null_max": 1.5668266224550191,
+    "null_sd": 0.011324255317502812,
+    "z": -2.940969211087303,
+    "p_value": 0.000999000999000999
+  },
+  "observed_corr_sca_vs_abs_delta_mean_len": 0.11876749608714694,
+  "observed_corr_ned_vs_abs_delta_mean_len": 0.11604938980236473,
+  "matrix_cache_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_study2_blust194_mats.npz",
+  "observed_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study2_blust194_length_quartile.csv"
+}

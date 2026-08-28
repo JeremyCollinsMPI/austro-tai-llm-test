@@ -1,0 +1,72 @@
+{
+  "study": 1,
+  "length_controlled": true,
+  "band_scheme": "coarse",
+  "length_band_definition": "PAN bands le3/4/5/6/7to19/ge20 (long tail merged)",
+  "pan_length_band_counts": {
+    "4": 19,
+    "5": 29,
+    "6": 7,
+    "7to19": 14,
+    "ge20": 5,
+    "le3": 5
+  },
+  "n_pairs": 79,
+  "n_permutations": 1000,
+  "seed": 1,
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.5736219855462708,
+    "null_mean": 0.7497138191561704,
+    "null_median": 0.7502544716469337,
+    "null_min": 0.7040386467989408,
+    "null_max": 0.7914949697500911,
+    "null_sd": 0.016366387993780172,
+    "z": -10.759358367699765,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.7302824929407208,
+    "null_mean": 0.8902909648280692,
+    "null_median": 0.8909043078346877,
+    "null_min": 0.8383249808091581,
+    "null_max": 0.9260636047028452,
+    "null_sd": 0.01410926949181702,
+    "z": -11.340663099542388,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 25.0,
+    "null_mean": 4.433,
+    "null_median": 4.0,
+    "null_min": 0.0,
+    "null_max": 11.0,
+    "null_sd": 1.8967105735984076,
+    "z": 10.843509962081685,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 13.0,
+    "null_mean": 1.096,
+    "null_median": 1.0,
+    "null_min": 0.0,
+    "null_max": 5.0,
+    "null_sd": 0.9893351302768946,
+    "z": 12.032323158956576,
+    "p_value": 0.000999000999000999
+  },
+  "mean_abs_delta_len": {
+    "observed": 3.6835443037974684,
+    "null_mean": 3.6835443037974684,
+    "null_median": 3.6835443037974684,
+    "null_min": 3.6835443037974684,
+    "null_max": 3.6835443037974684,
+    "null_sd": 0.0,
+    "z": NaN,
+    "p_value": 1.0
+  },
+  "observed_corr_sca_vs_abs_delta_len": 0.4847903210861467,
+  "observed_corr_ned_vs_abs_delta_len": 0.32747364582413757,
+  "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1_length_coarse.csv"
+}

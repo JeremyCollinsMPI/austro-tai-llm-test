@@ -1,6 +1,8 @@
 # References
 
-Baxter, William H. & Alexis Manaster Ramer. 2000. Beyond lumping and splitting: Probabilistic issues in historical linguistics. In Colin Renfrew, April McMahon & Larry Trask (eds.), *Time depth in historical linguistics*, 167–188. Cambridge: McDonald Institute for Archaeological Research.
+Baxter, William H. & Alexis Manaster Ramer. 2000. Beyond lumping and splitting: Probabilistic issues in historical linguistics. In Colin Renfrew, April McMahon & Larry Trask (eds.), *Time depth in historical linguistics*, vol. 1, 167–188. Cambridge: McDonald Institute for Archaeological Research.
+
+Blum, Frederic, Carlos Barrientos, Johannes Englisch, Robert Forkel, Simon J. Greenhill, Christoph Rzymski & Johann-Mattis List. 2025. Lexibank 2: Pre-computed features for large-scale lexical data. *Open Research Europe* 5(126). 1–27. https://doi.org/10.12688/openreseurope.20216.2 (Dataset release used here: `lexibank-analysed` v2.2.)
 
 Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in southeastern Asia. *American Anthropologist* 44(4). 576–601.
 
@@ -14,15 +16,15 @@ Kessler, Brett. 2001. *The significance of word lists*. Stanford: CSLI Publicati
 
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai perspective. *Diachronica* 42(3/4). 382–405. https://doi.org/10.1075/dia.24028.lia
 
-List, Johann-Mattis & Robert Forkel. 2021. *LingPy. A Python library for quantitative tasks in historical linguistics* (Version 2.6). Max Planck Institute for Evolutionary Anthropology. https://doi.org/10.5281/zenodo.597082
+List, Johann-Mattis & Robert Forkel. 2024. *LingPy. A Python library for historical linguistics* (Version 2.6.14). Passau: University of Passau. https://doi.org/10.5281/zenodo.597082
 
-List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public repository of standardized wordlists of about 2000 language varieties. *Scientific Data* 9. 316. (Lexibank analysed release used here: v2.2.)
+List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public repository of standardized wordlists with computed phonological and lexical features. *Scientific Data* 9. 316. https://doi.org/10.1038/s41597-022-01432-0
 
 Ostapirat, Weera. 2005. Kra–Dai and Austronesian: Notes on phonological correspondences and vocabulary distribution. In Laurent Sagart, Roger Blench & Alicia Sanchez-Mazas (eds.), *The peopling of East Asia*, 107–131. London: RoutledgeCurzon.
 
 Ostapirat, Weera. 2013. Austro-Tai revisited. Plenary handout, 23rd Annual Meeting of the Southeast Asian Linguistics Society (SEALS 23), Chulalongkorn University, Bangkok, 29–31 May 2013. http://jseals.org/seals23/ostapirat2013austro-taih.pdf
 
-Oswalt, Robert L. 1970. The detection of remote linguistic relationships. *Computer Studies in the Humanities and Verbal Behavior* 3. 117–129.
+Oswalt, Robert L. 1970. The detection of remote linguistic relationships. *Computer Studies in the Humanities and Verbal Behavior* 3(3). 117–129.
 
 Ringe, Don. 1992. On calculating the factor of chance in language comparison. *Transactions of the American Philosophical Society* 82(1). 1–110.
 

@@ -147,6 +147,69 @@ def an_group_length_band(mean_len: float) -> str:
     return "ge8"
 
 
+BAND_SCHEMES = ("default", "coarse", "quartile")
+
+_BAND_DEFINITIONS = {
+    1: {
+        "default": "PAN coarse bands le3/4/5/6/7to9/10to19/ge20",
+        "coarse": "PAN bands le3/4/5/6/7to19/ge20 (long tail merged)",
+        "quartile": "PAN length quartiles (data-driven cut points)",
+    },
+    2: {
+        "default": "AN group mean-length bands le4/5/6/7/ge8",
+        "coarse": "AN group mean-length bands le5/6/ge7 (tails merged)",
+        "quartile": "AN group mean-length quartiles (data-driven cut points)",
+    },
+}
+
+
+def _length_suffix(length_controlled: bool, band_scheme: str) -> str:
+    if not length_controlled:
+        return ""
+    if band_scheme not in BAND_SCHEMES:
+        raise ValueError(f"unknown band scheme: {band_scheme}")
+    return "_length" if band_scheme == "default" else f"_length_{band_scheme}"
+
+
+def _quartile_bands(values: list[float]) -> list[str]:
+    """Assign each value to a quartile of the observed length distribution.
+
+    Boundary-free alternative to hand-set bands: cut points come from the data,
+    not from a judgement about where a natural break lies.
+    """
+    order = sorted(range(len(values)), key=lambda i: values[i])
+    bands = [""] * len(values)
+    for rank, index in enumerate(order):
+        bands[index] = f"q{min(3, rank * 4 // len(values))}"
+    return bands
+
+
+def pan_length_bands(lengths: list[int], scheme: str = "default") -> list[str]:
+    if scheme == "default":
+        return [pan_length_band(x) for x in lengths]
+    if scheme == "coarse":
+        # Merge the two long-tail bands; the widest plausible grouping that
+        # still separates short from long PAN forms.
+        return [
+            "7to19" if band in {"7to9", "10to19"} else band
+            for band in (pan_length_band(x) for x in lengths)
+        ]
+    if scheme == "quartile":
+        return _quartile_bands([float(x) for x in lengths])
+    raise ValueError(f"unknown band scheme: {scheme}")
+
+
+def an_group_length_bands(mean_lens: list[float], scheme: str = "default") -> list[str]:
+    if scheme == "default":
+        return [an_group_length_band(x) for x in mean_lens]
+    if scheme == "coarse":
+        merge = {"le4": "le5", "5": "le5", "7": "ge7", "ge8": "ge7"}
+        return [merge.get(b, b) for b in (an_group_length_band(x) for x in mean_lens)]
+    if scheme == "quartile":
+        return _quartile_bands(list(mean_lens))
+    raise ValueError(f"unknown band scheme: {scheme}")
+
+
 def permute_within_bands(values: list, bands: list[str], rng: random.Random) -> list:
     """Permute values among indices that share the same band label."""
     if len(values) != len(bands):
@@ -225,9 +288,11 @@ def run_algo_study1(
     pairs_path: Path | None = None,
     output_path: Path | None = None,
     length_controlled: bool = False,
+    band_scheme: str = "default",
 ) -> dict[str, object]:
     pairs = read_eligible_pairs(pairs_path)
-    mode = "length-controlled" if length_controlled else "unrestricted"
+    suffix = _length_suffix(length_controlled, band_scheme)
+    mode = f"length-controlled/{band_scheme}" if length_controlled else "unrestricted"
     print(f"Algo Study 1 ({mode}): {len(pairs)} Tier A pairs; N={n_permutations}")
 
     observed_rows: list[dict[str, object]] = []
@@ -268,7 +333,7 @@ def run_algo_study1(
 
     pans = [pair.pan for pair in pairs]
     pkds = [pair.pkd for pair in pairs]
-    pan_bands = [pan_length_band(form_length(pan)) for pan in pans]
+    pan_bands = pan_length_bands([form_length(pan) for pan in pans], band_scheme)
     band_counts = {b: pan_bands.count(b) for b in sorted(set(pan_bands))}
     print(f"  PAN length bands: {band_counts}")
 
@@ -319,7 +384,8 @@ def run_algo_study1(
     result: dict[str, object] = {
         "study": 1,
         "length_controlled": length_controlled,
-        "length_band_definition": "PAN coarse bands le3/4/5/6/7to9/10to19/ge20",
+        "band_scheme": band_scheme,
+        "length_band_definition": _BAND_DEFINITIONS[1][band_scheme],
         "pan_length_band_counts": band_counts,
         "n_pairs": len(pairs),
         "n_permutations": n_permutations,
@@ -333,9 +399,7 @@ def run_algo_study1(
         "mean_abs_delta_len": _summarize_null(obs_mean_dlen, null_mean_dlen, lower_is_better=True),
         "observed_corr_sca_vs_abs_delta_len": corr_sca_dlen,
         "observed_corr_ned_vs_abs_delta_len": corr_ned_dlen,
-        "observed_pair_rows_path": str(
-            OUTPUT_DIR / ("algo_judgments_study1_length.csv" if length_controlled else "algo_judgments_study1.csv")
-        ),
+        "observed_pair_rows_path": str(OUTPUT_DIR / f"algo_judgments_study1{suffix}.csv"),
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -346,9 +410,7 @@ def run_algo_study1(
         writer.writerows(observed_rows)
 
     if output_path is None:
-        output_path = OUTPUT_DIR / (
-            "algo_permutation_study1_length.json" if length_controlled else "algo_permutation_study1.json"
-        )
+        output_path = OUTPUT_DIR / f"algo_permutation_study1{suffix}.json"
     output_path.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(f"Wrote {rows_path}")
     print(f"Wrote {output_path}")
@@ -384,6 +446,7 @@ def run_algo_study2(
     workers: int = 8,
     length_controlled: bool = False,
     matrix_cache_path: Path | None = None,
+    band_scheme: str = "default",
 ) -> dict[str, object]:
     import numpy as np
 
@@ -391,7 +454,8 @@ def run_algo_study2(
     matrix_cache_path = matrix_cache_path or (OUTPUT_DIR / "algo_study2_blust194_mats.npz")
     prepared = prepare_concept_samples(force=False, core_path=core_path)
     n = len(prepared)
-    mode = "length-controlled" if length_controlled else "unrestricted"
+    suffix = _length_suffix(length_controlled, band_scheme)
+    mode = f"length-controlled/{band_scheme}" if length_controlled else "unrestricted"
     print(f"Algo Study 2 ({mode}): {n} concepts")
 
     tk_groups = [_extract_forms(list(item["tk_forms"])) for item in prepared]
@@ -399,7 +463,7 @@ def run_algo_study2(
     concept_ids = [str(item["concept_id"]) for item in prepared]
     tk_mean_lens = [mean_form_length(g) for g in tk_groups]
     an_mean_lens = [mean_form_length(g) for g in an_groups]
-    an_bands = [an_group_length_band(m) for m in an_mean_lens]
+    an_bands = an_group_length_bands(an_mean_lens, band_scheme)
     band_counts = {b: an_bands.count(b) for b in sorted(set(an_bands))}
     print(f"  AN mean-length bands: {band_counts}")
 
@@ -512,7 +576,8 @@ def run_algo_study2(
     result: dict[str, object] = {
         "study": 2,
         "length_controlled": length_controlled,
-        "length_band_definition": "AN group mean-length bands le4/5/6/7/ge8",
+        "band_scheme": band_scheme,
+        "length_band_definition": _BAND_DEFINITIONS[2][band_scheme],
         "an_length_band_counts": band_counts,
         "n_concepts": n,
         "n_permutations": n_permutations,
@@ -529,14 +594,7 @@ def run_algo_study2(
         "observed_corr_sca_vs_abs_delta_mean_len": corr_sca_dlen,
         "observed_corr_ned_vs_abs_delta_mean_len": corr_ned_dlen,
         "matrix_cache_path": str(matrix_cache_path),
-        "observed_rows_path": str(
-            OUTPUT_DIR
-            / (
-                "algo_judgments_study2_blust194_length.csv"
-                if length_controlled
-                else "algo_judgments_study2_blust194.csv"
-            )
-        ),
+        "observed_rows_path": str(OUTPUT_DIR / f"algo_judgments_study2_blust194{suffix}.csv"),
     }
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -547,11 +605,7 @@ def run_algo_study2(
         writer.writerows(observed_rows)
 
     if output_path is None:
-        output_path = OUTPUT_DIR / (
-            "algo_permutation_study2_blust194_length.json"
-            if length_controlled
-            else "algo_permutation_study2_blust194.json"
-        )
+        output_path = OUTPUT_DIR / f"algo_permutation_study2_blust194{suffix}.json"
     output_path.write_text(json.dumps(result, indent=2), encoding="utf-8")
     print(f"Wrote {rows_path}")
     print(f"Wrote {output_path}")

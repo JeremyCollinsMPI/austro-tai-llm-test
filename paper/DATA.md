@@ -10,7 +10,7 @@ I treat the package as a **published evidence inventory**, not as a consensus re
 
 ## 3.2 Lexibank modern forms
 
-Modern forms used to audit reconstructions come from Lexibank 2 (List et al. 2022), specifically the `lexibank-analysed` release **v2.2**. Forms are Concepticon-linked. I map each Smith gloss to a Lexibank concept ID with an explicit dictionary (no fuzzy string matching). Unmapped glosses are coverage gaps.
+Modern forms used to audit reconstructions come from Lexibank 2 (List et al. 2022; Blum et al. 2025), specifically the `lexibank-analysed` release **v2.2**. Forms are Concepticon-linked. I map each Smith gloss to a Lexibank concept ID with an explicit dictionary (no fuzzy string matching). Unmapped glosses are coverage gaps.
 
 - **Tai-Kadai side.** For PKD attestation I use **all** Lexibank forms whose language is classified as Tai-Kadai for the mapped concept.
 - **Austronesian side.** Lexibank includes on the order of **978** Austronesian languages. Using every form for every concept would be costly and would overweight Oceanic. I therefore assign each Lexibank Austronesian language a coarse Glottolog-derived clade (Hammarström et al. 2024; Formosan; Western Malayo-Polynesian; South Halmahera–West New Guinea; Oceanic) and draw a **phylogenetically stratified** sample of up to **80** languages per concept (floors 12 / 20 / 8 / 20 across those clades where available; at most one form per language; remainder filled by round-robin). Details of sampling and attestation prompts are in §4.

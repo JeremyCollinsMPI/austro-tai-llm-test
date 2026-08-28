@@ -74,9 +74,10 @@ object of evaluation: how much form resemblance remains, and how
 surprising is it, after weakly attested reconstructions are set aside?
 #strong[Study 2] asks a stricter follow-up that does not depend on any
 reconstruction package: among well-attested Lexibank concepts (List et
-al.~2022), do #strong[groups of modern Tai-Kadai and Austronesian forms]
-for the #emph[same] meaning show more shape resemblance than form groups
-for #emph[mismatched] meanings under a meaning-blind screen?
+al.~2022; Blum et al.~2025), do #strong[groups of modern Tai-Kadai and
+Austronesian forms] for the #emph[same] meaning show more shape
+resemblance than form groups for #emph[mismatched] meanings under a
+meaning-blind screen?
 
 Study 1 has two layers. #strong[Layer 1] scores each reconstruction
 against modern Lexibank forms (all Tai-Kadai daughters for PKD; a
@@ -278,10 +279,10 @@ in §2.2.
 == 3.2 Lexibank modern forms
 <lexibank-modern-forms>
 Modern forms used to audit reconstructions come from Lexibank 2 (List et
-al.~2022), specifically the `lexibank-analysed` release #strong[v2.2].
-Forms are Concepticon-linked. I map each Smith gloss to a Lexibank
-concept ID with an explicit dictionary (no fuzzy string matching).
-Unmapped glosses are coverage gaps.
+al.~2022; Blum et al.~2025), specifically the `lexibank-analysed`
+release #strong[v2.2]. Forms are Concepticon-linked. I map each Smith
+gloss to a Lexibank concept ID with an explicit dictionary (no fuzzy
+string matching). Unmapped glosses are coverage gaps.
 
 - #strong[Tai-Kadai side.] For PKD attestation I use #strong[all]
   Lexibank forms whose language is classified as Tai-Kadai for the
@@ -377,15 +378,15 @@ counts as descriptive metadata but do not use them as the primary filter
 for Tier A membership.
 
 Modern forms come from Lexibank 2 (`lexibank-analysed` v2.2; List et
-al.~2022). Each Smith gloss was mapped to a Lexibank concept ID by an
-explicit dictionary (no fuzzy string matching). For Proto-Kra-Dai
-validation I used all Lexibank forms whose language is classified as
-Tai-Kadai. For Proto-Austronesian validation, Lexibank contains on the
-order of #strong[978] Austronesian languages; sending every form is
-impractical and would overweight Oceanic. I therefore built a
-Glottolog-derived coarse clade label for each Lexibank Austronesian
-language (Hammarström et al.~2024; Formosan; Western Malayo-Polynesian;
-South Halmahera--West New Guinea; Oceanic) and drew a
+al.~2022; Blum et al.~2025). Each Smith gloss was mapped to a Lexibank
+concept ID by an explicit dictionary (no fuzzy string matching). For
+Proto-Kra-Dai validation I used all Lexibank forms whose language is
+classified as Tai-Kadai. For Proto-Austronesian validation, Lexibank
+contains on the order of #strong[978] Austronesian languages; sending
+every form is impractical and would overweight Oceanic. I therefore
+built a Glottolog-derived coarse clade label for each Lexibank
+Austronesian language (Hammarström et al.~2024; Formosan; Western
+Malayo-Polynesian; South Halmahera--West New Guinea; Oceanic) and drew a
 #strong[phylogenetically stratified sample] of up to #strong[80]
 languages per concept, with floors of 12 Formosan, 20 Western MP, 8
 SHWNG, and 20 Oceanic where available (at most one form per language),
@@ -580,7 +581,7 @@ permutation results. Machine-readable scores:
 The LLM screen is the primary analysis. As a #strong[non-memorizing]
 parallel check against training-data contamination, I recomputed the
 same permutation designs with deterministic string distances from LingPy
-(List & Forkel 2021): #strong[Sound-Class Algorithm (SCA)] distance
+(List & Forkel 2024): #strong[Sound-Class Algorithm (SCA)] distance
 (primary) and #strong[normalized edit distance (NED)] (backup). Forms
 were lightly normalized before scoring (lowercase; strip tone digits,
 common separators, and bracket/asterisk characters), matching the spirit
@@ -598,12 +599,13 @@ separately, and cover symbols are #strong[not] treated as wildcards (so
 one concatenated string. The LLM Study 1 judge, by contrast, sees the
 #strong[raw] published PAN and PKD strings (including that markup).
 These choices, and the 0.40 secondary cutoffs, were written into
-`normalize_algo_form` and the scoring commands in the first algorithmic
-commit (`d31e8ff` in the companion repo) and have not been edited since,
-so they were fixed before any algorithmic result was inspected; the two
-later commits change only prose, diagnostics, and the length-stratified
-null. The rules can inflate or deflate particular pairwise distances,
-but they apply equally to observed and null pairings.
+`normalize_algo_form` and the scoring commands in commit `d31e8ff`
+(included in companion-repo release `v1.0`) and have not been edited
+since, so they were fixed before any algorithmic result was inspected;
+the two later commits change only prose, diagnostics, and the
+length-stratified null. The rules can inflate or deflate particular
+pairwise distances, but they apply equally to observed and null
+pairings.
 
 #strong[Study 1.] For each Tier A PAN--PKD pair I recorded SCA and NED
 distances, then shuffled PAN forms across PKD slots (#strong[1000]
@@ -657,6 +659,20 @@ difference in observed versus null pairings; the latter shows how
 completely each banding scheme neutralizes the confound. Length control
 necessarily reduces the number of admissible permutations, so it is a
 conservative test rather than a strictly better one.
+
+Band boundaries are a researcher degree of freedom, and one worth
+flagging plainly: unlike the normalization and cutoffs above, the
+length-stratified null was added after the unrestricted results were
+known, so the boundaries were necessarily set with those results in
+view. They were chosen for feasibility rather than outcome --- many
+exact Tier A lengths are singletons, and a singleton stratum has nothing
+to permute --- but that is a claim about my intent, not evidence. The
+check on it is sensitivity: I re-ran both length-controlled tests under
+two alternative schemes, a #strong[coarse] one merging the tail bands
+(Study 1: 7--19, ≥ 20; Study 2: ≤ 5 / 6 / ≥ 7) and a boundary-free
+#strong[quartile] scheme that cuts each length distribution into four
+equal-sized strata, so that no hand-set cut point is involved at all
+(`--band-scheme coarse|quartile`).
 
 These algorithmic screens do not replace the LLM results and do not
 claim cognacy; they ask whether excess same-slot / same-meaning
@@ -876,15 +892,19 @@ mean #strong[0.730]):
 
 #figure(
   align(center)[#table(
-    columns: 5,
-    align: (auto,auto,right,right,right,),
-    table.header([Metric], [Null], [Null mean
-      (range)], [#emph[z]], [One-sided #emph[p]],),
+    columns: (13.11%, 9.84%, 26.23%, 19.67%, 8.2%, 22.95%),
+    align: (auto,auto,right,right,right,right,),
+    table.header([Metric], [Null], [Null mean ± SD], [Null
+      range], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [unrestricted], [0.768 (0.712--0.814)], [−13.4], [0.001],
-    [SCA], [length-banded], [0.752 (0.703--0.800)], [−11.4], [0.001],
-    [NED], [unrestricted], [0.906 (0.865--0.938)], [−15.0], [0.001],
-    [NED], [length-banded], [0.891 (0.847--0.930)], [−11.8], [0.001],
+    [SCA], [unrestricted], [0.768 ±
+    0.015], [0.712--0.814], [−13.4], [0.001 (1/1001)],
+    [SCA], [length-banded], [0.752 ±
+    0.016], [0.703--0.800], [−11.4], [0.001 (1/1001)],
+    [NED], [unrestricted], [0.906 ±
+    0.012], [0.865--0.938], [−15.0], [0.001 (1/1001)],
+    [NED], [length-banded], [0.891 ±
+    0.014], [0.847--0.930], [−11.8], [0.001 (1/1001)],
   )]
   , kind: table
   )
@@ -901,15 +921,19 @@ SCA mean #strong[0.381], NED mean #strong[0.620]):
 
 #figure(
   align(center)[#table(
-    columns: 5,
-    align: (auto,auto,right,right,right,),
-    table.header([Metric], [Null], [Null mean
-      (range)], [#emph[z]], [One-sided #emph[p]],),
+    columns: (13.11%, 9.84%, 26.23%, 19.67%, 8.2%, 22.95%),
+    align: (auto,auto,right,right,right,right,),
+    table.header([Metric], [Null], [Null mean ± SD], [Null
+      range], [#emph[z]], [One-sided #emph[p]],),
     table.hline(),
-    [SCA], [unrestricted], [0.398 (0.383--0.410)], [−4.1], [0.001],
-    [SCA], [length-banded], [0.394 (0.381--0.407)], [−3.3], [0.002],
-    [NED], [unrestricted], [0.636 (0.628--0.645)], [−6.2], [0.001],
-    [NED], [length-banded], [0.634 (0.626--0.644)], [−5.3], [0.001],
+    [SCA], [unrestricted], [0.3976 ±
+    0.0039], [0.3830--0.4104], [−4.1], [0.001 (1/1001)],
+    [SCA], [length-banded], [0.3944 ±
+    0.0039], [0.3811--0.4066], [−3.3], [0.002 (2/1001)],
+    [NED], [unrestricted], [0.6359 ±
+    0.0025], [0.6280--0.6446], [−6.2], [0.001 (1/1001)],
+    [NED], [length-banded], [0.6343 ±
+    0.0026], [0.6265--0.6436], [−5.3], [0.001 (1/1001)],
   )]
   , kind: table
   )
@@ -935,18 +959,60 @@ in whether the published/attested pairing exploits that. In Study 1 it
 does not: observed mean |Δlength| is #strong[3.68] characters against an
 unrestricted null mean of #strong[3.71] (#emph[p] = 0.47), i.e.~Smith's
 alignments are no better length-matched than chance, so the confound had
-little room to operate; the banded shuffle holds mean |Δlength| exactly
-at 3.68 in every draw, and the effect duly persists at #emph[z] ≈ −11 to
-−12. In Study 2 it does: observed mean |Δ mean length| is #strong[1.50]
-against an unrestricted null mean of #strong[1.58] (#emph[z] = −3.1,
-#emph[p] = 0.001), so same-meaning concepts genuinely are better
-length-matched than random ones. Mean-length banding shrinks that
-imbalance to 1.50 vs #strong[1.53] but does not erase it (#emph[z] =
-−2.2, #emph[p] = 0.015), so Study 2's length control is partial rather
-than complete. Consistent with a real but non-trivial length
+little room to operate; the banded shuffle holds mean |Δlength| at
+exactly 3.68 in all 1000 draws, and the effect duly persists at #emph[z]
+≈ −11 to −12.
+
+That exact invariance is a property of these particular bands rather
+than a rounding artifact, and it is worth spelling out because coarse
+bands would not generally produce it. The three largest Tier A bands
+(lengths 4, 5, 6; 55 of 79 pairs) are #strong[single-length] strata, so
+permuting within them cannot change any per-slot |Δlength|. In each
+remaining band the PAN forms are uniformly longer than every PKD form at
+those slots (bands 7--9, 10--19, ≥ 20) or uniformly no longer (band ≤
+3), so within a band the absolute value never changes sign and |Δlength|
+sums to a quantity depending only on the two multisets of lengths, both
+of which the shuffle holds fixed. Numerically, 3000 banded draws yield
+exactly one distinct value of the mean (3.683544…). Under the quartile
+scheme below, which deliberately mixes lengths within a stratum,
+invariance does not hold and mean |Δlength| varies as expected (3.74 ±
+0.04). In Study 2 it does: observed mean |Δ mean length| is
+#strong[1.50] against an unrestricted null mean of #strong[1.58]
+(#emph[z] = −3.1, #emph[p] = 0.001), so same-meaning concepts genuinely
+are better length-matched than random ones. Mean-length banding shrinks
+that imbalance to 1.50 vs #strong[1.53] but does not erase it (#emph[z]
+\= −2.2, #emph[p] = 0.015), so Study 2's length control is partial
+rather than complete. Consistent with a real but non-trivial length
 contribution, controlling length attenuates Study 2's standardized
 effects by roughly 15--20% (SCA #emph[z] from −4.1 to −3.3; NED from
 −6.2 to −5.3) while leaving them significant.
+
+#strong[Band sensitivity.] Because the banding was designed after the
+unrestricted results were known (§4.8), the boundaries need to be shown
+not to matter. Re-running both length-controlled tests under a coarse
+scheme (tail bands merged) and a boundary-free quartile scheme gives:
+
+#figure(
+  align(center)[#table(
+    columns: 4,
+    align: (auto,right,right,right,),
+    table.header([Test], [Default bands], [Coarse bands], [Quartile
+      bands],),
+    table.hline(),
+    [Study 1 SCA #emph[z]], [−11.4], [−10.8], [−12.2],
+    [Study 1 NED #emph[z]], [−11.8], [−11.3], [−12.9],
+    [Study 2 SCA #emph[z]], [−3.3], [−3.6], [−3.6],
+    [Study 2 NED #emph[z]], [−5.3], [−5.6], [−6.0],
+  )]
+  , kind: table
+  )
+
+All eight tests keep #emph[p] at 0.001 except Study 2's SCA under the
+two hand-set schemes (0.002). The spread across schemes is small
+relative to the effects themselves, and the reported default banding is
+the #strong[most conservative] of the three for Study 2 and intermediate
+for Study 1 --- that is, the boundary choice is not what produces the
+result, and the version in the tables above is not the flattering one.
 
 Across both studies, then, excess same-slot / same-meaning resemblance
 is neither unique to the LLM judge nor reducible to word length: Study
@@ -1106,6 +1172,10 @@ length-driven. And length is only the most tractable word-shape
 variable: canonical syllable structure, consonant inventory frequencies,
 and phonotactic templates are not controlled here, and a shuffle that
 preserved those too would be a stricter test than any run in this paper.
+One indirect reassurance for Study 1: since its alignments turn out to
+be no better length-matched than chance (#emph[p] = 0.47), they were
+evidently not shape-selected in the crudest available way, which lowers
+the prior on subtler shape confounds somewhat without testing them.
 
 #strong[Lexibank and sampling.] Coverage is uneven across concepts and
 subgroups. Stratified samples avoid Oceanic overweighting but can miss
@@ -1402,9 +1472,9 @@ one-sided #emph[p] = 0.0099.
   #link("https://doi.org/10.5281/zenodo.15597357")[10.5281/zenodo.15597357],
   release v1.1 (#emph[Austro-Tai comparative dataset
   (Reconstructions)]).
-- #strong[Lexibank 2:] List et al.~(2022); `lexibank-analysed` v2.2
-  (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as
-  described in §3--4).
+- #strong[Lexibank 2:] List et al.~(2022) and Blum et al.~(2025);
+  `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and
+  Austronesian subsets as described in §3--4).
 - #strong[Blust / ABVD concept list:] Concepticon contribution
   Blust-2008-210 (Greenhill, Blust & Gray 2008).
 - #strong[Analysis code and frozen outputs:]
@@ -1424,10 +1494,12 @@ one-sided #emph[p] = 0.0099.
   `output/algo_permutation_study1_length.json`,
   `output/algo_permutation_study2_blust194_length.json` (produced with
   `--length-controlled`\; per-slot distances in the matching
-  `algo_judgments_*.csv`). Live re-queries against a changed or
-  discontinued `gpt-4.1` endpoint are not guaranteed to match LLM caches
-  bit-for-bit; algorithmic scores are deterministic given LingPy and the
-  frozen inputs.
+  `algo_judgments_*.csv`), plus the band-sensitivity runs
+  `*_length_coarse.json` and `*_length_quartile.json`
+  (`--band-scheme coarse|quartile`). Live re-queries against a changed
+  or discontinued `gpt-4.1` endpoint are not guaranteed to match LLM
+  caches bit-for-bit; algorithmic scores are deterministic given LingPy
+  and the frozen inputs.
 
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>
@@ -1511,8 +1583,15 @@ etymology; full reasons: `output/sinitic_screen_hits.csv`.
 Baxter, William H. & Alexis Manaster Ramer. 2000. Beyond lumping and
 splitting: Probabilistic issues in historical linguistics. In Colin
 Renfrew, April McMahon & Larry Trask (eds.), #emph[Time depth in
-historical linguistics], 167--188. Cambridge: McDonald Institute for
-Archaeological Research.
+historical linguistics], vol.~1, 167--188. Cambridge: McDonald Institute
+for Archaeological Research.
+
+Blum, Frederic, Carlos Barrientos, Johannes Englisch, Robert Forkel,
+Simon J. Greenhill, Christoph Rzymski & Johann-Mattis List. 2025.
+Lexibank 2: Pre-computed features for large-scale lexical data.
+#emph[Open Research Europe] 5(126). 1--27.
+https:/\/doi.org/10.12688/openreseurope.20216.2 (Dataset release used
+here: `lexibank-analysed` v2.2.)
 
 Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in
 southeastern Asia. #emph[American Anthropologist] 44(4). 576--601.
@@ -1537,16 +1616,15 @@ Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai
 perspective. #emph[Diachronica] 42(3/4). 382--405.
 https:/\/doi.org/10.1075/dia.24028.lia
 
-List, Johann-Mattis & Robert Forkel. 2021. #emph[LingPy. A Python
-library for quantitative tasks in historical linguistics] (Version 2.6).
-Max Planck Institute for Evolutionary Anthropology.
-https:/\/doi.org/10.5281/zenodo.597082
+List, Johann-Mattis & Robert Forkel. 2024. #emph[LingPy. A Python
+library for historical linguistics] (Version 2.6.14). Passau: University
+of Passau. https:/\/doi.org/10.5281/zenodo.597082
 
 List, Johann-Mattis, Robert Forkel, Simon J. Greenhill, Christoph
 Rzymski, Johannes Englisch & Russell D. Gray. 2022. Lexibank, a public
-repository of standardized wordlists of about 2000 language varieties.
-#emph[Scientific Data] 9. 316. (Lexibank analysed release used here:
-v2.2.)
+repository of standardized wordlists with computed phonological and
+lexical features. #emph[Scientific Data] 9. 316.
+https:/\/doi.org/10.1038/s41597-022-01432-0
 
 Ostapirat, Weera. 2005. Kra--Dai and Austronesian: Notes on phonological
 correspondences and vocabulary distribution. In Laurent Sagart, Roger
@@ -1560,7 +1638,7 @@ http:/\/jseals.org/seals23/ostapirat2013austro-taih.pdf
 
 Oswalt, Robert L. 1970. The detection of remote linguistic
 relationships. #emph[Computer Studies in the Humanities and Verbal
-Behavior] 3. 117--129.
+Behavior] 3(3). 117--129.
 
 Ringe, Don. 1992. On calculating the factor of chance in language
 comparison. #emph[Transactions of the American Philosophical Society]
