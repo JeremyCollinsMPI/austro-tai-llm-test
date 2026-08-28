@@ -598,9 +598,13 @@ separately, and cover symbols are #strong[not] treated as wildcards (so
 `*(m/p-)aCay` normalizes to `mpacay`, and a `;`-joined cell is scored as
 one concatenated string. The LLM Study 1 judge, by contrast, sees the
 #strong[raw] published PAN and PKD strings (including that markup).
-These choices were fixed in the scoring code for transparency; they can
-inflate or deflate particular pairwise distances, but they apply equally
-to observed and null pairings.
+These choices, and the 0.40 secondary cutoffs, were written into
+`normalize_algo_form` and the scoring commands in the first algorithmic
+commit (`d31e8ff` in the companion repo) and have not been edited since,
+so they were fixed before any algorithmic result was inspected; the two
+later commits change only prose, diagnostics, and the length-stratified
+null. The rules can inflate or deflate particular pairwise distances,
+but they apply equally to observed and null pairings.
 
 #strong[Study 1.] For each Tier A PAN--PKD pair I recorded SCA and NED
 distances, then shuffled PAN forms across PKD slots (#strong[1000]
