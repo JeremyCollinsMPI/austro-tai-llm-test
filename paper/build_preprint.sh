@@ -22,7 +22,7 @@ if not m:
 abs_body = m.group(1).strip()
 keywords = m.group(2).strip()
 
-header = f'''# How surprising are Austro-Tai lookalikes? Meaning-blind permutation tests of Smith’s (2025) reconstructions and of dual-attested Lexibank form inventories
+header = f'''# Quantifying the evidence for Austro-Tai with permutation tests
 
 Jeremy Collins
 

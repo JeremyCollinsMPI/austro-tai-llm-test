@@ -1,5 +1,5 @@
-= How surprising are Austro-Tai lookalikes? Meaning-blind permutation tests of Smith's (2025) reconstructions and of dual-attested Lexibank form inventories
-<how-surprising-are-austro-tai-lookalikes-meaning-blind-permutation-tests-of-smiths-2025-reconstructions-and-of-dual-attested-lexibank-form-inventories>
+= Quantifying the evidence for Austro-Tai with permutation tests
+<quantifying-the-evidence-for-austro-tai-with-permutation-tests>
 Jeremy Collins
 
 Companion code and data:
@@ -1360,11 +1360,6 @@ objections raised in those critiques and were then implemented and
 verified as described above. Quantitative claims in the text were
 checked against the frozen output files, and reference metadata was
 checked against publisher or archive records.
-
-#strong[Translation.] The Chinese version of this manuscript was
-machine-translated from the English by `gpt-4.1` via a script in the
-companion repository and has not been checked by a professional
-translator; the English text is authoritative.
 
 No AI system is an author of this paper. I directed the work, verified
 its results, and take full responsibility for its content, including any

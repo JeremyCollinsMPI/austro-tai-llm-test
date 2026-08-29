@@ -1,7 +1,7 @@
 # Quantifying the strength of published Austro-Tai lexical evidence
 
-**Working title (Diachronica-oriented)**  
-*How surprising are Austro-Tai lookalikes? Meaning-blind permutation tests of Smith’s (2025) reconstructions and of dual-attested Lexibank form inventories*
+**Title**  
+*Quantifying the evidence for Austro-Tai with permutation tests*
 
 **Subtitle option**  
 *Filtering weakly attested reconstructions, and a reconstruction-free Lexibank set-versus-set check*
