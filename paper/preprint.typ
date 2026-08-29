@@ -30,13 +30,15 @@ are 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (30
 permutations; one-sided #emph[p] ≈ 0.032 at each threshold).
 Deterministic LingPy SCA and normalized-edit distances, substituted for
 the LLM, reproduce the effect in both studies under unrestricted and
-length-stratified nulls (#emph[N] = 1000, #emph[p] ≤ 0.002). Convergence
-across a reconstruction audit and a reconstruction-free Lexibank screen
-supports excess form resemblance under these controls, not genetic
-proof, which requires systematic sound correspondences. I situate the
-results in the Austro-Tai literature (Benedict 1942, 1975; Ostapirat
-2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of LLM-based
-screening.
+length-stratified nulls (#emph[N] = 1000, #emph[p] ≤ 0.002). Study 2
+thereby replicates, with different data and a different null, the
+Austro-Tai signal Jäger (2015) reported from ASJP sequence alignment.
+Convergence across a reconstruction audit and a reconstruction-free
+Lexibank screen supports excess form resemblance under these controls,
+not genetic proof, which requires systematic sound correspondences. I
+situate the results in the Austro-Tai literature (Benedict 1942, 1975;
+Ostapirat 2005, 2013; Sagart 2004, 2005, 2019) and discuss limits of
+LLM-based screening.
 
 #strong[Keywords:] Austro-Tai; Kra-Dai; Austronesian; lexical
 comparison; chance resemblance; permutation test; Lexibank; large
@@ -199,9 +201,52 @@ null, how often would equally “generous” form matches arise if
 proto-shapes were randomly re-paired across meanings? Meaning-preserving
 permutation / reshuffling tests of word-list similarity have a long
 methodological lineage (Oswalt 1970; Baxter & Manaster Ramer 2000;
-Kessler 2001); explicit applications to entire Austro-Tai alignment sets
-remain uncommon, especially after first removing reconstructions that
-modern daughters do not support. That is the gap this paper addresses.
+Kessler 2001). That lineage has been applied to several contested
+macrofamilies --- Ceolin (2019) tests Altaic word-initial
+correspondences in the Oswalt/Ringe/Kessler tradition, Turchin, Peiros &
+Gell-Mann (2010) apply a consonant-class test, and Kassian et al.~(2021)
+run a weighted permutation test on #emph[reconstructed] Proto-Turkic,
+Proto-Mongolic, Proto-Tungusic, Middle Korean and Proto-Japonic
+wordlists, finding partial support for Altaic. Kassian et al.'s design
+is the closest published analogue to my Study 1, in that the objects
+tested are protoforms rather than modern doculects; the difference is
+that they test reconstructions produced under their own
+semantic-reconstruction protocol, whereas I audit a third party's
+published alignment package and filter it against modern daughter
+attestation.
+
+=== Prior quantitative tests of Austro-Tai
+<prior-quantitative-tests-of-austro-tai>
+Austro-Tai itself has been tested quantitatively before, and one result
+matters directly for how this paper's contribution should be read. Jäger
+(2015) computes pairwise distances between \~1,000 Eurasian doculects
+from ASJP 40-item lists using weighted sequence alignment, where the
+similarity of two synonymous words is calibrated against the probability
+that such similarity could arise by chance, and then infers a
+distance-based phylogeny with Bayesian bootstrap confidence values.
+Austronesian + Tai-Kadai emerges as one of seven suprafamily clades
+surviving at ≥ 0.95 confidence, and Jäger names Austro-Tai (alongside
+Eurasiatic and Mongolic + Tungusic) as a proposal his results support.
+The same pipeline extended worldwide (Jäger & Wichmann 2016) reports
+comparable macro-patterns. Beaufils & Tomin (2020), in a preprint using
+a consonant-based distance system over 1,962 languages with an
+explicitly chance-referenced null, likewise rank Austronesian--Tai-Kadai
+high among top-level-family connections (#emph[p] ≈ 0.00016) as part of
+a wider Austric cluster; as an unrefereed preprint by independent
+researchers it is weaker evidence, but it is an independent
+chance-controlled data point in the same direction.
+
+The honest consequence is that the reconstruction-free version of the
+question --- do same-meaning modern form inventories from the two
+families resemble each other more than chance allows? --- is not open
+ground. Jäger (2015) has answered it affirmatively with different
+machinery. What remains untested, to my knowledge, is (i) any slot-wise
+permutation audit of a #emph[published Austro-Tai reconstruction
+package], and (ii) any version of either question that first removes
+reconstructions modern daughters do not support. Study 1 addresses
+those. Study 2 is better described not as a first but as a
+#strong[conceptual replication] of Jäger's Austro-Tai signal under
+substantially different conditions, which §6.2 sets out.
 
 == 2.2 Justification for using Smith (2025)
 <justification-for-using-smith-2025>
@@ -1118,6 +1163,37 @@ inventories and is closer to a “no reconstructions” stress test. Hit
 rates are lower in Study 2, as expected when comparing heterogeneous
 daughter samples rather than two curated proto-forms.
 
+#strong[Study 2 as a replication of Jäger (2015).] Study 2 should be
+read as a conceptual replication rather than a first test (§2.1). Jäger
+(2015) already found Austronesian + Tai-Kadai as a high-confidence
+suprafamily clade using chance-calibrated string alignment over ASJP
+lists, so the interesting question is not whether the signal appears at
+all but whether it survives a different pipeline. The conditions differ
+on nearly every axis: Lexibank rather than ASJP; 194 Blust/ABVD concepts
+rather than 40 ASJP items; phylogenetically stratified samples of up to
+\~80 languages per concept rather than one form per doculect; an
+explicit slot-shuffle null over form groups rather than
+chance-calibrated pairwise scores feeding tree inference with bootstrap
+support; and two judges (an LLM and deterministic SCA/NED) rather than
+weighted alignment. Jäger also excluded the non-Asian parts of
+Austronesian, whereas my stratified samples deliberately include
+Oceanic. That the signal reappears under all these changes is worth more
+than a claimed priority would be.
+
+Two qualifications keep this from being over-read. First, the data are
+not fully independent: ASJP's 40-item list is core basic vocabulary and
+overlaps heavily with the concepts where Study 2 finds hits (#emph[eye],
+#emph[water], #emph[eat], #emph[be dead or die], #emph[louse]-type
+items), so the two studies partly re-examine the same lexical material
+through different instruments, and correlated errors in the underlying
+transcriptions would propagate to both. Second, Jäger's result is
+contested by scholars sceptical of automated macro-comparison generally,
+so citing it as a prior data point does not commit me to endorsing his
+broader macrofamily conclusions --- nor do my results validate them. The
+claim is narrower: two pipelines with very different failure modes agree
+that Austronesian and Tai-Kadai basic vocabulary resembles itself more
+than chance rematching predicts.
+
 == 6.3 Why meaning-blindness and filters matter
 <why-meaning-blindness-and-filters-matter>
 If meanings are visible, both humans and models can reward “good
@@ -1234,11 +1310,14 @@ chance (#emph[p] ≤ 0.002, #emph[N] = 1000), and continue to do so when
 the null is length-stratified so that chance may match word shapes as
 well as the observed pairing does. Study 2 is the more robust check
 against cherry-picked reconstructions because concept and form selection
-do not inherit an author's comparative spreadsheet. Together, the
-studies strengthen the case that excess form resemblance under these
-screens is not merely an artifact of meaning-matched browsing, of LLM
-memorization, or of word length, while leaving genetic proof to
-systematic sound correspondences and classical reconstruction.
+do not inherit an author's comparative spreadsheet, and it independently
+reproduces, under a different database and a different null, the
+Austro-Tai signal Jäger (2015) obtained from chance-calibrated alignment
+of ASJP lists. Together, the studies strengthen the case that excess
+form resemblance under these screens is not merely an artifact of
+meaning-matched browsing, of LLM memorization, or of word length, while
+leaving genetic proof to systematic sound correspondences and classical
+reconstruction.
 
 #divider()
 
@@ -1644,11 +1723,21 @@ Lexibank 2: Pre-computed features for large-scale lexical data.
 https:/\/doi.org/10.12688/openreseurope.20216.2 (Dataset release used
 here: `lexibank-analysed` v2.2.)
 
+Beaufils, Vincent & Johannes Tomin. 2020. #emph[Stochastic approach to
+worldwide language classification: The signals and the noise towards
+long-range exploration]. SocArXiv preprint.
+https:/\/doi.org/10.31235/osf.io/5swba (Not peer reviewed; cited here as
+an independent chance-referenced result, not as established finding.)
+
 Benedict, Paul K. 1942. Thai, Kadai, and Indonesian: A new alignment in
 southeastern Asia. #emph[American Anthropologist] 44(4). 576--601.
 
 Benedict, Paul K. 1975. #emph[Austro-Thai language and culture, with a
 glossary of roots]. New Haven: HRAF Press.
+
+Ceolin, Andrea. 2019. Significance testing of the Altaic family.
+#emph[Diachronica] 36(3). 299--336.
+https:/\/doi.org/10.1075/dia.17007.ceo
 
 Greenhill, Simon J., Robert Blust & Russell D. Gray. 2008. The
 Austronesian Basic Vocabulary Database: From bioinformatics to lexomics.
@@ -1660,8 +1749,25 @@ Hammarström, Harald, Robert Forkel, Martin Haspelmath & Sebastian Bank.
 Evolutionary Anthropology. https:/\/doi.org/10.5281/zenodo.10804357
 (Available online at https:/\/glottolog.org.)
 
+Jäger, Gerhard. 2015. Support for linguistic macrofamilies from weighted
+sequence alignment. #emph[Proceedings of the National Academy of
+Sciences] 112(41). 12752--12757.
+https:/\/doi.org/10.1073/pnas.1500331112
+
+Jäger, Gerhard & Søren Wichmann. 2016. Inferring the world tree of
+languages from word lists. In Seán G. Roberts, Christine Cuskley, Luke
+McCrohon, Lluís Barceló-Coblijn, Olga Fehér & Tessa Verhoef (eds.),
+#emph[The evolution of language: Proceedings of the 11th International
+Conference (EVOLANG11)]. https:/\/doi.org/10.17617/2.2248195
+
 Kessler, Brett. 2001. #emph[The significance of word lists]. Stanford:
 CSLI Publications.
+
+Kassian, Alexei S., George Starostin, Ilya M. Egorov, Ekaterina S.
+Logunova & Anna V. Dybo. 2021. Permutation test applied to lexical
+reconstructions partially supports the Altaic linguistic macrofamily.
+#emph[Evolutionary Human Sciences] 3. e32, 1--10.
+https:/\/doi.org/10.1017/ehs.2021.28
 
 Liao, Hanbo & Ryan Gehrmann. 2025. Kra-Dai tonogenesis in Austro-Tai
 perspective. #emph[Diachronica] 42(3/4). 382--405.
@@ -1694,6 +1800,10 @@ Behavior] 3(3). 117--129.
 Ringe, Don. 1992. On calculating the factor of chance in language
 comparison. #emph[Transactions of the American Philosophical Society]
 82(1). 1--110.
+
+Turchin, Peter, Ilia Peiros & Murray Gell-Mann. 2010. Analyzing genetic
+connections between languages by matching consonant classes.
+#emph[Journal of Language Relationship] 3. 117--126.
 
 Sagart, Laurent. 2004. The higher phylogeny of Austronesian and the
 position of Tai-Kadai. #emph[Oceanic Linguistics] 43(2). 411--444.
