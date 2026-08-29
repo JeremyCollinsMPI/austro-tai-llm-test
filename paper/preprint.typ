@@ -1240,6 +1240,57 @@ screens is not merely an artifact of meaning-matched browsing, of LLM
 memorization, or of word length, while leaving genetic proof to
 systematic sound correspondences and classical reconstruction.
 
+#divider()
+
+= 8. Declaration on the use of AI tools
+<declaration-on-the-use-of-ai-tools>
+Because this paper both #emph[uses] generative AI as a measuring
+instrument and #emph[was written with] generative AI assistance, I
+report both, in line with arXiv's requirement that significant use of
+sophisticated tools --- text-to-text generative AI included --- be
+disclosed as part of methodology.
+
+#strong[AI as the object and instrument of the study.] The primary
+measurement in both studies is an LLM judgment. OpenAI's `gpt-4.1`,
+accessed through a fixed chat API with fixed prompts, produced every
+generosity score in Studies 1 and 2, the reconstruction attestation
+scores used for the Tier A filter, and the post hoc Sinitic loan
+plausibility screen. Prompt texts are reproduced in Appendix A, and the
+judgment caches are released so the reported tables can be recomputed
+without re-querying the model (Appendix E). This use is not incidental
+to the argument; it is the argument's main vulnerability, which is why
+§4.8 and §5.7 replicate the same permutation designs with deterministic
+LingPy string distances, a judge with no training history and no
+capacity to recognize a published etymology.
+
+#strong[AI assistance in analysis code.] The analysis pipeline in the
+companion repository was written with AI coding assistants (Cursor,
+driving Anthropic Claude and OpenAI GPT models) under my direction. I
+specified the designs, reviewed the code, and checked the statistics;
+the repository includes unit tests, and all reported numbers are
+regenerable from the released code and frozen inputs.
+
+#strong[AI assistance in writing.] The manuscript prose was drafted and
+revised with the same assistants under my direction, working from my
+specifications of what each section should argue. I additionally used
+LLMs as adversarial reviewers of successive drafts; several substantive
+additions --- the algorithmic SCA/NED replication, the length-stratified
+null and its band-sensitivity checks, the hit-rate-by-attestation-band
+analysis, and a number of citation corrections --- originated as
+objections raised in those critiques and were then implemented and
+verified as described above. Quantitative claims in the text were
+checked against the frozen output files, and reference metadata was
+checked against publisher or archive records.
+
+#strong[Translation.] The Chinese version of this manuscript was
+machine-translated from the English by `gpt-4.1` via a script in the
+companion repository and has not been checked by a professional
+translator; the English text is authoritative.
+
+No AI system is an author of this paper. I directed the work, verified
+its results, and take full responsibility for its content, including any
+errors that remain.
+
 = Appendix
 <appendix>
 Companion files in the software release:

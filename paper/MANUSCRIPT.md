@@ -407,6 +407,22 @@ Useful extensions include larger *N* for Study 2’s LLM null tail; human expert
 
 I reported two meaning-blind permutation screens of Austro-Tai lexical resemblance. **Study 1** audited Alexander D. Smith’s (2025) gloss-aligned PAN–PKD reconstructions with Lexibank attestation filters: on 79 Tier A pairs, 27 high form-similarity hits stand against a null mean of about 5.7 (*p* ≈ 0.01, *N* = 100). **Study 2** compared dual-attested Lexibank Tai-Kadai and Austronesian form groups on 194 Blust/ABVD concepts, without reconstructions: hits at a generosity score of 4 or higher / 3 or higher / 2 or higher were 11 / 17 / 121 against null means of about 2.2 / 5.7 / 91.7 (*p* ≈ 0.032, *N* = 30). Parallel LingPy SCA/NED screens under the same null designs also show lower mean distances than chance (*p* ≤ 0.002, *N* = 1000), and continue to do so when the null is length-stratified so that chance may match word shapes as well as the observed pairing does. Study 2 is the more robust check against cherry-picked reconstructions because concept and form selection do not inherit an author’s comparative spreadsheet. Together, the studies strengthen the case that excess form resemblance under these screens is not merely an artifact of meaning-matched browsing, of LLM memorization, or of word length, while leaving genetic proof to systematic sound correspondences and classical reconstruction.
 
+---
+
+# 8. Declaration on the use of AI tools
+
+Because this paper both *uses* generative AI as a measuring instrument and *was written with* generative AI assistance, I report both, in line with arXiv's requirement that significant use of sophisticated tools — text-to-text generative AI included — be disclosed as part of methodology.
+
+**AI as the object and instrument of the study.** The primary measurement in both studies is an LLM judgment. OpenAI's `gpt-4.1`, accessed through a fixed chat API with fixed prompts, produced every generosity score in Studies 1 and 2, the reconstruction attestation scores used for the Tier A filter, and the post hoc Sinitic loan plausibility screen. Prompt texts are reproduced in Appendix A, and the judgment caches are released so the reported tables can be recomputed without re-querying the model (Appendix E). This use is not incidental to the argument; it is the argument's main vulnerability, which is why §4.8 and §5.7 replicate the same permutation designs with deterministic LingPy string distances, a judge with no training history and no capacity to recognize a published etymology.
+
+**AI assistance in analysis code.** The analysis pipeline in the companion repository was written with AI coding assistants (Cursor, driving Anthropic Claude and OpenAI GPT models) under my direction. I specified the designs, reviewed the code, and checked the statistics; the repository includes unit tests, and all reported numbers are regenerable from the released code and frozen inputs.
+
+**AI assistance in writing.** The manuscript prose was drafted and revised with the same assistants under my direction, working from my specifications of what each section should argue. I additionally used LLMs as adversarial reviewers of successive drafts; several substantive additions — the algorithmic SCA/NED replication, the length-stratified null and its band-sensitivity checks, the hit-rate-by-attestation-band analysis, and a number of citation corrections — originated as objections raised in those critiques and were then implemented and verified as described above. Quantitative claims in the text were checked against the frozen output files, and reference metadata was checked against publisher or archive records.
+
+**Translation.** The Chinese version of this manuscript was machine-translated from the English by `gpt-4.1` via a script in the companion repository and has not been checked by a professional translator; the English text is authoritative.
+
+No AI system is an author of this paper. I directed the work, verified its results, and take full responsibility for its content, including any errors that remain.
+
 
 
 # Appendix
