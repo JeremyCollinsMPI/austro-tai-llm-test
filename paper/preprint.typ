@@ -725,6 +725,38 @@ resemblance survives under judges that cannot have memorized published
 Austro-Tai etymologies, and whether it survives when chance is allowed
 to match word shapes as well as the published alignment does.
 
+== 4.9 Semantic-category exclusion check
+<semantic-category-exclusion-check>
+Personal pronouns, demonstratives and nursery kinship terms are
+categories in which the comparative literature routinely discounts
+resemblance, on the grounds that short forms, sound symbolism,
+nursery-form convergence (#emph[mama], #emph[papa]) and deictic
+particles can produce cross-family similarity with no historical
+connection. Several of the hits in both studies fall in exactly those
+categories, so I recompute both studies with those slots removed rather
+than only noting the concern.
+
+Two nested exclusion sets are used. #strong[Core] removes personal
+pronouns, demonstratives, and #emph[mother] / #emph[father]: in Study 1
+the glosses #emph[1sg], #emph[2sg] and #emph[this] (3 of 79 pairs), and
+in Study 2 the Concepticon glosses I, THOU, WE, YOU, HE OR SHE, THEY,
+THIS, THAT, MOTHER, FATHER (10 of 194 concepts). #strong[Wide] is a
+deliberately over-broad stress test adding interrogative pro-forms
+(WHAT, WHO, WHERE, WHEN, HOW) and the remaining kin terms (CHILD,
+HUSBAND, WIFE; Study 1 additionally #emph[younger siblings]), removing 4
+of 79 pairs and 18 of 194 concepts.
+
+Both the LLM screens and the algorithmic screens are recomputed.
+Crucially, no new model queries were needed: Study 1's null replays the
+#strong[same] 100 shuffles from the same seed and reads each
+assignment's score from the frozen pair-judgment cache, and Study 2's
+null recomputes hit counts from the frozen per-concept null rows, so the
+excluded-slot tests differ from the headline tests only in which slots
+are counted. Re-running the pipeline with no exclusions reproduces the
+published Study 1 and Study 2 numbers exactly, which validates the
+replay. The algorithmic screens are rerun at #emph[N] = 1000 over the
+retained slots.
+
 = 5. Results
 <results>
 == 5.1 From Smith's sheet to Tier A
@@ -1065,7 +1097,60 @@ is neither unique to the LLM judge nor reducible to word length: Study
 reproduces its length profile exactly, while Study 2's are modest,
 attenuate somewhat under length control, and survive it.
 
-== 5.8 Summary of findings
+== 5.8 Excluding pronouns, deictics and nursery kin
+<excluding-pronouns-deictics-and-nursery-kin>
+Both studies' hit lists include categories the field discounts on sight,
+so §4.9's exclusion sets test whether the aggregate effect depends on
+them. It largely does not, with one honest exception.
+
+In #strong[Study 1], all three excluded slots (#emph[1sg], #emph[2sg],
+#emph[this]) are indeed hits, so the observed count falls from 27/79 to
+#strong[24/76] under the core exclusion. The null falls too (mean 5.68
+to 5.38), and the test is unchanged at #emph[p] = 1/101 ≈ 0.0099; the
+wide exclusion gives 24/75 against a null mean of 5.37, likewise
+#emph[p] ≈ 0.0099. In #strong[Study 2] at the primary cutoff, three of
+the eleven hits are excluded categories (#emph[mother], #emph[this],
+#emph[we]), giving #strong[8/184] observed against a null mean of 2.23,
+again with no null draw reaching observed (#emph[p] = 1/31 ≈ 0.032); the
+wide exclusion leaves this unchanged at 8/176.
+
+The exception is Study 2's secondary cutoff. At a generosity score of 3
+or higher, observed hits fall from 17 to #strong[13] while the null mean
+falls only from 5.7 to 5.4, and one null draw of 30 now reaches the
+observed count, so #emph[p] rises from 1/31 ≈ 0.032 to #strong[2/31 ≈
+0.065]. That threshold therefore no longer clears a conventional 0.05
+line once pronouns, deictics and nursery kin are removed. Given #emph[N]
+\= 30, the difference between these two #emph[p]-values is one null
+draw, so it should not be over-interpreted in either direction; but the
+primary cutoff and the mean-distance tests are where the claim rests,
+and readers should know the 3-or-higher cut is the fragile one.
+
+The algorithmic screens, which have the resolution of #emph[N] = 1000,
+are barely affected:
+
+#figure(
+  align(center)[#table(
+    columns: 4,
+    align: (auto,right,right,right,),
+    table.header([Test], [No exclusions], [Core], [Wide],),
+    table.hline(),
+    [Study 1 SCA #emph[z]], [−13.4], [−12.6], [−12.7],
+    [Study 1 NED #emph[z]], [−15.0], [−14.0], [−13.9],
+    [Study 2 SCA #emph[z]], [−4.1], [−4.1], [−3.8],
+    [Study 2 NED #emph[z]], [−6.2], [−5.8], [−5.3],
+  )]
+  , kind: table
+  )
+
+All twelve algorithmic tests keep #emph[p] = 0.001. Observed mean
+distances rise slightly under exclusion (Study 1 SCA 0.574 to 0.584;
+Study 2 SCA 0.381 to 0.384), confirming that the excluded slots were on
+average more similar than the rest, but the null shifts almost as much,
+so the standardized effects move little. The signal is therefore not
+carried by pronouns, deictics or nursery kin: it survives on body parts,
+verbs, numerals and the remaining content vocabulary.
+
+== 5.9 Summary of findings
 <summary-of-findings>
 Study 1 finds that Smith's remaining PAN--PKD alignments, after Lexibank
 attestation filters, show meaning-blind form similarity far above a
@@ -1077,8 +1162,11 @@ screens under the same null designs also beat chance on mean distance
 (#emph[p] ≤ 0.002, #emph[N] = 1000; §5.7), both against an unrestricted
 shuffle and against a length-stratified one --- a parallel check that
 relies neither on LLM prior knowledge nor on incidental word-length
-matching. The next section discusses what this does and does not imply
-for the Austro-Tai hypothesis.
+matching. Removing pronouns, demonstratives and nursery kinship terms
+leaves both studies' primary results intact (§5.8), though Study 2's
+secondary 3-or-higher cutoff weakens to #emph[p] ≈ 0.065. The next
+section discusses what this does and does not imply for the Austro-Tai
+hypothesis.
 
 == Figure: Null distribution
 <figure-null-distribution>
@@ -1269,10 +1357,19 @@ uses #emph[N] = 30 (costly set-versus-set calls). Study 2's #emph[p] ≈
 finer tail would need larger #emph[N]. Neither null models phonetic
 natural classes, semantic fields, or borrowing pathways.
 
-#strong[Nursery forms and deixis.] Some Study 2 hits (#emph[mother],
-#emph[this], pronouns) are categories where chance or nursery
-resemblance is a known risk; primary interpretation should weight
-body-part and verb hits more heavily pending correspondence work.
+#strong[Nursery forms and deixis.] Some hits in both studies
+(#emph[1sg], #emph[2sg], #emph[this]\; #emph[mother], #emph[this],
+#emph[we]) fall in categories where chance, sound symbolism or
+nursery-form convergence is a known risk. §4.9 and §5.8 therefore
+recompute both studies without them rather than merely flagging the
+issue, and the aggregate effect survives: Study 1 goes to 24/76 at
+#emph[p] ≈ 0.0099, Study 2's primary cutoff to 8/184 at #emph[p] ≈
+0.032, and the algorithmic #emph[z] values move by less than one unit.
+The one casualty is Study 2's secondary 3-or-higher cutoff, which rises
+to #emph[p] ≈ 0.065 and no longer clears 0.05 --- a one-draw difference
+at #emph[N] = 30, but a real weakening of that particular cut.
+Correspondence work should still weight body-part and verb hits most
+heavily.
 
 #strong[Model availability.] Results are tied to frozen judgment caches
 produced with `gpt-4.1`. OpenAI may deprecate or alter that model;
@@ -1621,10 +1718,15 @@ one-sided #emph[p] = 0.0099.
   `--length-controlled`\; per-slot distances in the matching
   `algo_judgments_*.csv`), plus the band-sensitivity runs
   `*_length_coarse.json` and `*_length_quartile.json`
-  (`--band-scheme coarse|quartile`). Live re-queries against a changed
-  or discontinued `gpt-4.1` endpoint are not guaranteed to match LLM
-  caches bit-for-bit; algorithmic scores are deterministic given LingPy
-  and the frozen inputs.
+  (`--band-scheme coarse|quartile`). Semantic-category exclusion reruns
+  (§4.9): `output/category_exclusion_rerun.json` (all LLM and
+  algorithmic variants; regenerate with
+  `scripts/category_exclusion_rerun.py`, which makes no API calls) and
+  `output/algo_permutation_study*_excl_{core,wide}.json`\; exclusion
+  sets are defined in `src/categories.py`. Live re-queries against a
+  changed or discontinued `gpt-4.1` endpoint are not guaranteed to match
+  LLM caches bit-for-bit; algorithmic scores are deterministic given
+  LingPy and the frozen inputs.
 
 == Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 <appendix-f.-study-2-hits-blust-dual-attested-lexibank>

@@ -1,0 +1,87 @@
+{
+  "study": 2,
+  "exclusion_level": "core",
+  "excluded_glosses": [
+    "FATHER",
+    "HE OR SHE",
+    "I",
+    "MOTHER",
+    "THAT",
+    "THEY",
+    "THIS",
+    "THOU",
+    "WE",
+    "YOU"
+  ],
+  "length_controlled": false,
+  "band_scheme": "default",
+  "length_band_definition": "AN group mean-length bands le4/5/6/7/ge8",
+  "an_length_band_counts": {
+    "5": 54,
+    "6": 104,
+    "7": 19,
+    "ge8": 4,
+    "le4": 3
+  },
+  "n_concepts": 184,
+  "n_permutations": 1000,
+  "seed": 1,
+  "core_path": "data/attested_pilot/core_concepts_blust.tsv",
+  "aggregation": "mean_of_per_tk_best_an_match",
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.3839176045251177,
+    "null_mean": 0.39963242184650455,
+    "null_median": 0.39963343449978905,
+    "null_min": 0.38648668539633463,
+    "null_max": 0.4122050179095291,
+    "null_sd": 0.0038578936589484477,
+    "z": -4.073418997679233,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.6227774982639408,
+    "null_mean": 0.6373869355602809,
+    "null_median": 0.6373617003679065,
+    "null_min": 0.6298833571096581,
+    "null_max": 0.6469268347656374,
+    "null_sd": 0.002501560898777216,
+    "z": -5.840128578713129,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 112.0,
+    "null_mean": 89.905,
+    "null_median": 90.0,
+    "null_min": 73.0,
+    "null_max": 109.0,
+    "null_sd": 5.5005431549984225,
+    "z": 4.016876038854809,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 0.0,
+    "null_mean": 0.078,
+    "null_median": 0.0,
+    "null_min": 0.0,
+    "null_max": 2.0,
+    "null_sd": 0.2862097133222421,
+    "z": -0.27252743834092097,
+    "p_value": 1.0
+  },
+  "mean_abs_delta_mean_len": {
+    "observed": 1.5453330812838886,
+    "null_mean": 1.621951403855994,
+    "null_median": 1.6217965689582843,
+    "null_min": 1.5275487527884029,
+    "null_max": 1.7084378212239046,
+    "null_sd": 0.02628305889434196,
+    "z": -2.915121975722514,
+    "p_value": 0.003996003996003996
+  },
+  "observed_corr_sca_vs_abs_delta_mean_len": 0.08604221252001952,
+  "observed_corr_ned_vs_abs_delta_mean_len": 0.06509062466840917,
+  "matrix_cache_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_study2_blust194_mats.npz",
+  "observed_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study2_blust194_excl_core.csv"
+}

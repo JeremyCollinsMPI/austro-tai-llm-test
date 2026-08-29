@@ -1,0 +1,80 @@
+{
+  "study": 1,
+  "exclusion_level": "wide",
+  "excluded_glosses": [
+    "1sg",
+    "2sg",
+    "this",
+    "younger siblings"
+  ],
+  "length_controlled": false,
+  "band_scheme": "default",
+  "length_band_definition": "PAN coarse bands le3/4/5/6/7to9/10to19/ge20",
+  "pan_length_band_counts": {
+    "10to19": 8,
+    "4": 19,
+    "5": 28,
+    "6": 7,
+    "7to9": 5,
+    "ge20": 5,
+    "le3": 3
+  },
+  "n_pairs": 75,
+  "n_permutations": 1000,
+  "seed": 1,
+  "sca_hit_threshold": 0.4,
+  "ned_hit_threshold": 0.4,
+  "mean_sca": {
+    "observed": 0.5811436331424767,
+    "null_mean": 0.764986037179086,
+    "null_median": 0.7656789012290581,
+    "null_min": 0.7126198238936824,
+    "null_max": 0.8073740790683579,
+    "null_sd": 0.014450737267782399,
+    "z": -12.722008616576389,
+    "p_value": 0.000999000999000999
+  },
+  "mean_ned": {
+    "observed": 0.7392308925642259,
+    "null_mean": 0.9057179176348343,
+    "null_median": 0.9066996275329609,
+    "null_min": 0.8653411619244953,
+    "null_max": 0.9432460317460317,
+    "null_sd": 0.011978951807058262,
+    "z": -13.898296591569105,
+    "p_value": 0.000999000999000999
+  },
+  "sca_hits": {
+    "observed": 23.0,
+    "null_mean": 2.101,
+    "null_median": 2.0,
+    "null_min": 0.0,
+    "null_max": 8.0,
+    "null_sd": 1.4130813847758381,
+    "z": 14.789664788709448,
+    "p_value": 0.000999000999000999
+  },
+  "ned_hits": {
+    "observed": 11.0,
+    "null_mean": 0.29,
+    "null_median": 0.0,
+    "null_min": 0.0,
+    "null_max": 4.0,
+    "null_sd": 0.5439669107583659,
+    "z": 19.68869758101419,
+    "p_value": 0.000999000999000999
+  },
+  "mean_abs_delta_len": {
+    "observed": 3.7333333333333334,
+    "null_mean": 3.706853333333333,
+    "null_median": 3.7066666666666666,
+    "null_min": 3.3066666666666666,
+    "null_max": 4.026666666666666,
+    "null_sd": 0.10217527772302738,
+    "z": 0.2591624959589657,
+    "p_value": 0.6353646353646354
+  },
+  "observed_corr_sca_vs_abs_delta_len": 0.48752083408016583,
+  "observed_corr_ned_vs_abs_delta_len": 0.3273937635079787,
+  "observed_pair_rows_path": "/Users/jeremycollins/Documents/cursor_projects/austro_tai_llm_test/output/algo_judgments_study1_excl_wide.csv"
+}

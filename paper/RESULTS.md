@@ -118,6 +118,25 @@ All eight tests keep *p* at 0.001 except Study 2’s SCA under the two hand-set 
 
 Across both studies, then, excess same-slot / same-meaning resemblance is neither unique to the LLM judge nor reducible to word length: Study 1’s algorithmic gaps stay large in *z* terms under a null that reproduces its length profile exactly, while Study 2’s are modest, attenuate somewhat under length control, and survive it.
 
-## 5.8 Summary of findings
+## 5.8 Excluding pronouns, deictics and nursery kin
 
-Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* ≤ 0.002, *N* = 1000; §5.7), both against an unrestricted shuffle and against a length-stratified one — a parallel check that relies neither on LLM prior knowledge nor on incidental word-length matching. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
+Both studies' hit lists include categories the field discounts on sight, so §4.9's exclusion sets test whether the aggregate effect depends on them. It largely does not, with one honest exception.
+
+In **Study 1**, all three excluded slots (*1sg*, *2sg*, *this*) are indeed hits, so the observed count falls from 27/79 to **24/76** under the core exclusion. The null falls too (mean 5.68 to 5.38), and the test is unchanged at *p* = 1/101 ≈ 0.0099; the wide exclusion gives 24/75 against a null mean of 5.37, likewise *p* ≈ 0.0099. In **Study 2** at the primary cutoff, three of the eleven hits are excluded categories (*mother*, *this*, *we*), giving **8/184** observed against a null mean of 2.23, again with no null draw reaching observed (*p* = 1/31 ≈ 0.032); the wide exclusion leaves this unchanged at 8/176.
+
+The exception is Study 2's secondary cutoff. At a generosity score of 3 or higher, observed hits fall from 17 to **13** while the null mean falls only from 5.7 to 5.4, and one null draw of 30 now reaches the observed count, so *p* rises from 1/31 ≈ 0.032 to **2/31 ≈ 0.065**. That threshold therefore no longer clears a conventional 0.05 line once pronouns, deictics and nursery kin are removed. Given *N* = 30, the difference between these two *p*-values is one null draw, so it should not be over-interpreted in either direction; but the primary cutoff and the mean-distance tests are where the claim rests, and readers should know the 3-or-higher cut is the fragile one.
+
+The algorithmic screens, which have the resolution of *N* = 1000, are barely affected:
+
+| Test | No exclusions | Core | Wide |
+|------|--------------:|-----:|-----:|
+| Study 1 SCA *z* | −13.4 | −12.6 | −12.7 |
+| Study 1 NED *z* | −15.0 | −14.0 | −13.9 |
+| Study 2 SCA *z* | −4.1 | −4.1 | −3.8 |
+| Study 2 NED *z* | −6.2 | −5.8 | −5.3 |
+
+All twelve algorithmic tests keep *p* = 0.001. Observed mean distances rise slightly under exclusion (Study 1 SCA 0.574 to 0.584; Study 2 SCA 0.381 to 0.384), confirming that the excluded slots were on average more similar than the rest, but the null shifts almost as much, so the standardized effects move little. The signal is therefore not carried by pronouns, deictics or nursery kin: it survives on body parts, verbs, numerals and the remaining content vocabulary.
+
+## 5.9 Summary of findings
+
+Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* ≤ 0.002, *N* = 1000; §5.7), both against an unrestricted shuffle and against a length-stratified one — a parallel check that relies neither on LLM prior knowledge nor on incidental word-length matching. Removing pronouns, demonstratives and nursery kinship terms leaves both studies' primary results intact (§5.8), though Study 2's secondary 3-or-higher cutoff weakens to *p* ≈ 0.065. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.

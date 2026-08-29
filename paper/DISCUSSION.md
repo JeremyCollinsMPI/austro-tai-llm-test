@@ -42,7 +42,7 @@ Several limits bound interpretation.
 
 **Null design and *N*.** Study 1 uses *N* = 100; Study 2 uses *N* = 30 (costly set-versus-set calls). Study 2’s *p* ≈ 0.032 is therefore the add-one floor: no null reached observed, but a finer tail would need larger *N*. Neither null models phonetic natural classes, semantic fields, or borrowing pathways.
 
-**Nursery forms and deixis.** Some Study 2 hits (*mother*, *this*, pronouns) are categories where chance or nursery resemblance is a known risk; primary interpretation should weight body-part and verb hits more heavily pending correspondence work.
+**Nursery forms and deixis.** Some hits in both studies (*1sg*, *2sg*, *this*; *mother*, *this*, *we*) fall in categories where chance, sound symbolism or nursery-form convergence is a known risk. §4.9 and §5.8 therefore recompute both studies without them rather than merely flagging the issue, and the aggregate effect survives: Study 1 goes to 24/76 at *p* ≈ 0.0099, Study 2's primary cutoff to 8/184 at *p* ≈ 0.032, and the algorithmic *z* values move by less than one unit. The one casualty is Study 2's secondary 3-or-higher cutoff, which rises to *p* ≈ 0.065 and no longer clears 0.05 — a one-draw difference at *N* = 30, but a real weakening of that particular cut. Correspondence work should still weight body-part and verb hits most heavily.
 
 **Model availability.** Results are tied to frozen judgment caches produced with `gpt-4.1`. OpenAI may deprecate or alter that model; bit-identical live re-runs are not guaranteed. Reproducibility of the reported tables rests on the released caches and code, not on perpetual access to the same API snapshot.
 

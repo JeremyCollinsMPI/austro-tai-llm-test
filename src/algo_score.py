@@ -18,6 +18,7 @@ from pathlib import Path
 from lingpy.align.pairwise import Pairwise, edit_dist
 
 from .attested_pilot import prepare_concept_samples
+from .categories import EXCLUSION_LEVELS, study1_excluded, study2_excluded
 from .config import OUTPUT_DIR
 from .lexibank_check import read_eligible_pairs
 from .permute import permute_pan_values
@@ -163,6 +164,12 @@ _BAND_DEFINITIONS = {
 }
 
 
+def _exclusion_suffix(exclusion_level: str) -> str:
+    if exclusion_level not in EXCLUSION_LEVELS:
+        raise ValueError(f"unknown exclusion level: {exclusion_level}")
+    return "" if exclusion_level == "none" else f"_excl_{exclusion_level}"
+
+
 def _length_suffix(length_controlled: bool, band_scheme: str) -> str:
     if not length_controlled:
         return ""
@@ -289,9 +296,13 @@ def run_algo_study1(
     output_path: Path | None = None,
     length_controlled: bool = False,
     band_scheme: str = "default",
+    exclusion_level: str = "none",
 ) -> dict[str, object]:
     pairs = read_eligible_pairs(pairs_path)
-    suffix = _length_suffix(length_controlled, band_scheme)
+    excluded_glosses = study1_excluded(exclusion_level)
+    if excluded_glosses:
+        pairs = [p for p in pairs if p.gloss not in excluded_glosses]
+    suffix = _length_suffix(length_controlled, band_scheme) + _exclusion_suffix(exclusion_level)
     mode = f"length-controlled/{band_scheme}" if length_controlled else "unrestricted"
     print(f"Algo Study 1 ({mode}): {len(pairs)} Tier A pairs; N={n_permutations}")
 
@@ -383,6 +394,8 @@ def run_algo_study1(
 
     result: dict[str, object] = {
         "study": 1,
+        "exclusion_level": exclusion_level,
+        "excluded_glosses": sorted(excluded_glosses),
         "length_controlled": length_controlled,
         "band_scheme": band_scheme,
         "length_band_definition": _BAND_DEFINITIONS[1][band_scheme],
@@ -447,6 +460,7 @@ def run_algo_study2(
     length_controlled: bool = False,
     matrix_cache_path: Path | None = None,
     band_scheme: str = "default",
+    exclusion_level: str = "none",
 ) -> dict[str, object]:
     import numpy as np
 
@@ -454,9 +468,9 @@ def run_algo_study2(
     matrix_cache_path = matrix_cache_path or (OUTPUT_DIR / "algo_study2_blust194_mats.npz")
     prepared = prepare_concept_samples(force=False, core_path=core_path)
     n = len(prepared)
-    suffix = _length_suffix(length_controlled, band_scheme)
+    suffix = _length_suffix(length_controlled, band_scheme) + _exclusion_suffix(exclusion_level)
     mode = f"length-controlled/{band_scheme}" if length_controlled else "unrestricted"
-    print(f"Algo Study 2 ({mode}): {n} concepts")
+    print(f"Algo Study 2 ({mode}; exclusions={exclusion_level}): {n} concepts")
 
     tk_groups = [_extract_forms(list(item["tk_forms"])) for item in prepared]
     an_groups = [_extract_forms(list(item["an_forms"])) for item in prepared]
@@ -506,6 +520,26 @@ def run_algo_study2(
             concept_ids=np.asarray(concept_ids),
         )
         print(f"  Cached matrices -> {matrix_cache_path}")
+
+    # Subset after the matrix is loaded so the full-set cache stays reusable.
+    excluded_glosses = study2_excluded(exclusion_level)
+    if excluded_glosses:
+        with Path(core_path).open(newline="", encoding="utf-8") as handle:
+            gloss_by_cid = {r["concept_id"]: r["concepticon_gloss"] for r in csv.DictReader(handle)}
+        keep = [i for i, cid in enumerate(concept_ids) if gloss_by_cid.get(cid) not in excluded_glosses]
+        dropped = sorted(gloss_by_cid.get(concept_ids[i], concept_ids[i]) for i in range(n) if i not in set(keep))
+        print(f"  Excluding {n - len(keep)} concepts ({exclusion_level}): {', '.join(dropped)}")
+        sca_mat = [[sca_mat[i][j] for j in keep] for i in keep]
+        ned_mat = [[ned_mat[i][j] for j in keep] for i in keep]
+        prepared = [prepared[i] for i in keep]
+        tk_groups = [tk_groups[i] for i in keep]
+        an_groups = [an_groups[i] for i in keep]
+        concept_ids = [concept_ids[i] for i in keep]
+        tk_mean_lens = [tk_mean_lens[i] for i in keep]
+        an_mean_lens = [an_mean_lens[i] for i in keep]
+        an_bands = an_group_length_bands(an_mean_lens, band_scheme)
+        band_counts = {b: an_bands.count(b) for b in sorted(set(an_bands))}
+        n = len(keep)
 
     obs_sca = [sca_mat[i][i] for i in range(n)]
     obs_ned = [ned_mat[i][i] for i in range(n)]
@@ -575,6 +609,8 @@ def run_algo_study2(
 
     result: dict[str, object] = {
         "study": 2,
+        "exclusion_level": exclusion_level,
+        "excluded_glosses": sorted(excluded_glosses),
         "length_controlled": length_controlled,
         "band_scheme": band_scheme,
         "length_band_definition": _BAND_DEFINITIONS[2][band_scheme],

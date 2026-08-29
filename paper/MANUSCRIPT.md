@@ -223,6 +223,14 @@ Band boundaries are a researcher degree of freedom, and one worth flagging plain
 
 These algorithmic screens do not replace the LLM results and do not claim cognacy; they ask whether excess same-slot / same-meaning resemblance survives under judges that cannot have memorized published Austro-Tai etymologies, and whether it survives when chance is allowed to match word shapes as well as the published alignment does.
 
+## 4.9 Semantic-category exclusion check
+
+Personal pronouns, demonstratives and nursery kinship terms are categories in which the comparative literature routinely discounts resemblance, on the grounds that short forms, sound symbolism, nursery-form convergence (*mama*, *papa*) and deictic particles can produce cross-family similarity with no historical connection. Several of the hits in both studies fall in exactly those categories, so I recompute both studies with those slots removed rather than only noting the concern.
+
+Two nested exclusion sets are used. **Core** removes personal pronouns, demonstratives, and *mother* / *father*: in Study 1 the glosses *1sg*, *2sg* and *this* (3 of 79 pairs), and in Study 2 the Concepticon glosses I, THOU, WE, YOU, HE OR SHE, THEY, THIS, THAT, MOTHER, FATHER (10 of 194 concepts). **Wide** is a deliberately over-broad stress test adding interrogative pro-forms (WHAT, WHO, WHERE, WHEN, HOW) and the remaining kin terms (CHILD, HUSBAND, WIFE; Study 1 additionally *younger siblings*), removing 4 of 79 pairs and 18 of 194 concepts.
+
+Both the LLM screens and the algorithmic screens are recomputed. Crucially, no new model queries were needed: Study 1's null replays the **same** 100 shuffles from the same seed and reads each assignment's score from the frozen pair-judgment cache, and Study 2's null recomputes hit counts from the frozen per-concept null rows, so the excluded-slot tests differ from the headline tests only in which slots are counted. Re-running the pipeline with no exclusions reproduces the published Study 1 and Study 2 numbers exactly, which validates the replay. The algorithmic screens are rerun at *N* = 1000 over the retained slots.
+
 
 
 # 5. Results
@@ -345,9 +353,28 @@ All eight tests keep *p* at 0.001 except Study 2’s SCA under the two hand-set 
 
 Across both studies, then, excess same-slot / same-meaning resemblance is neither unique to the LLM judge nor reducible to word length: Study 1’s algorithmic gaps stay large in *z* terms under a null that reproduces its length profile exactly, while Study 2’s are modest, attenuate somewhat under length control, and survive it.
 
-## 5.8 Summary of findings
+## 5.8 Excluding pronouns, deictics and nursery kin
 
-Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* ≤ 0.002, *N* = 1000; §5.7), both against an unrestricted shuffle and against a length-stratified one — a parallel check that relies neither on LLM prior knowledge nor on incidental word-length matching. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
+Both studies' hit lists include categories the field discounts on sight, so §4.9's exclusion sets test whether the aggregate effect depends on them. It largely does not, with one honest exception.
+
+In **Study 1**, all three excluded slots (*1sg*, *2sg*, *this*) are indeed hits, so the observed count falls from 27/79 to **24/76** under the core exclusion. The null falls too (mean 5.68 to 5.38), and the test is unchanged at *p* = 1/101 ≈ 0.0099; the wide exclusion gives 24/75 against a null mean of 5.37, likewise *p* ≈ 0.0099. In **Study 2** at the primary cutoff, three of the eleven hits are excluded categories (*mother*, *this*, *we*), giving **8/184** observed against a null mean of 2.23, again with no null draw reaching observed (*p* = 1/31 ≈ 0.032); the wide exclusion leaves this unchanged at 8/176.
+
+The exception is Study 2's secondary cutoff. At a generosity score of 3 or higher, observed hits fall from 17 to **13** while the null mean falls only from 5.7 to 5.4, and one null draw of 30 now reaches the observed count, so *p* rises from 1/31 ≈ 0.032 to **2/31 ≈ 0.065**. That threshold therefore no longer clears a conventional 0.05 line once pronouns, deictics and nursery kin are removed. Given *N* = 30, the difference between these two *p*-values is one null draw, so it should not be over-interpreted in either direction; but the primary cutoff and the mean-distance tests are where the claim rests, and readers should know the 3-or-higher cut is the fragile one.
+
+The algorithmic screens, which have the resolution of *N* = 1000, are barely affected:
+
+| Test | No exclusions | Core | Wide |
+|------|--------------:|-----:|-----:|
+| Study 1 SCA *z* | −13.4 | −12.6 | −12.7 |
+| Study 1 NED *z* | −15.0 | −14.0 | −13.9 |
+| Study 2 SCA *z* | −4.1 | −4.1 | −3.8 |
+| Study 2 NED *z* | −6.2 | −5.8 | −5.3 |
+
+All twelve algorithmic tests keep *p* = 0.001. Observed mean distances rise slightly under exclusion (Study 1 SCA 0.574 to 0.584; Study 2 SCA 0.381 to 0.384), confirming that the excluded slots were on average more similar than the rest, but the null shifts almost as much, so the standardized effects move little. The signal is therefore not carried by pronouns, deictics or nursery kin: it survives on body parts, verbs, numerals and the remaining content vocabulary.
+
+## 5.9 Summary of findings
+
+Study 1 finds that Smith’s remaining PAN–PKD alignments, after Lexibank attestation filters, show meaning-blind form similarity far above a shuffled baseline (*p* ≈ 0.01). Study 2 finds that dual-attested Lexibank form inventories on a Blust concept filter likewise exceed a group-shuffle null at a generosity score of 2 or higher, 3 or higher, and 4 or higher (*p* ≈ 0.032, *N* = 30). Algorithmic SCA/NED screens under the same null designs also beat chance on mean distance (*p* ≤ 0.002, *N* = 1000; §5.7), both against an unrestricted shuffle and against a length-stratified one — a parallel check that relies neither on LLM prior knowledge nor on incidental word-length matching. Removing pronouns, demonstratives and nursery kinship terms leaves both studies' primary results intact (§5.8), though Study 2's secondary 3-or-higher cutoff weakens to *p* ≈ 0.065. The next section discusses what this does and does not imply for the Austro-Tai hypothesis.
 
 
 
@@ -403,7 +430,7 @@ Several limits bound interpretation.
 
 **Null design and *N*.** Study 1 uses *N* = 100; Study 2 uses *N* = 30 (costly set-versus-set calls). Study 2’s *p* ≈ 0.032 is therefore the add-one floor: no null reached observed, but a finer tail would need larger *N*. Neither null models phonetic natural classes, semantic fields, or borrowing pathways.
 
-**Nursery forms and deixis.** Some Study 2 hits (*mother*, *this*, pronouns) are categories where chance or nursery resemblance is a known risk; primary interpretation should weight body-part and verb hits more heavily pending correspondence work.
+**Nursery forms and deixis.** Some hits in both studies (*1sg*, *2sg*, *this*; *mother*, *this*, *we*) fall in categories where chance, sound symbolism or nursery-form convergence is a known risk. §4.9 and §5.8 therefore recompute both studies without them rather than merely flagging the issue, and the aggregate effect survives: Study 1 goes to 24/76 at *p* ≈ 0.0099, Study 2's primary cutoff to 8/184 at *p* ≈ 0.032, and the algorithmic *z* values move by less than one unit. The one casualty is Study 2's secondary 3-or-higher cutoff, which rises to *p* ≈ 0.065 and no longer clears 0.05 — a one-draw difference at *N* = 30, but a real weakening of that particular cut. Correspondence work should still weight body-part and verb hits most heavily.
 
 **Model availability.** Results are tied to frozen judgment caches produced with `gpt-4.1`. OpenAI may deprecate or alter that model; bit-identical live re-runs are not guaranteed. Reproducibility of the reported tables rests on the released caches and code, not on perpetual access to the same API snapshot.
 
@@ -634,7 +661,7 @@ Observed hits: **27** / 79 Tier A pairs (18 with generosity 5; 9 with generosity
 - **Smith (2025) reconstructions:** Zenodo DOI [10.5281/zenodo.15597357](https://doi.org/10.5281/zenodo.15597357), release v1.1 (*Austro-Tai comparative dataset (Reconstructions)*).
 - **Lexibank 2:** List et al. (2022) and Blum et al. (2025); `lexibank-analysed` v2.2 (Concepticon-linked forms; Tai-Kadai and Austronesian subsets as described in §3–4).
 - **Blust / ABVD concept list:** Concepticon contribution Blust-2008-210 (Greenhill, Blust & Gray 2008).
-- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute; post hoc `sinitic-screen`; algorithmic sanity `algo-study1` / `algo-study2`). Model: `gpt-4.1` via project NLP chat endpoint. Reported LLM tables are reproducible from the released judgment caches and frozen summaries (`output/permutation_results.json`; `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv`; `output/sinitic_screen_hits.csv`). Algorithmic SCA/NED results: `output/algo_permutation_study1.json`, `output/algo_permutation_study2_blust194.json`, and their length-stratified counterparts `output/algo_permutation_study1_length.json`, `output/algo_permutation_study2_blust194_length.json` (produced with `--length-controlled`; per-slot distances in the matching `algo_judgments_*.csv`), plus the band-sensitivity runs `*_length_coarse.json` and `*_length_quartile.json` (`--band-scheme coarse|quartile`). Live re-queries against a changed or discontinued `gpt-4.1` endpoint are not guaranteed to match LLM caches bit-for-bit; algorithmic scores are deterministic given LingPy and the frozen inputs.
+- **Analysis code and frozen outputs:** [https://github.com/jeremycollinsmpi/austro-tai-llm-test](https://github.com/jeremycollinsmpi/austro-tai-llm-test) (Study 1: parse → attest / validate-pan → judge → permute → report; Study 2: attested-core → attested-judge → attested-permute; post hoc `sinitic-screen`; algorithmic sanity `algo-study1` / `algo-study2`). Model: `gpt-4.1` via project NLP chat endpoint. Reported LLM tables are reproducible from the released judgment caches and frozen summaries (`output/permutation_results.json`; `output/attested_permutation_results_blust194_n30.json` and `output/attested_judgments_null_blust194_n30.csv`; `output/sinitic_screen_hits.csv`). Algorithmic SCA/NED results: `output/algo_permutation_study1.json`, `output/algo_permutation_study2_blust194.json`, and their length-stratified counterparts `output/algo_permutation_study1_length.json`, `output/algo_permutation_study2_blust194_length.json` (produced with `--length-controlled`; per-slot distances in the matching `algo_judgments_*.csv`), plus the band-sensitivity runs `*_length_coarse.json` and `*_length_quartile.json` (`--band-scheme coarse|quartile`). Semantic-category exclusion reruns (§4.9): `output/category_exclusion_rerun.json` (all LLM and algorithmic variants; regenerate with `scripts/category_exclusion_rerun.py`, which makes no API calls) and `output/algo_permutation_study*_excl_{core,wide}.json`; exclusion sets are defined in `src/categories.py`. Live re-queries against a changed or discontinued `gpt-4.1` endpoint are not guaranteed to match LLM caches bit-for-bit; algorithmic scores are deterministic given LingPy and the frozen inputs.
 
 ## Appendix F. Study 2 hits (Blust dual-attested Lexibank)
 
